@@ -1,0 +1,30 @@
+apiVersion: app.k8s.io/v1beta1
+kind: Application
+metadata:
+  name: bootstrap
+spec:
+  selector:
+    matchLabels:
+      app.kubernetes.io/managed-by: Helm
+  componentKinds:
+  - group: v1
+    kind: Service
+  - group: networking.k8s.io
+    kind: Ingress
+  - group: cert-manager.io
+    kind: Certificate
+  - group: apps
+    kind: StatefulSet
+  - group: apps
+    kind: Deployment
+  - group: batch
+    kind: CronJob
+  - group: batch
+    kind: Job
+  descriptor:
+    type: bootstrap
+    version: 0.6.13
+    description: cluster initialization resources for plural
+    icons:
+    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/d1a82b07-b809-4eb4-b615-8f24365b72b8/k8s.png?v=63785590420
+    

@@ -1,0 +1,11 @@
+apiVersion: plural.sh/v1alpha1
+kind: ProjectManifest
+metadata:
+  name: kubeflow-dev
+spec:
+  cluster: kubeflow-dev
+  bucket: kubeflow-dev-tf-state
+  project: "332124921534"
+  provider: aws
+  region: us-east-2
+  context: {}
