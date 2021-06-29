@@ -1,0 +1,6 @@
+apiVersion: plural.sh/v1alpha1
+kind: Output
+metadata:
+  name: postgres
+spec:
+  terraform: {}
