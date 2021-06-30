@@ -77,5 +77,5 @@ step "bounce" {
     "console",
   ]
 
-  sha = "h1:kPXuiktcNibxvDE/crUiCN3Zt5YpQWnlnB86NkW8fxA="
+  sha = "h1:vYg8CZMW3YneSLtiiJAd5+vY/xlQVl2u3B2uF1l9rDo="
 }
