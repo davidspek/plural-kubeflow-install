@@ -4,6 +4,8 @@ spec:
   bundles:
   - repository: console
     name: console-aws
+  - repository: istio
+    name: istio-aws
   configuration:
     bootstrap:
       dns_domain: kubeflow-aws.com
@@ -18,5 +20,6 @@ spec:
       dns_domain: console
       git_email: vanderspek.david@gmail.com
       git_user: DavidSpek
+    istio: {}
     postgres:
       wal_bucket: kubeflow-dev-postgres
