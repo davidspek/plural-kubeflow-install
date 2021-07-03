@@ -20,6 +20,8 @@ spec:
       dns_domain: console
       git_email: vanderspek.david@gmail.com
       git_user: DavidSpek
-    istio: {}
+    istio:
+      operator_namespace: istio-operator
+      istio_namespace: istio-system
     postgres:
       wal_bucket: kubeflow-dev-postgres

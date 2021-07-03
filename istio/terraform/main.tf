@@ -44,6 +44,8 @@ module "kube" {
 ### END MANUAL SECTION <<kube>>
 
 
-  namespace = "istio"
+  operator_namespace = "istio"
+  istio_namespace = "istio"
+  
 
 }
