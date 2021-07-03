@@ -36,7 +36,7 @@ step "kube-init" {
     "grafana",
   ]
 
-  sha = "1715962d747f8925241dfaf46c532dca4dc60a3f88a08b19b6246cf13c5f7dd3"
+  sha = "9d645087377fcf95986e5d76a4abba4898fb0c29e1ea4179ee083418409ccf0e"
 }
 
 step "helm" {
@@ -50,5 +50,5 @@ step "helm" {
     "grafana",
   ]
 
-  sha = "h1:yhxrok2o9yGIV7rJe8KQST7ANSeQBc4okZRxPkgkMLQ="
+  sha = "h1:A8H1qmtxhD+G4bsq0kHsGwLwM4iPF8/eJLn2TuAIeD8="
 }
