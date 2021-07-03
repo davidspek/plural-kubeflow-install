@@ -49,7 +49,7 @@ step "kube-init" {
     "istio",
   ]
 
-  sha = "1dab416c8529012cb4e7b4c2575bede421aa1dbe925819e3eba719b7d68c9b3c"
+  sha = "239e5f001abba318d130041ae9ee6bb60212bfe9deed2e7baeb66781015338cb"
 }
 
 step "crds" {
