@@ -28,7 +28,7 @@ scaffold "helm" {
       "cm://app.plural.sh/cm/grafana",
     ]
 
-    sha = "71a07ff35b93ac601cf482b7a9ce557249b886ccc37febfe1b255f787bc42e6d"
+    sha = "d6df8405352e9ccdea74c84af4209317b5a39ab961f2badca630d71ce17eb237"
   }
 
   preflight "update-deps" {
@@ -41,6 +41,6 @@ scaffold "helm" {
       "update",
     ]
 
-    sha = "71a07ff35b93ac601cf482b7a9ce557249b886ccc37febfe1b255f787bc42e6d"
+    sha = "d6df8405352e9ccdea74c84af4209317b5a39ab961f2badca630d71ce17eb237"
   }
 }
