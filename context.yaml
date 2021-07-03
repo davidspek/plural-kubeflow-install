@@ -6,6 +6,8 @@ spec:
     name: console-aws
   - repository: istio
     name: istio-aws
+  - repository: grafana
+    name: aws-grafana
   configuration:
     bootstrap:
       dns_domain: kubeflow-aws.com
@@ -20,8 +22,10 @@ spec:
       dns_domain: console
       git_email: vanderspek.david@gmail.com
       git_user: DavidSpek
+    grafana:
+      hostname: grafana.kubeflow-aws.com
     istio:
-      operator_namespace: istio-operator
       istio_namespace: istio-system
+      operator_namespace: istio-operator
     postgres:
       wal_bucket: kubeflow-dev-postgres
