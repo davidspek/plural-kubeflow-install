@@ -8,6 +8,8 @@ spec:
     name: istio-aws
   - repository: grafana
     name: aws-grafana
+  - repository: dex
+    name: aws-dex
   configuration:
     bootstrap:
       dns_domain: kubeflow-aws.com
@@ -22,6 +24,8 @@ spec:
       dns_domain: console
       git_email: vanderspek.david@gmail.com
       git_user: DavidSpek
+    dex:
+      fqdn: dex.kubeflow-aws.com
     grafana:
       hostname: grafana.kubeflow-aws.com
     istio:
