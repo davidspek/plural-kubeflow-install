@@ -28,7 +28,7 @@ scaffold "helm" {
       "cm://app.plural.sh/cm/oauth2-proxy",
     ]
 
-    sha = "eb92f0c3fca89267bfa05815f60d5f763833bd58bdd249afa1f2c0a256a302fe"
+    sha = "8621cb84e9dd69f317530098b3c3beab7058fc53e47117e26e8432c96a0d9a74"
   }
 
   preflight "update-deps" {
@@ -41,6 +41,6 @@ scaffold "helm" {
       "update",
     ]
 
-    sha = "eb92f0c3fca89267bfa05815f60d5f763833bd58bdd249afa1f2c0a256a302fe"
+    sha = "8621cb84e9dd69f317530098b3c3beab7058fc53e47117e26e8432c96a0d9a74"
   }
 }
