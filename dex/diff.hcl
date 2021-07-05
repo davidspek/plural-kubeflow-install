@@ -36,7 +36,7 @@ step "kube-init" {
     "dex",
   ]
 
-  sha = "fed70fa94d2a942af7465ee3faaeb7239e821d533c16c155294b3a1be276a3c9"
+  sha = "b0a56c62237987fb4f91fb28fde367ce6ddd8b778677a515360f49134cb58f4a"
 }
 
 step "helm" {
@@ -50,5 +50,5 @@ step "helm" {
     "dex",
   ]
 
-  sha = "h1:HP4pPRb9mWFzop/L5WoN5F9a74fe+itXgPrGMGHkkGc="
+  sha = "h1:Qtk/3J/YVryM2f3cNWjytGNF16VGHBt+qktiKi6wn5c="
 }
