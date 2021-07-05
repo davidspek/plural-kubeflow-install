@@ -8,7 +8,7 @@ step "terraform-init" {
   target  = "dex/terraform"
   command = "terraform"
   args    = ["init"]
-  sha     = ""
+  sha     = "h1:OzR43deT/mbh4IzydQr1VRdHUTTs242QdipErbBdaaY="
 }
 
 step "terraform" {
@@ -22,7 +22,7 @@ step "terraform" {
     "dex",
   ]
 
-  sha = ""
+  sha = "h1:OzR43deT/mbh4IzydQr1VRdHUTTs242QdipErbBdaaY="
 }
 
 step "kube-init" {
@@ -36,7 +36,7 @@ step "kube-init" {
     "dex",
   ]
 
-  sha = ""
+  sha = "477582d2cb86040d10badf29133339e757e28fef7a976aa242124dbaebec1d21"
 }
 
 step "helm" {
@@ -50,5 +50,5 @@ step "helm" {
     "dex",
   ]
 
-  sha = ""
+  sha = "h1:BoQJ3GerFoJR1HIgubgNnG3pULQc+JVHUlJhXJVBPpw="
 }
