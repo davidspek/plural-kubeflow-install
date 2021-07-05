@@ -10,6 +10,8 @@ spec:
     name: aws-grafana
   - repository: dex
     name: aws-dex
+  - repository: oauth2-proxy
+    name: oauth2-proxy-aws
   configuration:
     bootstrap:
       dns_domain: kubeflow-aws.com
@@ -25,15 +27,21 @@ spec:
       git_email: vanderspek.david@gmail.com
       git_user: DavidSpek
     dex:
-      fqdn: dex.kubeflow-aws.com
-      username: david
       email: david@plural.sh
-      redirectURI: https://kubeflow.kubeflow-aws.com/oauth2/callback
+      fqdn: dex.kubeflow-aws.com
       istioEnabled: true
+      redirectURI: https://kubeflow.kubeflow-aws.com/oauth2/callback
+      username: david
     grafana:
       hostname: grafana.kubeflow-aws.com
     istio:
       istio_namespace: istio-system
       operator_namespace: istio-operator
+    oauth2-proxy:
+      auth_cookie_domain: .kubeflow-aws.com
+      auth_whitelist_domain: .kubeflow-aws.com
+      oidc_issuer_url: https://dex.kubeflow-aws.com
+      oidc_scope: openid profile email
+      user_id_claim: email
     postgres:
       wal_bucket: kubeflow-dev-postgres
