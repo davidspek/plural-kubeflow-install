@@ -26,6 +26,10 @@ spec:
       git_user: DavidSpek
     dex:
       fqdn: dex.kubeflow-aws.com
+      username: david
+      email: david@plural.sh
+      redirectURI: https://kubeflow.kubeflow-aws.com/oauth2/callback
+      istioEnabled: true
     grafana:
       hostname: grafana.kubeflow-aws.com
     istio:

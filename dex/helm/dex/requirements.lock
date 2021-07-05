@@ -1,6 +1,6 @@
 dependencies:
 - name: dex
   repository: cm://app.plural.sh/cm/dex
-  version: 0.1.1
-digest: sha256:797bc757ccfc7c5a7683f2a7e2cdfc2e1da3995b20a1c906aea2ad7db7ad8385
-generated: "2021-07-05T14:15:30.500768632+02:00"
+  version: 0.1.2
+digest: sha256:58352c1ce0b2fdf39ff3319461e4c66b56e7302f7a36672bcf075d9ac70af742
+generated: "2021-07-05T14:22:24.435344906+02:00"
