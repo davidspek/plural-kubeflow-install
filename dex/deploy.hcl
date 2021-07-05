@@ -49,7 +49,7 @@ step "kube-init" {
     "dex",
   ]
 
-  sha = "477582d2cb86040d10badf29133339e757e28fef7a976aa242124dbaebec1d21"
+  sha = "fed70fa94d2a942af7465ee3faaeb7239e821d533c16c155294b3a1be276a3c9"
 }
 
 step "crds" {
@@ -77,5 +77,5 @@ step "bounce" {
     "dex",
   ]
 
-  sha = "h1:BoQJ3GerFoJR1HIgubgNnG3pULQc+JVHUlJhXJVBPpw="
+  sha = "h1:HP4pPRb9mWFzop/L5WoN5F9a74fe+itXgPrGMGHkkGc="
 }
