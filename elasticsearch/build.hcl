@@ -28,7 +28,7 @@ scaffold "helm" {
       "cm://app.plural.sh/cm/elasticsearch",
     ]
 
-    sha = "cbd2280ac5cad9489b79b8340bcf5156dabe1ce174d27230ae7746d9ca1e67e3"
+    sha = "7d883f99134d2dccec849eca42249f820a9441abc54836ecfe0f3d209d32c20f"
   }
 
   preflight "update-deps" {
@@ -41,6 +41,6 @@ scaffold "helm" {
       "update",
     ]
 
-    sha = "cbd2280ac5cad9489b79b8340bcf5156dabe1ce174d27230ae7746d9ca1e67e3"
+    sha = "7d883f99134d2dccec849eca42249f820a9441abc54836ecfe0f3d209d32c20f"
   }
 }

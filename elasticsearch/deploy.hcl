@@ -49,7 +49,7 @@ step "kube-init" {
     "elasticsearch",
   ]
 
-  sha = "96fb8cd0779c538e4e8c0ee25c1dc1c45eb8510ff3865c1605fc0518cb9fb914"
+  sha = "57218e8c4a939d4197c302f1f4dfdc27fd7186d70f2ca1a7bd17f3b5f43d456d"
 }
 
 step "crds" {
@@ -77,5 +77,5 @@ step "bounce" {
     "elasticsearch",
   ]
 
-  sha = ""
+  sha = "h1:uMy2K879TCTVGn2DVHij1ybd3mkpsvHSgQSKtaEUTx4="
 }

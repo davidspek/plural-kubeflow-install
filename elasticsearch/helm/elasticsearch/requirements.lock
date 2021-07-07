@@ -1,6 +1,6 @@
 dependencies:
 - name: elasticsearch
   repository: cm://app.plural.sh/cm/elasticsearch
-  version: 0.1.0
-digest: sha256:d6108eabab2ebb6935bcd8c33b22f71ab69da66cec24a4dfbb071500a3f19138
-generated: "2021-07-07T14:11:52.717381049+02:00"
+  version: 0.1.1
+digest: sha256:715477cd34dc72a70533f50d9d7f21ea6121f4f79119dd59d32ae8cdf8217b8e
+generated: "2021-07-07T14:16:32.993762308+02:00"
