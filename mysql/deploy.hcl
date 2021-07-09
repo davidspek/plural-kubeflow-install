@@ -49,7 +49,7 @@ step "kube-init" {
     "mysql",
   ]
 
-  sha = "54cefa297c7d464d328876263ddf5e7a7eb68a84d2574fde046ed6207b12b02e"
+  sha = "f052d0adcc1b1f4940954fec9571ffddfefa7eca5b9e897d13e10bf2d8cabd22"
 }
 
 step "crds" {
@@ -77,5 +77,5 @@ step "bounce" {
     "mysql",
   ]
 
-  sha = "h1:pMFCKhol2Gf65ZFEUYr/IeJR8Pl4Yg2b8KTvFVsTHiM="
+  sha = "h1:DBJiVliraLSqMJjpJpEsheDuijMDhVyrRSi/FK2iK7c="
 }
