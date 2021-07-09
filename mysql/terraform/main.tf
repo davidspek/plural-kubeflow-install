@@ -45,7 +45,7 @@ module "aws" {
 
 
   namespace = "mysql"
-  backup_bucket = "kubeflow-mysql"
+  backup_bucket = "kubeflow-mysql-percona"
   cluster_name = "kubeflow-dev"
 
 }

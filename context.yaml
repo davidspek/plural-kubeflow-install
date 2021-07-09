@@ -16,6 +16,8 @@ spec:
     name: elasticsearch-aws
   - repository: mysql
     name: aws-mysql
+  - repository: mysql
+    name: aws-mysql-percona
   configuration:
     bootstrap:
       dns_domain: kubeflow-aws.com
@@ -43,7 +45,7 @@ spec:
       istio_namespace: istio-system
       operator_namespace: istio-operator
     mysql:
-      backup_bucket: kubeflow-mysql
+      backup_bucket: kubeflow-mysql-percona
     oauth2-proxy:
       auth_cookie_domain: .kubeflow-aws.com
       auth_whitelist_domain: .kubeflow-aws.com

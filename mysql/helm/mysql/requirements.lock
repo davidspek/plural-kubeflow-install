@@ -2,5 +2,8 @@ dependencies:
 - name: mysql
   repository: cm://app.plural.sh/cm/mysql
   version: 0.1.3
-digest: sha256:a5396fd2293b3e80f828301912fcbb339d1859b52988790913a8c71a244b4a38
-generated: "2021-07-09T09:32:12.192077766Z"
+- name: mysql-percona
+  repository: cm://app.plural.sh/cm/mysql
+  version: 0.1.1
+digest: sha256:aeceb6d850df8061dfd08ee185ba3c307a336a6bb754a6c0c7cd18bf94b1295a
+generated: "2021-07-09T11:38:18.722753028+02:00"
