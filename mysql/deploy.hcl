@@ -8,7 +8,7 @@ step "terraform-init" {
   target  = "mysql/terraform"
   command = "terraform"
   args    = ["init"]
-  sha     = "h1:L4htGAkRrYRcQhfqAdgQViPIWJYecm5RFWz2JoG6bUM="
+  sha     = "h1:3P9X64maMmAm+jYPAXyyG9wMvhlK/dysC8U5STv4K1s="
 }
 
 step "terraform-apply" {
@@ -21,7 +21,7 @@ step "terraform-apply" {
     "-auto-approve",
   ]
 
-  sha = "h1:L4htGAkRrYRcQhfqAdgQViPIWJYecm5RFWz2JoG6bUM="
+  sha = "h1:3P9X64maMmAm+jYPAXyyG9wMvhlK/dysC8U5STv4K1s="
 }
 
 step "terraform-output" {
@@ -35,7 +35,7 @@ step "terraform-output" {
     "mysql",
   ]
 
-  sha = "h1:L4htGAkRrYRcQhfqAdgQViPIWJYecm5RFWz2JoG6bUM="
+  sha = "h1:3P9X64maMmAm+jYPAXyyG9wMvhlK/dysC8U5STv4K1s="
 }
 
 step "kube-init" {
