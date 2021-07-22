@@ -1,4 +1,4 @@
 dependencies:
 - name: console
-  version: 0.5.35
+  version: 0.5.36
   repository: cm://app.plural.sh/cm/console
