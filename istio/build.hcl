@@ -28,7 +28,7 @@ scaffold "helm" {
       "cm://app.plural.sh/cm/istio",
     ]
 
-    sha = "b739d4c4c409bd50967796cfe3f4fc94bf7637c7dbc3d731e88bc738e8b7c4db"
+    sha = "7b5f0a2b75c85f2540a4f346aae6c2f87f7b12d7d18fef71c618d309d4a47e15"
   }
 
   preflight "update-deps" {
@@ -41,6 +41,6 @@ scaffold "helm" {
       "update",
     ]
 
-    sha = "b739d4c4c409bd50967796cfe3f4fc94bf7637c7dbc3d731e88bc738e8b7c4db"
+    sha = "7b5f0a2b75c85f2540a4f346aae6c2f87f7b12d7d18fef71c618d309d4a47e15"
   }
 }
