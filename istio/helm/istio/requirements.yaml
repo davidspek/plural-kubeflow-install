@@ -1,4 +1,4 @@
 dependencies:
 - name: istio
-  version: 0.1.23
+  version: 0.1.24
   repository: cm://app.plural.sh/cm/istio
