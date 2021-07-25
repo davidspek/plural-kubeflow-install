@@ -16,24 +16,9 @@ scaffold "helm" {
   path = "helm/console"
   type = "helm"
 
-  preflight "add-repo" {
-    wkdir   = ""
-    target  = "requirements.yaml"
-    command = "helm"
-
-    args = [
-      "repo",
-      "add",
-      "console",
-      "cm://app.plural.sh/cm/console",
-    ]
-
-    sha = "0095e3f47503ff950cf4f1ddda05d592bea814ca807e5023c113ba2d608d9f69"
-  }
-
   preflight "update-deps" {
     wkdir   = ""
-    target  = "requirements.yaml"
+    target  = "Chart.yaml"
     command = "helm"
 
     args = [
@@ -41,6 +26,6 @@ scaffold "helm" {
       "update",
     ]
 
-    sha = "0095e3f47503ff950cf4f1ddda05d592bea814ca807e5023c113ba2d608d9f69"
+    sha = "d814a5ea4f5b859811312691d6417ef64568c0586d2758fcec7085b47517af5f"
   }
 }
