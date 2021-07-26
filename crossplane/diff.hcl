@@ -36,7 +36,7 @@ step "kube-init" {
     "crossplane",
   ]
 
-  sha = "e6668e14a467feb888f575d7883bb4424c9557505f43abebafa39ee52a7fde58"
+  sha = "184e6da53b923e7992de7ff18c6105968ee6d392c2a1e2cf1bb7d288f7c9c21d"
 }
 
 step "helm" {
@@ -50,5 +50,5 @@ step "helm" {
     "crossplane",
   ]
 
-  sha = "h1:m7+7sY4Wvyp1RZ0Y2rq0bu50yYS9W5Qgn9DoDVIHq3Y="
+  sha = "h1:YeE4sW9aRhDSwAKIG4KGRB4fFyt2HDRPAIU+ppiL5vg="
 }
