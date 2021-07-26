@@ -18,6 +18,8 @@ spec:
     name: aws-mysql
   - repository: mysql
     name: aws-mysql-percona
+  - repository: crossplane
+    name: crossplane-aws
   configuration:
     bootstrap:
       dns_domain: kubeflow-aws.com
@@ -32,6 +34,7 @@ spec:
       dns_domain: console
       git_email: vanderspek.david@gmail.com
       git_user: DavidSpek
+    crossplane: {}
     dex:
       email: david@plural.sh
       fqdn: dex.kubeflow-aws.com
