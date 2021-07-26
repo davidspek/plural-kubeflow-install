@@ -49,7 +49,7 @@ step "kube-init" {
     "crossplane",
   ]
 
-  sha = "01f6725ebf6d2a07a274e8833493280bc713effcc3ac568827bdf1a1f900fb84"
+  sha = "e6668e14a467feb888f575d7883bb4424c9557505f43abebafa39ee52a7fde58"
 }
 
 step "crds" {
@@ -77,5 +77,5 @@ step "bounce" {
     "crossplane",
   ]
 
-  sha = "h1:uKFhyzBHNwA2hAHx+g0D+Lx4YU4cIPLv4kDTtR1Fg9Q="
+  sha = "h1:m7+7sY4Wvyp1RZ0Y2rq0bu50yYS9W5Qgn9DoDVIHq3Y="
 }
