@@ -8,7 +8,7 @@ step "terraform-init" {
   target  = "crossplane/terraform"
   command = "terraform"
   args    = ["init"]
-  sha     = "h1:81bAVd8DsCuD7ZI4Djj5ONHmIlSFlMRcvs1w27ZDp0E="
+  sha     = "h1:8bVZ6nXhOjPs8V2TfR9Ng/r4W/0aqfvVc4M28oMQIbk="
 }
 
 step "terraform-apply" {
@@ -21,7 +21,7 @@ step "terraform-apply" {
     "-auto-approve",
   ]
 
-  sha = "h1:81bAVd8DsCuD7ZI4Djj5ONHmIlSFlMRcvs1w27ZDp0E="
+  sha = "h1:8bVZ6nXhOjPs8V2TfR9Ng/r4W/0aqfvVc4M28oMQIbk="
 }
 
 step "terraform-output" {
@@ -35,7 +35,7 @@ step "terraform-output" {
     "crossplane",
   ]
 
-  sha = "h1:81bAVd8DsCuD7ZI4Djj5ONHmIlSFlMRcvs1w27ZDp0E="
+  sha = "h1:8bVZ6nXhOjPs8V2TfR9Ng/r4W/0aqfvVc4M28oMQIbk="
 }
 
 step "kube-init" {
@@ -49,7 +49,7 @@ step "kube-init" {
     "crossplane",
   ]
 
-  sha = "184e6da53b923e7992de7ff18c6105968ee6d392c2a1e2cf1bb7d288f7c9c21d"
+  sha = "b9e94b979eec2ddba6970763ab3b17c28164930d1e71da6ad8af45f7903acfd7"
 }
 
 step "crds" {
