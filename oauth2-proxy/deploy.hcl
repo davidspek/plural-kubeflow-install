@@ -77,5 +77,5 @@ step "bounce" {
     "oauth2-proxy",
   ]
 
-  sha = "h1:1V3gXh2PSjSOqW2OAWV18bgJeryfyg9/7h8jIf3u7JU="
+  sha = "h1:Rct/cDzcWsl2bI5E6zkxzDvp1Y+NArEotLGIZ0+1wAs="
 }
