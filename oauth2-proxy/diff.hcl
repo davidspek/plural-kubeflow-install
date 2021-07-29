@@ -36,7 +36,7 @@ step "kube-init" {
     "oauth2-proxy",
   ]
 
-  sha = "0ffca53c46c76b03c3984468b45da93047af858d46b24935f05a3a4c0d1b5432"
+  sha = "b21cdbb887e66d06bffe3c0d363d3c8b8880bd34c4739950033d0ea7b9be246c"
 }
 
 step "helm" {
@@ -50,5 +50,5 @@ step "helm" {
     "oauth2-proxy",
   ]
 
-  sha = "h1:1V3gXh2PSjSOqW2OAWV18bgJeryfyg9/7h8jIf3u7JU="
+  sha = "h1:/t0OIZck/SlIbb5WFOMj0CALqH/2gOYUUJcYTXDZ8oo="
 }
