@@ -16,24 +16,9 @@ scaffold "helm" {
   path = "helm/oauth2-proxy"
   type = "helm"
 
-  preflight "add-repo" {
-    wkdir   = ""
-    target  = "requirements.yaml"
-    command = "helm"
-
-    args = [
-      "repo",
-      "add",
-      "oauth2-proxy",
-      "cm://app.plural.sh/cm/oauth2-proxy",
-    ]
-
-    sha = "46bae67387937782805ca9031e62e5023e953e6c18438a82a4dfb8d3046d24be"
-  }
-
   preflight "update-deps" {
     wkdir   = ""
-    target  = "requirements.yaml"
+    target  = "Chart.yaml"
     command = "helm"
 
     args = [
@@ -41,6 +26,6 @@ scaffold "helm" {
       "update",
     ]
 
-    sha = "46bae67387937782805ca9031e62e5023e953e6c18438a82a4dfb8d3046d24be"
+    sha = "aeb234f4f68cef54d820a1611e1dd78620754bbecd96993a70ef09cfa67ff2bd"
   }
 }
