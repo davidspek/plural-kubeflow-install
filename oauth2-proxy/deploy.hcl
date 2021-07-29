@@ -49,7 +49,7 @@ step "kube-init" {
     "oauth2-proxy",
   ]
 
-  sha = "b5a2e77ec912acbf62292f215d43c7b33842f950822ee09d49453e44e9ac504b"
+  sha = "6cda090f7cbfda3057445524e3010a16da1410da3230f7a3ef5069e64ec8da1f"
 }
 
 step "crds" {
