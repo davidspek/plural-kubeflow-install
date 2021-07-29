@@ -1,6 +1,6 @@
 dependencies:
 - name: oauth2-proxy
   repository: cm://app.plural.sh/cm/oauth2-proxy
-  version: 0.1.7
-digest: sha256:e046631d6ad2456fe91af430e855657516837489997d33b9fdfec99cfdd53940
-generated: "2021-07-29T10:21:37.569601695Z"
+  version: 0.1.8
+digest: sha256:e936ac2146cc93fc0842473d043fd82dec21d442cbef72496670b68e79efb38f
+generated: "2021-07-29T15:01:41.738592064Z"

@@ -49,7 +49,7 @@ step "kube-init" {
     "oauth2-proxy",
   ]
 
-  sha = "b21cdbb887e66d06bffe3c0d363d3c8b8880bd34c4739950033d0ea7b9be246c"
+  sha = "b5a2e77ec912acbf62292f215d43c7b33842f950822ee09d49453e44e9ac504b"
 }
 
 step "crds" {
@@ -77,5 +77,5 @@ step "bounce" {
     "oauth2-proxy",
   ]
 
-  sha = "h1:/t0OIZck/SlIbb5WFOMj0CALqH/2gOYUUJcYTXDZ8oo="
+  sha = "h1:qzTzePyQohGpiz7ljc3p3qg2xtZ6WzRKmKOLEjXb8nU="
 }
