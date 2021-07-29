@@ -50,10 +50,10 @@ spec:
     mysql:
       backup_bucket: kubeflow-mysql-percona
     oauth2-proxy:
-      auth_cookie_domain: .kubeflow-aws.com
-      auth_whitelist_domain: .kubeflow-aws.com
-      oidc_issuer_url: https://dex.kubeflow-aws.com
-      oidc_scope: openid profile email
+      auth_cookie_domain: kubeflow-aws.com
+      auth_whitelist_domain: kubeflow-aws.com
+      oidc_issuer_url: https://oidc.plural.sh/
+      oidc_scope: openid
       user_id_claim: email
     postgres:
       wal_bucket: kubeflow-dev-postgres
