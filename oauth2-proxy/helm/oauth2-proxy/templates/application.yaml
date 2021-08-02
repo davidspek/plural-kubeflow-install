@@ -23,7 +23,7 @@ spec:
     kind: Job
   descriptor:
     type: oauth2-proxy
-    version: 0.1.8
+    version: 0.1.9
     description: easy to use oauth solution for load balancers
     icons:
     - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/099fa484-b9d1-458a-aeb9-f8009516ad8b/oauth-proxy.png?v=63792377885

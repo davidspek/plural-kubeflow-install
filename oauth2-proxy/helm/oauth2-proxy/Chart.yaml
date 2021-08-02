@@ -2,8 +2,8 @@ apiVersion: v2
 name: oauth2-proxy
 description: A helm chart for oauth2-proxy
 version: 0.1.0
-appVersion: 0.1.8
+appVersion: 0.1.9
 dependencies:
 - name: oauth2-proxy
-  version: 0.1.8
+  version: 0.1.9
   repository: cm://app.plural.sh/cm/oauth2-proxy
