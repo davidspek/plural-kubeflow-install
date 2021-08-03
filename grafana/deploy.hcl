@@ -46,10 +46,9 @@ step "kube-init" {
   args = [
     "wkspace",
     "kube-init",
-    "grafana",
   ]
 
-  sha = "fc35c62500f264a197938f8405ed107f3a9329860d2e5806698837c93733f872"
+  sha = "151357ee5896832451d049e900697c824c86fb52fbd67205678c42c95ff08c26"
 }
 
 step "crds" {
@@ -77,5 +76,5 @@ step "bounce" {
     "grafana",
   ]
 
-  sha = "h1:dV30TFyPPeAiGOi8gAkwUzY3AEwslYTVdE/EgptGrbM="
+  sha = "h1:lqiok0SO4+ySbV3QQSKOU967Fkh0/tyzV3lSC7/hhxU="
 }

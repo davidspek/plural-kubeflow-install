@@ -16,24 +16,9 @@ scaffold "helm" {
   path = "helm/grafana"
   type = "helm"
 
-  preflight "add-repo" {
-    wkdir   = ""
-    target  = "requirements.yaml"
-    command = "helm"
-
-    args = [
-      "repo",
-      "add",
-      "grafana",
-      "cm://app.plural.sh/cm/grafana",
-    ]
-
-    sha = "4b1fd5088c9c11e1db55230f3121a91f058b4e041c6032b08d3c5d9727f3aa70"
-  }
-
   preflight "update-deps" {
     wkdir   = ""
-    target  = "requirements.yaml"
+    target  = "Chart.yaml"
     command = "helm"
 
     args = [
@@ -41,6 +26,6 @@ scaffold "helm" {
       "update",
     ]
 
-    sha = "4b1fd5088c9c11e1db55230f3121a91f058b4e041c6032b08d3c5d9727f3aa70"
+    sha = "5867a6aaf39378890a2a340e031a1513324266273439c92cb3a8ab2abfc817bb"
   }
 }
