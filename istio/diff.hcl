@@ -50,5 +50,5 @@ step "helm" {
     "istio",
   ]
 
-  sha = "h1:qqKfnUm9nqy4FYyUlE4vvKd2mcmgC+ScxNfwcOMkF9Y="
+  sha = "h1:McIOsHsJDgPFTOWpmqHEq4L/VmLt0XEyUu2IOJMAr8U="
 }
