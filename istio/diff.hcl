@@ -36,7 +36,7 @@ step "kube-init" {
     "istio",
   ]
 
-  sha = "545d3be6e30e4b4cf22db623ad45e573c724ad881c62a938365b8ffc641c6765"
+  sha = "1c713e7284a1004dcbed580bb7c72df8705887e3bc79ddf06917403b546e71e3"
 }
 
 step "helm" {
