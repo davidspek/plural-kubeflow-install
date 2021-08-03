@@ -2,8 +2,8 @@ apiVersion: v2
 name: bootstrap
 description: A helm chart for bootstrap
 version: 0.1.0
-appVersion: 0.6.24
+appVersion: 0.6.25
 dependencies:
 - name: bootstrap
-  version: 0.6.24
+  version: 0.6.25
   repository: cm://app.plural.sh/cm/bootstrap
