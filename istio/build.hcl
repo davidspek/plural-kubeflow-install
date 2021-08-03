@@ -16,24 +16,9 @@ scaffold "helm" {
   path = "helm/istio"
   type = "helm"
 
-  preflight "add-repo" {
-    wkdir   = ""
-    target  = "requirements.yaml"
-    command = "helm"
-
-    args = [
-      "repo",
-      "add",
-      "istio",
-      "cm://app.plural.sh/cm/istio",
-    ]
-
-    sha = "802e77936e630ea4d6a21072bca90c9f22844867ce55d75c67bda863a821643b"
-  }
-
   preflight "update-deps" {
     wkdir   = ""
-    target  = "requirements.yaml"
+    target  = "Chart.yaml"
     command = "helm"
 
     args = [
@@ -41,6 +26,6 @@ scaffold "helm" {
       "update",
     ]
 
-    sha = "802e77936e630ea4d6a21072bca90c9f22844867ce55d75c67bda863a821643b"
+    sha = "605778d4c0c7fdfc30df809b22000e5f93aa9e38b5dcff8aa55b0fa9fd13eacf"
   }
 }
