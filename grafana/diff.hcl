@@ -36,7 +36,7 @@ step "kube-init" {
     "grafana",
   ]
 
-  sha = "72894c503c2ebf9f3f99f1f135ac2c260e3626cf541b0d3db4d88b066aca4d23"
+  sha = "924d381cad930801faf5eaff8f68b4ef8dee777072fa770bb132dc87f6759a7d"
 }
 
 step "helm" {
