@@ -23,7 +23,7 @@ spec:
     kind: Job
   descriptor:
     type: grafana
-    version: 0.1.5
+    version: 0.1.6
     description: open source metric visualization
     icons:
     - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/2783a06b-8317-4998-8c5d-18bcdc2a3c6c/grafana.png?v=63789544993
