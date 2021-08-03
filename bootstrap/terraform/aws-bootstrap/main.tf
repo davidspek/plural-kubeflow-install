@@ -30,15 +30,15 @@ module "vpc" {
 module "cluster" {
   source          = "github.com/pluralsh/terraform-aws-eks?ref=plural-eks"
   cluster_name    = var.cluster_name
-  cluster_version = "1.17"
+  cluster_version = "1.20"
   subnets         = concat(module.vpc.public_subnets, module.vpc.private_subnets)
   vpc_id          = module.vpc.vpc_id
   enable_irsa     = true
   write_kubeconfig = false
 
   node_groups_defaults = {
-    desired_capacity = 2
-    min_capacity = 2
+    desired_capacity = 3
+    min_capacity = 3
     max_capacity = var.max_capacity
 
     instance_types = var.instance_types

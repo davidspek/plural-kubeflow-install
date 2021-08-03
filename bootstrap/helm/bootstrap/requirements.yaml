@@ -1,4 +1,0 @@
-dependencies:
-- name: bootstrap
-  version: 0.6.19
-  repository: cm://app.plural.sh/cm/bootstrap
