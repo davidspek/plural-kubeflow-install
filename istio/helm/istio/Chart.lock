@@ -1,6 +1,6 @@
 dependencies:
 - name: istio
   repository: cm://app.plural.sh/cm/istio
-  version: 0.1.54
-digest: sha256:8b039f12451e266d1b790b0a263ed907866cc9e4140e2729945c841535e3d8ed
-generated: "2021-08-08T11:15:56.22813961Z"
+  version: 0.1.55
+digest: sha256:a15d814d70ee9032fbedd0a5cfc9c046325c723cb926c4de75eea1b39d8f0a0f
+generated: "2021-08-08T11:40:26.316362908Z"
