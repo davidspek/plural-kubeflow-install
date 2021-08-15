@@ -1,2 +1,6 @@
-CHARTMART-ENCRYPTED¯wÍÚg™èóœs%Ï =«uUŞòŠ½±ÁiÄõl(Îô†ÿmÀ%'‹w;«˜*ÀƒR¶!XTÃB•â½òØåú^şûòá¡
-6(~s\ó°ïÈ^&à…¸£ØbüGK–Qw¨Š¯Óµ†[Ò’,!iğr8åIª
+apiVersion: plural.sh/v1alpha1
+kind: Output
+metadata:
+  name: postgres
+spec:
+  terraform: {}

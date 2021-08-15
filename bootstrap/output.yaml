@@ -1,1 +1,7 @@
-CHARTMART-ENCRYPTED…‚∞t˙ßÊpøyÙG5O£r∑‚9Ó§ø„â„∂.pì≈ÄPvÁ©5®?*ä]§'ô‹|uª.NÍÉ;˘¬TÆH!ÅŒO˙®ºÓÄÙÌº≈G⁄õ:j≠Î# ùˇo5“Å≥ÊòÜmZ|œªÑrˇ¢÷|ùãÆ` t1C~ƒ›K≈†ÜHßˇCáJÑ˛/±n.áqUF c©ÅMÎq,ˇÌ±-‘W√˝Â£•Cì∞Z6‘÷Ωñ◊ÖÔÉgY™ı+ú‹‘¿u{IÇ¡eÜëì~˛}—>ùoÇ
+apiVersion: plural.sh/v1alpha1
+kind: Output
+metadata:
+  name: bootstrap
+spec:
+  terraform:
+    endpoint: https://56CAF948FF0B580FE3772C7D36B60AFF.gr7.us-east-2.eks.amazonaws.com

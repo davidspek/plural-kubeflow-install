@@ -1,2 +1,6 @@
-CHARTMART-ENCRYPTEDiâ,©7Mµo“èK§g{Ş¤lkÄFeÚ°è6R–ûæb¢9>é-RlxüFÑ,'(,báİ—“QÏ{¸ŸÖëUÄ¯]†WÇ
-GÜú?Pr—öíQCW’B¼F&n²–øÌmE{ÇtÈsZ|&×orO `Î
+apiVersion: plural.sh/v1alpha1
+kind: Output
+metadata:
+  name: dex
+spec:
+  terraform: {}

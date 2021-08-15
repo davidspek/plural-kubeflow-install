@@ -1,1 +1,6 @@
-CHARTMART-ENCRYPTED+©Å°àèü‘ÛÓ%bl]‡I¯³8K…D¨ÆJÈÃ_›ñ‚Œ÷‘Jãùv«şõµĞV^S‘éËÓœ„%|ådB»›~ûTá^ù¨ÈOCB20Ä7ÊÖéêüçcC©Ñ÷µI6_Ü'‘>¥§ŞĞ+†ËÿÔµW,9
+apiVersion: plural.sh/v1alpha1
+kind: Output
+metadata:
+  name: grafana
+spec:
+  terraform: {}

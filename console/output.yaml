@@ -1,1 +1,6 @@
-CHARTMART-ENCRYPTED*¤f¤¿XYúZ½`Xi¼G¤')†CØ6è¶§¬GÊÂf‡±«Ìº]NÇ?^~A`ĞL\Ó”‘·aWŸ(ú*äñqUORq'Ëï’kEV^ğ‰-úm]+„rºËA">ç¡\pçÒ? ™*jç'Ô
+apiVersion: plural.sh/v1alpha1
+kind: Output
+metadata:
+  name: console
+spec:
+  terraform: {}
