@@ -8,7 +8,7 @@ step "terraform-init" {
   target  = "mysql/terraform"
   command = "terraform"
   args    = ["init"]
-  sha     = "h1:3P9X64maMmAm+jYPAXyyG9wMvhlK/dysC8U5STv4K1s="
+  sha     = "h1:L4htGAkRrYRcQhfqAdgQViPIWJYecm5RFWz2JoG6bUM="
 }
 
 step "terraform-apply" {
@@ -21,7 +21,7 @@ step "terraform-apply" {
     "-auto-approve",
   ]
 
-  sha = "h1:3P9X64maMmAm+jYPAXyyG9wMvhlK/dysC8U5STv4K1s="
+  sha = "h1:L4htGAkRrYRcQhfqAdgQViPIWJYecm5RFWz2JoG6bUM="
 }
 
 step "terraform-output" {
@@ -35,7 +35,7 @@ step "terraform-output" {
     "mysql",
   ]
 
-  sha = "h1:3P9X64maMmAm+jYPAXyyG9wMvhlK/dysC8U5STv4K1s="
+  sha = "h1:L4htGAkRrYRcQhfqAdgQViPIWJYecm5RFWz2JoG6bUM="
 }
 
 step "kube-init" {
@@ -48,7 +48,7 @@ step "kube-init" {
     "kube-init",
   ]
 
-  sha = "f052d0adcc1b1f4940954fec9571ffddfefa7eca5b9e897d13e10bf2d8cabd22"
+  sha = "c00c15ea470babc9762042426ec5df1fa9dd643545984c6eee544951e55bee22"
 }
 
 step "crds" {
@@ -76,5 +76,5 @@ step "bounce" {
     "mysql",
   ]
 
-  sha = "h1:PjCnw0m1rUh38apbuGmiSm8v8s5vTKbq5ebLq5KpLxA="
+  sha = "h1:P7ioCC5/iwRMdnAGQEvfb6DQwsIrUo8HhOf8xsCnfKw="
 }

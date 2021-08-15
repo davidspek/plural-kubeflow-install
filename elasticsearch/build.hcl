@@ -1,5 +1,5 @@
 metadata {
-  name = "kubeflow"
+  name = "elasticsearch"
 }
 
 scaffold "terraform" {
@@ -13,7 +13,7 @@ scaffold "crds" {
 }
 
 scaffold "helm" {
-  path = "helm/kubeflow"
+  path = "helm/elasticsearch"
   type = "helm"
 
   preflight "update-deps" {
@@ -26,6 +26,6 @@ scaffold "helm" {
       "update",
     ]
 
-    sha = "3f02a6ab151189221f606285ed1ac5661dacf993f9a52fd383f6cd57172be564"
+    sha = "285ce7d62d97def71f3341620cb49f6747b64ddff15b314ae6e7935f286992af"
   }
 }

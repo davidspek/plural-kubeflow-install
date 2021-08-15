@@ -2,5 +2,8 @@ dependencies:
 - name: central-dashboard
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.6
-digest: sha256:11336ed2393a9994260c4caefdaeca4eb8e97651251a19ba726e8771b160bda1
-generated: "2021-08-15T13:53:53.42417403+02:00"
+- name: mysql-cluster
+  repository: cm://app.plural.sh/cm/kubeflow
+  version: 0.1.2
+digest: sha256:a2fe88cf0ea1ab378ccf47399d2bb669f49de85b98cc75a5937866a47183c2a6
+generated: "2021-08-15T13:00:02.045250941Z"

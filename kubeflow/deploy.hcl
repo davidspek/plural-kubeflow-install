@@ -8,7 +8,7 @@ step "terraform-init" {
   target  = "kubeflow/terraform"
   command = "terraform"
   args    = ["init"]
-  sha     = "h1:WhsTJJcvxbcwi7UZwOI9NzNlVAdH0L5SAkI3YEH2BcE="
+  sha     = "h1:x1rjJPUOAAOmNvT5VCQTQoeW7AKbf+b5llY6UB5GqkU="
 }
 
 step "terraform-apply" {
@@ -21,7 +21,7 @@ step "terraform-apply" {
     "-auto-approve",
   ]
 
-  sha = "h1:WhsTJJcvxbcwi7UZwOI9NzNlVAdH0L5SAkI3YEH2BcE="
+  sha = "h1:x1rjJPUOAAOmNvT5VCQTQoeW7AKbf+b5llY6UB5GqkU="
 }
 
 step "terraform-output" {
@@ -35,7 +35,7 @@ step "terraform-output" {
     "kubeflow",
   ]
 
-  sha = "h1:WhsTJJcvxbcwi7UZwOI9NzNlVAdH0L5SAkI3YEH2BcE="
+  sha = "h1:x1rjJPUOAAOmNvT5VCQTQoeW7AKbf+b5llY6UB5GqkU="
 }
 
 step "kube-init" {
@@ -48,7 +48,7 @@ step "kube-init" {
     "kube-init",
   ]
 
-  sha = "8d1abcdba7529d2c7fde680c3aa2cb31437fdafe84beabc77f918293cfe8f3e3"
+  sha = "a8f845a69a62ac0d2f528d71e5260a36e561960acae6a46b645156384d2a22de"
 }
 
 step "crds" {
@@ -76,5 +76,5 @@ step "bounce" {
     "kubeflow",
   ]
 
-  sha = "h1:GbWnnyhoukWSotjawOdFldudiiu5XivvWhQ63Id9fDU="
+  sha = "h1:hSGpHQhzn5bKFUm0IACwqtg3pihw13iDgx9npbRxR3I="
 }

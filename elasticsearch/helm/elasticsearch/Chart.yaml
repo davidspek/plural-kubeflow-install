@@ -1,0 +1,9 @@
+apiVersion: v2
+name: elasticsearch
+description: A helm chart for elasticsearch
+version: 0.1.0
+appVersion: 0.1.1
+dependencies:
+- name: elasticsearch
+  version: 0.1.1
+  repository: cm://app.plural.sh/cm/elasticsearch
