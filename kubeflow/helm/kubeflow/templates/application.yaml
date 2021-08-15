@@ -23,7 +23,7 @@ spec:
     kind: Job
   descriptor:
     type: kubeflow
-    version: 0.1.4
+    version: 0.1.10
     description: The Machine Learning Toolkit for Kubernetes
     icons:
     - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/98bcf7e8-e05b-4653-988f-f40752a5067a/kubeflow-favicon-192x192.png?v=63792184411

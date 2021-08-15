@@ -1,37 +1,4 @@
 dependencies:
-- name: pipelines
-  repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.4
-- name: notebooks
-  repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.1
-- name: mpi
-  repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.1
-- name: volumes
-  repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.1
-- name: pytorch
-  repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.1
-- name: tensorflow
-  repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.1
-- name: tensorboards
-  repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.1
-- name: serving
-  repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.3
-- name: xgboost
-  repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.1
-- name: mxnet
-  repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.1
-- name: profile-controller
-  repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.2
 - name: central-dashboard
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.10
@@ -40,6 +7,39 @@ dependencies:
   version: 0.1.3
 - name: katib
   repository: cm://app.plural.sh/cm/kubeflow
+  version: 0.1.5
+- name: notebooks
+  repository: cm://app.plural.sh/cm/kubeflow
+  version: 0.1.2
+- name: mpi
+  repository: cm://app.plural.sh/cm/kubeflow
+  version: 0.1.2
+- name: mxnet
+  repository: cm://app.plural.sh/cm/kubeflow
+  version: 0.1.2
+- name: pytorch
+  repository: cm://app.plural.sh/cm/kubeflow
+  version: 0.1.2
+- name: tensorflow
+  repository: cm://app.plural.sh/cm/kubeflow
+  version: 0.1.2
+- name: xgboost
+  repository: cm://app.plural.sh/cm/kubeflow
+  version: 0.1.2
+- name: pipelines
+  repository: cm://app.plural.sh/cm/kubeflow
+  version: 0.1.5
+- name: profile-controller
+  repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.3
-digest: sha256:c6d5ef85a6b5d5805277500dc4b955d5083c26f83046b76adc04f7db7fc7d474
-generated: "2021-08-15T14:37:10.980486815Z"
+- name: serving
+  repository: cm://app.plural.sh/cm/kubeflow
+  version: 0.1.4
+- name: tensorboards
+  repository: cm://app.plural.sh/cm/kubeflow
+  version: 0.1.2
+- name: volumes
+  repository: cm://app.plural.sh/cm/kubeflow
+  version: 0.1.2
+digest: sha256:0ee417085a555a4914b612161f0962774d6f573940b3cc3d32ed25687eeb07f9
+generated: "2021-08-15T15:42:20.883121355Z"
