@@ -24,6 +24,8 @@ spec:
     name: monitoring-aws
   - repository: knative
     name: knative-aws
+  - repository: kubeflow
+    name: kubeflow-aws
   configuration:
     bootstrap:
       dns_domain: kubeflow-aws.com
@@ -52,6 +54,9 @@ spec:
       istio_namespace: istio-system
       operator_namespace: istio-operator
     knative: {}
+    kubeflow:
+      hostname: kubeflow.kubeflow-aws.com
+      pipelines_bucket: pipelines_bucket
     monitoring: {}
     mysql:
       backup_bucket: kubeflow-mysql-percona
