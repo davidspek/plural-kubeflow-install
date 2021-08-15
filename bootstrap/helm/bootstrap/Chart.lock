@@ -1,6 +1,6 @@
 dependencies:
 - name: bootstrap
   repository: cm://app.plural.sh/cm/bootstrap
-  version: 0.6.40
-digest: sha256:f072fbeae354c5ff8dec6245900f924c327234f439c1a9d425d899ffd4b74a50
-generated: "2021-08-08T11:37:54.887869198+02:00"
+  version: 0.6.41
+digest: sha256:6490f395af1e30e07d84c90f9c0039a543b0a8102432282d4a89cff19d265f00
+generated: "2021-08-15T13:47:35.398020238+02:00"

@@ -46,7 +46,6 @@ step "kube-init" {
   args = [
     "wkspace",
     "kube-init",
-    "mysql",
   ]
 
   sha = "f052d0adcc1b1f4940954fec9571ffddfefa7eca5b9e897d13e10bf2d8cabd22"

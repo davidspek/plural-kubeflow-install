@@ -4,7 +4,6 @@ resource "kubernetes_namespace" "mysql" {
 
     labels = {
       "app.kubernetes.io/managed-by" = "plural"
-      "istio-injection" = "enabled"
     }
   }
 }

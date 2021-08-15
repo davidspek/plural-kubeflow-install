@@ -14,8 +14,6 @@ spec:
     name: oauth2-proxy-aws
   - repository: mysql
     name: aws-mysql
-  - repository: mysql
-    name: aws-mysql-percona
   - repository: crossplane
     name: crossplane-aws
   - repository: monitoring

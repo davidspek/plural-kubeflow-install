@@ -46,7 +46,6 @@ step "kube-init" {
   args = [
     "wkspace",
     "kube-init",
-    "postgres",
   ]
 
   sha = "42d999f28f0f014f01634350c18f94205ba2a5628c6a68252b1fdb1b1f291d9c"

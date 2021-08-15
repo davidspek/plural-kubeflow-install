@@ -16,24 +16,9 @@ scaffold "helm" {
   path = "helm/postgres"
   type = "helm"
 
-  preflight "add-repo" {
-    wkdir   = ""
-    target  = "requirements.yaml"
-    command = "helm"
-
-    args = [
-      "repo",
-      "add",
-      "postgres",
-      "cm://app.plural.sh/cm/postgres",
-    ]
-
-    sha = "a225d82c2ac65e2e776b057aa1496d889218d79c3d13482fedc506c8fa78fa65"
-  }
-
   preflight "update-deps" {
     wkdir   = ""
-    target  = "requirements.yaml"
+    target  = "Chart.yaml"
     command = "helm"
 
     args = [
@@ -41,6 +26,6 @@ scaffold "helm" {
       "update",
     ]
 
-    sha = "a225d82c2ac65e2e776b057aa1496d889218d79c3d13482fedc506c8fa78fa65"
+    sha = "c81eddca0ff3f26b7e2852b6cfa5f78f3d783c80859f55fe7ddbc769fe1fb79e"
   }
 }

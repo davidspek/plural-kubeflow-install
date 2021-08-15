@@ -46,7 +46,6 @@ step "kube-init" {
   args = [
     "wkspace",
     "kube-init",
-    "dex",
   ]
 
   sha = "b0a56c62237987fb4f91fb28fde367ce6ddd8b778677a515360f49134cb58f4a"

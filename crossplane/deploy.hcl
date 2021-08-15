@@ -46,7 +46,6 @@ step "kube-init" {
   args = [
     "wkspace",
     "kube-init",
-    "crossplane",
   ]
 
   sha = "a3e3e5b379cafd027d06e042ced119929dcff0531c20951e9657d2a15a195a88"
