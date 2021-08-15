@@ -51,7 +51,7 @@ spec:
     knative: {}
     kubeflow:
       hostname: kubeflow.kubeflow-aws.com
-      pipelines_bucket: pipelines_bucket
+      pipelines_bucket: pipelines-bucket
     monitoring: {}
     mysql:
       backup_bucket: kubeflow-mysql-percona

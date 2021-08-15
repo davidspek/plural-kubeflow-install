@@ -45,7 +45,7 @@ module "aws" {
 
 
   namespace = "kubeflow"
-  pipelines_bucket = "pipelines_bucket"
+  pipelines_bucket = "pipelines-bucket"
   cluster_name = "kubeflow-dev"
 
 }
