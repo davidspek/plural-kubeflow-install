@@ -12,8 +12,6 @@ spec:
     name: aws-dex
   - repository: oauth2-proxy
     name: oauth2-proxy-aws
-  - repository: elasticsearch
-    name: elasticsearch-aws
   - repository: mysql
     name: aws-mysql
   - repository: mysql
@@ -47,7 +45,6 @@ spec:
       istioEnabled: true
       redirectURI: https://kubeflow.kubeflow-aws.com/oauth2/callback
       username: david
-    elasticsearch: {}
     grafana:
       hostname: grafana.kubeflow-aws.com
     istio:
