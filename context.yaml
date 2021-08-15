@@ -22,8 +22,6 @@ spec:
     name: knative-aws
   - repository: kubeflow
     name: kubeflow-aws
-  - repository: elasticsearch
-    name: elasticsearch-aws
   configuration:
     bootstrap:
       dns_domain: kubeflow-aws.com
@@ -45,7 +43,6 @@ spec:
       istioEnabled: true
       redirectURI: https://kubeflow.kubeflow-aws.com/oauth2/callback
       username: david
-    elasticsearch: {}
     grafana:
       hostname: grafana.kubeflow-aws.com
     istio:
