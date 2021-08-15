@@ -1,3 +1,4 @@
+/**/output.yaml filter=plural-crypt diff=plural-crypt
 /**/helm/**/values.yaml filter=plural-crypt diff=plural-crypt
 /**/manifest.yaml filter=plural-crypt diff=plural-crypt
 /diffs/**/* filter=plural-crypt diff=plural-crypt
