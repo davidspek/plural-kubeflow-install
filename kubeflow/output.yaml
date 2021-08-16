@@ -3,6 +3,4 @@ kind: Output
 metadata:
   name: kubeflow
 spec:
-  terraform:
-    s3_access_key: AKIAU2VBQD27ABLZHRGK
-    s3_access_secret: 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
+  terraform: {}

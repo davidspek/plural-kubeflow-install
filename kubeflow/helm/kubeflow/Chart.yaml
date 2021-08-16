@@ -7,9 +7,6 @@ dependencies:
 - name: central-dashboard
   version: 0.1.11
   repository: cm://app.plural.sh/cm/kubeflow
-- name: katib
-  version: 0.1.6
-  repository: cm://app.plural.sh/cm/kubeflow
 - name: notebooks
   version: 0.1.3
   repository: cm://app.plural.sh/cm/kubeflow
@@ -42,6 +39,9 @@ dependencies:
   repository: cm://app.plural.sh/cm/kubeflow
 - name: pipelines
   version: 0.1.11
+  repository: cm://app.plural.sh/cm/kubeflow
+- name: katib
+  version: 0.1.7
   repository: cm://app.plural.sh/cm/kubeflow
 - name: mysql-cluster
   version: 0.1.3
