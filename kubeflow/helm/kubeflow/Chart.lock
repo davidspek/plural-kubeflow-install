@@ -35,11 +35,11 @@ dependencies:
 - name: profile-controller
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.5
-- name: pipelines
-  repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.15
 - name: katib
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.9
-digest: sha256:138265a19601e927e03561b95afc66fc64bd131a1bb48dd8bb42db45f498d52f
-generated: "2021-08-16T16:25:08.366200981Z"
+- name: pipelines
+  repository: cm://app.plural.sh/cm/kubeflow
+  version: 0.1.18
+digest: sha256:c09ac82eb558df605da4131bd8bfef0247e5e9b8289000c220a4b5110a501888
+generated: "2021-08-16T16:28:30.653551253Z"
