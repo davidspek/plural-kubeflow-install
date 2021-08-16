@@ -2,4 +2,7 @@ apiVersion: plural.sh/v1alpha1
 kind: Output
 metadata:
   name: kubeflow
-spec: {}
+spec:
+  terraform:
+    s3_access_key: AKIAU2VBQD27ABLZHRGK
+    s3_access_secret: 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
