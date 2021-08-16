@@ -29,9 +29,6 @@ dependencies:
 - name: volumes
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.3
-- name: mysql-cluster
-  repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.4
 - name: profile-controller
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.5
@@ -41,5 +38,8 @@ dependencies:
 - name: pipelines
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.18
-digest: sha256:c09ac82eb558df605da4131bd8bfef0247e5e9b8289000c220a4b5110a501888
-generated: "2021-08-16T16:28:30.653551253Z"
+- name: mysql-cluster
+  repository: cm://app.plural.sh/cm/kubeflow
+  version: 0.1.5
+digest: sha256:b11e4fde6089bf57995c129ab5e23c03410d549c04224e66cdc8a12094be1082
+generated: "2021-08-16T16:44:18.020512065Z"
