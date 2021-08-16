@@ -37,9 +37,9 @@ dependencies:
   version: 0.1.3
 - name: pipelines
   repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.9
+  version: 0.1.11
 - name: mysql-cluster
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.3
-digest: sha256:7bb278634cac13cb981577c988c21915cb17583dd0212f310bf0740d5d1966fd
-generated: "2021-08-16T16:42:27.700493886+02:00"
+digest: sha256:2a57181f69d321663b838258650242a4ac4d94e128cfe6c9cbc67e0abf456fd2
+generated: "2021-08-16T17:01:08.321605451+02:00"
