@@ -23,23 +23,23 @@ dependencies:
 - name: xgboost
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.3
-- name: mysql-cluster
+- name: profile-controller
+  repository: cm://app.plural.sh/cm/kubeflow
+  version: 0.1.4
+- name: serving
+  repository: cm://app.plural.sh/cm/kubeflow
+  version: 0.1.5
+- name: tensorboards
+  repository: cm://app.plural.sh/cm/kubeflow
+  version: 0.1.3
+- name: volumes
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.3
 - name: pipelines
   repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.5
-- name: profile-controller
+  version: 0.1.9
+- name: mysql-cluster
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.3
-- name: serving
-  repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.4
-- name: tensorboards
-  repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.2
-- name: volumes
-  repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.2
-digest: sha256:079984a7e553453b377dd81a25e7ca674cc6828d92b82025620d6495896a46bd
-generated: "2021-08-16T14:21:59.731289001Z"
+digest: sha256:7bb278634cac13cb981577c988c21915cb17583dd0212f310bf0740d5d1966fd
+generated: "2021-08-16T16:42:27.700493886+02:00"
