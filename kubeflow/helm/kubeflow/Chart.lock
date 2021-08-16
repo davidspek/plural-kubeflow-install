@@ -40,6 +40,6 @@ dependencies:
   version: 0.1.7
 - name: mysql-cluster
   repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.3
-digest: sha256:6e9ceb37d8dd9654f1e58fb3d977c50e27cc9910dda8eb3f4577ecf860b5b6bb
-generated: "2021-08-16T15:08:36.141449447Z"
+  version: 0.1.4
+digest: sha256:ba5be11c0572ee5b38d688cbcd3c00e062b0c6e9ffc30ea3d1b9b812b7aab88b
+generated: "2021-08-16T15:09:31.036195247Z"
