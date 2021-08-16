@@ -40,6 +40,6 @@ dependencies:
   version: 0.1.8
 - name: pipelines
   repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.12
-digest: sha256:21dcf4fc787dc5c6853e6a2a08103afcc510eb0552bcb57ee80c5b6c480a6dc4
-generated: "2021-08-16T15:13:14.774653825Z"
+  version: 0.1.13
+digest: sha256:fa84a9d95eafd95411dd91576f2185b04d5215fc48e4926cfe0ce4eb4d332622
+generated: "2021-08-16T15:21:41.476982142Z"
