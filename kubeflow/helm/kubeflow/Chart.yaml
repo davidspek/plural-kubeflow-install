@@ -37,12 +37,12 @@ dependencies:
 - name: volumes
   version: 0.1.3
   repository: cm://app.plural.sh/cm/kubeflow
-- name: pipelines
-  version: 0.1.11
-  repository: cm://app.plural.sh/cm/kubeflow
 - name: mysql-cluster
   version: 0.1.4
   repository: cm://app.plural.sh/cm/kubeflow
 - name: katib
   version: 0.1.8
+  repository: cm://app.plural.sh/cm/kubeflow
+- name: pipelines
+  version: 0.1.12
   repository: cm://app.plural.sh/cm/kubeflow
