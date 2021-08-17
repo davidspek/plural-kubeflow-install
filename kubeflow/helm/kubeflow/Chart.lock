@@ -40,6 +40,6 @@ dependencies:
   version: 0.1.12
 - name: katib
   repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.11
-digest: sha256:d3c8cc95c3e37fa5d40a2c5bd96c704c34a7deff444b4eeb0b1069a972b796d9
-generated: "2021-08-17T10:37:30.635019584Z"
+  version: 0.1.12
+digest: sha256:7c2aa0f01aa543216406c5f9e9ebffd88d620e06e804fbbac6b323c539008a18
+generated: "2021-08-17T11:15:55.694835832Z"
