@@ -1,0 +1,30 @@
+apiVersion: app.k8s.io/v1beta1
+kind: Application
+metadata:
+  name: goldilocks
+spec:
+  selector:
+    matchLabels:
+      app.kubernetes.io/managed-by: Helm
+  componentKinds:
+  - group: v1
+    kind: Service
+  - group: networking.k8s.io
+    kind: Ingress
+  - group: cert-manager.io
+    kind: Certificate
+  - group: apps
+    kind: StatefulSet
+  - group: apps
+    kind: Deployment
+  - group: batch
+    kind: CronJob
+  - group: batch
+    kind: Job
+  descriptor:
+    type: goldilocks
+    version: 0.1.0
+    description: resource scaling assistant
+    icons:
+    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/d40c11ac-a12f-47c4-af3b-0ce57471764e/goldilocks%20(1).png?v=63796371353
+    
