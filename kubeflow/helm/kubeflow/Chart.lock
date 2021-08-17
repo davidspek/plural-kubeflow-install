@@ -40,6 +40,6 @@ dependencies:
   version: 0.1.13
 - name: notebooks
   repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.5
-digest: sha256:24e2e36c7857ce8a0c0b8f00527be38b70d68ccf7db32ef199cdc0c37f77600a
-generated: "2021-08-17T11:46:25.523366816Z"
+  version: 0.1.6
+digest: sha256:09807441e61ebee68c0ce9630b0ea9b1900fa75bac1dcaef71eacebfae645826
+generated: "2021-08-17T11:50:15.447534642Z"
