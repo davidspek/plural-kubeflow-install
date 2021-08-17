@@ -35,11 +35,11 @@ dependencies:
 - name: mysql-cluster
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.5
-- name: katib
-  repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.10
 - name: central-dashboard
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.12
-digest: sha256:9c8e5bed04a2d4ac994750154bcd9e663b5263ecf31b95c6420a5b8d1c2d2c03
-generated: "2021-08-17T09:55:15.647808511Z"
+- name: katib
+  repository: cm://app.plural.sh/cm/kubeflow
+  version: 0.1.11
+digest: sha256:d3c8cc95c3e37fa5d40a2c5bd96c704c34a7deff444b4eeb0b1069a972b796d9
+generated: "2021-08-17T10:37:30.635019584Z"
