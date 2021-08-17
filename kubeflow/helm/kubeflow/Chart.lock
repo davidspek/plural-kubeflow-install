@@ -1,7 +1,4 @@
 dependencies:
-- name: central-dashboard
-  repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.11
 - name: notebooks
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.3
@@ -41,5 +38,8 @@ dependencies:
 - name: katib
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.10
-digest: sha256:ab35743dd6662bc171faf47630afec675e3255b55998e1f2654e31d68971f8ee
-generated: "2021-08-16T17:27:55.785593747Z"
+- name: central-dashboard
+  repository: cm://app.plural.sh/cm/kubeflow
+  version: 0.1.12
+digest: sha256:9c8e5bed04a2d4ac994750154bcd9e663b5263ecf31b95c6420a5b8d1c2d2c03
+generated: "2021-08-17T09:55:15.647808511Z"
