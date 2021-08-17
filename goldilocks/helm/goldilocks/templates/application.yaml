@@ -23,7 +23,7 @@ spec:
     kind: Job
   descriptor:
     type: goldilocks
-    version: 0.1.0
+    version: 0.1.1
     description: resource scaling assistant
     icons:
     - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/d40c11ac-a12f-47c4-af3b-0ce57471764e/goldilocks%20(1).png?v=63796371353

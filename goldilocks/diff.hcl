@@ -8,7 +8,7 @@ step "terraform-init" {
   target  = "goldilocks/terraform"
   command = "terraform"
   args    = ["init"]
-  sha     = ""
+  sha     = "h1:T1lS6Tn3thjxpyeF2M8MqjWEP7VrXQtSj8uylAmiIyw="
 }
 
 step "terraform" {
@@ -22,7 +22,7 @@ step "terraform" {
     "goldilocks",
   ]
 
-  sha = ""
+  sha = "h1:T1lS6Tn3thjxpyeF2M8MqjWEP7VrXQtSj8uylAmiIyw="
 }
 
 step "kube-init" {
@@ -36,7 +36,7 @@ step "kube-init" {
     "goldilocks",
   ]
 
-  sha = ""
+  sha = "81db8dfb7254660d370c2bdef3f88b2cbd405363763ecc3be2305ba74b9eaf57"
 }
 
 step "helm" {
@@ -50,5 +50,5 @@ step "helm" {
     "goldilocks",
   ]
 
-  sha = ""
+  sha = "h1:aMfhqKvk1YrHFMsN0ID5skNQeOpn6klWyo5N2sZ+4WM="
 }
