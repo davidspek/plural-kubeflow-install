@@ -1,10 +1,4 @@
 dependencies:
-- name: mpi
-  repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.3
-- name: mxnet
-  repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.3
 - name: pytorch
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.3
@@ -41,5 +35,11 @@ dependencies:
 - name: notebooks
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.6
-digest: sha256:09807441e61ebee68c0ce9630b0ea9b1900fa75bac1dcaef71eacebfae645826
-generated: "2021-08-17T11:50:15.447534642Z"
+- name: mpi
+  repository: cm://app.plural.sh/cm/kubeflow
+  version: 0.1.4
+- name: mxnet
+  repository: cm://app.plural.sh/cm/kubeflow
+  version: 0.1.4
+digest: sha256:ecad9a54073242ac71bc293edb1dadeb9d1ab984558e12d20109087b06ca2d5c
+generated: "2021-08-17T11:59:20.770878122Z"
