@@ -40,6 +40,6 @@ dependencies:
   version: 0.1.4
 - name: profile-controller
   repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.6
-digest: sha256:6b4be0b9e19cdcafc200f50c01ea26285c504bcf47e5ef7235ff4bf9cc05c2de
-generated: "2021-08-17T13:02:36.364868013Z"
+  version: 0.1.7
+digest: sha256:36dcf6538e222c774be1c72571bae7fe7ce15852edd4c591e31317c498ec09a1
+generated: "2021-08-17T13:05:10.825576237Z"
