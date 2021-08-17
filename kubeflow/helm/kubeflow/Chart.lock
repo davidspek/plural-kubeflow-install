@@ -40,6 +40,6 @@ dependencies:
   version: 0.1.6
 - name: tensorboards
   repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.4
-digest: sha256:1abbcba02e77900857fb0075ef11e57ba373b0633ce425010a45754fe74fa805
-generated: "2021-08-17T13:26:46.384403712Z"
+  version: 0.1.5
+digest: sha256:4051e5771d926946895a6cbac7a9a07e0c92c4dfb16341792c915ae180df3812
+generated: "2021-08-17T13:28:22.524619447Z"
