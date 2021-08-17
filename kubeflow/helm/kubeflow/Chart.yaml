@@ -8,7 +8,7 @@ dependencies:
   version: 0.1.4
   repository: cm://app.plural.sh/cm/kubeflow
 - name: central-dashboard
-  version: 0.1.13
+  version: 0.1.14
   repository: cm://app.plural.sh/cm/kubeflow
 - name: pipelines
   version: 0.1.18
