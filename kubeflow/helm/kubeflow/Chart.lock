@@ -31,7 +31,7 @@ dependencies:
   version: 0.1.4
 - name: pipelines
   repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.47
+  version: 0.1.49
 - name: xgboost
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.4
@@ -41,5 +41,5 @@ dependencies:
 - name: tensorboards
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.5
-digest: sha256:4030b1fdbdcafadd3fc122608253ec5c2985d187aadf5226cd81ec02a4c9be55
-generated: "2021-08-18T13:20:20.263518534Z"
+digest: sha256:82abce8ec8adb5d79d3f0c100f69de5ea6eb7462eb1d7b84e2f6d70a35055a1a
+generated: "2021-08-18T13:39:37.766223623Z"
