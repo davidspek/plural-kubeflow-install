@@ -48,7 +48,7 @@ step "kube-init" {
     "kube-init",
   ]
 
-  sha = "95a8fd91e5be3532c9ee0b0c7a7ab12f3b115c1a2d6f4bbed5e28c00c6eec4c8"
+  sha = "7e68f9c6da08e4188d782d8951ff82ffb828fc3938156e0835a09bb15eb9d327"
 }
 
 step "crds" {
@@ -76,5 +76,5 @@ step "bounce" {
     "postgres",
   ]
 
-  sha = "h1:rUq9b6Jxcs16+Eg7pVU6J0MtKfrTy+nqs8ImiB9D+Ac="
+  sha = "h1:B/IJgDkIVIsvmmoZrjKAEO1RBZawsuAG1NCXiTgkBBg="
 }
