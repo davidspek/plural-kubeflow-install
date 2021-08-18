@@ -5,9 +5,6 @@ dependencies:
 - name: central-dashboard
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.14
-- name: mysql-cluster
-  repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.6
 - name: profile-controller
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.8
@@ -26,6 +23,9 @@ dependencies:
 - name: mxnet
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.4
+- name: mysql-cluster
+  repository: cm://app.plural.sh/cm/kubeflow
+  version: 0.1.7
 - name: pytorch
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.4
@@ -41,5 +41,5 @@ dependencies:
 - name: tensorboards
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.5
-digest: sha256:4a49a42a3822c0249dad0c5a4d5ad2ffed5a87c45212cdf51a766359d01f9ffa
-generated: "2021-08-18T12:37:14.955419932Z"
+digest: sha256:ea30fce17de95c5f709117e4602f84a2a186dfcdbcb02d5c2814b95681d59b5e
+generated: "2021-08-18T12:39:57.081183343Z"
