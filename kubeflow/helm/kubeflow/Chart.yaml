@@ -22,14 +22,14 @@ dependencies:
 - name: mpi
   version: 0.1.4
   repository: cm://app.plural.sh/cm/kubeflow
-- name: pipelines
-  version: 0.1.42
-  repository: cm://app.plural.sh/cm/kubeflow
 - name: mxnet
   version: 0.1.4
   repository: cm://app.plural.sh/cm/kubeflow
 - name: mysql-cluster
   version: 0.1.7
+  repository: cm://app.plural.sh/cm/kubeflow
+- name: pipelines
+  version: 0.1.43
   repository: cm://app.plural.sh/cm/kubeflow
 - name: pytorch
   version: 0.1.4

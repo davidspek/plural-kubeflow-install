@@ -17,15 +17,15 @@ dependencies:
 - name: mpi
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.4
-- name: pipelines
-  repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.42
 - name: mxnet
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.4
 - name: mysql-cluster
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.7
+- name: pipelines
+  repository: cm://app.plural.sh/cm/kubeflow
+  version: 0.1.43
 - name: pytorch
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.4
@@ -41,5 +41,5 @@ dependencies:
 - name: tensorboards
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.5
-digest: sha256:ea30fce17de95c5f709117e4602f84a2a186dfcdbcb02d5c2814b95681d59b5e
-generated: "2021-08-18T12:39:57.081183343Z"
+digest: sha256:e84340d18580e91b8ed7d1322513efa607fedcf37a379d22a07dad463fd93dbe
+generated: "2021-08-18T12:50:27.027893682Z"
