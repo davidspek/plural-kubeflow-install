@@ -14,15 +14,15 @@ dependencies:
 - name: katib
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.13
-- name: pipelines
-  repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.41
 - name: notebooks
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.6
 - name: mpi
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.4
+- name: pipelines
+  repository: cm://app.plural.sh/cm/kubeflow
+  version: 0.1.42
 - name: mxnet
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.4
@@ -41,5 +41,5 @@ dependencies:
 - name: tensorboards
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.5
-digest: sha256:d5f72d676121769806dc6bb05de9b95a72e7d3d296aeb8e0992c472acba9bf4e
-generated: "2021-08-18T12:34:37.628360628Z"
+digest: sha256:4a49a42a3822c0249dad0c5a4d5ad2ffed5a87c45212cdf51a766359d01f9ffa
+generated: "2021-08-18T12:37:14.955419932Z"
