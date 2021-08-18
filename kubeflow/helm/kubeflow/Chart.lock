@@ -11,6 +11,9 @@ dependencies:
 - name: pipelines
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.35
+- name: profile-controller
+  repository: cm://app.plural.sh/cm/kubeflow
+  version: 0.1.8
 - name: katib
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.13
@@ -32,14 +35,11 @@ dependencies:
 - name: xgboost
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.4
-- name: profile-controller
-  repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.7
 - name: serving
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.6
 - name: tensorboards
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.5
-digest: sha256:8efe21ce12a9d18b502fb22eb5df7b2c17b1c4df7f91c70d35c3ff89dfdb492b
-generated: "2021-08-18T11:49:04.991837472Z"
+digest: sha256:753568e7e1959577b6c587fda4d7f0f4a8d3ca6bba9c050dbe3986d181a862e5
+generated: "2021-08-18T12:00:35.001216714Z"
