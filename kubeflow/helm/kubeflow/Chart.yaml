@@ -16,11 +16,11 @@ dependencies:
 - name: profile-controller
   version: 0.1.8
   repository: cm://app.plural.sh/cm/kubeflow
-- name: pipelines
-  version: 0.1.39
-  repository: cm://app.plural.sh/cm/kubeflow
 - name: katib
   version: 0.1.13
+  repository: cm://app.plural.sh/cm/kubeflow
+- name: pipelines
+  version: 0.1.40
   repository: cm://app.plural.sh/cm/kubeflow
 - name: notebooks
   version: 0.1.6
