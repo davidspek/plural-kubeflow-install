@@ -7,7 +7,7 @@ dependencies:
   version: 0.1.14
 - name: pipelines
   repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.26
+  version: 0.1.28
 - name: mysql-cluster
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.5
@@ -41,5 +41,5 @@ dependencies:
 - name: tensorboards
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.5
-digest: sha256:a21ff9ee505d93ec6789f35f37d3469155f2d3ce6cf6cbaffc41acd83567ee11
-generated: "2021-08-17T15:53:02.122700864Z"
+digest: sha256:a4b4b5be26285d06f59acdd9ecba21a672cd0c4d73986f708d97855b1ba595ac
+generated: "2021-08-18T10:09:38.187019756Z"
