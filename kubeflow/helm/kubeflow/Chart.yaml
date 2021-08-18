@@ -14,7 +14,7 @@ dependencies:
   version: 0.1.6
   repository: cm://app.plural.sh/cm/kubeflow
 - name: pipelines
-  version: 0.1.34
+  version: 0.1.35
   repository: cm://app.plural.sh/cm/kubeflow
 - name: katib
   version: 0.1.13
