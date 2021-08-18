@@ -10,7 +10,7 @@ dependencies:
   version: 0.1.6
 - name: pipelines
   repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.32
+  version: 0.1.34
 - name: katib
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.13
@@ -41,5 +41,5 @@ dependencies:
 - name: tensorboards
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.5
-digest: sha256:ceaa8f77bc6ff95ec6a9d534a6db875276dc950f108cf231b518db74e9e38a6e
-generated: "2021-08-18T11:28:58.119052034Z"
+digest: sha256:0764bf8f485665d55b5956ac6536eaafdf9328e6fc35a39a10617cf248e6f426
+generated: "2021-08-18T11:42:48.072810275Z"
