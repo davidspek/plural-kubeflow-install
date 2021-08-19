@@ -1,6 +1,6 @@
 dependencies:
 - name: sentry
   repository: cm://app.plural.sh/cm/sentry
-  version: 0.1.18
-digest: sha256:e2a3b30c039326632308e28d8875ee1f22e39aa8db9d6a9ade30a3c476909b8f
-generated: "2021-08-19T17:07:42.221888202Z"
+  version: 0.1.19
+digest: sha256:681ab1605a3722cc539745c08fed0256d30f2bb6b429f1326f682a343c0b8302
+generated: "2021-08-19T17:13:33.317299134Z"
