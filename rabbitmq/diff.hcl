@@ -8,7 +8,7 @@ step "terraform-init" {
   target  = "rabbitmq/terraform"
   command = "terraform"
   args    = ["init"]
-  sha     = ""
+  sha     = "h1:/hzWKGZKS0Aao+D5UvqBHKkNkNHm9fIpWiMWBTKPAQs="
 }
 
 step "terraform" {
@@ -22,7 +22,7 @@ step "terraform" {
     "rabbitmq",
   ]
 
-  sha = ""
+  sha = "h1:/hzWKGZKS0Aao+D5UvqBHKkNkNHm9fIpWiMWBTKPAQs="
 }
 
 step "kube-init" {
@@ -36,7 +36,7 @@ step "kube-init" {
     "rabbitmq",
   ]
 
-  sha = ""
+  sha = "a502dbed28833c04e0b96aa5b5d4be581f1f039b039da3ce7fccb5c4dc27c46b"
 }
 
 step "helm" {
@@ -50,5 +50,5 @@ step "helm" {
     "rabbitmq",
   ]
 
-  sha = ""
+  sha = "h1:ruQmIIyTBvaAm47kuuTc1ZDmXLBBGvgndNZSpWEm+N8="
 }
