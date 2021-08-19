@@ -24,6 +24,8 @@ spec:
     name: goldilocks-aws
   - repository: kafka
     name: aws-kafka
+  - repository: rabbitmq
+    name: rabbitmq-aws
   configuration:
     bootstrap:
       dns_domain: kubeflow-aws.com
@@ -61,3 +63,4 @@ spec:
       user_id_claim: email
     postgres:
       wal_bucket: kubeflow-dev-postgres
+    rabbitmq: {}
