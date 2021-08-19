@@ -23,7 +23,7 @@ spec:
     kind: Job
   descriptor:
     type: mysql
-    version: 0.1.7
+    version: 0.1.8
     description: open source rdbms
     icons:
     - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/e3a59d39-0917-4072-9c95-6cbcaab2381a/mysql.png?v=63792824119
