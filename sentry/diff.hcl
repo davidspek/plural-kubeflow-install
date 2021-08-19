@@ -8,7 +8,7 @@ step "terraform-init" {
   target  = "sentry/terraform"
   command = "terraform"
   args    = ["init"]
-  sha     = ""
+  sha     = "h1:eF4JNuujFGE/2IXI8sYSz/oaZV2cG3mvmrLpUF5VIis="
 }
 
 step "terraform" {
@@ -22,7 +22,7 @@ step "terraform" {
     "sentry",
   ]
 
-  sha = ""
+  sha = "h1:eF4JNuujFGE/2IXI8sYSz/oaZV2cG3mvmrLpUF5VIis="
 }
 
 step "kube-init" {
@@ -36,7 +36,7 @@ step "kube-init" {
     "sentry",
   ]
 
-  sha = ""
+  sha = "70849f211ffe930e0af9fd572dd15c90bd476b2690b9a0382949f3d5fc14a894"
 }
 
 step "helm" {
@@ -50,5 +50,5 @@ step "helm" {
     "sentry",
   ]
 
-  sha = ""
+  sha = "h1:k7UyeX8cMZUb9+Nsip3Bi8SC0y56lTWrsfNkGWXvnvM="
 }

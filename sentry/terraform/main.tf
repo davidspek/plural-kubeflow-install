@@ -34,3 +34,18 @@ provider "kubernetes" {
   cluster_ca_certificate = base64decode(data.aws_eks_cluster.cluster.certificate_authority.0.data)
   token                  = data.aws_eks_cluster_auth.cluster.token
 }
+
+
+module "aws" {
+  source = "./aws"
+
+### BEGIN MANUAL SECTION <<aws>>
+
+### END MANUAL SECTION <<aws>>
+
+
+  cluster_name = "kubeflow-dev"
+  namespace = "sentry"
+  filestore_bucket = "kubeflow-dev-sentry"
+
+}
