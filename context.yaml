@@ -28,6 +28,8 @@ spec:
     name: rabbitmq-aws
   - repository: redis
     name: aws-redis
+  - repository: sentry
+    name: aws-sentry
   configuration:
     bootstrap:
       dns_domain: kubeflow-aws.com
@@ -67,3 +69,7 @@ spec:
       wal_bucket: kubeflow-dev-postgres
     rabbitmq: {}
     redis: {}
+    sentry:
+      adminEmail: david@plural.sh
+      filestoreBucket: kubeflow-dev-sentry
+      hostname: sentry.kubeflow-aws.com
