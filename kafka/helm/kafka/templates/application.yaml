@@ -23,7 +23,7 @@ spec:
     kind: Job
   descriptor:
     type: kafka
-    version: 0.1.7
+    version: 0.1.8
     description: high performance log streaming data engine
     icons:
     - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/79728698-e8c7-4705-ba36-8a46d6ec9b2e/kafka.png?v=63792628117
