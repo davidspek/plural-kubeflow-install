@@ -26,6 +26,8 @@ spec:
     name: aws-kafka
   - repository: rabbitmq
     name: rabbitmq-aws
+  - repository: redis
+    name: aws-redis
   configuration:
     bootstrap:
       dns_domain: kubeflow-aws.com
@@ -64,3 +66,4 @@ spec:
     postgres:
       wal_bucket: kubeflow-dev-postgres
     rabbitmq: {}
+    redis: {}
