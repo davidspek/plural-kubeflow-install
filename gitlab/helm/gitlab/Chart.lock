@@ -1,0 +1,6 @@
+dependencies:
+- name: gitlab
+  repository: cm://app.plural.sh/cm/gitlab
+  version: 0.3.14
+digest: sha256:1f0cfe1eb2e4e1e6b5b5a6c9207d7dc551fcf20748dbf4f26d41f8ae517f5664
+generated: "2021-08-19T16:17:49.389950602+02:00"

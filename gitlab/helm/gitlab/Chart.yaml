@@ -1,0 +1,9 @@
+apiVersion: v2
+name: gitlab
+description: A helm chart for gitlab
+version: 0.1.0
+appVersion: 0.3.14
+dependencies:
+- name: gitlab
+  version: 0.3.14
+  repository: cm://app.plural.sh/cm/gitlab

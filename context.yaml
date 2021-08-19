@@ -30,6 +30,8 @@ spec:
     name: aws-redis
   - repository: sentry
     name: aws-sentry
+  - repository: gitlab
+    name: aws-gitlab
   configuration:
     bootstrap:
       dns_domain: kubeflow-aws.com
@@ -45,6 +47,16 @@ spec:
       git_email: vanderspek.david@gmail.com
       git_user: DavidSpek
     crossplane: {}
+    gitlab:
+      artifactsBucket: kubeflow-dev-gitlab-artifacts
+      backupsBucket: kubeflow-dev-gitlab-backups
+      backupsTmpBucket: kubeflow-dev-gitlab-tmp-backups
+      domain: gitlab.kubeflow-aws.com
+      lfsBucket: kubeflow-dev-gitlab-lfs
+      packagesBucket: kubeflow-dev-gitlab-packages
+      registryBucket: kubeflow-dev-gitlab-registry
+      runnerCacheBucket: kubeflow-dev-gitlab-runner-cache
+      uploadsBucket: kubeflow-dev-gitlab-uploads
     goldilocks: {}
     grafana:
       hostname: grafana.kubeflow-aws.com
