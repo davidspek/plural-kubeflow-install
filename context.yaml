@@ -22,6 +22,8 @@ spec:
     name: kubeflow-aws
   - repository: goldilocks
     name: goldilocks-aws
+  - repository: kafka
+    name: aws-kafka
   configuration:
     bootstrap:
       dns_domain: kubeflow-aws.com
@@ -43,6 +45,7 @@ spec:
     istio:
       istio_namespace: istio-system
       operator_namespace: istio-operator
+    kafka: {}
     knative: {}
     kubeflow:
       hostname: kubeflow.kubeflow-aws.com
