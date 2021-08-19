@@ -36,7 +36,7 @@ step "kube-init" {
     "istio",
   ]
 
-  sha = "90017fc405c9b36e4930626fd38ed3d9920784134324b6688d6da0e9821c3e7f"
+  sha = "90c1a5d280cf48d3822dcfb80fbbf0b81e43736abf93be6797d182ab115c9f9d"
 }
 
 step "helm" {
@@ -50,5 +50,5 @@ step "helm" {
     "istio",
   ]
 
-  sha = "h1:we6caDHzdz3RvR1A6T8PP/R7819ZfvSgG3bDEtMNW+0="
+  sha = "h1:kSrRNHiFeFlcTUFRo1hOlXgVISRWcl+Sk+BW7hb0QRU="
 }
