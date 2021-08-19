@@ -8,7 +8,7 @@ step "terraform-init" {
   target  = "redis/terraform"
   command = "terraform"
   args    = ["init"]
-  sha     = ""
+  sha     = "h1:epHZ3Hwh1WbEhUPLG77H/vz6wChOybYPtFok/mxtdtg="
 }
 
 step "terraform" {
@@ -22,7 +22,7 @@ step "terraform" {
     "redis",
   ]
 
-  sha = ""
+  sha = "h1:epHZ3Hwh1WbEhUPLG77H/vz6wChOybYPtFok/mxtdtg="
 }
 
 step "kube-init" {
@@ -36,7 +36,7 @@ step "kube-init" {
     "redis",
   ]
 
-  sha = ""
+  sha = "5f1177bf37707ed8f34be4f10ba0b1679513f2f607ba60502498e809db44cb60"
 }
 
 step "helm" {
@@ -50,5 +50,5 @@ step "helm" {
     "redis",
   ]
 
-  sha = ""
+  sha = "h1:TClkmt9a69mQKBWeq50kegG1GL9wLNgfyJONvicQOsM="
 }
