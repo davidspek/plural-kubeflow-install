@@ -1,6 +1,6 @@
 dependencies:
 - name: argo-cd
   repository: cm://app.plural.sh/cm/argo-cd
-  version: 0.1.0
-digest: sha256:b936a629a83aa4aa57d16914447ad9e56e22f20d8af4a858a64291624a358c2e
-generated: "2021-08-20T12:57:40.497548048+02:00"
+  version: 0.1.1
+digest: sha256:e8fe72c18ebc3bc85ddb2c568d5e091d36ca8061b6448b207098af48d044c733
+generated: "2021-08-20T13:05:54.70192847+02:00"
