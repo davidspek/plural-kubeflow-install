@@ -34,7 +34,11 @@ spec:
     name: aws-gitlab
   - repository: nvidia-operator
     name: nvidia-operator-aws
+  - repository: argo-cd
+    name: argo-cd-aws
   configuration:
+    argo-cd:
+      hostname: argocd.kubeflow-aws.com
     bootstrap:
       dns_domain: kubeflow-aws.com
       grafana_dns: grafana.kubeflow-aws.com
