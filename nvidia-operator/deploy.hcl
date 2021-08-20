@@ -48,7 +48,7 @@ step "kube-init" {
     "kube-init",
   ]
 
-  sha = "d736cfc133cbe99cf2e0fd951ecaa2c1702e7137c372d1880de6c510f4b97cc9"
+  sha = "4c03696d68b952723a5dfb4fdd13bebf53e64bef98b9e85d3f63a60bf52ddca5"
 }
 
 step "crds" {
