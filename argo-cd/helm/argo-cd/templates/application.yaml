@@ -23,7 +23,7 @@ spec:
     kind: Job
   descriptor:
     type: argo-cd
-    version: 0.1.1
+    version: 0.1.2
     description: Declarative continuous deployment for Kubernetes.
     icons:
     - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/df3ab918-4b1f-4ecd-b0c6-670dc18dc967/argo-stacked-color-square.png?v=63796675637

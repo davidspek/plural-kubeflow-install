@@ -8,7 +8,7 @@ step "terraform-init" {
   target  = "argo-cd/terraform"
   command = "terraform"
   args    = ["init"]
-  sha     = ""
+  sha     = "h1:oXu5GY93sxzNl2y524wyz1TCNXFRU8x1kbheIb5KmNw="
 }
 
 step "terraform" {
@@ -22,7 +22,7 @@ step "terraform" {
     "argo-cd",
   ]
 
-  sha = ""
+  sha = "h1:oXu5GY93sxzNl2y524wyz1TCNXFRU8x1kbheIb5KmNw="
 }
 
 step "kube-init" {
@@ -36,7 +36,7 @@ step "kube-init" {
     "argo-cd",
   ]
 
-  sha = ""
+  sha = "71b9a4cbf01bf5dca901ee0ac1d57493a26194407001e72b925bbfefb48450ae"
 }
 
 step "helm" {
@@ -50,5 +50,5 @@ step "helm" {
     "argo-cd",
   ]
 
-  sha = ""
+  sha = "h1:qUy+dTW7ReTLUeEI+l4EYMa/QmWFzfWv5lJJOa3N4Js="
 }
