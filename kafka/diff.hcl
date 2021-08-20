@@ -36,7 +36,7 @@ step "kube-init" {
     "kafka",
   ]
 
-  sha = "1b22409b616e3d93ce5eaf6d77fb7794e232d44ed7b1b09b9803bcb6bc326e9e"
+  sha = "dca2a233ce891b2081cc76bfe2dc0cf0907c836708d51c49ad81e27d61e6c11c"
 }
 
 step "helm" {
@@ -50,5 +50,5 @@ step "helm" {
     "kafka",
   ]
 
-  sha = "h1:+8cmE5MrCHvZOVylEyik33J1Fqw6cX3hmxQkChCTIRg="
+  sha = "h1:rlE1Menvpn+T4GPDxCs/9j0FE0ZuXvPLFkt6A1LiAgs="
 }
