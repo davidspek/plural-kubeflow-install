@@ -36,7 +36,7 @@ step "kube-init" {
     "argo-cd",
   ]
 
-  sha = "f2d57a5c21623cec439628cfbcab5c5812b6d01fb5a14e54e5813772ce242c4e"
+  sha = "82a50e5a032286692f93db96205951335d0a4354892901d305055a18c2113afd"
 }
 
 step "helm" {
