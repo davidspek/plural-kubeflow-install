@@ -48,7 +48,7 @@ step "kube-init" {
     "kube-init",
   ]
 
-  sha = "25ee7f5d4085c06b86f90f5ba7d1588029956b21e8567826e656a6801b2c4e98"
+  sha = "8cc58704e371a3570c8f1e96504c4fb13c4846416a494f29daeb24cd8b837000"
 }
 
 step "crds" {
@@ -76,5 +76,5 @@ step "bounce" {
     "console",
   ]
 
-  sha = "h1:urMHZU7dUDhVr9qKFpky9t23MeEVjm4yVCqDEghnGrw="
+  sha = "h1:HcV5T+tRnPJXr2IaC2lJqa1b7yRJjASyfhUPNyGHVzg="
 }
