@@ -38,6 +38,7 @@ spec:
     name: argo-cd-aws
   configuration:
     argo-cd:
+      adminGroup: publishers
       hostname: argocd.kubeflow-aws.com
     bootstrap:
       dns_domain: kubeflow-aws.com
