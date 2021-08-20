@@ -32,6 +32,8 @@ spec:
     name: aws-sentry
   - repository: gitlab
     name: aws-gitlab
+  - repository: nvidia-operator
+    name: nvidia-operator-aws
   configuration:
     bootstrap:
       dns_domain: kubeflow-aws.com
@@ -71,6 +73,7 @@ spec:
     monitoring: {}
     mysql:
       backup_bucket: kubeflow-mysql-percona
+    nvidia-operator: {}
     oauth2-proxy:
       auth_cookie_domain: kubeflow-aws.com
       auth_whitelist_domain: kubeflow-aws.com
