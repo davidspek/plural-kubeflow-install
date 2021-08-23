@@ -13,7 +13,7 @@ dependencies:
   version: 0.1.69
 - name: profile-controller
   repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.10
+  version: 0.1.11
 - name: notebooks
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.6
@@ -41,5 +41,5 @@ dependencies:
 - name: tensorboards
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.5
-digest: sha256:53ecba40dddd1e4fc0122ce4f827dfede9c4ca83aab68f2f8347165eb747f6e1
-generated: "2021-08-23T16:05:32.9772764Z"
+digest: sha256:eee87b460e3ef77f98d75ccd8fc2061eea8386a704f3bb5aa700337db240b54e
+generated: "2021-08-23T17:43:13.205026334Z"
