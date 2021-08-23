@@ -8,12 +8,12 @@ dependencies:
 - name: pipelines
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.64
+- name: katib
+  repository: cm://app.plural.sh/cm/kubeflow
+  version: 0.1.14
 - name: profile-controller
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.8
-- name: katib
-  repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.13
 - name: notebooks
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.6
@@ -41,5 +41,5 @@ dependencies:
 - name: tensorboards
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.5
-digest: sha256:a904cfdd61c244402dad5cf85f0a8716ca1a94ba862e14d99bb7ac15f2053015
-generated: "2021-08-23T14:35:15.992727241Z"
+digest: sha256:9dea8a8177e61e22a6ff0ff618d51a6eace7ff8e4bd2bf53512498dd673f3496
+generated: "2021-08-23T14:37:25.767130592Z"
