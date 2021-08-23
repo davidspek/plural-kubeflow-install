@@ -36,7 +36,7 @@ step "kube-init" {
     "sentry",
   ]
 
-  sha = "883d3428125690b32f43e7623a5ded04db29b39eed208ca75a94046ff97df99f"
+  sha = "63edacda6ef74d6fc67c54787ad6a8b7e43d5570fe9c99b2cb37989818b0816c"
 }
 
 step "helm" {
@@ -50,5 +50,5 @@ step "helm" {
     "sentry",
   ]
 
-  sha = "h1:BkrZq3L8JLUHRvaBz8nJQLT9kuY/YgLysa9gwJJteCg="
+  sha = "h1:nu1F6pudndR/jCxWlaVskOKixB3b58ANFLV942KrXn4="
 }
