@@ -10,6 +10,9 @@ dependencies:
 - name: central-dashboard
   version: 0.1.14
   repository: cm://app.plural.sh/cm/kubeflow
+- name: pipelines
+  version: 0.1.53
+  repository: cm://app.plural.sh/cm/kubeflow
 - name: profile-controller
   version: 0.1.8
   repository: cm://app.plural.sh/cm/kubeflow
@@ -33,9 +36,6 @@ dependencies:
   repository: cm://app.plural.sh/cm/kubeflow
 - name: tensorflow
   version: 0.1.4
-  repository: cm://app.plural.sh/cm/kubeflow
-- name: pipelines
-  version: 0.1.52
   repository: cm://app.plural.sh/cm/kubeflow
 - name: xgboost
   version: 0.1.4
