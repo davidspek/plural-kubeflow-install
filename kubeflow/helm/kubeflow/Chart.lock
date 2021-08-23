@@ -10,7 +10,7 @@ dependencies:
   version: 0.1.14
 - name: pipelines
   repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.66
+  version: 0.1.67
 - name: profile-controller
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.8
@@ -41,5 +41,5 @@ dependencies:
 - name: tensorboards
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.5
-digest: sha256:0aa88faef3fbd1206bd6824b73f95bc7c55867c259b2ab8329a06b89665e0ca3
-generated: "2021-08-23T15:24:55.668742098Z"
+digest: sha256:29cb1c7d23a60013a45586ba3436a882f4c1868135580c6e5df1a7af3f7237ac
+generated: "2021-08-23T15:37:25.848075148Z"
