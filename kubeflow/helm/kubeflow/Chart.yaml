@@ -11,7 +11,7 @@ dependencies:
   version: 0.1.14
   repository: cm://app.plural.sh/cm/kubeflow
 - name: pipelines
-  version: 0.1.58
+  version: 0.1.59
   repository: cm://app.plural.sh/cm/kubeflow
 - name: profile-controller
   version: 0.1.8
