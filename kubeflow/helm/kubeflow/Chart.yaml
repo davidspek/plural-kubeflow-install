@@ -17,7 +17,7 @@ dependencies:
   version: 0.1.11
   repository: cm://app.plural.sh/cm/kubeflow
 - name: pipelines
-  version: 0.1.70
+  version: 0.1.71
   repository: cm://app.plural.sh/cm/kubeflow
 - name: notebooks
   version: 0.1.6
