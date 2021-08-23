@@ -48,7 +48,7 @@ step "kube-init" {
     "kube-init",
   ]
 
-  sha = "0806d046f7ea57fb0cdfa7f9785c2ea113ab2824e27cb6d394233ca0d3af177e"
+  sha = "fe0ac1ff33b25e59c47481e4585bc63587d5fdc49133baef840e0c8e203edac3"
 }
 
 step "crds" {
@@ -76,5 +76,5 @@ step "bounce" {
     "nvidia-operator",
   ]
 
-  sha = "h1:qkm2G0z3VZMMA47SQZmGUEeBcqf1cHYD/LCwTy7+xpQ="
+  sha = "h1:+OEZOIXWgyp63i0M+AqBR3F8ldp5UNtXiNw2yqUjI8g="
 }
