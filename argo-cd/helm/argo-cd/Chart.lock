@@ -1,7 +1,4 @@
 dependencies:
-- name: argocd
-  repository: cm://app.plural.sh/cm/argo-cd
-  version: 0.1.10
 - name: argo-cd
   repository: cm://app.plural.sh/cm/argo-cd
   version: 0.1.14
