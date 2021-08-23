@@ -36,7 +36,7 @@ step "kube-init" {
     "rabbitmq",
   ]
 
-  sha = "5b31bd0b18f0ad91a585fd50dbc060a6431faefed0f669998964a72f449d78c9"
+  sha = "756952dfff21bb3a016da870f9525c60871d97134c3d15fc7ae51c29446106bb"
 }
 
 step "helm" {
@@ -50,5 +50,5 @@ step "helm" {
     "rabbitmq",
   ]
 
-  sha = "h1:ruQmIIyTBvaAm47kuuTc1ZDmXLBBGvgndNZSpWEm+N8="
+  sha = "h1:e21Ix8iDuCbNB5YgYbxt27lnjQoIAoUw6TGHOHPvKEc="
 }

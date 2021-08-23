@@ -1,6 +1,6 @@
 dependencies:
 - name: cluster-operator
   repository: cm://app.plural.sh/cm/rabbitmq
-  version: 0.1.9
-digest: sha256:014904ad61e955169ace9679c9a727ba5baa187b553b7525e11e682f02e2f55e
-generated: "2021-08-19T17:00:38.743931767Z"
+  version: 0.1.10
+digest: sha256:73f243d04c7152f2254284df935aad0480d054c67888fc2116c0620c12b076c4
+generated: "2021-08-23T09:33:35.682208218Z"
