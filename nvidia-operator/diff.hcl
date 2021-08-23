@@ -8,7 +8,7 @@ step "terraform-init" {
   target  = "nvidia-operator/terraform"
   command = "terraform"
   args    = ["init"]
-  sha     = ""
+  sha     = "h1:G9deUA4HeS1qnSiOCYFrzAXP3XhoKIjUsB3C2Niz3kU="
 }
 
 step "terraform" {
@@ -22,7 +22,7 @@ step "terraform" {
     "nvidia-operator",
   ]
 
-  sha = ""
+  sha = "h1:G9deUA4HeS1qnSiOCYFrzAXP3XhoKIjUsB3C2Niz3kU="
 }
 
 step "kube-init" {
@@ -36,7 +36,7 @@ step "kube-init" {
     "nvidia-operator",
   ]
 
-  sha = ""
+  sha = "0806d046f7ea57fb0cdfa7f9785c2ea113ab2824e27cb6d394233ca0d3af177e"
 }
 
 step "helm" {
@@ -50,5 +50,5 @@ step "helm" {
     "nvidia-operator",
   ]
 
-  sha = ""
+  sha = "h1:qkm2G0z3VZMMA47SQZmGUEeBcqf1cHYD/LCwTy7+xpQ="
 }
