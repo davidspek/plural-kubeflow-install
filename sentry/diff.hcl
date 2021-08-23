@@ -36,7 +36,7 @@ step "kube-init" {
     "sentry",
   ]
 
-  sha = "63edacda6ef74d6fc67c54787ad6a8b7e43d5570fe9c99b2cb37989818b0816c"
+  sha = "384d4e2d8a7338fa7e6e58a400d4fa311f90534b946d48558841479a188bd6db"
 }
 
 step "helm" {
