@@ -8,9 +8,6 @@ dependencies:
 - name: katib
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.14
-- name: pipelines
-  repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.78
 - name: notebooks
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.6
@@ -23,15 +20,18 @@ dependencies:
 - name: mysql-cluster
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.7
-- name: profile-controller
-  repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.24
 - name: pytorch
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.4
 - name: tensorflow
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.4
+- name: pipelines
+  repository: cm://app.plural.sh/cm/kubeflow
+  version: 0.1.79
+- name: profile-controller
+  repository: cm://app.plural.sh/cm/kubeflow
+  version: 0.1.25
 - name: xgboost
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.4
@@ -41,5 +41,5 @@ dependencies:
 - name: tensorboards
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.5
-digest: sha256:1615336511e29b52a2f0455035b106901905d2e36c6d3d727491157f1d291724
-generated: "2021-08-24T12:22:46.537634047Z"
+digest: sha256:de884d4e5ea24d183f7bfcc40bc57768762743336985ab759f44aa8e525aa878
+generated: "2021-08-24T12:47:21.067681014Z"
