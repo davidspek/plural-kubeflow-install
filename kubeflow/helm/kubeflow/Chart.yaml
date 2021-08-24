@@ -34,9 +34,6 @@ dependencies:
 - name: pipelines
   version: 0.1.79
   repository: cm://app.plural.sh/cm/kubeflow
-- name: profile-controller
-  version: 0.1.25
-  repository: cm://app.plural.sh/cm/kubeflow
 - name: xgboost
   version: 0.1.4
   repository: cm://app.plural.sh/cm/kubeflow
@@ -45,4 +42,7 @@ dependencies:
   repository: cm://app.plural.sh/cm/kubeflow
 - name: tensorboards
   version: 0.1.5
+  repository: cm://app.plural.sh/cm/kubeflow
+- name: profile-controller
+  version: 0.1.26
   repository: cm://app.plural.sh/cm/kubeflow
