@@ -22,8 +22,6 @@ spec:
     name: kubeflow-aws
   - repository: goldilocks
     name: goldilocks-aws
-  - repository: rabbitmq
-    name: rabbitmq-aws
   - repository: redis
     name: aws-redis
   - repository: gitlab
@@ -82,5 +80,4 @@ spec:
       user_id_claim: email
     postgres:
       wal_bucket: kubeflow-dev-postgres
-    rabbitmq: {}
     redis: {}
