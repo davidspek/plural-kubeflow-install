@@ -36,7 +36,7 @@ step "kube-init" {
     "kubeflow",
   ]
 
-  sha = "b6cf59d01b4bc8db9c5b27df37bff97339bebd40aa7ae3f81f4b434c446238b0"
+  sha = "42bb7e04920aa0b2a72e07f55f066be68436aaa029406c4ba780b5c70273694c"
 }
 
 step "helm" {
@@ -50,5 +50,5 @@ step "helm" {
     "kubeflow",
   ]
 
-  sha = "h1:FN7bwIDNjuHZ+W04IvS+SBLS1RkRu4MQwMWy71YqpIE="
+  sha = "h1:ualBFCwaXPRYmtDWEX+VJXh7VvEBwlS8JtKS1xRdGx0="
 }
