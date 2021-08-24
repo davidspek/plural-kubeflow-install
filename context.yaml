@@ -22,8 +22,6 @@ spec:
     name: kubeflow-aws
   - repository: goldilocks
     name: goldilocks-aws
-  - repository: kafka
-    name: aws-kafka
   - repository: rabbitmq
     name: rabbitmq-aws
   - repository: redis
@@ -68,7 +66,6 @@ spec:
     istio:
       istio_namespace: istio-system
       operator_namespace: istio-operator
-    kafka: {}
     knative: {}
     kubeflow:
       hostname: kubeflow.kubeflow-aws.com

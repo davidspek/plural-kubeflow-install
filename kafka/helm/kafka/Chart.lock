@@ -1,6 +1,0 @@
-dependencies:
-- name: kafka
-  repository: cm://app.plural.sh/cm/kafka
-  version: 0.1.13
-digest: sha256:c1d561f88f1237f0eab354fca20024eaf2cae77fc104f1fdf46eff89b86db50d
-generated: "2021-08-23T09:41:05.318821845Z"
