@@ -19,7 +19,7 @@ dependencies:
   version: 0.1.4
 - name: profile-controller
   repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.20
+  version: 0.1.21
 - name: mxnet
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.4
@@ -41,5 +41,5 @@ dependencies:
 - name: tensorboards
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.5
-digest: sha256:b49870f4c7cd5bfaadef8a54b8da74c868e5afdaeb001d7900a9b623a77958a3
-generated: "2021-08-24T11:27:45.626671615Z"
+digest: sha256:769733fe13bc5bbb278f88e5d37fa1851fde639ef109746a1e75e59843c05405
+generated: "2021-08-24T11:30:05.723899158Z"
