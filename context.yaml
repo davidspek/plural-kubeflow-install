@@ -28,8 +28,6 @@ spec:
     name: rabbitmq-aws
   - repository: redis
     name: aws-redis
-  - repository: sentry
-    name: aws-sentry
   - repository: gitlab
     name: aws-gitlab
   - repository: nvidia-operator
@@ -89,7 +87,3 @@ spec:
       wal_bucket: kubeflow-dev-postgres
     rabbitmq: {}
     redis: {}
-    sentry:
-      adminEmail: david@plural.sh
-      filestoreBucket: kubeflow-dev-sentry
-      hostname: sentry.kubeflow-aws.com
