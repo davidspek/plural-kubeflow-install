@@ -44,6 +44,9 @@ module "cluster" {
     instance_types = var.instance_types
     disk_size = 50
     subnets = module.vpc.private_subnets
+    release_version = "1.20.4-20210722"
+    force_update_version = true
+    ami_type = "AL2_x86_64"
   }
 
   node_groups = var.node_groups
@@ -52,11 +55,42 @@ module "cluster" {
   map_roles = concat(var.map_roles, var.manual_roles)
 }
 
+resource "aws_eks_addon" "vpc_cni" {
+  cluster_name = var.cluster_name
+  addon_name   = "vpc-cni"
+  addon_version     = "v1.9.0-eksbuild.1"
+  resolve_conflicts = "OVERWRITE"
+  tags = {
+      "eks_addon" = "vpc-cni"
+  }
+}
+
+resource "aws_eks_addon" "core_dns" {
+  cluster_name      = var.cluster_name
+  addon_name        = "coredns"
+  addon_version     = "v1.8.3-eksbuild.1"
+  resolve_conflicts = "OVERWRITE"
+  tags = {
+      "eks_addon" = "coredns"
+  }
+}
+
+resource "aws_eks_addon" "kube_proxy" {
+  cluster_name      = var.cluster_name
+  addon_name        = "kube-proxy"
+  addon_version     = "v1.20.4-eksbuild.2"
+  resolve_conflicts = "OVERWRITE"
+  tags = {
+      "eks_addon" = "kube-proxy"
+  }
+}
+
 resource "kubernetes_namespace" "bootstrap" {
   metadata {
     name = "bootstrap"
     labels = {
       "app.kubernetes.io/managed-by" = "plural"
+      "app.plural.sh/name" = "bootstrap"
     }
   }
 
