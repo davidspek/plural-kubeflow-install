@@ -44,7 +44,7 @@ module "cluster" {
     instance_types = var.instance_types
     disk_size = 50
     subnets = module.vpc.private_subnets
-    release_version = "1.20.4-20210722"
+    ami_release_version = "1.20.4-20210813"
     force_update_version = true
     ami_type = "AL2_x86_64"
   }
