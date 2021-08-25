@@ -8,7 +8,7 @@ step "terraform-init" {
   target  = "console/terraform"
   command = "terraform"
   args    = ["init"]
-  sha     = "h1:IX3DaBSPu3q+ZAWa16N2xk5ybqS/ypqwC6gHi6Snxbg="
+  sha     = "h1:8GxTpFpq63F0IgxozTqEIeLIA4TuHGYqR6hfy+wmxB4="
 }
 
 step "terraform-apply" {
@@ -21,7 +21,7 @@ step "terraform-apply" {
     "-auto-approve",
   ]
 
-  sha = "h1:IX3DaBSPu3q+ZAWa16N2xk5ybqS/ypqwC6gHi6Snxbg="
+  sha = "h1:8GxTpFpq63F0IgxozTqEIeLIA4TuHGYqR6hfy+wmxB4="
 }
 
 step "terraform-output" {
@@ -35,7 +35,7 @@ step "terraform-output" {
     "console",
   ]
 
-  sha = "h1:IX3DaBSPu3q+ZAWa16N2xk5ybqS/ypqwC6gHi6Snxbg="
+  sha = "h1:8GxTpFpq63F0IgxozTqEIeLIA4TuHGYqR6hfy+wmxB4="
 }
 
 step "kube-init" {
@@ -48,7 +48,7 @@ step "kube-init" {
     "kube-init",
   ]
 
-  sha = "a198b0cb53de020c56fe4767532f418ea0f1f4591921f906d70b9b6ad12d337b"
+  sha = "cee808c382f112256ff800e208584c1f7650d70e6159c9cbc971880cdd7d8a8a"
 }
 
 step "crds" {
@@ -76,5 +76,5 @@ step "bounce" {
     "console",
   ]
 
-  sha = "h1:sBu33tqRIZc6vyebojMZHnSrvUIeVHyzrTcHvuGs0n8="
+  sha = "h1:NQngRb7nowisWhR/N3R9wIxscyVP8TG2ETnqREnPU3Y="
 }
