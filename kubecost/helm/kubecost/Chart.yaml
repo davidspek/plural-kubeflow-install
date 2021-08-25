@@ -2,8 +2,8 @@ apiVersion: v2
 name: kubecost
 description: A helm chart for kubecost
 version: 0.1.0
-appVersion: 0.1.7
+appVersion: 0.1.9
 dependencies:
 - name: kubecost
-  version: 0.1.7
+  version: 0.1.9
   repository: cm://app.plural.sh/cm/kubecost
