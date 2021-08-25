@@ -30,6 +30,8 @@ spec:
     name: nvidia-operator-aws
   - repository: argo-cd
     name: argo-cd-aws
+  - repository: kubecost
+    name: kubecost-aws
   configuration:
     argo-cd:
       adminGroup: publishers
@@ -65,6 +67,7 @@ spec:
       istio_namespace: istio-system
       operator_namespace: istio-operator
     knative: {}
+    kubecost: {}
     kubeflow:
       hostname: kubeflow.kubeflow-aws.com
       pipelines_bucket: pipelines-bucket

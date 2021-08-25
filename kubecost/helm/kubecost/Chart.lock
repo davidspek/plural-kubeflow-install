@@ -1,0 +1,6 @@
+dependencies:
+- name: kubecost
+  repository: cm://app.plural.sh/cm/kubecost
+  version: 0.1.0
+digest: sha256:93eace928a297f564d414b1394840f20257783913f3ffa8bb3cd5d01ead47873
+generated: "2021-08-25T15:03:46.113680596+02:00"
