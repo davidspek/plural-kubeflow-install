@@ -36,7 +36,7 @@ step "kube-init" {
     "kubecost",
   ]
 
-  sha = "7928beea7c7980bb5ad0b5cc54d0259a2e849da9e85e0d982b6ae37626918ec6"
+  sha = "3a6df877b3249e224afe48ec20b5db9e23d05b6f25389e2f516d2213182a79d4"
 }
 
 step "helm" {
@@ -50,5 +50,5 @@ step "helm" {
     "kubecost",
   ]
 
-  sha = "h1:d3s7+gUszoBdT2oA0C+vukxrXLk9IZUnXxsGO6oYDn0="
+  sha = "h1:/tfD9BY4DRQrdZccJNYx3FSz07LUk7qQraF7sJFiXSo="
 }
