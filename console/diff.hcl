@@ -36,7 +36,7 @@ step "kube-init" {
     "console",
   ]
 
-  sha = "cee808c382f112256ff800e208584c1f7650d70e6159c9cbc971880cdd7d8a8a"
+  sha = "37a6deba4705daa47339b5e3d1682cb55ef69f311114a5d2684bfbc0427dd512"
 }
 
 step "helm" {
@@ -50,5 +50,5 @@ step "helm" {
     "console",
   ]
 
-  sha = "h1:NQngRb7nowisWhR/N3R9wIxscyVP8TG2ETnqREnPU3Y="
+  sha = "h1:q9uRjTWt7c+JEBG2pgCTmzoqeIK3/K/FisBiV6EaEO4="
 }
