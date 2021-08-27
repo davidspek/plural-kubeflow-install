@@ -76,5 +76,5 @@ step "bounce" {
     "argo-cd",
   ]
 
-  sha = "h1:wEUNhaeJoPZizaG0JOsVvKde7G+bZknIR2mSJ7X+QZ4="
+  sha = "h1:jnjw5ww+jv2FNvNVvGBYpapiNoOkavnIwqsUtPfXDgw="
 }
