@@ -35,7 +35,12 @@ spec:
   configuration:
     argo-cd:
       adminGroup: publishers
+      credentialPassword: v__DpUysDhMTpaW-48ka
+      credentialTemplateURL: https://gitlab.plural.sh
+      credentialUsername: DavidSpek
       hostname: argocd.kubeflow-aws.com
+      privateRepoName: marketing-website
+      privateRepoURL: https://gitlab.plural.sh/plural/internal/marketing-website.git
     bootstrap:
       dns_domain: kubeflow-aws.com
       grafana_dns: grafana.kubeflow-aws.com
