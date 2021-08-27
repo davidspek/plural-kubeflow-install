@@ -6,7 +6,7 @@ spec:
   acme:
     server: https://acme.zerossl.com/v2/DV90
     externalAccountBinding:
-      keyID: i0CdqG35NR8iiEdbjW6gbA
+      keyID: FZQuyWLTXp9zZEvt64Eraw
       keyAlgorithm: HS256
       keySecretRef:
         name: zerossl-eabsecret
