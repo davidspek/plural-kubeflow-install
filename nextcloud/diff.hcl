@@ -36,7 +36,7 @@ step "kube-init" {
     "nextcloud",
   ]
 
-  sha = "dbabfed044d249032d9287658bba32388d4d406160a9fd1ec58e1fd0029f1e78"
+  sha = "cb332b1daedfb9824e80568c9cb2633e0dcea89415204180965162786bb04c6c"
 }
 
 step "helm" {
@@ -50,5 +50,5 @@ step "helm" {
     "nextcloud",
   ]
 
-  sha = "h1:kzc6rIknGu0xcs3BkuLrrUFyXE/GX0qWlEToIZ9UmBY="
+  sha = "h1:t769T3GArItDxrxWBhTSiu7f61DpVOEdVipEfngjVsI="
 }
