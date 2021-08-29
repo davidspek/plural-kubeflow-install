@@ -48,7 +48,7 @@ step "kube-init" {
     "kube-init",
   ]
 
-  sha = "7b802182b655e6c56dfcd322e9047431618545829fdfa899c77493131f3f707a"
+  sha = "2443b26c538234d5eb7962adf46ce8db246ae58f1a3f5d0ff25e924cba90e58c"
 }
 
 step "crds" {
@@ -76,5 +76,5 @@ step "bounce" {
     "nextcloud",
   ]
 
-  sha = "h1:ifkiokgKR+de31O8QzbN4KL+ijG80669zZBm13QMqn8="
+  sha = "h1:3ZYV1S436eg7ot7tkWV/ZcYKAIkx60kfAJmYzDZTZqA="
 }

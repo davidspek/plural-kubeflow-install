@@ -1,6 +1,6 @@
 dependencies:
 - name: nextcloud
   repository: cm://app.plural.sh/cm/nextcloud
-  version: 0.1.7
-digest: sha256:d1e09c5672b9897bb5dec38850245bc3efe204f1581061bbbb5e43e2a7a333b8
-generated: "2021-08-29T13:28:38.468041807+02:00"
+  version: 0.1.8
+digest: sha256:2c2ba198432099b298d321a3f89a7a749de10c0875faa02f39fb52f4da167046
+generated: "2021-08-29T11:30:54.902699791Z"
