@@ -8,7 +8,7 @@ step "terraform-init" {
   target  = "nextcloud/terraform"
   command = "terraform"
   args    = ["init"]
-  sha     = "h1:wFvtMvsfyFCGC26j62AEfSAOIqufqYEJKXOMhHEN9KY="
+  sha     = "h1:J3Kcsq8jrvG7BoazMJ2d/RBmqfb1q13bhbnGgkUSC/I="
 }
 
 step "terraform-apply" {
@@ -21,7 +21,7 @@ step "terraform-apply" {
     "-auto-approve",
   ]
 
-  sha = "h1:wFvtMvsfyFCGC26j62AEfSAOIqufqYEJKXOMhHEN9KY="
+  sha = "h1:J3Kcsq8jrvG7BoazMJ2d/RBmqfb1q13bhbnGgkUSC/I="
 }
 
 step "terraform-output" {
@@ -35,7 +35,7 @@ step "terraform-output" {
     "nextcloud",
   ]
 
-  sha = "h1:wFvtMvsfyFCGC26j62AEfSAOIqufqYEJKXOMhHEN9KY="
+  sha = "h1:J3Kcsq8jrvG7BoazMJ2d/RBmqfb1q13bhbnGgkUSC/I="
 }
 
 step "kube-init" {
@@ -48,7 +48,7 @@ step "kube-init" {
     "kube-init",
   ]
 
-  sha = "8a976ec4a18291972e804ca0bf89f967cefdf4863a4d45da2f98c9ec77e0cd35"
+  sha = "8363398efa5d88844e269f835e2b57a91a7d34df0317858327d1fea44f18eaa6"
 }
 
 step "crds" {
