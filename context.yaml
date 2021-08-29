@@ -32,6 +32,8 @@ spec:
     name: argo-cd-aws
   - repository: kubecost
     name: kubecost-aws
+  - repository: nextcloud
+    name: nextcloud-aws
   configuration:
     argo-cd:
       adminGroup: publishers
@@ -45,6 +47,7 @@ spec:
       dns_domain: kubeflow-aws.com
       grafana_dns: grafana.kubeflow-aws.com
       ownerEmail: david@plural.sh
+      pluralDns: false
       txt_owner: david
       vpc_name: kubeflow-dev-vpc
     console:
@@ -79,6 +82,9 @@ spec:
     monitoring: {}
     mysql:
       backup_bucket: kubeflow-mysql-percona
+    nextcloud:
+      hostname: nextcloud.kubeflow-aws.com
+      nextcloud_bucket: nextcloud-dev-bucket
     nvidia-operator: {}
     oauth2-proxy:
       auth_cookie_domain: kubeflow-aws.com
