@@ -12,7 +12,6 @@ spec:
         name: zerossl-eabsecret
         key: value
     privateKeySecretRef:
-      # Secret resource that will be used to store the account's private key.
       name: zerossl-prod
     solvers:
       - dns01:
@@ -27,4 +26,4 @@ metadata:
   name: zerossl-eabsecret
 type: Opaque
 data:
-  value: {{ .Values.zeroSSLKey | b64enc }}
+  value: {{ .Values.zeroSSLKey | b64enc | quote }}
