@@ -72,4 +72,15 @@ data "aws_iam_policy_document" "minio" {
       "arn:aws:s3:::${var.minio_bucket}/*"
     ]
   }
+
+  statement {
+    sid    = "AllowUserToSeeBucketListInTheConsole"
+    effect = "Allow"
+    actions = ["s3:ListAllMyBuckets", "s3:GetBucketLocation"]
+
+    resources = [
+      "arn:aws:s3:::*"
+    ]
+  }
+
 }
