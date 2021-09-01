@@ -8,7 +8,7 @@ step "terraform-init" {
   target  = "minio/terraform"
   command = "terraform"
   args    = ["init"]
-  sha     = ""
+  sha     = "h1:B5OsjN4dDFCx0KZp+WAFXZuZiRgPBBZh4yv9aLGpOJI="
 }
 
 step "terraform" {
@@ -22,7 +22,7 @@ step "terraform" {
     "minio",
   ]
 
-  sha = ""
+  sha = "h1:B5OsjN4dDFCx0KZp+WAFXZuZiRgPBBZh4yv9aLGpOJI="
 }
 
 step "kube-init" {
@@ -36,7 +36,7 @@ step "kube-init" {
     "minio",
   ]
 
-  sha = ""
+  sha = "1a41394ac60f9deb0afdbaaab6403cf122af8a29203991e8c4e35ba4c3202a53"
 }
 
 step "helm" {
@@ -50,5 +50,5 @@ step "helm" {
     "minio",
   ]
 
-  sha = ""
+  sha = "h1:/h29nytUuaaUVaKZpXkQOHsN3K5aJ5wi4d08xHc6JMk="
 }
