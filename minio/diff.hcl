@@ -36,7 +36,7 @@ step "kube-init" {
     "minio",
   ]
 
-  sha = "5b9d13c1812436314bc6309139d1e7b29c88462d33ae7a155746a5cb947fa41a"
+  sha = "d46afac499e9225ad0234c5ebe12d28ec7840292484c1046bae1694c3e0b39ec"
 }
 
 step "helm" {
