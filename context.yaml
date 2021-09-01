@@ -34,6 +34,8 @@ spec:
     name: kubecost-aws
   - repository: nextcloud
     name: nextcloud-aws
+  - repository: minio
+    name: minio-aws
   configuration:
     argo-cd:
       adminGroup: publishers
@@ -79,6 +81,9 @@ spec:
     kubeflow:
       hostname: kubeflow.kubeflow-aws.com
       pipelines_bucket: pipelines-bucket
+    minio:
+      hostname: minio.kubeflow-aws.com
+      minio_bucket: kubeflow-minio-test
     monitoring: {}
     mysql:
       backup_bucket: kubeflow-mysql-percona
