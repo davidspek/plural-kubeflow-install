@@ -76,5 +76,5 @@ step "bounce" {
     "bootstrap",
   ]
 
-  sha = "h1:RebRrCCWXWq+0H+zhtmGsG9by8zxt7zVEbVtuSGSdhM="
+  sha = "h1:oFtfpRsf0NJ1QaKlGKG4OufkxDWEA4aNjebrVkUYKR8="
 }
