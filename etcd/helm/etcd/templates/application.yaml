@@ -22,7 +22,7 @@ spec:
     kind: Job
   descriptor:
     type: etcd
-    version: 0.1.9
+    version: 0.1.10
     description: a strongly consistent, distributed key-value
     icons:
     - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/9eb21fe4-f891-4170-a535-a0eb8ac28352/etcd-logo.png?v=63797889196
