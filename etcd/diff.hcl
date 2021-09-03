@@ -36,7 +36,7 @@ step "kube-init" {
     "etcd",
   ]
 
-  sha = "df00c85597857212032a4ca60256d46f72cb024aad5b7b276d5104a3747ae2f5"
+  sha = "f929274ae5dc1b8501a7a534076318687409a3bd7b2f78be7cb23b54e9381c44"
 }
 
 step "helm" {
@@ -50,5 +50,5 @@ step "helm" {
     "etcd",
   ]
 
-  sha = "h1:29Y1ISPPGr4bhJHijuVTffV2UtIYTGbJB+98/ZezmYQ="
+  sha = "h1:loPwnPi04nE8K44Pigrdruk0HpRbDIsyMqR3cOEmgo8="
 }
