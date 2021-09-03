@@ -45,7 +45,6 @@ module "aws-bootstrap" {
 
 
   vpc_name = "kubeflow-dev-vpc"
-  dns_domain = "kubeflow-aws.com"
   cluster_name = "kubeflow-dev"
   
   map_roles = [
