@@ -1,6 +1,6 @@
 dependencies:
 - name: etcd
   repository: cm://app.plural.sh/cm/etcd
-  version: 0.1.11
-digest: sha256:d82b89c0f6062a90a43197342c7c215724dae94a2faf5675365d4187f0cb5074
-generated: "2021-09-03T15:27:10.32222155Z"
+  version: 0.1.12
+digest: sha256:329160ea402047ab1930e1d91938cedec116e481bcf0488c1882accf629eec53
+generated: "2021-09-03T15:57:10.372713096Z"
