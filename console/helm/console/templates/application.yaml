@@ -25,7 +25,7 @@ spec:
     version: 0.5.45
     description: plural admin console
     icons:
-    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/4d9e07ec-fd50-4bc2-80c5-55a8e29c8997/console-logo.png?v=63791948433
+    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/4d9e07ec-fd50-4bc2-80c5-55a8e29c8997/console-logo.png?v=63798168654
     
-    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/4d9e07ec-fd50-4bc2-80c5-55a8e29c8997/console-white.png?v=63791948433
+    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/4d9e07ec-fd50-4bc2-80c5-55a8e29c8997/console-white.png?v=63798168654
     
