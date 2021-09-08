@@ -22,7 +22,7 @@ spec:
     kind: Job
   descriptor:
     type: minio
-    version: 0.1.30
+    version: 0.1.33
     description: High Performance, Kubernetes Native Object Storage
     icons:
     - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/20067709-663b-4100-9f18-e213cdf4f165/minio.png?v=63797713959

@@ -1,6 +1,6 @@
 dependencies:
 - name: minio
   repository: cm://app.plural.sh/cm/minio
-  version: 0.1.30
-digest: sha256:4bcebfd6658bd73783c20e87f25e98c80fd3d5f4a315d2b14df343f77508cc25
-generated: "2021-09-07T02:41:16.379709332Z"
+  version: 0.1.33
+digest: sha256:3cc40abefd021faeaa0d1076a08de5314a7d81bdc7275a5abf40d0c234a742a8
+generated: "2021-09-08T10:59:12.665071595Z"
