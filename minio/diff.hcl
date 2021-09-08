@@ -50,5 +50,5 @@ step "helm" {
     "minio",
   ]
 
-  sha = "h1:pA984A4PPqQwI5LpzcsTFSu8iIqsNGG3O2CJK6jDQKY="
+  sha = "h1:j0tZ6Zt8+vynnlvxnTTPqK4KB4cWdlCaJQekxKewy+g="
 }
