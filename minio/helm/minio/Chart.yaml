@@ -2,8 +2,8 @@ apiVersion: v2
 name: minio
 description: A helm chart for minio
 version: 0.1.0
-appVersion: 0.1.36
+appVersion: 0.1.38
 dependencies:
 - name: minio
-  version: 0.1.36
+  version: 0.1.38
   repository: cm://app.plural.sh/cm/minio
