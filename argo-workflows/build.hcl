@@ -26,6 +26,6 @@ scaffold "helm" {
       "update",
     ]
 
-    sha = "c1233a67a8353c075f9bc3e57b605dc6c27afce31327aacf99311e65385c75bd"
+    sha = "6122653e79e97fba8229a141d73aceca5933b79c39e9c7a1c1633ebad0b1e1b3"
   }
 }
