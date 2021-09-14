@@ -48,7 +48,7 @@ step "kube-init" {
     "kube-init",
   ]
 
-  sha = "36f6ef3e145484daf9d5774fc91af6f37a86ddb588a21cf4ad5b35538a5d48d7"
+  sha = "048522255039abb6116668d56f4d73b704f6fe07e1b44b446eaaf747b6510cdb"
 }
 
 step "crds" {
@@ -76,5 +76,5 @@ step "bounce" {
     "argo-workflows",
   ]
 
-  sha = "h1:bp5m2siWUTyH7+yKiHYOmtP6dd+800R5dHWEMDe5TQE="
+  sha = "h1:me1uOFTHIKMLw4MB4AC3y/j4GiS191MHvAY6o6JVCHo="
 }
