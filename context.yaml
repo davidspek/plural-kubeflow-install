@@ -36,6 +36,8 @@ spec:
     name: nextcloud-aws
   - repository: minio
     name: minio-aws
+  - repository: argo-workflows
+    name: argo-workflows-aws
   configuration:
     argo-cd:
       adminGroup: publishers
@@ -45,6 +47,9 @@ spec:
       hostname: argocd.kubeflow-aws.com
       privateRepoName: marketing-website
       privateRepoURL: https://gitlab.plural.sh/plural/internal/marketing-website.git
+    argo-workflows:
+      hostname: argo-workflow.kubeflow-aws.com
+      workflowBucket: kubeflow-dev-argo-workflow
     bootstrap:
       dns_domain: kubeflow-aws.com
       grafana_dns: grafana.kubeflow-aws.com

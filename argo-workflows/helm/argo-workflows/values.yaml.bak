@@ -1,0 +1,56 @@
+argo-workflows:
+  argo-workflows:
+    server:
+      ingress:
+        annotations:
+          cert-manager.io/cluster-issuer: letsencrypt-prod
+          kubernetes.io/ingress.class: nginx
+          kubernetes.io/tls-acme: "true"
+          nginx.ingress.kubernetes.io/force-ssl-redirect: "true"
+          nginx.ingress.kubernetes.io/use-regex: "true"
+        enabled: true
+        hosts:
+        - argo-workflow.kubeflow-aws.com
+        https: true
+        pathType: Prefix
+        paths:
+        - /
+        tls:
+        - hosts:
+          - argo-workflow.kubeflow-aws.com
+          secretName: argoworkflows-tls
+      securityContext:
+        fsGroup: 65534
+      sso:
+        clientId:
+          key: clientID
+          name: oidc-secret
+        clientSecret:
+          key: clientSecret
+          name: oidc-secret
+        issuer: https://oidc.plural.sh/
+        rbac:
+          enabled: true
+        redirectUrl: https://argo-workflow.kubeflow-aws.com/oauth2/callback
+        scopes:
+        - openid
+        - profile
+    useStaticCredentials: false
+  artifactRepository:
+    archiveLogs: true
+    s3:
+      bucket: kubeflow-dev-argo-workflow
+      endpoint: s3.amazonaws.com
+      insecure: false
+      keyFormat: '{{workflow.namespace}}/{{workflow.name}}/{{pod.name}}'
+      roleARN: arn:aws:iam::332124921534:role/kubeflow-dev-argo-workflows
+      useSDKCreds: true
+  oidcSecret:
+    clientID: b27dd7b2-d73d-4cda-a15e-51f2944e1cc6
+    clientSecret: Fs7JH4M~eGX3ev2vWEcU48KOIB
+  serviceAccount:
+    annotations:
+      eks.amazonaws.com/role-arn: arn:aws:iam::332124921534:role/kubeflow-dev-argo-workflows
+      workflows.argoproj.io/rbac-rule: '''david@plural.sh'' in sub'
+      workflows.argoproj.io/rbac-rule-precedence: "1"
+    create: true
