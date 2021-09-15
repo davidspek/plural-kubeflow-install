@@ -8,7 +8,7 @@ step "terraform-init" {
   target  = "argo-workflows/terraform"
   command = "terraform"
   args    = ["init"]
-  sha     = "h1:CzQlO89AV8e647sA0qi/nIHDEFNAUHApQKyI92cM0ug="
+  sha     = "h1:Jm6EvSaP2QeeCw5s/7F3xBBfIO4GI371mzOXjJ7/Smw="
 }
 
 step "terraform-apply" {
@@ -21,7 +21,7 @@ step "terraform-apply" {
     "-auto-approve",
   ]
 
-  sha = "h1:CzQlO89AV8e647sA0qi/nIHDEFNAUHApQKyI92cM0ug="
+  sha = "h1:Jm6EvSaP2QeeCw5s/7F3xBBfIO4GI371mzOXjJ7/Smw="
 }
 
 step "terraform-output" {
@@ -35,7 +35,7 @@ step "terraform-output" {
     "argo-workflows",
   ]
 
-  sha = "h1:CzQlO89AV8e647sA0qi/nIHDEFNAUHApQKyI92cM0ug="
+  sha = "h1:Jm6EvSaP2QeeCw5s/7F3xBBfIO4GI371mzOXjJ7/Smw="
 }
 
 step "kube-init" {
@@ -48,7 +48,7 @@ step "kube-init" {
     "kube-init",
   ]
 
-  sha = "b298be237c80ec442cc0690e098f1feadef6f2341165997cf31b9221dd467b28"
+  sha = "2368340024be68d88b6831cfc883d5294a3690fdcb7ebf29e698fe82557e5ebb"
 }
 
 step "crds" {
