@@ -25,5 +25,5 @@ spec:
     version: 0.2.2
     description: open source metrics visualization
     icons:
-    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/2783a06b-8317-4998-8c5d-18bcdc2a3c6c/grafana.png?v=63800591959
+    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/2783a06b-8317-4998-8c5d-18bcdc2a3c6c/grafana.png?v=63800927855
     
