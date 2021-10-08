@@ -38,7 +38,7 @@ step "kube-init" {
     "argo-workflows",
   ]
 
-  sha     = "8082ffb2401563f226c2924395cf122ba0e34a73ca89efc89b31356cf51e51a8"
+  sha     = "623cbda3b6e90863fda96d96cbfe80774d65cf7e7c77ea4ad077947a94d58378"
   retries = 0
 }
 
