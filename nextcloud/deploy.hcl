@@ -8,7 +8,8 @@ step "terraform-init" {
   target  = "nextcloud/terraform"
   command = "terraform"
   args    = ["init"]
-  sha     = "h1:VwkRSmWvxz3ABUQ223UW/pDI+i1AP51rsJxIpJRZDro="
+  sha     = "h1:Gtwc9k32ifaq7qZdmD5i/hT147zBQS++mFeUCd2nHQw="
+  retries = 0
 }
 
 step "terraform-apply" {
@@ -21,7 +22,8 @@ step "terraform-apply" {
     "-auto-approve",
   ]
 
-  sha = "h1:VwkRSmWvxz3ABUQ223UW/pDI+i1AP51rsJxIpJRZDro="
+  sha     = "h1:Gtwc9k32ifaq7qZdmD5i/hT147zBQS++mFeUCd2nHQw="
+  retries = 1
 }
 
 step "terraform-output" {
@@ -35,7 +37,8 @@ step "terraform-output" {
     "nextcloud",
   ]
 
-  sha = "h1:VwkRSmWvxz3ABUQ223UW/pDI+i1AP51rsJxIpJRZDro="
+  sha     = "h1:Gtwc9k32ifaq7qZdmD5i/hT147zBQS++mFeUCd2nHQw="
+  retries = 0
 }
 
 step "kube-init" {
@@ -48,7 +51,8 @@ step "kube-init" {
     "kube-init",
   ]
 
-  sha = "8982eaac9517d66c33b820ce6c0f15bcd291c785801819425ad11690671066e5"
+  sha     = "7a74a206db25adc7a5e120e49f1789c92a9edab8d88fded716663e40261bcc55"
+  retries = 0
 }
 
 step "crds" {
@@ -62,7 +66,8 @@ step "crds" {
     "nextcloud",
   ]
 
-  sha = "h1:47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+  sha     = "h1:47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+  retries = 0
 }
 
 step "bounce" {
@@ -76,5 +81,6 @@ step "bounce" {
     "nextcloud",
   ]
 
-  sha = "h1:MN9ZOxpPnp7g5wDenX/heJlsTiF1KEaUqN+WQHgNE5E="
+  sha     = "h1:jLB5bMX2q90MNzwERzpQvLKSfAmF2lCbgZAgzzUB5Cs="
+  retries = 0
 }

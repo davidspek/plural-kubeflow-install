@@ -4,8 +4,7 @@ metadata:
   name: monitoring
 spec:
   selector:
-    matchLabels:
-      app.kubernetes.io/managed-by: Helm
+    matchLabels: {}
   componentKinds:
   - group: v1
     kind: Service
@@ -23,8 +22,8 @@ spec:
     kind: Job
   descriptor:
     type: monitoring
-    version: 0.1.20
-    description: deploy the open metrics suite to monitor your applications
+    version: 0.1.46
+    description: openmetrics suite for plural
     icons:
-    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/1ed5c2be-9d60-43db-b757-ee289e6524f6/[removal.ai]_tmp-60e4f98cbf90e.png?v=63792838055
+    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/1ed5c2be-9d60-43db-b757-ee289e6524f6/monitoring.png?v=63800427390
     

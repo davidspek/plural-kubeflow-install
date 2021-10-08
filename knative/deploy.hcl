@@ -8,7 +8,8 @@ step "terraform-init" {
   target  = "knative/terraform"
   command = "terraform"
   args    = ["init"]
-  sha     = "h1:Q10b2oSQyLZ0RIRchjit+Ofd8kSAMzJ6FctQg2+ANzI="
+  sha     = "h1:M4vi+qex1p3Zub7gGY/howM6VuQ85e8XbPPa9MfdckM="
+  retries = 0
 }
 
 step "terraform-apply" {
@@ -21,7 +22,8 @@ step "terraform-apply" {
     "-auto-approve",
   ]
 
-  sha = "h1:Q10b2oSQyLZ0RIRchjit+Ofd8kSAMzJ6FctQg2+ANzI="
+  sha     = "h1:M4vi+qex1p3Zub7gGY/howM6VuQ85e8XbPPa9MfdckM="
+  retries = 1
 }
 
 step "terraform-output" {
@@ -35,7 +37,8 @@ step "terraform-output" {
     "knative",
   ]
 
-  sha = "h1:Q10b2oSQyLZ0RIRchjit+Ofd8kSAMzJ6FctQg2+ANzI="
+  sha     = "h1:M4vi+qex1p3Zub7gGY/howM6VuQ85e8XbPPa9MfdckM="
+  retries = 0
 }
 
 step "kube-init" {
@@ -48,7 +51,8 @@ step "kube-init" {
     "kube-init",
   ]
 
-  sha = "7e8383a18c89ed9f9c3d1ac4e3fd38da709f6e3b286c1bbf4f2598cbb94fbd84"
+  sha     = "1b8b80738ff9b90149d3f396b9d773a435ca8b4dcb2c07be526e42c5770e9014"
+  retries = 0
 }
 
 step "crds" {
@@ -62,7 +66,8 @@ step "crds" {
     "knative",
   ]
 
-  sha = "h1:s8JMuUzcwBd9InBgKkeHP467cORHWvP4P/hu+Oh7fVI="
+  sha     = "h1:or38XWULSBe79YhL1TAgy+gr5mxJyPfJh4r1Wv5/lsg="
+  retries = 0
 }
 
 step "bounce" {
@@ -76,5 +81,6 @@ step "bounce" {
     "knative",
   ]
 
-  sha = "h1:vpGq6WngMdfLbuXJ4c8fuHBQQP2sCDXZCD2ugk2yHCo="
+  sha     = "h1:J/U68tKCZ0IwJ3iFyXy7Y/d/PHIpbsXPMQT/dT6pm/I="
+  retries = 0
 }

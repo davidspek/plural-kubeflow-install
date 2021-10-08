@@ -19,11 +19,3 @@ spec:
             region: us-east-2
             secretAccessKeySecretRef:
               name: ''
----
-apiVersion: v1
-kind: Secret
-metadata:
-  name: zerossl-eabsecret
-type: Opaque
-data:
-  value: {{ .Values.zeroSSLKey | b64enc | quote }}

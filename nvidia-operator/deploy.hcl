@@ -8,7 +8,8 @@ step "terraform-init" {
   target  = "nvidia-operator/terraform"
   command = "terraform"
   args    = ["init"]
-  sha     = "h1:G9deUA4HeS1qnSiOCYFrzAXP3XhoKIjUsB3C2Niz3kU="
+  sha     = "h1:8pVbSfLmXDW0YItBuARWnNBieDBYLsRlTwV6V2XRRjQ="
+  retries = 0
 }
 
 step "terraform-apply" {
@@ -21,7 +22,8 @@ step "terraform-apply" {
     "-auto-approve",
   ]
 
-  sha = "h1:G9deUA4HeS1qnSiOCYFrzAXP3XhoKIjUsB3C2Niz3kU="
+  sha     = "h1:8pVbSfLmXDW0YItBuARWnNBieDBYLsRlTwV6V2XRRjQ="
+  retries = 1
 }
 
 step "terraform-output" {
@@ -35,7 +37,8 @@ step "terraform-output" {
     "nvidia-operator",
   ]
 
-  sha = "h1:G9deUA4HeS1qnSiOCYFrzAXP3XhoKIjUsB3C2Niz3kU="
+  sha     = "h1:8pVbSfLmXDW0YItBuARWnNBieDBYLsRlTwV6V2XRRjQ="
+  retries = 0
 }
 
 step "kube-init" {
@@ -48,7 +51,8 @@ step "kube-init" {
     "kube-init",
   ]
 
-  sha = "fe0ac1ff33b25e59c47481e4585bc63587d5fdc49133baef840e0c8e203edac3"
+  sha     = "9602f6e1c743383c1cfdb174fa3f6e3a9887d1915791030a11fa06e164c355e9"
+  retries = 0
 }
 
 step "crds" {
@@ -62,7 +66,8 @@ step "crds" {
     "nvidia-operator",
   ]
 
-  sha = "h1:hEajuUG/qDLGzXeB88VnlXSSlSXcYLJdMevhlQLB8oM="
+  sha     = "h1:hEajuUG/qDLGzXeB88VnlXSSlSXcYLJdMevhlQLB8oM="
+  retries = 0
 }
 
 step "bounce" {
@@ -76,5 +81,6 @@ step "bounce" {
     "nvidia-operator",
   ]
 
-  sha = "h1:+OEZOIXWgyp63i0M+AqBR3F8ldp5UNtXiNw2yqUjI8g="
+  sha     = "h1:+OEZOIXWgyp63i0M+AqBR3F8ldp5UNtXiNw2yqUjI8g="
+  retries = 0
 }

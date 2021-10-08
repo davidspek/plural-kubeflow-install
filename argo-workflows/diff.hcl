@@ -9,6 +9,7 @@ step "terraform-init" {
   command = "terraform"
   args    = ["init"]
   sha     = ""
+  retries = 0
 }
 
 step "terraform" {
@@ -22,7 +23,8 @@ step "terraform" {
     "argo-workflows",
   ]
 
-  sha = ""
+  sha     = ""
+  retries = 0
 }
 
 step "kube-init" {
@@ -36,7 +38,8 @@ step "kube-init" {
     "argo-workflows",
   ]
 
-  sha = ""
+  sha     = ""
+  retries = 0
 }
 
 step "helm" {
@@ -50,5 +53,6 @@ step "helm" {
     "argo-workflows",
   ]
 
-  sha = ""
+  sha     = ""
+  retries = 0
 }

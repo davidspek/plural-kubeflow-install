@@ -9,6 +9,7 @@ step "terraform-init" {
   command = "terraform"
   args    = ["init"]
   sha     = "h1:5+Rb3JgtjEac6GuyF4JLaWzGZ4MN0ZxnzuBlDfl0K/c="
+  retries = 0
 }
 
 step "terraform" {
@@ -22,7 +23,8 @@ step "terraform" {
     "crossplane",
   ]
 
-  sha = "h1:5+Rb3JgtjEac6GuyF4JLaWzGZ4MN0ZxnzuBlDfl0K/c="
+  sha     = "h1:5+Rb3JgtjEac6GuyF4JLaWzGZ4MN0ZxnzuBlDfl0K/c="
+  retries = 0
 }
 
 step "kube-init" {
@@ -36,7 +38,8 @@ step "kube-init" {
     "crossplane",
   ]
 
-  sha = "a3e3e5b379cafd027d06e042ced119929dcff0531c20951e9657d2a15a195a88"
+  sha     = "a3e3e5b379cafd027d06e042ced119929dcff0531c20951e9657d2a15a195a88"
+  retries = 0
 }
 
 step "helm" {
@@ -50,5 +53,6 @@ step "helm" {
     "crossplane",
   ]
 
-  sha = "h1:YeE4sW9aRhDSwAKIG4KGRB4fFyt2HDRPAIU+ppiL5vg="
+  sha     = "h1:YeE4sW9aRhDSwAKIG4KGRB4fFyt2HDRPAIU+ppiL5vg="
+  retries = 0
 }

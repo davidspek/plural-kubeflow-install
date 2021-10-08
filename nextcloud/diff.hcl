@@ -9,6 +9,7 @@ step "terraform-init" {
   command = "terraform"
   args    = ["init"]
   sha     = "h1:VwkRSmWvxz3ABUQ223UW/pDI+i1AP51rsJxIpJRZDro="
+  retries = 0
 }
 
 step "terraform" {
@@ -22,7 +23,8 @@ step "terraform" {
     "nextcloud",
   ]
 
-  sha = "h1:VwkRSmWvxz3ABUQ223UW/pDI+i1AP51rsJxIpJRZDro="
+  sha     = "h1:VwkRSmWvxz3ABUQ223UW/pDI+i1AP51rsJxIpJRZDro="
+  retries = 0
 }
 
 step "kube-init" {
@@ -36,7 +38,8 @@ step "kube-init" {
     "nextcloud",
   ]
 
-  sha = "8982eaac9517d66c33b820ce6c0f15bcd291c785801819425ad11690671066e5"
+  sha     = "8982eaac9517d66c33b820ce6c0f15bcd291c785801819425ad11690671066e5"
+  retries = 0
 }
 
 step "helm" {
@@ -50,5 +53,6 @@ step "helm" {
     "nextcloud",
   ]
 
-  sha = "h1:MN9ZOxpPnp7g5wDenX/heJlsTiF1KEaUqN+WQHgNE5E="
+  sha     = "h1:MN9ZOxpPnp7g5wDenX/heJlsTiF1KEaUqN+WQHgNE5E="
+  retries = 0
 }

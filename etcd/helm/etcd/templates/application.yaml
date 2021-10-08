@@ -23,7 +23,7 @@ spec:
   descriptor:
     type: etcd
     version: 0.1.13
-    description: a strongly consistent, distributed key-value
+    description: a strongly consistent, distributed key-value store
     icons:
-    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/9eb21fe4-f891-4170-a535-a0eb8ac28352/etcd-logo.png?v=63797889196
+    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/9eb21fe4-f891-4170-a535-a0eb8ac28352/etcd-logo.png?v=63798754145
     

@@ -1,19 +1,19 @@
 terraform {
-	backend "s3" {
-		bucket = "kubeflow-dev-tf-state"
-		key = "kubeflow-dev/monitoring/terraform.tfstate"
-		region = "us-east-2"
-	}
+  backend "s3" {
+    bucket = "kubeflow-dev-tf-state"
+    key = "kubeflow-dev/monitoring/terraform.tfstate"
+    region = "us-east-2"
+  }
 
-	required_providers {
+  required_providers {
     aws = {
       source  = "hashicorp/aws"
-      version = "~> 3.36.0"
+      version = "~> 3.55.0"
     }
-		kubernetes = {
-			source  = "hashicorp/kubernetes"
-			version = "~> 2.0.3"
-		}
+    kubernetes = {
+      source  = "hashicorp/kubernetes"
+      version = "~> 2.0.3"
+    }
   }
 }
 

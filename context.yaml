@@ -38,6 +38,12 @@ spec:
     name: minio-aws
   - repository: argo-workflows
     name: argo-workflows-aws
+  - repository: bootstrap
+    name: aws-k8s
+  - repository: grafana-tempo
+    name: grafana-tempo-aws
+  - repository: sentry
+    name: aws-sentry
   configuration:
     argo-cd:
       adminGroup: publishers
@@ -78,9 +84,14 @@ spec:
     goldilocks: {}
     grafana:
       hostname: grafana.kubeflow-aws.com
+    grafana-tempo:
+      tempoBucket: kubeflow-dev-tempo
+    ingress-nginx: {}
     istio:
       istio_namespace: istio-system
+      kialiHostname: kiali.kubeflow-aws.com
       operator_namespace: istio-operator
+    kafka: {}
     knative: {}
     kubecost: {}
     kubeflow:
@@ -104,4 +115,9 @@ spec:
       user_id_claim: email
     postgres:
       wal_bucket: kubeflow-dev-postgres
+    rabbitmq: {}
     redis: {}
+    sentry:
+      adminEmail: david@plural.sh
+      filestoreBucket: kubeflow-dev-sentry
+      hostname: sentry.kubeflow-aws.com

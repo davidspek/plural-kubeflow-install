@@ -1,9 +1,0 @@
-apiVersion: v2
-name: argo-cd
-description: A helm chart for argo-cd
-version: 0.1.0
-appVersion: 0.1.24
-dependencies:
-- name: argo-cd
-  version: 0.1.24
-  repository: cm://app.plural.sh/cm/argo-cd

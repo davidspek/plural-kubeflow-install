@@ -8,7 +8,8 @@ step "terraform-init" {
   target  = "goldilocks/terraform"
   command = "terraform"
   args    = ["init"]
-  sha     = "h1:T1lS6Tn3thjxpyeF2M8MqjWEP7VrXQtSj8uylAmiIyw="
+  sha     = "h1:+TZo65XRt3B8kXRUwh845mvDWfj1xNDSQl+4U1aM/4A="
+  retries = 0
 }
 
 step "terraform-apply" {
@@ -21,7 +22,8 @@ step "terraform-apply" {
     "-auto-approve",
   ]
 
-  sha = "h1:T1lS6Tn3thjxpyeF2M8MqjWEP7VrXQtSj8uylAmiIyw="
+  sha     = "h1:+TZo65XRt3B8kXRUwh845mvDWfj1xNDSQl+4U1aM/4A="
+  retries = 1
 }
 
 step "terraform-output" {
@@ -35,7 +37,8 @@ step "terraform-output" {
     "goldilocks",
   ]
 
-  sha = "h1:T1lS6Tn3thjxpyeF2M8MqjWEP7VrXQtSj8uylAmiIyw="
+  sha     = "h1:+TZo65XRt3B8kXRUwh845mvDWfj1xNDSQl+4U1aM/4A="
+  retries = 0
 }
 
 step "kube-init" {
@@ -48,7 +51,8 @@ step "kube-init" {
     "kube-init",
   ]
 
-  sha = "0c2855ff0619bbd480f5032b8ffc7010a31b502a73f50a5f7006ce8544f5a27e"
+  sha     = "13a1d097e86f6dfcf8172d4f479ec7cbe1136b0feacd43d8eb38506cb20bf7fd"
+  retries = 0
 }
 
 step "crds" {
@@ -62,7 +66,8 @@ step "crds" {
     "goldilocks",
   ]
 
-  sha = "h1:H4a+KYlIqROhiD54T8DO+u8GcPZMGnmdxVjHY5QqobM="
+  sha     = "h1:H4a+KYlIqROhiD54T8DO+u8GcPZMGnmdxVjHY5QqobM="
+  retries = 0
 }
 
 step "bounce" {
@@ -76,5 +81,6 @@ step "bounce" {
     "goldilocks",
   ]
 
-  sha = "h1:aMfhqKvk1YrHFMsN0ID5skNQeOpn6klWyo5N2sZ+4WM="
+  sha     = "h1:mspxWy9KVcn5UMjhaJYl+v+nqt6s/TUHP7ZPInDlsPg="
+  retries = 0
 }
