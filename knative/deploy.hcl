@@ -7,7 +7,12 @@ step "terraform-init" {
   wkdir   = "knative/terraform"
   target  = "knative/terraform"
   command = "terraform"
-  args    = ["init"]
+
+  args = [
+    "init",
+    "-upgrade",
+  ]
+
   sha     = "h1:M4vi+qex1p3Zub7gGY/howM6VuQ85e8XbPPa9MfdckM="
   retries = 0
 }
@@ -51,7 +56,7 @@ step "kube-init" {
     "kube-init",
   ]
 
-  sha     = "1b8b80738ff9b90149d3f396b9d773a435ca8b4dcb2c07be526e42c5770e9014"
+  sha     = "7d2cea195418c89a5926ab149b87baebf183bdb95e8927eabae4f3bddade5563"
   retries = 0
 }
 
@@ -82,5 +87,5 @@ step "bounce" {
   ]
 
   sha     = "h1:J/U68tKCZ0IwJ3iFyXy7Y/d/PHIpbsXPMQT/dT6pm/I="
-  retries = 0
+  retries = 1
 }

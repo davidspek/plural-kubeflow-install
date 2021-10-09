@@ -8,7 +8,7 @@ step "terraform-init" {
   target  = "knative/terraform"
   command = "terraform"
   args    = ["init"]
-  sha     = ""
+  sha     = "h1:M4vi+qex1p3Zub7gGY/howM6VuQ85e8XbPPa9MfdckM="
   retries = 0
 }
 
@@ -23,7 +23,7 @@ step "terraform" {
     "knative",
   ]
 
-  sha     = ""
+  sha     = "h1:M4vi+qex1p3Zub7gGY/howM6VuQ85e8XbPPa9MfdckM="
   retries = 0
 }
 
@@ -38,7 +38,7 @@ step "kube-init" {
     "knative",
   ]
 
-  sha     = ""
+  sha     = "7d2cea195418c89a5926ab149b87baebf183bdb95e8927eabae4f3bddade5563"
   retries = 0
 }
 
@@ -53,6 +53,6 @@ step "helm" {
     "knative",
   ]
 
-  sha     = ""
+  sha     = "h1:J/U68tKCZ0IwJ3iFyXy7Y/d/PHIpbsXPMQT/dT6pm/I="
   retries = 0
 }
