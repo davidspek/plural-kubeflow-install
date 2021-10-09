@@ -38,7 +38,7 @@ step "kube-init" {
     "grafana-tempo",
   ]
 
-  sha     = "73ba87e8982700f5ffb22e497ac30caa39e0d44565346439379500756bfdb053"
+  sha     = "b531c64008a7b742be05a1c30dae4fbb97378dc577689c6b1ccaa47931677f0c"
   retries = 0
 }
 
