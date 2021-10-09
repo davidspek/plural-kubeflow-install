@@ -7,7 +7,12 @@ step "terraform-init" {
   wkdir   = "grafana-tempo/terraform"
   target  = "grafana-tempo/terraform"
   command = "terraform"
-  args    = ["init"]
+
+  args = [
+    "init",
+    "-upgrade",
+  ]
+
   sha     = "h1:vvkchEznI3mVEE78mMhrgv//kQs+/DYT8k1eaHm0PQY="
   retries = 0
 }
@@ -51,7 +56,7 @@ step "kube-init" {
     "kube-init",
   ]
 
-  sha     = "075fbb7deb5f80dc0a4164610385a3d7a094515b0a4645e10b9f31233ae92d90"
+  sha     = "e5f454cc3d37f0858e1ed050717a0a21dd6e707bc076de133755ef14386c613b"
   retries = 0
 }
 
