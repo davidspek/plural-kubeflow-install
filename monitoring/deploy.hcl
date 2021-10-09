@@ -8,7 +8,7 @@ step "terraform-init" {
   target  = "monitoring/terraform"
   command = "terraform"
   args    = ["init"]
-  sha     = "h1:vffMum4LrKYbYyzKLQEgHMhqITe2RJT+szM2lPjTVE0="
+  sha     = "h1:gWN+wMe/RvaE/MZaU7f400bzVWewH+rDzewPOLUw9aQ="
   retries = 0
 }
 
@@ -22,7 +22,7 @@ step "terraform-apply" {
     "-auto-approve",
   ]
 
-  sha     = "h1:vffMum4LrKYbYyzKLQEgHMhqITe2RJT+szM2lPjTVE0="
+  sha     = "h1:gWN+wMe/RvaE/MZaU7f400bzVWewH+rDzewPOLUw9aQ="
   retries = 1
 }
 
@@ -37,7 +37,7 @@ step "terraform-output" {
     "monitoring",
   ]
 
-  sha     = "h1:vffMum4LrKYbYyzKLQEgHMhqITe2RJT+szM2lPjTVE0="
+  sha     = "h1:gWN+wMe/RvaE/MZaU7f400bzVWewH+rDzewPOLUw9aQ="
   retries = 0
 }
 
