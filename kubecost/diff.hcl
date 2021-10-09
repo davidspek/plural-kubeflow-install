@@ -38,7 +38,7 @@ step "kube-init" {
     "kubecost",
   ]
 
-  sha     = "06b68f926572883572e18019b90ec47c097096cc155d406dfb138c1242a5129c"
+  sha     = "d2a25be4b5266c29932ac7363c9f682fe4cab9f5c63d2bace304c38e53cb0a22"
   retries = 0
 }
 
