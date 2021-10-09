@@ -38,7 +38,7 @@ step "kube-init" {
     "knative",
   ]
 
-  sha     = "fc8868c06ea41e0b7d093679ee19e35369c417094b8e065d8b25b1c96ff2b372"
+  sha     = "eb9803c445920c8373c09f22108fba17eee6de76830d81423d250ffc0eb98e45"
   retries = 0
 }
 
