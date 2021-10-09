@@ -7,7 +7,12 @@ step "terraform-init" {
   wkdir   = "oauth2-proxy/terraform"
   target  = "oauth2-proxy/terraform"
   command = "terraform"
-  args    = ["init"]
+
+  args = [
+    "init",
+    "-upgrade",
+  ]
+
   sha     = "h1:QozGstgyqWdcdaCrupVzrRPz6KoDqKsMJtxk1okCfLY="
   retries = 0
 }
@@ -51,7 +56,7 @@ step "kube-init" {
     "kube-init",
   ]
 
-  sha     = "88e80d43ff26fd6f96cb3479b292615a7bba86e8548f940674f75dc04e431acd"
+  sha     = "91a6abe0e52c7d0a1bdc0273aa42922f7b5326ab7c910989507ef4f067681645"
   retries = 0
 }
 
