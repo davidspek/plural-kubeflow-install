@@ -38,7 +38,7 @@ step "kube-init" {
     "kubeflow",
   ]
 
-  sha     = "e0a0e6b7c660dc546c4013ab963618ccf8b05ea0dd9af9a68b794918823df7dc"
+  sha     = "82960d02fc8cf5850ca0cea08c3888465e259be6550bc940c93e9d5fadac2d4f"
   retries = 0
 }
 
