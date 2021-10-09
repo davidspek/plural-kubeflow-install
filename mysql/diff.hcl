@@ -8,7 +8,7 @@ step "terraform-init" {
   target  = "mysql/terraform"
   command = "terraform"
   args    = ["init"]
-  sha     = "h1:B4GBhQaRdoxV3jvk7zIQrFXtJqhT/XAmJCSu8YebkuU="
+  sha     = "h1:eZD4yHxAR8A5M/fUTYyBOQuuhUh8qo6RyYEHR8sz3J0="
   retries = 0
 }
 
@@ -23,7 +23,7 @@ step "terraform" {
     "mysql",
   ]
 
-  sha     = "h1:B4GBhQaRdoxV3jvk7zIQrFXtJqhT/XAmJCSu8YebkuU="
+  sha     = "h1:eZD4yHxAR8A5M/fUTYyBOQuuhUh8qo6RyYEHR8sz3J0="
   retries = 0
 }
 
@@ -38,7 +38,7 @@ step "kube-init" {
     "mysql",
   ]
 
-  sha     = "e691bee490944914674aaf64d71da1b6225c523d98be61593de856140c3ba174"
+  sha     = "7824bcb94f9a23469b4c178808da55b6f0cd58ac7bddb47a64d385942e95e95d"
   retries = 0
 }
 
@@ -53,6 +53,6 @@ step "helm" {
     "mysql",
   ]
 
-  sha     = "h1:/6eDpxrl3h2ttyuqGZy8gGSzMGGGEYTqO1ZQJhXM1FE="
+  sha     = "h1:BxUinDNjR3uB4Jf9TLACKky4IWke1YH1kMVQ9ddmg4Y="
   retries = 0
 }
