@@ -7,7 +7,12 @@ step "terraform-init" {
   wkdir   = "goldilocks/terraform"
   target  = "goldilocks/terraform"
   command = "terraform"
-  args    = ["init"]
+
+  args = [
+    "init",
+    "-upgrade",
+  ]
+
   sha     = "h1:+TZo65XRt3B8kXRUwh845mvDWfj1xNDSQl+4U1aM/4A="
   retries = 0
 }
@@ -51,7 +56,7 @@ step "kube-init" {
     "kube-init",
   ]
 
-  sha     = "13a1d097e86f6dfcf8172d4f479ec7cbe1136b0feacd43d8eb38506cb20bf7fd"
+  sha     = "550b8410400ab3ed98cba8f7808ef29474126f5ce71924fb0e80f8afdb2bf3ca"
   retries = 0
 }
 
@@ -82,5 +87,5 @@ step "bounce" {
   ]
 
   sha     = "h1:mspxWy9KVcn5UMjhaJYl+v+nqt6s/TUHP7ZPInDlsPg="
-  retries = 0
+  retries = 1
 }

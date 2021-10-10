@@ -7,7 +7,12 @@ step "terraform-init" {
   wkdir   = "nvidia-operator/terraform"
   target  = "nvidia-operator/terraform"
   command = "terraform"
-  args    = ["init"]
+
+  args = [
+    "init",
+    "-upgrade",
+  ]
+
   sha     = "h1:8pVbSfLmXDW0YItBuARWnNBieDBYLsRlTwV6V2XRRjQ="
   retries = 0
 }
@@ -51,7 +56,7 @@ step "kube-init" {
     "kube-init",
   ]
 
-  sha     = "9602f6e1c743383c1cfdb174fa3f6e3a9887d1915791030a11fa06e164c355e9"
+  sha     = "cd86cdc10c359e53951fafeb32b07274154e5b4b76b253fd7b6d4178076c9dda"
   retries = 0
 }
 
@@ -82,5 +87,5 @@ step "bounce" {
   ]
 
   sha     = "h1:+OEZOIXWgyp63i0M+AqBR3F8ldp5UNtXiNw2yqUjI8g="
-  retries = 0
+  retries = 1
 }

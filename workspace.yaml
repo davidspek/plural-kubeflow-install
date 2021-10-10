@@ -8,4 +8,9 @@ spec:
   project: "332124921534"
   provider: aws
   region: us-east-2
+  owner:
+    email: david@plural.sh
+  network:
+    subdomain: something.kubeflow-aws.com
+    pluraldns: false
   context: {}

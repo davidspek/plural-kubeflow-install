@@ -7,7 +7,12 @@ step "terraform-init" {
   wkdir   = "crossplane/terraform"
   target  = "crossplane/terraform"
   command = "terraform"
-  args    = ["init"]
+
+  args = [
+    "init",
+    "-upgrade",
+  ]
+
   sha     = "h1:My0rXvdX/gYPobHKFGRgWt8sZzD5GrwQ4KtBwaXn7UA="
   retries = 0
 }
@@ -51,7 +56,7 @@ step "kube-init" {
     "kube-init",
   ]
 
-  sha     = "dcabaca7456910afe7a9547cd0607a56690f41ff8628c7bbf7a5047c7825950d"
+  sha     = "6fcd917bbb4c65338a72b29b923c2c04ac1e25f3520c5e2346a710b0f2d93d0f"
   retries = 0
 }
 
@@ -82,5 +87,5 @@ step "bounce" {
   ]
 
   sha     = "h1:jyesztvMqv8Gjo2PpnhGu+MBkGtXdDO4hlkCQw7NqiY="
-  retries = 0
+  retries = 1
 }

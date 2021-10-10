@@ -1,9 +1,12 @@
 dependencies:
+- name: azure-identity
+  repository: cm://app.plural.sh/cm/bootstrap
+  version: 0.1.6
 - name: bootstrap
   repository: cm://app.plural.sh/cm/bootstrap
-  version: 0.7.14
+  version: 0.7.17
 - name: plural-certmanager-webhook
   repository: cm://app.plural.sh/cm/bootstrap
   version: 0.1.1
-digest: sha256:8aedd7a6cc8a3df4c1ff92fc1cc7ee1da1fec2f0b5249ded434b1c3a20a1873e
-generated: "2021-10-08T15:09:34.295287187+02:00"
+digest: sha256:92235ce5b7ebc39772b712af651c9bd795da85a5d31b1a1d10dbcf88291512b8
+generated: "2021-10-10T11:31:49.121909316+02:00"

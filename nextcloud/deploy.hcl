@@ -7,7 +7,12 @@ step "terraform-init" {
   wkdir   = "nextcloud/terraform"
   target  = "nextcloud/terraform"
   command = "terraform"
-  args    = ["init"]
+
+  args = [
+    "init",
+    "-upgrade",
+  ]
+
   sha     = "h1:Gtwc9k32ifaq7qZdmD5i/hT147zBQS++mFeUCd2nHQw="
   retries = 0
 }
@@ -51,7 +56,7 @@ step "kube-init" {
     "kube-init",
   ]
 
-  sha     = "7a74a206db25adc7a5e120e49f1789c92a9edab8d88fded716663e40261bcc55"
+  sha     = "69a341ec14e4beff23afd2557989ebc40be801fde276393f05f0c920d4272796"
   retries = 0
 }
 
@@ -81,6 +86,6 @@ step "bounce" {
     "nextcloud",
   ]
 
-  sha     = "h1:jLB5bMX2q90MNzwERzpQvLKSfAmF2lCbgZAgzzUB5Cs="
-  retries = 0
+  sha     = "h1:MN9ZOxpPnp7g5wDenX/heJlsTiF1KEaUqN+WQHgNE5E="
+  retries = 1
 }

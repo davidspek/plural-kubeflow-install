@@ -7,7 +7,12 @@ step "terraform-init" {
   wkdir   = "redis/terraform"
   target  = "redis/terraform"
   command = "terraform"
-  args    = ["init"]
+
+  args = [
+    "init",
+    "-upgrade",
+  ]
+
   sha     = "h1:pmRacuhbGEi4HNT43zMONWbBq/qMToRtJVxJK7/WuRI="
   retries = 0
 }
@@ -51,7 +56,7 @@ step "kube-init" {
     "kube-init",
   ]
 
-  sha     = "1a87a7b77235131965fcd6fdae3370452fdec5172eaf2777c57a1237d987cc75"
+  sha     = "667f233755c5c25b6a01db90b5252996fb6c8ad1b5ac40c6842295fbf993097c"
   retries = 0
 }
 
@@ -82,5 +87,5 @@ step "bounce" {
   ]
 
   sha     = "h1:R8lVrLuS6GagULLcKeRucdYsbtt7Pg+t0penDvsw3vQ="
-  retries = 0
+  retries = 1
 }
