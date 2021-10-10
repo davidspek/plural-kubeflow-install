@@ -1,7 +1,4 @@
 dependencies:
-- name: azure-identity
-  repository: cm://app.plural.sh/cm/bootstrap
-  version: 0.1.6
 - name: bootstrap
   repository: cm://app.plural.sh/cm/bootstrap
   version: 0.7.17
