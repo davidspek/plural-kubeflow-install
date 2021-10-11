@@ -11,5 +11,5 @@ dependencies:
   version: 0.1.1
   repository: cm://app.plural.sh/cm/bootstrap
 - name: efs-csi-driver
-  version: 0.1.3
+  version: 0.1.4
   repository: cm://app.plural.sh/cm/bootstrap
