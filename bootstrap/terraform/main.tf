@@ -67,6 +67,7 @@ module "aws-efs" {
 
 
   cluster_name = module.aws-bootstrap.cluster_name
+  vpc_name = "kubeflow-dev"
   namespace = "bootstrap"
   
 
