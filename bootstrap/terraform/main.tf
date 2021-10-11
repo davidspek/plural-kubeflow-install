@@ -56,3 +56,18 @@ module "aws-bootstrap" {
   ]
 
 }
+
+
+module "aws-efs" {
+  source = "./aws-efs"
+
+### BEGIN MANUAL SECTION <<aws-efs>>
+
+### END MANUAL SECTION <<aws-efs>>
+
+
+  cluster_name = module.aws-bootstrap.cluster_name
+  namespace = "bootstrap"
+  
+
+}
