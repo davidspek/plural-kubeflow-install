@@ -2,12 +2,14 @@ apiVersion: plural.sh/v1alpha1
 kind: Context
 spec:
   bundles:
-  - repository: console
-    name: console-aws
-  - repository: kubeflow
-    name: kubeflow-aws
-  - repository: redis
-    name: aws-redis
+    - name: aws-grafana
+      repository: grafana
+    - name: console-aws
+      repository: console
+    - name: kubeflow-aws
+      repository: kubeflow
+    - name: aws-redis
+      repository: redis
   configuration:
     bootstrap:
       ownerEmail: david@plural.sh
@@ -20,6 +22,8 @@ spec:
       git_email: vanderspek.david@gmail.com
       git_user: DavidSpek
     crossplane: {}
+    grafana:
+      hostname: grafana.kubeflow-aws.com
     grafana-tempo:
       tempoBucket: kubeflow-dev-tempo-tracing
     ingress-nginx: {}
