@@ -101,6 +101,10 @@ resource "aws_eks_node_group" "gpu_small" {
 
   }
 
+  labels = {
+   "nvidia.com/gpu" = "true"
+  }
+
   taint {
     key = "instance"
     value = "DL-gpux"
@@ -135,6 +139,10 @@ resource "aws_eks_node_group" "gpu_small_spot" {
     "k8s.io/cluster-autoscaler/node-template/label/instance" = "DL-spot-gpux"
     "k8s.io/cluster-autoscaler/node-template/taint/instance" = "DL-spot-gpux:NoSchedule"
 
+  }
+
+  labels = {
+   "nvidia.com/gpu" = "true"
   }
 
   taint {
