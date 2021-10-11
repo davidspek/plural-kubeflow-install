@@ -56,7 +56,7 @@ step "kube-init" {
     "kube-init",
   ]
 
-  sha     = "417c951b2a11438abe49a16266c14be2e98cb5ab80b36d934d77a984d45b0db2"
+  sha     = "8fc55561fb0eab5f505e73d0ea230749a89d6d0cac556412b919b4e5ba16c0c1"
   retries = 0
 }
 
@@ -71,7 +71,7 @@ step "crds" {
     "nvidia-operator",
   ]
 
-  sha     = "h1:hEajuUG/qDLGzXeB88VnlXSSlSXcYLJdMevhlQLB8oM="
+  sha     = "h1:2blKLDz++qBHLRzS62oZWipyvmesKkX5jyvElMH0CP0="
   retries = 0
 }
 
@@ -86,6 +86,6 @@ step "bounce" {
     "nvidia-operator",
   ]
 
-  sha     = "h1:r1QVDTpiVpHhZg8Q/3AwJQwLT4MT81HGpQaNkNo+18I="
+  sha     = "h1:/yBxrrJ86LUInN6fZnmlfzu2amkwVD1NpBDr/G525yM="
   retries = 1
 }
