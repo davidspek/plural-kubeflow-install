@@ -1,0 +1,45 @@
+dependencies:
+- name: tensorboards
+  repository: cm://app.plural.sh/cm/kubeflow
+  version: 0.1.5
+- name: volumes
+  repository: cm://app.plural.sh/cm/kubeflow
+  version: 0.1.4
+- name: central-dashboard
+  repository: cm://app.plural.sh/cm/kubeflow
+  version: 0.1.22
+- name: mysql-cluster
+  repository: cm://app.plural.sh/cm/kubeflow
+  version: 0.1.12
+- name: katib
+  repository: cm://app.plural.sh/cm/kubeflow
+  version: 0.1.15
+- name: notebooks
+  repository: cm://app.plural.sh/cm/kubeflow
+  version: 0.1.7
+- name: mpi
+  repository: cm://app.plural.sh/cm/kubeflow
+  version: 0.1.6
+- name: mxnet
+  repository: cm://app.plural.sh/cm/kubeflow
+  version: 0.1.4
+- name: pytorch
+  repository: cm://app.plural.sh/cm/kubeflow
+  version: 0.1.4
+- name: tensorflow
+  repository: cm://app.plural.sh/cm/kubeflow
+  version: 0.1.4
+- name: xgboost
+  repository: cm://app.plural.sh/cm/kubeflow
+  version: 0.1.4
+- name: profile-controller
+  repository: cm://app.plural.sh/cm/kubeflow
+  version: 0.1.27
+- name: pipelines
+  repository: cm://app.plural.sh/cm/kubeflow
+  version: 0.1.81
+- name: serving
+  repository: cm://app.plural.sh/cm/kubeflow
+  version: 0.1.20
+digest: sha256:1b9ab117d0c94ee9362c230706516e0f5e41c7419f0ee7b454a1b862a975d9c4
+generated: "2021-10-11T15:04:08.398279142+02:00"
