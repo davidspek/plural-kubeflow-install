@@ -1,0 +1,7 @@
+apiVersion: plural.sh/v1alpha1
+kind: Output
+metadata:
+  name: bootstrap
+spec:
+  terraform:
+    endpoint: https://50C07702B65D541BF8CA91958886A04A.gr7.us-east-2.eks.amazonaws.com
