@@ -86,6 +86,6 @@ step "bounce" {
     "nvidia-operator",
   ]
 
-  sha     = "h1:9QwXqfVxmQT2gQLUMK4XjwzdP3B3p5nzNGOBq5xo+9U="
+  sha     = "h1:r1QVDTpiVpHhZg8Q/3AwJQwLT4MT81HGpQaNkNo+18I="
   retries = 1
 }
