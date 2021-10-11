@@ -85,7 +85,7 @@ resource "aws_eks_node_group" "gpu_small" {
   subnet_ids      = data.aws_eks_cluster.cluster.vpc_config[0].subnet_ids
   instance_types = var.instance_types_gpu_small
   ami_type = "AL2_x86_64_GPU"
-  release_version = "1.21.2-20210914"
+  release_version = var.ami_release_version
   capacity_type = "ON_DEMAND"
 
   scaling_config {
@@ -126,7 +126,7 @@ resource "aws_eks_node_group" "gpu_small_spot" {
   subnet_ids      = data.aws_eks_cluster.cluster.vpc_config[0].subnet_ids
   instance_types = var.instance_types_gpu_small
   ami_type = "AL2_x86_64_GPU"
-  release_version = "1.21.2-20210914"
+  release_version = var.ami_release_version
   capacity_type = "SPOT"
 
   scaling_config {
@@ -167,7 +167,7 @@ resource "aws_eks_node_group" "spot_small" {
   subnet_ids      = data.aws_eks_cluster.cluster.vpc_config[0].subnet_ids
   instance_types = var.instance_types_small
   ami_type = "AL2_x86_64"
-  release_version = "1.21.2-20210914"
+  release_version = var.ami_release_version
   capacity_type = "SPOT"
 
   scaling_config {
@@ -202,7 +202,7 @@ resource "aws_eks_node_group" "spot_medium" {
   subnet_ids      = data.aws_eks_cluster.cluster.vpc_config[0].subnet_ids
   instance_types = var.instance_types_medium
   ami_type = "AL2_x86_64"
-  release_version = "1.21.2-20210914"
+  release_version = var.ami_release_version
   capacity_type = "SPOT"
 
   scaling_config {
@@ -237,7 +237,7 @@ resource "aws_eks_node_group" "spot_large" {
   subnet_ids      = data.aws_eks_cluster.cluster.vpc_config[0].subnet_ids
   instance_types = var.instance_types_large
   ami_type = "AL2_x86_64"
-  release_version = "1.21.2-20210914"
+  release_version = var.ami_release_version
   capacity_type = "SPOT"
 
   scaling_config {
