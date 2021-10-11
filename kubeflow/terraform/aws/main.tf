@@ -101,9 +101,9 @@ resource "aws_eks_node_group" "gpu_small" {
 
   }
 
-  labels = {
-   "nvidia.com/gpu" = "true"
-  }
+  # labels = {
+  #   "nvidia.com/gpu" = "true"
+  # }
 
   taint {
     key = "instance"
@@ -141,9 +141,9 @@ resource "aws_eks_node_group" "gpu_small_spot" {
 
   }
 
-  labels = {
-   "nvidia.com/gpu" = "true"
-  }
+  # labels = {
+  #   "nvidia.com/gpu" = "true"
+  # }
 
   taint {
     key = "instance"
