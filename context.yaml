@@ -2,16 +2,19 @@ apiVersion: plural.sh/v1alpha1
 kind: Context
 spec:
   bundles:
-    - name: aws-grafana
-      repository: grafana
-    - name: console-aws
-      repository: console
-    - name: kubeflow-aws
-      repository: kubeflow
-    - name: aws-redis
-      repository: redis
+  - repository: grafana
+    name: aws-grafana
+  - repository: console
+    name: console-aws
+  - repository: kubeflow
+    name: kubeflow-aws
+  - repository: redis
+    name: aws-redis
+  - repository: bootstrap
+    name: aws-k8s
   configuration:
     bootstrap:
+      enableSnapshot: true
       ownerEmail: david@plural.sh
       txt_owner: david
       vpc_name: kubeflow-dev

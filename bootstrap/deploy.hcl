@@ -56,7 +56,7 @@ step "kube-init" {
     "kube-init",
   ]
 
-  sha     = "5c313a9b2a4cbd9965051f5d552c95784182e0b5ec5cfc9ae0660448dacbe140"
+  sha     = "acf719eca92954849896f5d6c468743d0b8a49dddfe10dc49be8d226408a1a25"
   retries = 0
 }
 
@@ -71,7 +71,7 @@ step "crds" {
     "bootstrap",
   ]
 
-  sha     = "h1:iQ7W6qI2ks1njRDSnqFmXYywWNGOPd/TPiV0JAFlmeg="
+  sha     = "h1:G1JhoWEkL3JdQoL4L9dFcmkXwUKIZERkUikBeQJf5bI="
   retries = 0
 }
 
@@ -86,6 +86,6 @@ step "bounce" {
     "bootstrap",
   ]
 
-  sha     = "h1:QjVIdfsL94oGjom8R6aQNqaWggbQ0p5aTv2OLTFYuH4="
+  sha     = "h1:wJP0CDqLhS2um4Ur+pVzCZJAPfohFKTpbFRgXDd0O/8="
   retries = 1
 }
