@@ -22,7 +22,7 @@ spec:
     kind: Job
   descriptor:
     type: nvidia-operator
-    version: 0.1.6
+    version: 0.1.7
     description: Everything needed to schedule and monitor NVIDIA GPUs
     icons:
     - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/841eb2e5-f792-4157-9ff0-7c8df1322a77/nvidia-logo-640x640.png?v=63796618921
