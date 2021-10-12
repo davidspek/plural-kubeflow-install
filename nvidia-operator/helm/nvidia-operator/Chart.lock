@@ -1,6 +1,6 @@
 dependencies:
 - name: nvidia-operator
   repository: cm://app.plural.sh/cm/nvidia-operator
-  version: 0.1.5
-digest: sha256:8cadb7be61a410c5c31f287ea12cb9c81538c7b2fddb51b25d23385d10287f1b
-generated: "2021-10-11T20:44:30.901418213+02:00"
+  version: 0.1.6
+digest: sha256:1f1f5a5748e659a7caa9150ec58c2307af603185b94607337b174039f16bfb56
+generated: "2021-10-12T09:32:08.728216559Z"
