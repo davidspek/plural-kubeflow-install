@@ -42,4 +42,4 @@ dependencies:
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.20
 digest: sha256:545d2c5ed9b32ae3408ba4bd1d2db1934250c255671f96125affdff14b165955
-generated: "2021-10-12T18:57:43.106587981+02:00"
+generated: "2021-10-12T19:07:02.209585647+02:00"
