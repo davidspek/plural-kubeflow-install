@@ -1,13 +1,13 @@
 dependencies:
+- name: central-dashboard
+  repository: cm://app.plural.sh/cm/kubeflow
+  version: 0.1.23
 - name: tensorboards
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.5
 - name: volumes
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.4
-- name: central-dashboard
-  repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.22
 - name: mysql-cluster
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.12
@@ -16,7 +16,7 @@ dependencies:
   version: 0.1.15
 - name: notebooks
   repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.7
+  version: 0.1.8
 - name: mpi
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.6
@@ -41,5 +41,5 @@ dependencies:
 - name: serving
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.20
-digest: sha256:1b9ab117d0c94ee9362c230706516e0f5e41c7419f0ee7b454a1b862a975d9c4
-generated: "2021-10-11T21:10:57.998774475+02:00"
+digest: sha256:fdb51f643b61b23b1b957c4a4ded1e0be2bdfc07ac5f61426a9851ae9a565cc5
+generated: "2021-10-12T09:04:55.548811806Z"
