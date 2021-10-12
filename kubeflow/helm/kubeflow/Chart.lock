@@ -16,7 +16,7 @@ dependencies:
   version: 0.1.15
 - name: notebooks
   repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.9
+  version: 0.1.10
 - name: mpi
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.6
@@ -41,5 +41,5 @@ dependencies:
 - name: serving
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.20
-digest: sha256:7a11d390e3e1b2b2b2378a589ca09adc4b36510cf39c932d025bbe5c113d7135
-generated: "2021-10-12T09:54:28.864830534Z"
+digest: sha256:545d2c5ed9b32ae3408ba4bd1d2db1934250c255671f96125affdff14b165955
+generated: "2021-10-12T11:00:33.478586583Z"
