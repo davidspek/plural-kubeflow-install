@@ -2,13 +2,13 @@ apiVersion: v2
 name: bootstrap
 description: A helm chart for bootstrap
 version: 0.1.0
-appVersion: 0.7.22
+appVersion: 0.7.23
 dependencies:
-- name: bootstrap
-  version: 0.7.22
-  repository: cm://app.plural.sh/cm/bootstrap
 - name: plural-certmanager-webhook
   version: 0.1.1
+  repository: cm://app.plural.sh/cm/bootstrap
+- name: bootstrap
+  version: 0.7.23
   repository: cm://app.plural.sh/cm/bootstrap
 - name: efs-csi-driver
   version: 0.1.5
