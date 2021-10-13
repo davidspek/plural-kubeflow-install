@@ -1,12 +1,12 @@
 dependencies:
+- name: bootstrap
+  repository: cm://app.plural.sh/cm/bootstrap
+  version: 0.7.25
 - name: plural-certmanager-webhook
   repository: cm://app.plural.sh/cm/bootstrap
   version: 0.1.1
-- name: bootstrap
-  repository: cm://app.plural.sh/cm/bootstrap
-  version: 0.7.24
 - name: efs-csi-driver
   repository: cm://app.plural.sh/cm/bootstrap
   version: 0.1.5
-digest: sha256:06b2206b7b2d5ca38aee4ababc9bbd10f2bea402c1ee1781b9d15ef766625f5a
-generated: "2021-10-12T18:53:17.718673577+02:00"
+digest: sha256:ed2bcee0bc48db7b3162a21dcb46b065d9a002dd01949e2f8b83bb0537765d55
+generated: "2021-10-13T16:12:13.006933286Z"
