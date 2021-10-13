@@ -12,7 +12,18 @@ spec:
     name: aws-redis
   - repository: bootstrap
     name: aws-k8s
+  - repository: argo-cd
+    name: argo-cd-aws
   configuration:
+    argo-cd:
+      adminGroup: publishers
+      credentialPassword: ""
+      credentialTemplateURL: ""
+      credentialUsername: ""
+      enableImageUpdater: true
+      hostname: argo-cd.kubeflow-aws.com
+      privateRepoName: ""
+      privateRepoURL: ""
     bootstrap:
       enableSnapshot: true
       ownerEmail: david@plural.sh
