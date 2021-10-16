@@ -22,7 +22,7 @@ spec:
     kind: Job
   descriptor:
     type: postgres
-    version: 0.1.31
+    version: 0.1.32
     description: postgres as a service for kubernetes
     icons:
     - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/964f6549-30f1-46c3-ad03-a31166120a5c/postgres.png?v=63798751619
