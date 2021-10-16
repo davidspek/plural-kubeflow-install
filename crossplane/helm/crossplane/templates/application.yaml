@@ -22,7 +22,7 @@ spec:
     kind: Job
   descriptor:
     type: crossplane
-    version: 0.1.5
+    version: 0.1.6
     description: crd based cloud resource deployment
     icons:
     - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/568528e6-371b-4c20-8893-bcfe107aa120/crossplane-removebg-preview.png?v=63793664154
