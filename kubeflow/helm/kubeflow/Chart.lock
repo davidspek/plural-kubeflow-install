@@ -1,7 +1,7 @@
 dependencies:
 - name: central-dashboard
   repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.23
+  version: 0.1.24
 - name: tensorboards
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.5
@@ -41,5 +41,5 @@ dependencies:
 - name: serving
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.20
-digest: sha256:545d2c5ed9b32ae3408ba4bd1d2db1934250c255671f96125affdff14b165955
-generated: "2021-10-12T19:07:02.209585647+02:00"
+digest: sha256:e225115ae65673a508059403fafeb7a6613671c556aa95a02f7356ba836e18a8
+generated: "2021-10-19T14:42:40.341774295Z"
