@@ -4,6 +4,8 @@ spec:
   bundles:
     - name: goldilocks-aws
       repository: goldilocks
+    - name: goldilocks-aws
+      repository: goldilocks
     - name: aws-grafana
       repository: grafana
     - name: console-aws
@@ -38,6 +40,8 @@ spec:
       git_email: vanderspek.david@gmail.com
       git_user: DavidSpek
     crossplane: {}
+    goldilocks:
+      hostname: goldilocks.kubeflow-aws.com
     grafana:
       hostname: grafana.kubeflow-aws.com
     grafana-tempo:
