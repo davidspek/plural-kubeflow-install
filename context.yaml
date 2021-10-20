@@ -2,6 +2,8 @@ apiVersion: plural.sh/v1alpha1
 kind: Context
 spec:
   bundles:
+    - name: aws-mysql
+      repository: mysql
     - name: goldilocks-aws
       repository: goldilocks
     - name: goldilocks-aws
