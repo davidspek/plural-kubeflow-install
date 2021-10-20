@@ -1,0 +1,9 @@
+apiVersion: v2
+name: goldilocks
+description: A helm chart for goldilocks
+version: 0.1.0
+appVersion: 0.1.3
+dependencies:
+- name: goldilocks
+  version: 0.1.3
+  repository: cm://app.plural.sh/cm/goldilocks

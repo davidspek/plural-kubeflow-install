@@ -56,7 +56,7 @@ step "kube-init" {
     "kube-init",
   ]
 
-  sha     = "96f8584a3a714488ea8a803483c88fa5278ce06c5c9a2599f1182e1c7a16a925"
+  sha     = "3b849576610e64246d39f9572d61ab11ccdd835f234f17be32fb3a078a87b26c"
   retries = 0
 }
 

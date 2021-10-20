@@ -2,28 +2,30 @@ apiVersion: plural.sh/v1alpha1
 kind: Context
 spec:
   bundles:
-  - repository: grafana
-    name: aws-grafana
-  - repository: console
-    name: console-aws
-  - repository: kubeflow
-    name: kubeflow-aws
-  - repository: redis
-    name: aws-redis
-  - repository: bootstrap
-    name: aws-k8s
-  - repository: argo-cd
-    name: argo-cd-aws
+    - name: goldilocks-aws
+      repository: goldilocks
+    - name: aws-grafana
+      repository: grafana
+    - name: console-aws
+      repository: console
+    - name: kubeflow-aws
+      repository: kubeflow
+    - name: aws-redis
+      repository: redis
+    - name: aws-k8s
+      repository: bootstrap
+    - name: argo-cd-aws
+      repository: argo-cd
   configuration:
     argo-cd:
       adminGroup: publishers
-      credentialPassword: ""
-      credentialTemplateURL: ""
-      credentialUsername: ""
+      credentialPassword: ''
+      credentialTemplateURL: ''
+      credentialUsername: ''
       enableImageUpdater: true
       hostname: argo-cd.kubeflow-aws.com
-      privateRepoName: ""
-      privateRepoURL: ""
+      privateRepoName: ''
+      privateRepoURL: ''
     bootstrap:
       enableSnapshot: true
       ownerEmail: david@plural.sh
