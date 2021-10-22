@@ -22,7 +22,7 @@ spec:
     kind: Job
   descriptor:
     type: knative
-    version: 0.1.19
+    version: 0.1.20
     description: serverless for kubernetes
     icons:
     - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/405d5d69-0ed7-4995-9685-b2063fba845a/knative.png?v=63800137238

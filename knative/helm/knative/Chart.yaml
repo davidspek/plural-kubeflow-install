@@ -2,8 +2,8 @@ apiVersion: v2
 name: knative
 description: A helm chart for knative
 version: 0.1.0
-appVersion: 0.1.19
+appVersion: 0.1.20
 dependencies:
 - name: knative-serving
-  version: 0.1.19
+  version: 0.1.20
   repository: cm://app.plural.sh/cm/knative
