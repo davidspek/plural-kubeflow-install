@@ -8,7 +8,7 @@ step "terraform-init" {
   target  = "monitoring/terraform"
   command = "terraform"
   args    = ["init"]
-  sha     = ""
+  sha     = "h1:1LngqOAaJ6F29sqSib7KCwNUPpyacNpAm27vEUWMULU="
   retries = 0
 }
 
@@ -23,7 +23,7 @@ step "terraform" {
     "monitoring",
   ]
 
-  sha     = ""
+  sha     = "h1:1LngqOAaJ6F29sqSib7KCwNUPpyacNpAm27vEUWMULU="
   retries = 0
 }
 
@@ -38,7 +38,7 @@ step "kube-init" {
     "monitoring",
   ]
 
-  sha     = ""
+  sha     = "66aade3865a613f3b7bd29482037f8f7311f88ab257f009bb81fec478110caa6"
   retries = 0
 }
 
@@ -53,6 +53,6 @@ step "helm" {
     "monitoring",
   ]
 
-  sha     = ""
+  sha     = "h1:y2GTmEhn0LebpmrgqMiRaDVcIKYAiRoYILJAsM606RQ="
   retries = 0
 }
