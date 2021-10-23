@@ -22,7 +22,7 @@ spec:
     kind: Job
   descriptor:
     type: monitoring
-    version: 0.1.48
+    version: 0.1.50
     description: openmetrics suite for plural
     icons:
     - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/1ed5c2be-9d60-43db-b757-ee289e6524f6/monitoring.png?v=63800427390
