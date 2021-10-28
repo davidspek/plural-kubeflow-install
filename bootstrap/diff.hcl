@@ -38,7 +38,7 @@ step "kube-init" {
     "bootstrap",
   ]
 
-  sha     = "32916ae76f270e35f80a81cc73f0d7fcae5493e002a9e0e7739d1849a6f44cdc"
+  sha     = "7af926ea162a200556b80e7436cc74ca1091b24243e30f65d452dac69152c2f9"
   retries = 0
 }
 
@@ -53,6 +53,6 @@ step "helm" {
     "bootstrap",
   ]
 
-  sha     = "h1:MgcGcuFCF6PXxFf11wBF208gwR/GU5ozpUFEG2qN0u8="
+  sha     = "h1:U6d10hkpGcfAOrPjPtB8Qz70eOczrls+AmvL6GO1Uoo="
   retries = 0
 }
