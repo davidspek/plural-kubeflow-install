@@ -86,6 +86,6 @@ step "bounce" {
     "kubeflow",
   ]
 
-  sha     = "h1:yfqlhd7QTHvnNNAGkyx1a21ji6ZAdUnf9EoFJuAp8rY="
+  sha     = "h1:tLpsZSjbt5TDPATBo6TImwIG0Tws2YParZyl9j9Ka54="
   retries = 1
 }
