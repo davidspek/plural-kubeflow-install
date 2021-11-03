@@ -22,6 +22,8 @@ spec:
     name: argo-cd-aws
   - repository: spark
     name: spark-aws
+  - repository: nextcloud
+    name: nextcloud-aws
   configuration:
     argo-cd:
       adminGroup: publishers
@@ -61,6 +63,9 @@ spec:
     mysql:
       backup_bucket: kubeflow-dev-mysql-backups
       hostname: mysql-orchestrator.kubeflow-aws.com
+    nextcloud:
+      hostname: nextcloud.kubeflow-aws.com
+      nextcloud_bucket: kubeflow-dev-nextcloud
     nvidia-operator: {}
     postgres:
       wal_bucket: kubeflow-dev-postgres-wal

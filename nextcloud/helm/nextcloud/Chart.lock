@@ -1,0 +1,6 @@
+dependencies:
+- name: nextcloud
+  repository: file:///home/david/Plural/plural-artifacts/nextcloud/helm/nextcloud
+  version: 0.1.27
+digest: sha256:13a272c003a103a5107b5a67227b428c6b873b85ad2406f2369e9d8d23792d1d
+generated: "2021-11-03T17:10:30.364386799+01:00"
