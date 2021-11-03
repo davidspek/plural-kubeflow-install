@@ -1,0 +1,6 @@
+dependencies:
+- name: spark
+  repository: cm://app.plural.sh/cm/spark
+  version: 0.1.0
+digest: sha256:d56afa49060959312f7e84f67d96961904cb46a102fabb8e45a7506f6d913adb
+generated: "2021-11-03T13:31:18.665416353+01:00"

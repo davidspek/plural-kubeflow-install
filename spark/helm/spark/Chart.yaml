@@ -1,0 +1,9 @@
+apiVersion: v2
+name: spark
+description: A helm chart for spark
+version: 0.1.0
+appVersion: 0.1.0
+dependencies:
+- name: spark
+  version: 0.1.0
+  repository: cm://app.plural.sh/cm/spark
