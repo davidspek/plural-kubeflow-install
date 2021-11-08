@@ -8,12 +8,12 @@ dependencies:
 - name: volumes
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.4
-- name: mysql-cluster
-  repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.12
 - name: katib
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.15
+- name: mysql-cluster
+  repository: cm://app.plural.sh/cm/kubeflow
+  version: 0.1.13
 - name: notebooks
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.11
@@ -41,5 +41,5 @@ dependencies:
 - name: serving
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.20
-digest: sha256:c7f29431ca4a284cfcede80967653fffefdd326a804ec5ab56b862ed97e6d759
-generated: "2021-10-19T14:43:47.489473318Z"
+digest: sha256:ebd9965e995a7e637b008288ffc4f0d056b470061bd085071228c8f72dd27faf
+generated: "2021-11-08T13:23:41.28247117Z"
