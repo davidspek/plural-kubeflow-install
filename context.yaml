@@ -24,6 +24,8 @@ spec:
     name: spark-aws
   - repository: nextcloud
     name: nextcloud-aws
+  - repository: vaultwarden
+    name: vaultwarden-aws
   configuration:
     argo-cd:
       adminGroup: publishers
@@ -71,3 +73,6 @@ spec:
       wal_bucket: kubeflow-dev-postgres-wal
     redis: {}
     spark: {}
+    vaultwarden:
+      hostname: vaultwarden.kubeflow-aws.com
+      signupDomains: plural.sh

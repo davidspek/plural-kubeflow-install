@@ -1,0 +1,6 @@
+dependencies:
+- name: vaultwarden
+  repository: cm://app.plural.sh/cm/vaultwarden
+  version: 0.1.1
+digest: sha256:50ff90f571063b070b206b3a30d00aa2243e0c1b03c0b0bbc163d03e636cbc83
+generated: "2021-11-09T18:07:54.003456059+01:00"

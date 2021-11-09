@@ -1,0 +1,29 @@
+apiVersion: app.k8s.io/v1beta1
+kind: Application
+metadata:
+  name: vaultwarden
+spec:
+  selector:
+    matchLabels: {}
+  componentKinds:
+  - group: v1
+    kind: Service
+  - group: networking.k8s.io
+    kind: Ingress
+  - group: cert-manager.io
+    kind: Certificate
+  - group: apps
+    kind: StatefulSet
+  - group: apps
+    kind: Deployment
+  - group: batch
+    kind: CronJob
+  - group: batch
+    kind: Job
+  descriptor:
+    type: vaultwarden
+    version: 0.1.1
+    description: Unofficial Bitwarden compatible server written in Rust
+    icons:
+    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/52ea8e1e-4b0f-4e41-af41-aae42a9c20fe/vaultwarden.png?v=63803696555
+    
