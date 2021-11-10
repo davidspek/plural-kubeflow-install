@@ -1,7 +1,7 @@
 apiVersion: v2
 name: kubeflow
 description: A helm chart for kubeflow
-version: 0.1.1
+version: 0.1.2
 appVersion: 0.1.24
 dependencies:
 - name: central-dashboard
@@ -20,7 +20,7 @@ dependencies:
   version: 0.1.13
   repository: cm://app.plural.sh/cm/kubeflow
 - name: notebooks
-  version: 0.1.11
+  version: 0.1.12
   repository: cm://app.plural.sh/cm/kubeflow
 - name: mpi
   version: 0.1.6
