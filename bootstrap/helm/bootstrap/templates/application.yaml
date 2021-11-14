@@ -22,7 +22,7 @@ spec:
     kind: Job
   descriptor:
     type: bootstrap
-    version: 0.8.6
+    version: 0.8.7
     description: cluster initialization resources for plural
     icons:
     - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/d1a82b07-b809-4eb4-b615-8f24365b72b8/k8s.png?v=63800684243

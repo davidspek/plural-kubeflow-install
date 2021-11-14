@@ -4,9 +4,9 @@ dependencies:
   version: 0.1.1
 - name: bootstrap
   repository: cm://app.plural.sh/cm/bootstrap
-  version: 0.8.6
+  version: 0.8.7
 - name: efs-csi-driver
   repository: cm://app.plural.sh/cm/bootstrap
   version: 0.1.5
-digest: sha256:66541a12034d9cdd032e27154363e348b5f093017f98e1a1dfc57e543db2e382
-generated: "2021-11-13T01:56:28.443670355Z"
+digest: sha256:7182365f5c0144eecce7243bb795aecb497f72bfc4a3a78128eadb3dc68135b5
+generated: "2021-11-14T05:56:13.375539585Z"
