@@ -1,6 +1,6 @@
 dependencies:
 - name: goldilocks
   repository: cm://app.plural.sh/cm/goldilocks
-  version: 0.1.6
-digest: sha256:1abf61ef7f0bc9a279193a1c8cc788467e535a32cf3984203f308cfec706ec74
-generated: "2021-10-20T13:02:14.002344332Z"
+  version: 0.1.7
+digest: sha256:d38499be7fa3c871e6f74806c930999482580fcc9e763d73c4a2c6a1a081737b
+generated: "2021-11-15T22:38:29.298085927Z"

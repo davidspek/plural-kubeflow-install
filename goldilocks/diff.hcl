@@ -38,7 +38,7 @@ step "kube-init" {
     "goldilocks",
   ]
 
-  sha     = "be1e4d7ea5e2c3d9ffe4b1133cb194602fa79b4d372bd30915268117eebbfb78"
+  sha     = "2aa51147c7177a093d006ae4c446b8d42acf164884dd6e655fe9002608c1407e"
   retries = 0
 }
 
@@ -53,6 +53,6 @@ step "helm" {
     "goldilocks",
   ]
 
-  sha     = "h1:ohOW7BXCEak0ipkhvtwHGfRsgCdADsGceSVzXCuYoH8="
+  sha     = "h1:o9nugVWwprU5KQFmkg5N3GNb2QIc0BS4oaVl+GYBquc="
   retries = 0
 }
