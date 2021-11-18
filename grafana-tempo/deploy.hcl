@@ -56,7 +56,7 @@ step "kube-init" {
     "kube-init",
   ]
 
-  sha     = "97ffb186eb57b9ce6dd00d54e074bd0738d4420ec54d98f2beca7a3db7468e35"
+  sha     = "ba85003a7030dd00fec6c447fb41959539e208ddc41488c304ba7f435a0d195b"
   retries = 0
 }
 
@@ -86,6 +86,6 @@ step "bounce" {
     "grafana-tempo",
   ]
 
-  sha     = "h1:vRZuJuQgAXG+JspkY40BUlgrmDa7Skmz+vJA+netPH4="
+  sha     = "h1:6pPKpRp03HbiQYnb7qBr8a5CepJlPVm0Wxr4zgPUagA="
   retries = 1
 }

@@ -56,7 +56,7 @@ step "kube-init" {
     "kube-init",
   ]
 
-  sha     = "60e994c87ac13b6bcaa4325f05686363d2a94fc78c947459b7a4ae9bdd3d983f"
+  sha     = "ce8df059df65878a4667635a70e614f25e760d83be765789cd3c03788029c646"
   retries = 0
 }
 
@@ -86,6 +86,6 @@ step "bounce" {
     "nextcloud",
   ]
 
-  sha     = "h1:CpKD/M1Wh36ULzQsauwY4I7/p9G3ahKiyUWhOY4dSgw="
+  sha     = "h1:AhdkcnKAtjgpRzk+Z9GkKUOTaQtHsSTmH/N5xY0AOu4="
   retries = 1
 }

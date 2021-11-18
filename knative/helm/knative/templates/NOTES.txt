@@ -1,1 +1,1 @@
-Placeholder for now
+Your {{ .Release.Name }} installation

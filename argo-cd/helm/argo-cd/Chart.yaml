@@ -1,7 +1,7 @@
 apiVersion: v2
 name: argo-cd
 description: A helm chart for argo-cd
-version: 0.1.0
+version: 0.1.1
 appVersion: 0.1.28
 dependencies:
 - name: argo-cd
