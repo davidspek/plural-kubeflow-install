@@ -22,7 +22,7 @@ spec:
     kind: Job
   descriptor:
     type: spark
-    version: 0.1.0
+    version: 0.1.1
     description: a unified analytics engine for large-scale data processing
     icons:
     - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/c29e7964-1c53-477f-b071-2b397cf63815/spark.png?v=63803161811

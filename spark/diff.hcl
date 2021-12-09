@@ -8,7 +8,7 @@ step "terraform-init" {
   target  = "spark/terraform"
   command = "terraform"
   args    = ["init"]
-  sha     = ""
+  sha     = "h1:U2QSHh+XWRpNif0vLvzY5GalCw8oVJ1JK6VOGDc9Fzg="
   retries = 0
 }
 
@@ -23,7 +23,7 @@ step "terraform" {
     "spark",
   ]
 
-  sha     = ""
+  sha     = "h1:U2QSHh+XWRpNif0vLvzY5GalCw8oVJ1JK6VOGDc9Fzg="
   retries = 0
 }
 
@@ -38,7 +38,7 @@ step "kube-init" {
     "spark",
   ]
 
-  sha     = ""
+  sha     = "5126144e569659fe2246f36c9144126c310ef54c19a027d29a985f3ff3678ffd"
   retries = 0
 }
 
@@ -53,6 +53,6 @@ step "helm" {
     "spark",
   ]
 
-  sha     = ""
+  sha     = "h1:U2aKGwgriPWhCskufxvs8Xo1GbJgkm1DS7INmPNud9M="
   retries = 0
 }
