@@ -38,7 +38,7 @@ step "kube-init" {
     "argo-cd",
   ]
 
-  sha     = "8ba9b934c0099e4705af5458333b63e3a29d707981225c51b48c85ff3ec2c27a"
+  sha     = "f7ceddfd888d84a8984f339d5e1d3f3ab15da886fad1a886120e8a012b50dedc"
   retries = 0
 }
 
@@ -53,6 +53,6 @@ step "helm" {
     "argo-cd",
   ]
 
-  sha     = "h1:3jFYGViVSHWt1q1rhQ02jSd9nPg8sOVkXtCBrCbGpE8="
+  sha     = "h1:yKrG/QesiNINylLSdPn01UptUDW9SY2UaoVCinA4zPU="
   retries = 0
 }
