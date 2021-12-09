@@ -22,8 +22,8 @@ spec:
     kind: Job
   descriptor:
     type: grafana
-    version: 0.2.3
+    version: 0.2.4
     description: open source metrics visualization
     icons:
-    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/2783a06b-8317-4998-8c5d-18bcdc2a3c6c/grafana.png?v=63800927855
+    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/2783a06b-8317-4998-8c5d-18bcdc2a3c6c/grafana.png?v=63806292864
     
