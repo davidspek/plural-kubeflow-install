@@ -26,6 +26,8 @@ spec:
     name: nextcloud-aws
   - repository: vaultwarden
     name: vaultwarden-aws
+  - repository: mlflow
+    name: mlflow-aws
   configuration:
     argo-cd:
       adminGroup: publishers
@@ -61,6 +63,7 @@ spec:
     kubeflow:
       hostname: kubeflow.kubeflow-aws.com
       pipelines_bucket: kubeflow-dev-pipelines-new
+    mlflow: {}
     monitoring: {}
     mysql:
       backup_bucket: kubeflow-dev-mysql-backups
