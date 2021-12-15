@@ -17,9 +17,12 @@ dependencies:
 - name: notebooks
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.12
+- name: pipelines
+  repository: cm://app.plural.sh/cm/kubeflow
+  version: 0.1.83
 - name: profile-controller
   repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.28
+  version: 0.1.30
 - name: mpi
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.6
@@ -35,11 +38,8 @@ dependencies:
 - name: xgboost
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.4
-- name: pipelines
-  repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.81
 - name: serving
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.20
-digest: sha256:1596bab6f0e825a250a46c65669c705db37097c07cd491dd98f35fdb9f541dab
-generated: "2021-11-19T14:13:35.272491914Z"
+digest: sha256:145a11622edff4d24b15041d53c6b639b65e34d7c51408fb3cfccf04a25c6263
+generated: "2021-12-15T17:25:23.105435889Z"
