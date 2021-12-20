@@ -53,6 +53,6 @@ step "helm" {
     "kubeflow",
   ]
 
-  sha     = "h1:5r/zgy7D114OwEk1x3VVAGnABqS8VfrI8312+GdDpO8="
+  sha     = "h1:JgO/q1zN2CTylPl2DwhrbdKIPj+Gv9npDzVpw/6kaHo="
   retries = 0
 }
