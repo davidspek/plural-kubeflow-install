@@ -20,9 +20,6 @@ dependencies:
 - name: pipelines
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.83
-- name: profile-controller
-  repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.30
 - name: mpi
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.6
@@ -41,5 +38,8 @@ dependencies:
 - name: serving
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.20
-digest: sha256:145a11622edff4d24b15041d53c6b639b65e34d7c51408fb3cfccf04a25c6263
-generated: "2021-12-15T17:25:23.105435889Z"
+- name: profile-controller
+  repository: cm://app.plural.sh/cm/kubeflow
+  version: 0.1.32
+digest: sha256:d50ffee857545555f9352a2a785c7d0a0d83a2cf85cebe24da2a6581846138f8
+generated: "2021-12-20T16:40:29.598692569Z"
