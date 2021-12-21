@@ -8,7 +8,7 @@ step "terraform-init" {
   target  = "mlflow/terraform"
   command = "terraform"
   args    = ["init"]
-  sha     = "h1:lhSrpSK2hV9NKFRx/zfDHWs+AfgANQlgmp0UKiu3CyY="
+  sha     = ""
   retries = 0
 }
 
@@ -23,7 +23,7 @@ step "terraform" {
     "mlflow",
   ]
 
-  sha     = "h1:lhSrpSK2hV9NKFRx/zfDHWs+AfgANQlgmp0UKiu3CyY="
+  sha     = ""
   retries = 0
 }
 
@@ -38,7 +38,7 @@ step "kube-init" {
     "mlflow",
   ]
 
-  sha     = "4af86d6dc108bdc350dff5d03715939015e4d15a0954fd697dc3150a86f6a71b"
+  sha     = ""
   retries = 0
 }
 
@@ -53,6 +53,6 @@ step "helm" {
     "mlflow",
   ]
 
-  sha     = "h1:JqSnMMLoJ8gOnzuMCt0kazh148HW/whTKZmpcEd583I="
+  sha     = ""
   retries = 0
 }
