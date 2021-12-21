@@ -38,7 +38,7 @@ step "kube-init" {
     "mlflow",
   ]
 
-  sha     = "8ad7981f745c68ed14a92e3b5933f52fa492a7b41a31f77439dc7f71bbf420da"
+  sha     = "772da4a8efb5c09544934617c2de7e1a384d7e8a6004fa3a0238a4e6a02ae9a2"
   retries = 0
 }
 
@@ -53,6 +53,6 @@ step "helm" {
     "mlflow",
   ]
 
-  sha     = "h1:XaZ2hXjirW4LiXUDOxrpeS+91bRhGOrIDEaulrhNdNU="
+  sha     = "h1:YP+I7u6KUFugu608rOD2HgGqitT3ugcXpnlXR00mbKA="
   retries = 0
 }
