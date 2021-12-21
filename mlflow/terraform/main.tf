@@ -48,3 +48,18 @@ module "aws" {
   
 
 }
+
+
+module "aws-standalone" {
+  source = "./aws-standalone"
+
+### BEGIN MANUAL SECTION <<aws-standalone>>
+
+### END MANUAL SECTION <<aws-standalone>>
+
+
+  mlflow_bucket = "plural-mlflow-test-bucket"
+  cluster_name = "kubeflow-dev"
+  
+
+}

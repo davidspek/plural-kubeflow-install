@@ -1,6 +1,9 @@
 dependencies:
 - name: mlflow
   repository: cm://app.plural.sh/cm/mlflow
-  version: 0.1.5
-digest: sha256:a181e57c525f29c2a29150e12c2bd501265bc1bb0dd37bd0385f434b0c468686
-generated: "2021-12-21T13:48:28.408787389Z"
+  version: 0.1.6
+- name: mlflow-standalone
+  repository: cm://app.plural.sh/cm/mlflow
+  version: 0.1.4
+digest: sha256:50a5fc5e58073dbdf9384e021b1b51d0d657f39854ecd165727efae58722f42f
+generated: "2021-12-21T15:37:11.739628228+01:00"

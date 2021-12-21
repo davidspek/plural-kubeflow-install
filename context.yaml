@@ -28,6 +28,8 @@ spec:
     name: vaultwarden-aws
   - repository: mlflow
     name: mlflow-aws
+  - repository: mlflow
+    name: mlflow-aws-standalone
   configuration:
     argo-cd:
       adminGroup: publishers
@@ -63,7 +65,9 @@ spec:
     kubeflow:
       hostname: kubeflow.kubeflow-aws.com
       pipelines_bucket: kubeflow-dev-pipelines-new
-    mlflow: {}
+    mlflow:
+      hostname: mlflow.kubeflow-aws.com
+      mlflow_bucket: plural-mlflow-test-bucket
     monitoring: {}
     mysql:
       backup_bucket: kubeflow-dev-mysql-backups
