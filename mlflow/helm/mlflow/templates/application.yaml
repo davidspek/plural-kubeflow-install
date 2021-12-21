@@ -23,7 +23,7 @@ spec:
   descriptor:
     type: mlflow
     version: 0.1.6
-    description: a platform to streamline machine learning development
+    description: streamlined machine learning development
     icons:
-    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/bb99f957-fdef-4b9a-8c33-e974bb392c0e/mlflow.png?v=63807317558
+    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/bb99f957-fdef-4b9a-8c33-e974bb392c0e/mlflow.png?v=63807317612
     
