@@ -22,7 +22,7 @@ spec:
     kind: Job
   descriptor:
     type: mlflow
-    version: 0.1.3
+    version: 0.1.4
     description: a platform to streamline machine learning development
     icons:
     - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/bb99f957-fdef-4b9a-8c33-e974bb392c0e/mlflow.png?v=63806624180
