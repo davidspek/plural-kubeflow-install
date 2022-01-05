@@ -27,3 +27,16 @@ spec:
     icons:
     - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/aa94309f-00de-4b1b-becb-9dd93ff0853d/tempo.png?v=63800302637
     
+
+    {{- if .Values.global }}
+    {{- if .Values.global.application }}
+    {{- if .Values.global.application.links }}
+    links:
+    {{ toYaml .Values.global.application.links | nindent 6 }}
+    {{- end }}
+  {{- if .Values.global.application.info }}
+  info:
+  {{ toYaml .Values.global.application.info | nindent 4 }}
+  {{- end }}
+  {{- end }}
+  {{- end }}

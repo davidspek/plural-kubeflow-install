@@ -25,5 +25,18 @@ spec:
     version: 0.1.6
     description: NGINX Ingress Controller for Kubernetes
     icons:
-    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/b00f924d-a832-4a73-84ba-40fd9f5f2cf8/nginx.png?v=63806116495
+    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/b00f924d-a832-4a73-84ba-40fd9f5f2cf8/nginx.png?v=63808223209
     
+
+    {{- if .Values.global }}
+    {{- if .Values.global.application }}
+    {{- if .Values.global.application.links }}
+    links:
+    {{ toYaml .Values.global.application.links | nindent 6 }}
+    {{- end }}
+  {{- if .Values.global.application.info }}
+  info:
+  {{ toYaml .Values.global.application.info | nindent 4 }}
+  {{- end }}
+  {{- end }}
+  {{- end }}

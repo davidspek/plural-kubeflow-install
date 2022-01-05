@@ -1,7 +1,7 @@
 apiVersion: v2
 name: monitoring
 description: A helm chart for monitoring
-version: 0.1.5
+version: 0.1.6
 appVersion: 0.2.2
 dependencies:
 - name: monitoring

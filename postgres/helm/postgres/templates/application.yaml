@@ -28,13 +28,15 @@ spec:
     - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/964f6549-30f1-46c3-ad03-a31166120a5c/postgres.png?v=63798751619
     
 
-    {{ if .Values.global }}
-    {{ if .Values.global.application.links }}
+    {{- if .Values.global }}
+    {{- if .Values.global.application }}
+    {{- if .Values.global.application.links }}
     links:
     {{ toYaml .Values.global.application.links | nindent 6 }}
-    {{ end }}
-  {{ if .Values.global.application.info }}
+    {{- end }}
+  {{- if .Values.global.application.info }}
   info:
   {{ toYaml .Values.global.application.info | nindent 4 }}
-  {{ end }}
-  {{ end }}
+  {{- end }}
+  {{- end }}
+  {{- end }}

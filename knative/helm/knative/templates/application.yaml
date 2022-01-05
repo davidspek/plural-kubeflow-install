@@ -27,3 +27,16 @@ spec:
     icons:
     - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/405d5d69-0ed7-4995-9685-b2063fba845a/knative.png?v=63800137238
     
+
+    {{- if .Values.global }}
+    {{- if .Values.global.application }}
+    {{- if .Values.global.application.links }}
+    links:
+    {{ toYaml .Values.global.application.links | nindent 6 }}
+    {{- end }}
+  {{- if .Values.global.application.info }}
+  info:
+  {{ toYaml .Values.global.application.info | nindent 4 }}
+  {{- end }}
+  {{- end }}
+  {{- end }}
