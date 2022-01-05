@@ -22,8 +22,17 @@ spec:
     kind: Job
   descriptor:
     type: mlflow
-    version: 0.1.7
+    version: 0.1.9
     description: streamlined machine learning development
     icons:
     - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/bb99f957-fdef-4b9a-8c33-e974bb392c0e/mlflow.png?v=63807317612
     
+
+    {{ if .Values.global.application.links }}
+    links:
+    {{ toYaml .Values.global.application.links | nindent 6 }}
+    {{ end }}
+  {{ if .Values.global.application.info }}
+  info:
+  {{ toYaml .Values.global.application.info | nindent 4 }}
+  {{  end }}
