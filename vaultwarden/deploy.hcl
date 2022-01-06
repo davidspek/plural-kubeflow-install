@@ -56,7 +56,7 @@ step "kube-init" {
     "kube-init",
   ]
 
-  sha     = "7d620809e676cc69d71c3cdae4f91aa2e417e607121fc70b3bd1e701a878a027"
+  sha     = "006a3db6dbd054ac57eaa96a3b55859d22e14d2f56aa78b39d2c5f910eeb7a8e"
   retries = 0
 }
 
@@ -86,6 +86,6 @@ step "bounce" {
     "vaultwarden",
   ]
 
-  sha     = "h1:WfgIPTTIUP8Qp3uxU2HIt4XYRRFzltH4J+A6Erk9t3o="
+  sha     = "h1:nsnBxuOu1VdBaqOqgdJd+OjGXrs1VdDpVXP4JBjX5LY="
   retries = 1
 }

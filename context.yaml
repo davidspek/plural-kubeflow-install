@@ -2,6 +2,8 @@ apiVersion: plural.sh/v1alpha1
 kind: Context
 spec:
   bundles:
+    - name: kubecost-aws
+      repository: kubecost
     - name: airbyte-aws
       repository: airbyte
     - name: chatwoot-aws
@@ -72,6 +74,8 @@ spec:
     istio:
       kialiHostname: kiali.kubeflow-aws.com
     knative: {}
+    kubecost:
+      hostname: kubecost.kubeflow-aws.com
     kubeflow:
       hostname: kubeflow.kubeflow-aws.com
       pipelines_bucket: kubeflow-dev-pipelines-new
