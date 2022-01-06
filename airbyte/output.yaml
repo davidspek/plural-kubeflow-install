@@ -1,0 +1,8 @@
+apiVersion: plural.sh/v1alpha1
+kind: Output
+metadata:
+  name: airbyte
+spec:
+  terraform:
+    access_key_id: AKIAU2VBQD27HQHHIARY
+    secret_access_key: 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

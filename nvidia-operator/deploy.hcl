@@ -56,7 +56,7 @@ step "kube-init" {
     "kube-init",
   ]
 
-  sha     = "36ee638e0210764f1ff48e145c75494c6d4de7c31baccef86e9d389f5bb263f2"
+  sha     = "2ad92272543efa559086fd56c0ce23a9eb69cb5d8132679972ddfd12ecc0dd30"
   retries = 0
 }
 
@@ -86,6 +86,6 @@ step "bounce" {
     "nvidia-operator",
   ]
 
-  sha     = "h1:MxDIMyHYWmesCKAnp4Bk5lX2S6CkZZfFMjmthgVnOKE="
+  sha     = "h1:Hx+DXzdpc4AqFc95pB2c7NcxIfCjs06y9tMq7ZLY7rA="
   retries = 1
 }

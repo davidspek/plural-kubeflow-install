@@ -56,7 +56,7 @@ step "kube-init" {
     "kube-init",
   ]
 
-  sha     = "4478142f131973d2dcfabd4bcffd92f2ceab2c897b0fef7a9f9207c5c840072e"
+  sha     = "4fb29f7552c18577285fbcdfac556f20ba06ba067713a674d6867e08cbfbdb4a"
   retries = 0
 }
 
@@ -86,6 +86,6 @@ step "bounce" {
     "mysql",
   ]
 
-  sha     = "h1:GX/wMyLodfF23At3R+Nt05pnJ4JrI4EaLLtjNG+p2iY="
+  sha     = "h1:u8nDxBPE8enYkU+uiivHt7tppFWaLlwWbBA7AmI2NZU="
   retries = 1
 }

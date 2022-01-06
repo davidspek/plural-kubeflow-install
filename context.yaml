@@ -2,6 +2,8 @@ apiVersion: plural.sh/v1alpha1
 kind: Context
 spec:
   bundles:
+    - name: airbyte-aws
+      repository: airbyte
     - name: chatwoot-aws
       repository: chatwoot
     - name: aws-mysql
@@ -33,6 +35,9 @@ spec:
     - name: mlflow-aws-standalone
       repository: mlflow
   configuration:
+    airbyte:
+      airbyteBucket: david-dev-airbyte
+      hostname: airbyte.kubeflow-aws.com
     argo-cd:
       adminGroup: publishers
       credentialPassword: ''
@@ -88,3 +93,4 @@ spec:
     vaultwarden:
       hostname: vaultwarden.kubeflow-aws.com
       signupDomains: plural.sh
+  smtp:
