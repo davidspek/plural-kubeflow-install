@@ -1,6 +1,6 @@
 dependencies:
 - name: airbyte
   repository: cm://app.plural.sh/cm/airbyte
-  version: 0.2.1
-digest: sha256:83dbc4a46ef3a10f47a6ee279e6ee2270fc1a55a58b9e846d4bb9b0018cc2bd9
-generated: "2022-01-06T17:08:32.171598056Z"
+  version: 0.2.2
+digest: sha256:123123660b67048638907b9d7eb9aa435bbc015e5f42c6c8ec65b9bd885e6d07
+generated: "2022-01-06T17:19:31.688181086Z"
