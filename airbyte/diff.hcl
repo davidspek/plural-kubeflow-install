@@ -38,7 +38,7 @@ step "kube-init" {
     "airbyte",
   ]
 
-  sha     = "b054cbcfd2137f755543ef8629788c3808acd377acf92844c7b3a0883e7a2dcb"
+  sha     = "e9904be56ece1ca06fad5615fcd6a8a4ee609d83573d09bbce1ab14f69b2c33b"
   retries = 0
 }
 
@@ -53,6 +53,6 @@ step "helm" {
     "airbyte",
   ]
 
-  sha     = "h1:rjk7fUTAUpe85OCfFHhsruPx8KjQg4/etG6sy+tiwqw="
+  sha     = "h1:26nfcix4Hev2Jd35T3dvP9gfoPNwP46OpUBjyyiFtzU="
   retries = 0
 }
