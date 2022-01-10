@@ -38,7 +38,7 @@ step "kube-init" {
     "postgres",
   ]
 
-  sha     = "9f2047650f863207fd505a4fea93ca411f5e4d69020535c9fa287bc95116e9bb"
+  sha     = "0ec9f77569f0bf97efe5d2d5b463a7db20142c241fcae361123e5c860c1032eb"
   retries = 0
 }
 
@@ -53,6 +53,6 @@ step "helm" {
     "postgres",
   ]
 
-  sha     = "h1:M5E8sEAslE0F68H79kgrVVmuvDPDrKqHaQidC3Dayj8="
+  sha     = "h1:cTdD3qciaVlzbeId4Gk2Nax+3+goNAraAv96E3jEONY="
   retries = 0
 }
