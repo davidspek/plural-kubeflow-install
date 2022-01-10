@@ -8,7 +8,7 @@ step "terraform-init" {
   target  = "console/terraform"
   command = "terraform"
   args    = ["init"]
-  sha     = "h1:iN0nHFvJfkOOnSMlMneUiLwbiK60fgxpD8+n35AMMH4="
+  sha     = "h1:kXvyKokaq2ACg2spD73fw/SO3gHeHE6CJllppE3osFM="
   retries = 0
 }
 
@@ -23,7 +23,7 @@ step "terraform" {
     "console",
   ]
 
-  sha     = "h1:iN0nHFvJfkOOnSMlMneUiLwbiK60fgxpD8+n35AMMH4="
+  sha     = "h1:kXvyKokaq2ACg2spD73fw/SO3gHeHE6CJllppE3osFM="
   retries = 0
 }
 
@@ -38,7 +38,7 @@ step "kube-init" {
     "console",
   ]
 
-  sha     = "2bf238175c870deef66dfb8ad9dd5a39bbd1204a8344de8036f59c0d133c1a2f"
+  sha     = "2a9e69561c3f24a4aab5ebca5a937ed952d872426afc591c57bf5be3cb96211f"
   retries = 0
 }
 
@@ -53,6 +53,6 @@ step "helm" {
     "console",
   ]
 
-  sha     = "h1:ho9DUTUDReedncDiGN85z/IXKR2qB/qGh9Oxm9I+pvM="
+  sha     = "h1:99p8VB/+B35v+1/he/JDqDTmKVML9IOAwopxzeVOG60="
   retries = 0
 }

@@ -1,7 +1,7 @@
 apiVersion: v2
 name: console
 description: A helm chart for console
-version: 0.1.21
+version: 0.1.22
 appVersion: 0.7.0
 dependencies:
 - name: console
