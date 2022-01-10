@@ -1,9 +1,9 @@
 apiVersion: v2
 name: console
 description: A helm chart for console
-version: 0.1.22
-appVersion: 0.7.0
+version: 0.1.23
+appVersion: 0.7.1
 dependencies:
 - name: console
-  version: 0.7.0
+  version: 0.7.1
   repository: cm://app.plural.sh/cm/console
