@@ -1,7 +1,7 @@
 apiVersion: v2
 name: kubeflow
 description: A helm chart for kubeflow
-version: 0.1.16
+version: 0.1.17
 appVersion: 0.1.25
 dependencies:
 - name: central-dashboard
