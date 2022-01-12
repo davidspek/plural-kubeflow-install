@@ -4,10 +4,10 @@ dependencies:
   version: 0.1.25
 - name: tensorboards
   repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.5
+  version: 0.1.6
 - name: volumes
   repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.4
+  version: 0.1.5
 - name: mysql-cluster
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.13
@@ -17,29 +17,29 @@ dependencies:
 - name: notebooks
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.13
-- name: pipelines
-  repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.83
 - name: mpi
   repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.6
+  version: 0.1.7
 - name: mxnet
   repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.4
+  version: 0.1.5
 - name: pytorch
   repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.4
+  version: 0.1.5
 - name: tensorflow
   repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.4
+  version: 0.1.5
 - name: xgboost
   repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.4
-- name: serving
+  version: 0.1.5
+- name: pipelines
   repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.20
+  version: 0.1.84
 - name: profile-controller
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.35
-digest: sha256:00554438c3ee23dcbe3f6c914a6f849039ce3a62155b35a589327d8055a8ee7b
-generated: "2022-01-12T11:00:03.280577207Z"
+- name: serving
+  repository: cm://app.plural.sh/cm/kubeflow
+  version: 0.1.21
+digest: sha256:261b723f692a302e2a79436d5631ee514c1600437a87d3adaa16fcee9f1653a1
+generated: "2022-01-12T11:00:49.014421737Z"
