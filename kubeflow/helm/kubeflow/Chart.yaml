@@ -1,7 +1,7 @@
 apiVersion: v2
 name: kubeflow
 description: A helm chart for kubeflow
-version: 0.1.36
+version: 0.1.37
 appVersion: 0.1.18
 dependencies:
 - name: katib
