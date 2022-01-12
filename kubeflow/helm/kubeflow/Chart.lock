@@ -1,4 +1,7 @@
 dependencies:
+- name: katib
+  repository: cm://app.plural.sh/cm/kubeflow
+  version: 0.1.17
 - name: central-dashboard
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.25
@@ -11,12 +14,9 @@ dependencies:
 - name: mysql-cluster
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.13
-- name: katib
-  repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.16
 - name: notebooks
   repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.13
+  version: 0.1.14
 - name: mpi
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.7
@@ -41,5 +41,5 @@ dependencies:
 - name: serving
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.21
-digest: sha256:261b723f692a302e2a79436d5631ee514c1600437a87d3adaa16fcee9f1653a1
-generated: "2022-01-12T11:00:49.014421737Z"
+digest: sha256:8158fcdec4ddc8b6bfda891f4bed35da3bb1139acaa91f01dea75032cf7125f1
+generated: "2022-01-12T16:04:42.745654114Z"
