@@ -16,6 +16,9 @@ dependencies:
 - name: mysql-cluster
   version: 0.1.13
   repository: cm://app.plural.sh/cm/kubeflow
+- name: mpi
+  version: 0.1.8
+  repository: cm://app.plural.sh/cm/kubeflow
 - name: notebooks
   version: 0.1.15
   repository: cm://app.plural.sh/cm/kubeflow
@@ -27,9 +30,6 @@ dependencies:
   repository: cm://app.plural.sh/cm/kubeflow
 - name: tensorboards
   version: 0.1.8
-  repository: cm://app.plural.sh/cm/kubeflow
-- name: mpi
-  version: 0.1.7
   repository: cm://app.plural.sh/cm/kubeflow
 - name: mxnet
   version: 0.1.5
