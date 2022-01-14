@@ -32,16 +32,16 @@ dependencies:
   version: 0.1.8
   repository: cm://app.plural.sh/cm/kubeflow
 - name: mxnet
-  version: 0.1.5
+  version: 0.1.6
   repository: cm://app.plural.sh/cm/kubeflow
 - name: pytorch
-  version: 0.1.5
+  version: 0.1.6
   repository: cm://app.plural.sh/cm/kubeflow
 - name: tensorflow
-  version: 0.1.5
+  version: 0.1.6
   repository: cm://app.plural.sh/cm/kubeflow
 - name: xgboost
-  version: 0.1.5
+  version: 0.1.6
   repository: cm://app.plural.sh/cm/kubeflow
 - name: pipelines
   version: 0.1.84
