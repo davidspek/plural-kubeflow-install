@@ -22,7 +22,7 @@ spec:
     kind: Job
   descriptor:
     type: redis
-    version: 0.1.10
+    version: 0.1.11
     description: high performance in-memory object store
     icons:
     - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/afe7e33a-9b9a-40ef-b0c4-898d48a1cc41/redis.png?v=63809338238

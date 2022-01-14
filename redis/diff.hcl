@@ -38,7 +38,7 @@ step "kube-init" {
     "redis",
   ]
 
-  sha     = "1bb1fafde2b01f77b2beb9a75d87c80efbb21a30969c7d183690aeff7870bb8a"
+  sha     = "0a0e9c35af5e9d3d0a6b19bf4477dcfcc88bef64307b2f37f34e203857697546"
   retries = 0
 }
 
@@ -53,6 +53,6 @@ step "helm" {
     "redis",
   ]
 
-  sha     = "h1:d89ntZ58EfInNmQFLnpMp9JvNzcCjeFXkrjkxEfNFkk="
+  sha     = "h1:su1QvpUO9izE7oBM+nbN2s7am+B03gSw8ileBpaQOhY="
   retries = 0
 }
