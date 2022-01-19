@@ -2,8 +2,8 @@ apiVersion: v2
 name: postgres
 description: A helm chart for postgres
 version: 0.1.11
-appVersion: 0.2.5
+appVersion: 0.2.6
 dependencies:
 - name: postgres
-  version: 0.2.5
+  version: 0.2.6
   repository: cm://app.plural.sh/cm/postgres
