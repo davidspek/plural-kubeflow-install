@@ -38,7 +38,7 @@ step "kube-init" {
     "chatwoot",
   ]
 
-  sha     = "7fe43ed63ed6dc1bc7b2c9d40f963e22af3424f8fb613f018bd4d61611ec3e9d"
+  sha     = "1a7d86f0857d1ba945ced6875f9af533f63333b5bbefde6d5c8bc5565bc7ce4c"
   retries = 0
 }
 
@@ -53,6 +53,6 @@ step "helm" {
     "chatwoot",
   ]
 
-  sha     = "h1:xyqS06aP/MaeBsBNKeJunkdMmq0X2n2jUcG2WIGnpBE="
+  sha     = "h1:5olf7F1y+tIPVXQm3mL3gYMF3U9sEYXJ33BRzQERLIQ="
   retries = 0
 }
