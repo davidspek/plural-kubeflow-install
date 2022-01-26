@@ -25,7 +25,7 @@ spec:
     version: 0.1.10
     description: cluster initialization resources for plural
     icons:
-    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/d1a82b07-b809-4eb4-b615-8f24365b72b8/k8s.png?v=63809413190
+    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/d1a82b07-b809-4eb4-b615-8f24365b72b8/k8s.png?v=63810388256
     
 
     {{- if .Values.global }}
