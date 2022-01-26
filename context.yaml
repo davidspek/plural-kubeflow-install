@@ -2,53 +2,55 @@ apiVersion: plural.sh/v1alpha1
 kind: Context
 spec:
   bundles:
-    - name: kubecost-aws
-      repository: kubecost
-    - name: airbyte-aws
-      repository: airbyte
-    - name: chatwoot-aws
-      repository: chatwoot
-    - name: aws-mysql
-      repository: mysql
-    - name: goldilocks-aws
-      repository: goldilocks
-    - name: goldilocks-aws
-      repository: goldilocks
-    - name: aws-grafana
-      repository: grafana
-    - name: console-aws
-      repository: console
-    - name: kubeflow-aws
-      repository: kubeflow
-    - name: aws-redis
-      repository: redis
-    - name: aws-k8s
-      repository: bootstrap
-    - name: argo-cd-aws
-      repository: argo-cd
-    - name: spark-aws
-      repository: spark
-    - name: nextcloud-aws
-      repository: nextcloud
-    - name: vaultwarden-aws
-      repository: vaultwarden
-    - name: mlflow-aws
-      repository: mlflow
-    - name: mlflow-aws-standalone
-      repository: mlflow
+  - repository: kubecost
+    name: kubecost-aws
+  - repository: airbyte
+    name: airbyte-aws
+  - repository: chatwoot
+    name: chatwoot-aws
+  - repository: mysql
+    name: aws-mysql
+  - repository: goldilocks
+    name: goldilocks-aws
+  - repository: goldilocks
+    name: goldilocks-aws
+  - repository: grafana
+    name: aws-grafana
+  - repository: console
+    name: console-aws
+  - repository: kubeflow
+    name: kubeflow-aws
+  - repository: redis
+    name: aws-redis
+  - repository: bootstrap
+    name: aws-k8s
+  - repository: argo-cd
+    name: argo-cd-aws
+  - repository: spark
+    name: spark-aws
+  - repository: nextcloud
+    name: nextcloud-aws
+  - repository: vaultwarden
+    name: vaultwarden-aws
+  - repository: mlflow
+    name: mlflow-aws
+  - repository: mlflow
+    name: mlflow-aws-standalone
+  - repository: kyverno
+    name: kyverno-aws
   configuration:
     airbyte:
       airbyteBucket: david-dev-airbyte
       hostname: airbyte.kubeflow-aws.com
     argo-cd:
       adminGroup: publishers
-      credentialPassword: ''
-      credentialTemplateURL: ''
-      credentialUsername: ''
+      credentialPassword: ""
+      credentialTemplateURL: ""
+      credentialUsername: ""
       enableImageUpdater: true
       hostname: argo-cd.kubeflow-aws.com
-      privateRepoName: ''
-      privateRepoURL: ''
+      privateRepoName: ""
+      privateRepoURL: ""
     bootstrap:
       enableSnapshot: true
       ownerEmail: david@plural.sh
@@ -79,6 +81,8 @@ spec:
     kubeflow:
       hostname: kubeflow.kubeflow-aws.com
       pipelines_bucket: kubeflow-dev-pipelines-new
+    kyverno:
+      enablePolicies: false
     mlflow:
       hostname: mlflow.kubeflow-aws.com
       mlflow_bucket: plural-mlflow-test-bucket
@@ -97,4 +101,3 @@ spec:
     vaultwarden:
       hostname: vaultwarden.kubeflow-aws.com
       signupDomains: plural.sh
-  smtp:

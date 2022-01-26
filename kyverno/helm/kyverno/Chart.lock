@@ -1,0 +1,6 @@
+dependencies:
+- name: kyverno
+  repository: cm://app.plural.sh/cm/kyverno
+  version: 0.1.0
+digest: sha256:b6b0508d12459fcd673fe92f7784be44d936dfc607f4e1a7dd95092ec6c31750
+generated: "2022-01-26T16:04:22.735676243+01:00"
