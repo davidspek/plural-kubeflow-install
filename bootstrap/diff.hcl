@@ -38,7 +38,7 @@ step "kube-init" {
     "bootstrap",
   ]
 
-  sha     = "7cf0cdab825a994043fc62ef18ac3b625e5ebaf5cb0854836849f315f283cd03"
+  sha     = "ebecfdc540e971d34eb6d460ea2714d2abe42170b41ef45f8bd6de19b4769c3e"
   retries = 0
 }
 
