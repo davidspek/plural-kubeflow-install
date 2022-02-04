@@ -1,7 +1,7 @@
 dependencies:
 - name: central-dashboard
   repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.26
+  version: 0.1.27
 - name: katib
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.18
@@ -41,5 +41,5 @@ dependencies:
 - name: pipelines
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.84
-digest: sha256:12881ffea7f0addad185e3e668f589fdcd63586f5836e933e570470c55d30b50
-generated: "2022-02-04T11:05:21.010140265Z"
+digest: sha256:ccb7e5158f85ffa43a2fa364a68344245cd4e343b22e67fead0a620e35e0e3a4
+generated: "2022-02-04T13:11:43.824940629Z"
