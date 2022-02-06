@@ -22,7 +22,7 @@ spec:
     kind: Job
   descriptor:
     type: chatwoot
-    version: 0.1.2
+    version: 0.1.5
     description: open-source, self-hosted customer engagement suite
     icons:
     - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/1fa864cc-98b2-457d-afb8-ed0659a6caf4/chatwoot.png?v=63808619185
