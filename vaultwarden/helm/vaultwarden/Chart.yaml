@@ -2,8 +2,8 @@ apiVersion: v2
 name: vaultwarden
 description: A helm chart for vaultwarden
 version: 0.1.4
-appVersion: 0.1.1
+appVersion: 0.1.2
 dependencies:
 - name: vaultwarden
-  version: 0.1.1
+  version: 0.1.2
   repository: cm://app.plural.sh/cm/vaultwarden
