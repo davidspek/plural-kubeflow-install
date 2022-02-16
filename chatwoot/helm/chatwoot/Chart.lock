@@ -1,6 +1,0 @@
-dependencies:
-- name: chatwoot
-  repository: cm://app.plural.sh/cm/chatwoot
-  version: 0.1.5
-digest: sha256:bc390b709a1cca9da55774cb044e954beacb9a15447d5d2db6d8c64f2bc6c1a1
-generated: "2022-02-06T22:09:32.255761291Z"

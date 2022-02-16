@@ -59,7 +59,7 @@ spec:
       txt_owner: david
       vpc_name: kubeflow-dev
     chatwoot:
-      chatwootBucket: plural-chatwoot
+      chatwootBucket: plural-kubeflow-dev-chatwoot
       hostname: chatwoot.kubeflow-aws.com
     console:
       admin_email: david@plural.sh

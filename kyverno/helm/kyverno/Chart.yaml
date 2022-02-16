@@ -1,9 +1,0 @@
-apiVersion: v2
-name: kyverno
-description: A helm chart for kyverno
-version: 0.1.0
-appVersion: 0.1.0
-dependencies:
-- name: kyverno
-  version: 0.1.0
-  repository: cm://app.plural.sh/cm/kyverno
