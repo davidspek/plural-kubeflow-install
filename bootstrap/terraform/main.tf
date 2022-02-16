@@ -8,12 +8,16 @@ terraform {
   required_providers {
     aws = {
       source  = "hashicorp/aws"
-      version = "~> 3.62.0"
+      version = "~> 3.63.0"
     }
     kubernetes = {
       source  = "hashicorp/kubernetes"
       version = "~> 2.5.0"
     }
+    # kubectl = {
+    #   source  = "gavinbunney/kubectl"
+    #   version = ">= 1.7.0"
+    # }
   }
 }
 
@@ -34,6 +38,13 @@ provider "kubernetes" {
   cluster_ca_certificate = base64decode(data.aws_eks_cluster.cluster.certificate_authority.0.data)
   token                  = data.aws_eks_cluster_auth.cluster.token
 }
+
+# provider "kubectl" {
+#   host                   = data.aws_eks_cluster.cluster.endpoint
+#   cluster_ca_certificate = base64decode(data.aws_eks_cluster.cluster.certificate_authority.0.data)
+#   token                  = data.aws_eks_cluster_auth.cluster.token
+#   load_config_file       = true
+# }
 
 
 module "aws-bootstrap" {
@@ -69,8 +80,8 @@ module "aws-efs" {
   cluster_name = module.aws-bootstrap.cluster_name
   vpc_name = "kubeflow-dev"
   namespace = "bootstrap"
-  cluster_private_subnets = module.aws-bootstrap.cluster_private_subnets
-  cluster_private_subnet_ids = module.aws-bootstrap.cluster_private_subnet_ids
+  cluster_worker_private_subnets = module.aws-bootstrap.cluster_worker_private_subnets
+  cluster_worker_private_subnet_ids = module.aws-bootstrap.cluster_worker_private_subnet_ids
   
 
 }

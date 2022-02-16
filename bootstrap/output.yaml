@@ -4,4 +4,975 @@ metadata:
   name: bootstrap
 spec:
   terraform:
+    cluster_private_subnet_ids:
+    - subnet-02aa0b3c172079aa3
+    - subnet-0b5bfe19b3c380cdc
+    - subnet-0aeb5c429ae53d14c
+    cluster_private_subnets:
+    - arn: arn:aws:ec2:us-east-2:332124921534:subnet/subnet-02aa0b3c172079aa3
+      assign_ipv6_address_on_creation: false
+      availability_zone: us-east-2a
+      availability_zone_id: use2-az1
+      cidr_block: 10.0.1.0/24
+      customer_owned_ipv4_pool: ""
+      id: subnet-02aa0b3c172079aa3
+      ipv6_cidr_block: ""
+      ipv6_cidr_block_association_id: ""
+      map_customer_owned_ip_on_launch: false
+      map_public_ip_on_launch: false
+      outpost_arn: ""
+      owner_id: "332124921534"
+      tags:
+        Name: kubeflow-dev-private-us-east-2a
+        kubernetes.io/cluster/kubeflow-dev: shared
+        kubernetes.io/role/internal-elb: "1"
+      tags_all:
+        Name: kubeflow-dev-private-us-east-2a
+        kubernetes.io/cluster/kubeflow-dev: shared
+        kubernetes.io/role/internal-elb: "1"
+      timeouts: null
+      vpc_id: vpc-0bc4ac6db35345f38
+    - arn: arn:aws:ec2:us-east-2:332124921534:subnet/subnet-0b5bfe19b3c380cdc
+      assign_ipv6_address_on_creation: false
+      availability_zone: us-east-2b
+      availability_zone_id: use2-az2
+      cidr_block: 10.0.2.0/24
+      customer_owned_ipv4_pool: ""
+      id: subnet-0b5bfe19b3c380cdc
+      ipv6_cidr_block: ""
+      ipv6_cidr_block_association_id: ""
+      map_customer_owned_ip_on_launch: false
+      map_public_ip_on_launch: false
+      outpost_arn: ""
+      owner_id: "332124921534"
+      tags:
+        Name: kubeflow-dev-private-us-east-2b
+        kubernetes.io/cluster/kubeflow-dev: shared
+        kubernetes.io/role/internal-elb: "1"
+      tags_all:
+        Name: kubeflow-dev-private-us-east-2b
+        kubernetes.io/cluster/kubeflow-dev: shared
+        kubernetes.io/role/internal-elb: "1"
+      timeouts: null
+      vpc_id: vpc-0bc4ac6db35345f38
+    - arn: arn:aws:ec2:us-east-2:332124921534:subnet/subnet-0aeb5c429ae53d14c
+      assign_ipv6_address_on_creation: false
+      availability_zone: us-east-2c
+      availability_zone_id: use2-az3
+      cidr_block: 10.0.3.0/24
+      customer_owned_ipv4_pool: ""
+      id: subnet-0aeb5c429ae53d14c
+      ipv6_cidr_block: ""
+      ipv6_cidr_block_association_id: ""
+      map_customer_owned_ip_on_launch: false
+      map_public_ip_on_launch: false
+      outpost_arn: ""
+      owner_id: "332124921534"
+      tags:
+        Name: kubeflow-dev-private-us-east-2c
+        kubernetes.io/cluster/kubeflow-dev: shared
+        kubernetes.io/role/internal-elb: "1"
+      tags_all:
+        Name: kubeflow-dev-private-us-east-2c
+        kubernetes.io/cluster/kubeflow-dev: shared
+        kubernetes.io/role/internal-elb: "1"
+      timeouts: null
+      vpc_id: vpc-0bc4ac6db35345f38
+    cluster_public_subnet_ids:
+    - subnet-04961ade352db21c8
+    - subnet-008fa70de424b1842
+    - subnet-00f8f9c9f9aad7c8f
+    cluster_public_subnets:
+    - arn: arn:aws:ec2:us-east-2:332124921534:subnet/subnet-04961ade352db21c8
+      assign_ipv6_address_on_creation: false
+      availability_zone: us-east-2a
+      availability_zone_id: use2-az1
+      cidr_block: 10.0.101.0/24
+      customer_owned_ipv4_pool: ""
+      id: subnet-04961ade352db21c8
+      ipv6_cidr_block: ""
+      ipv6_cidr_block_association_id: ""
+      map_customer_owned_ip_on_launch: false
+      map_public_ip_on_launch: true
+      outpost_arn: ""
+      owner_id: "332124921534"
+      tags:
+        Name: kubeflow-dev-public-us-east-2a
+        kubernetes.io/cluster/kubeflow-dev: shared
+        kubernetes.io/role/elb: "1"
+      tags_all:
+        Name: kubeflow-dev-public-us-east-2a
+        kubernetes.io/cluster/kubeflow-dev: shared
+        kubernetes.io/role/elb: "1"
+      timeouts: null
+      vpc_id: vpc-0bc4ac6db35345f38
+    - arn: arn:aws:ec2:us-east-2:332124921534:subnet/subnet-008fa70de424b1842
+      assign_ipv6_address_on_creation: false
+      availability_zone: us-east-2b
+      availability_zone_id: use2-az2
+      cidr_block: 10.0.102.0/24
+      customer_owned_ipv4_pool: ""
+      id: subnet-008fa70de424b1842
+      ipv6_cidr_block: ""
+      ipv6_cidr_block_association_id: ""
+      map_customer_owned_ip_on_launch: false
+      map_public_ip_on_launch: true
+      outpost_arn: ""
+      owner_id: "332124921534"
+      tags:
+        Name: kubeflow-dev-public-us-east-2b
+        kubernetes.io/cluster/kubeflow-dev: shared
+        kubernetes.io/role/elb: "1"
+      tags_all:
+        Name: kubeflow-dev-public-us-east-2b
+        kubernetes.io/cluster/kubeflow-dev: shared
+        kubernetes.io/role/elb: "1"
+      timeouts: null
+      vpc_id: vpc-0bc4ac6db35345f38
+    - arn: arn:aws:ec2:us-east-2:332124921534:subnet/subnet-00f8f9c9f9aad7c8f
+      assign_ipv6_address_on_creation: false
+      availability_zone: us-east-2c
+      availability_zone_id: use2-az3
+      cidr_block: 10.0.103.0/24
+      customer_owned_ipv4_pool: ""
+      id: subnet-00f8f9c9f9aad7c8f
+      ipv6_cidr_block: ""
+      ipv6_cidr_block_association_id: ""
+      map_customer_owned_ip_on_launch: false
+      map_public_ip_on_launch: true
+      outpost_arn: ""
+      owner_id: "332124921534"
+      tags:
+        Name: kubeflow-dev-public-us-east-2c
+        kubernetes.io/cluster/kubeflow-dev: shared
+        kubernetes.io/role/elb: "1"
+      tags_all:
+        Name: kubeflow-dev-public-us-east-2c
+        kubernetes.io/cluster/kubeflow-dev: shared
+        kubernetes.io/role/elb: "1"
+      timeouts: null
+      vpc_id: vpc-0bc4ac6db35345f38
+    cluster_worker_private_subnet_ids:
+    - subnet-0a23766cd87835a28
+    - subnet-0c96966797a2eddde
+    - subnet-09bd3d2e748e04a99
+    cluster_worker_private_subnets:
+    - arn: arn:aws:ec2:us-east-2:332124921534:subnet/subnet-0a23766cd87835a28
+      assign_ipv6_address_on_creation: false
+      availability_zone: us-east-2a
+      availability_zone_id: use2-az1
+      cidr_block: 10.0.16.0/20
+      customer_owned_ipv4_pool: ""
+      id: subnet-0a23766cd87835a28
+      ipv6_cidr_block: ""
+      ipv6_cidr_block_association_id: ""
+      map_customer_owned_ip_on_launch: false
+      map_public_ip_on_launch: false
+      outpost_arn: ""
+      owner_id: "332124921534"
+      tags:
+        Name: kubeflow-dev-worker-private-us-east-2a
+        kubernetes.io/cluster/kubeflow-dev: shared
+        kubernetes.io/role/internal-elb: "1"
+      tags_all:
+        Name: kubeflow-dev-worker-private-us-east-2a
+        kubernetes.io/cluster/kubeflow-dev: shared
+        kubernetes.io/role/internal-elb: "1"
+      timeouts: null
+      vpc_id: vpc-0bc4ac6db35345f38
+    - arn: arn:aws:ec2:us-east-2:332124921534:subnet/subnet-0c96966797a2eddde
+      assign_ipv6_address_on_creation: false
+      availability_zone: us-east-2b
+      availability_zone_id: use2-az2
+      cidr_block: 10.0.32.0/20
+      customer_owned_ipv4_pool: ""
+      id: subnet-0c96966797a2eddde
+      ipv6_cidr_block: ""
+      ipv6_cidr_block_association_id: ""
+      map_customer_owned_ip_on_launch: false
+      map_public_ip_on_launch: false
+      outpost_arn: ""
+      owner_id: "332124921534"
+      tags:
+        Name: kubeflow-dev-worker-private-us-east-2b
+        kubernetes.io/cluster/kubeflow-dev: shared
+        kubernetes.io/role/internal-elb: "1"
+      tags_all:
+        Name: kubeflow-dev-worker-private-us-east-2b
+        kubernetes.io/cluster/kubeflow-dev: shared
+        kubernetes.io/role/internal-elb: "1"
+      timeouts: null
+      vpc_id: vpc-0bc4ac6db35345f38
+    - arn: arn:aws:ec2:us-east-2:332124921534:subnet/subnet-09bd3d2e748e04a99
+      assign_ipv6_address_on_creation: false
+      availability_zone: us-east-2c
+      availability_zone_id: use2-az3
+      cidr_block: 10.0.48.0/20
+      customer_owned_ipv4_pool: ""
+      id: subnet-09bd3d2e748e04a99
+      ipv6_cidr_block: ""
+      ipv6_cidr_block_association_id: ""
+      map_customer_owned_ip_on_launch: false
+      map_public_ip_on_launch: false
+      outpost_arn: ""
+      owner_id: "332124921534"
+      tags:
+        Name: kubeflow-dev-worker-private-us-east-2c
+        kubernetes.io/cluster/kubeflow-dev: shared
+        kubernetes.io/role/internal-elb: "1"
+      tags_all:
+        Name: kubeflow-dev-worker-private-us-east-2c
+        kubernetes.io/cluster/kubeflow-dev: shared
+        kubernetes.io/role/internal-elb: "1"
+      timeouts: null
+      vpc_id: vpc-0bc4ac6db35345f38
     endpoint: https://50C07702B65D541BF8CA91958886A04A.gr7.us-east-2.eks.amazonaws.com
+    node_groups:
+    - ami_type: AL2_x86_64
+      arn: arn:aws:eks:us-east-2:332124921534:nodegroup/kubeflow-dev/large-burst-on-demand-us-east-2a/2ebf8163-dbad-b286-2601-073ef1907046
+      capacity_type: ON_DEMAND
+      cluster_name: kubeflow-dev
+      disk_size: 50
+      force_update_version: null
+      id: kubeflow-dev:large-burst-on-demand-us-east-2a
+      instance_types:
+      - t3.2xlarge
+      - t3a.2xlarge
+      labels:
+        plural.sh/capacityType: ON_DEMAND
+        plural.sh/performanceType: BURST
+        plural.sh/scalingGroup: large-burst-on-demand
+        topology.ebs.csi.aws.com/zone: us-east-2a
+      launch_template: []
+      node_group_name: large-burst-on-demand-us-east-2a
+      node_group_name_prefix: ""
+      node_role_arn: arn:aws:iam::332124921534:role/kubeflow-dev20211011090633019200000009
+      release_version: 1.21.5-20220123
+      remote_access: []
+      resources:
+      - autoscaling_groups:
+        - name: eks-large-burst-on-demand-us-east-2a-2ebf8163-dbad-b286-2601-073ef1907046
+        remote_access_security_group_id: ""
+      scaling_config:
+      - desired_size: 0
+        max_size: 9
+        min_size: 0
+      status: ACTIVE
+      subnet_ids:
+      - subnet-0a23766cd87835a28
+      tags: {}
+      tags_all: {}
+      taint: []
+      timeouts: null
+      update_config:
+      - max_unavailable: 1
+        max_unavailable_percentage: 0
+      version: "1.21"
+    - ami_type: AL2_x86_64
+      arn: arn:aws:eks:us-east-2:332124921534:nodegroup/kubeflow-dev/large-burst-on-demand-us-east-2b/82bf8163-dba7-99ed-1334-0fe65d0c67bd
+      capacity_type: ON_DEMAND
+      cluster_name: kubeflow-dev
+      disk_size: 50
+      force_update_version: null
+      id: kubeflow-dev:large-burst-on-demand-us-east-2b
+      instance_types:
+      - t3.2xlarge
+      - t3a.2xlarge
+      labels:
+        plural.sh/capacityType: ON_DEMAND
+        plural.sh/performanceType: BURST
+        plural.sh/scalingGroup: large-burst-on-demand
+        topology.ebs.csi.aws.com/zone: us-east-2b
+      launch_template: []
+      node_group_name: large-burst-on-demand-us-east-2b
+      node_group_name_prefix: ""
+      node_role_arn: arn:aws:iam::332124921534:role/kubeflow-dev20211011090633019200000009
+      release_version: 1.21.5-20220123
+      remote_access: []
+      resources:
+      - autoscaling_groups:
+        - name: eks-large-burst-on-demand-us-east-2b-82bf8163-dba7-99ed-1334-0fe65d0c67bd
+        remote_access_security_group_id: ""
+      scaling_config:
+      - desired_size: 0
+        max_size: 9
+        min_size: 0
+      status: ACTIVE
+      subnet_ids:
+      - subnet-0c96966797a2eddde
+      tags: {}
+      tags_all: {}
+      taint: []
+      timeouts: null
+      update_config:
+      - max_unavailable: 1
+        max_unavailable_percentage: 0
+      version: "1.21"
+    - ami_type: AL2_x86_64
+      arn: arn:aws:eks:us-east-2:332124921534:nodegroup/kubeflow-dev/large-burst-on-demand-us-east-2c/b4bf8164-53fe-252c-e309-5bebab0955a2
+      capacity_type: ON_DEMAND
+      cluster_name: kubeflow-dev
+      disk_size: 50
+      force_update_version: null
+      id: kubeflow-dev:large-burst-on-demand-us-east-2c
+      instance_types:
+      - t3.2xlarge
+      - t3a.2xlarge
+      labels:
+        plural.sh/capacityType: ON_DEMAND
+        plural.sh/performanceType: BURST
+        plural.sh/scalingGroup: large-burst-on-demand
+        topology.ebs.csi.aws.com/zone: us-east-2c
+      launch_template: []
+      node_group_name: large-burst-on-demand-us-east-2c
+      node_group_name_prefix: ""
+      node_role_arn: arn:aws:iam::332124921534:role/kubeflow-dev20211011090633019200000009
+      release_version: 1.21.5-20220123
+      remote_access: []
+      resources:
+      - autoscaling_groups:
+        - name: eks-large-burst-on-demand-us-east-2c-b4bf8164-53fe-252c-e309-5bebab0955a2
+        remote_access_security_group_id: ""
+      scaling_config:
+      - desired_size: 0
+        max_size: 9
+        min_size: 0
+      status: ACTIVE
+      subnet_ids:
+      - subnet-09bd3d2e748e04a99
+      tags: {}
+      tags_all: {}
+      taint: []
+      timeouts: null
+      update_config:
+      - max_unavailable: 1
+        max_unavailable_percentage: 0
+      version: "1.21"
+    - ami_type: AL2_x86_64
+      arn: arn:aws:eks:us-east-2:332124921534:nodegroup/kubeflow-dev/large-burst-spot-us-east-2a/1cbf8163-dbac-06f9-547e-d22d13e7828d
+      capacity_type: SPOT
+      cluster_name: kubeflow-dev
+      disk_size: 50
+      force_update_version: null
+      id: kubeflow-dev:large-burst-spot-us-east-2a
+      instance_types:
+      - t3.2xlarge
+      - t3a.2xlarge
+      labels:
+        plural.sh/capacityType: SPOT
+        plural.sh/performanceType: BURST
+        plural.sh/scalingGroup: large-burst-spot
+        topology.ebs.csi.aws.com/zone: us-east-2a
+      launch_template: []
+      node_group_name: large-burst-spot-us-east-2a
+      node_group_name_prefix: ""
+      node_role_arn: arn:aws:iam::332124921534:role/kubeflow-dev20211011090633019200000009
+      release_version: 1.21.5-20220123
+      remote_access: []
+      resources:
+      - autoscaling_groups:
+        - name: eks-large-burst-spot-us-east-2a-1cbf8163-dbac-06f9-547e-d22d13e7828d
+        remote_access_security_group_id: ""
+      scaling_config:
+      - desired_size: 0
+        max_size: 9
+        min_size: 0
+      status: ACTIVE
+      subnet_ids:
+      - subnet-0a23766cd87835a28
+      tags: {}
+      tags_all: {}
+      taint:
+      - effect: NO_SCHEDULE
+        key: plural.sh/capacityType
+        value: SPOT
+      timeouts: null
+      update_config:
+      - max_unavailable: 1
+        max_unavailable_percentage: 0
+      version: "1.21"
+    - ami_type: AL2_x86_64
+      arn: arn:aws:eks:us-east-2:332124921534:nodegroup/kubeflow-dev/large-burst-spot-us-east-2b/6abf8163-dba5-cdb8-0986-9a4522a5edfc
+      capacity_type: SPOT
+      cluster_name: kubeflow-dev
+      disk_size: 50
+      force_update_version: null
+      id: kubeflow-dev:large-burst-spot-us-east-2b
+      instance_types:
+      - t3.2xlarge
+      - t3a.2xlarge
+      labels:
+        plural.sh/capacityType: SPOT
+        plural.sh/performanceType: BURST
+        plural.sh/scalingGroup: large-burst-spot
+        topology.ebs.csi.aws.com/zone: us-east-2b
+      launch_template: []
+      node_group_name: large-burst-spot-us-east-2b
+      node_group_name_prefix: ""
+      node_role_arn: arn:aws:iam::332124921534:role/kubeflow-dev20211011090633019200000009
+      release_version: 1.21.5-20220123
+      remote_access: []
+      resources:
+      - autoscaling_groups:
+        - name: eks-large-burst-spot-us-east-2b-6abf8163-dba5-cdb8-0986-9a4522a5edfc
+        remote_access_security_group_id: ""
+      scaling_config:
+      - desired_size: 0
+        max_size: 9
+        min_size: 0
+      status: ACTIVE
+      subnet_ids:
+      - subnet-0c96966797a2eddde
+      tags: {}
+      tags_all: {}
+      taint:
+      - effect: NO_SCHEDULE
+        key: plural.sh/capacityType
+        value: SPOT
+      timeouts: null
+      update_config:
+      - max_unavailable: 1
+        max_unavailable_percentage: 0
+      version: "1.21"
+    - ami_type: AL2_x86_64
+      arn: arn:aws:eks:us-east-2:332124921534:nodegroup/kubeflow-dev/large-burst-spot-us-east-2c/e4bf8163-dbb4-4b12-9bd0-0dc8f6c51d86
+      capacity_type: SPOT
+      cluster_name: kubeflow-dev
+      disk_size: 50
+      force_update_version: null
+      id: kubeflow-dev:large-burst-spot-us-east-2c
+      instance_types:
+      - t3.2xlarge
+      - t3a.2xlarge
+      labels:
+        plural.sh/capacityType: SPOT
+        plural.sh/performanceType: BURST
+        plural.sh/scalingGroup: large-burst-spot
+        topology.ebs.csi.aws.com/zone: us-east-2c
+      launch_template: []
+      node_group_name: large-burst-spot-us-east-2c
+      node_group_name_prefix: ""
+      node_role_arn: arn:aws:iam::332124921534:role/kubeflow-dev20211011090633019200000009
+      release_version: 1.21.5-20220123
+      remote_access: []
+      resources:
+      - autoscaling_groups:
+        - name: eks-large-burst-spot-us-east-2c-e4bf8163-dbb4-4b12-9bd0-0dc8f6c51d86
+        remote_access_security_group_id: ""
+      scaling_config:
+      - desired_size: 0
+        max_size: 9
+        min_size: 0
+      status: ACTIVE
+      subnet_ids:
+      - subnet-09bd3d2e748e04a99
+      tags: {}
+      tags_all: {}
+      taint:
+      - effect: NO_SCHEDULE
+        key: plural.sh/capacityType
+        value: SPOT
+      timeouts: null
+      update_config:
+      - max_unavailable: 1
+        max_unavailable_percentage: 0
+      version: "1.21"
+    - ami_type: AL2_x86_64
+      arn: arn:aws:eks:us-east-2:332124921534:nodegroup/kubeflow-dev/medium-burst-on-demand-us-east-2a/3cbf8164-764f-c2b0-5624-c8ceaa2b1d6a
+      capacity_type: ON_DEMAND
+      cluster_name: kubeflow-dev
+      disk_size: 50
+      force_update_version: null
+      id: kubeflow-dev:medium-burst-on-demand-us-east-2a
+      instance_types:
+      - t3.xlarge
+      - t3a.xlarge
+      labels:
+        plural.sh/capacityType: ON_DEMAND
+        plural.sh/performanceType: BURST
+        plural.sh/scalingGroup: medium-burst-on-demand
+        topology.ebs.csi.aws.com/zone: us-east-2a
+      launch_template: []
+      node_group_name: medium-burst-on-demand-us-east-2a
+      node_group_name_prefix: ""
+      node_role_arn: arn:aws:iam::332124921534:role/kubeflow-dev20211011090633019200000009
+      release_version: 1.21.5-20220123
+      remote_access: []
+      resources:
+      - autoscaling_groups:
+        - name: eks-medium-burst-on-demand-us-east-2a-3cbf8164-764f-c2b0-5624-c8ceaa2b1d6a
+        remote_access_security_group_id: ""
+      scaling_config:
+      - desired_size: 0
+        max_size: 9
+        min_size: 0
+      status: ACTIVE
+      subnet_ids:
+      - subnet-0a23766cd87835a28
+      tags: {}
+      tags_all: {}
+      taint: []
+      timeouts: null
+      update_config:
+      - max_unavailable: 1
+        max_unavailable_percentage: 0
+      version: "1.21"
+    - ami_type: AL2_x86_64
+      arn: arn:aws:eks:us-east-2:332124921534:nodegroup/kubeflow-dev/medium-burst-on-demand-us-east-2b/febf8164-54b4-485f-076f-7668223abf3a
+      capacity_type: ON_DEMAND
+      cluster_name: kubeflow-dev
+      disk_size: 50
+      force_update_version: null
+      id: kubeflow-dev:medium-burst-on-demand-us-east-2b
+      instance_types:
+      - t3.xlarge
+      - t3a.xlarge
+      labels:
+        plural.sh/capacityType: ON_DEMAND
+        plural.sh/performanceType: BURST
+        plural.sh/scalingGroup: medium-burst-on-demand
+        topology.ebs.csi.aws.com/zone: us-east-2b
+      launch_template: []
+      node_group_name: medium-burst-on-demand-us-east-2b
+      node_group_name_prefix: ""
+      node_role_arn: arn:aws:iam::332124921534:role/kubeflow-dev20211011090633019200000009
+      release_version: 1.21.5-20220123
+      remote_access: []
+      resources:
+      - autoscaling_groups:
+        - name: eks-medium-burst-on-demand-us-east-2b-febf8164-54b4-485f-076f-7668223abf3a
+        remote_access_security_group_id: ""
+      scaling_config:
+      - desired_size: 0
+        max_size: 9
+        min_size: 0
+      status: ACTIVE
+      subnet_ids:
+      - subnet-0c96966797a2eddde
+      tags: {}
+      tags_all: {}
+      taint: []
+      timeouts: null
+      update_config:
+      - max_unavailable: 1
+        max_unavailable_percentage: 0
+      version: "1.21"
+    - ami_type: AL2_x86_64
+      arn: arn:aws:eks:us-east-2:332124921534:nodegroup/kubeflow-dev/medium-burst-on-demand-us-east-2c/fabf8163-dbad-fcda-cbd2-47fbcb60aaf1
+      capacity_type: ON_DEMAND
+      cluster_name: kubeflow-dev
+      disk_size: 50
+      force_update_version: null
+      id: kubeflow-dev:medium-burst-on-demand-us-east-2c
+      instance_types:
+      - t3.xlarge
+      - t3a.xlarge
+      labels:
+        plural.sh/capacityType: ON_DEMAND
+        plural.sh/performanceType: BURST
+        plural.sh/scalingGroup: medium-burst-on-demand
+        topology.ebs.csi.aws.com/zone: us-east-2c
+      launch_template: []
+      node_group_name: medium-burst-on-demand-us-east-2c
+      node_group_name_prefix: ""
+      node_role_arn: arn:aws:iam::332124921534:role/kubeflow-dev20211011090633019200000009
+      release_version: 1.21.5-20220123
+      remote_access: []
+      resources:
+      - autoscaling_groups:
+        - name: eks-medium-burst-on-demand-us-east-2c-fabf8163-dbad-fcda-cbd2-47fbcb60aaf1
+        remote_access_security_group_id: ""
+      scaling_config:
+      - desired_size: 0
+        max_size: 9
+        min_size: 0
+      status: ACTIVE
+      subnet_ids:
+      - subnet-09bd3d2e748e04a99
+      tags: {}
+      tags_all: {}
+      taint: []
+      timeouts: null
+      update_config:
+      - max_unavailable: 1
+        max_unavailable_percentage: 0
+      version: "1.21"
+    - ami_type: AL2_x86_64
+      arn: arn:aws:eks:us-east-2:332124921534:nodegroup/kubeflow-dev/medium-burst-spot-us-east-2a/5ebf8164-141d-e3f2-78c7-ba2acfe30410
+      capacity_type: SPOT
+      cluster_name: kubeflow-dev
+      disk_size: 50
+      force_update_version: null
+      id: kubeflow-dev:medium-burst-spot-us-east-2a
+      instance_types:
+      - t3.xlarge
+      - t3a.xlarge
+      labels:
+        plural.sh/capacityType: SPOT
+        plural.sh/performanceType: BURST
+        plural.sh/scalingGroup: medium-burst-spot
+        topology.ebs.csi.aws.com/zone: us-east-2a
+      launch_template: []
+      node_group_name: medium-burst-spot-us-east-2a
+      node_group_name_prefix: ""
+      node_role_arn: arn:aws:iam::332124921534:role/kubeflow-dev20211011090633019200000009
+      release_version: 1.21.5-20220123
+      remote_access: []
+      resources:
+      - autoscaling_groups:
+        - name: eks-medium-burst-spot-us-east-2a-5ebf8164-141d-e3f2-78c7-ba2acfe30410
+        remote_access_security_group_id: ""
+      scaling_config:
+      - desired_size: 0
+        max_size: 9
+        min_size: 0
+      status: ACTIVE
+      subnet_ids:
+      - subnet-0a23766cd87835a28
+      tags: {}
+      tags_all: {}
+      taint:
+      - effect: NO_SCHEDULE
+        key: plural.sh/capacityType
+        value: SPOT
+      timeouts: null
+      update_config:
+      - max_unavailable: 1
+        max_unavailable_percentage: 0
+      version: "1.21"
+    - ami_type: AL2_x86_64
+      arn: arn:aws:eks:us-east-2:332124921534:nodegroup/kubeflow-dev/medium-burst-spot-us-east-2b/f8bf8163-dbac-1562-2511-0ea09e28b1dd
+      capacity_type: SPOT
+      cluster_name: kubeflow-dev
+      disk_size: 50
+      force_update_version: null
+      id: kubeflow-dev:medium-burst-spot-us-east-2b
+      instance_types:
+      - t3.xlarge
+      - t3a.xlarge
+      labels:
+        plural.sh/capacityType: SPOT
+        plural.sh/performanceType: BURST
+        plural.sh/scalingGroup: medium-burst-spot
+        topology.ebs.csi.aws.com/zone: us-east-2b
+      launch_template: []
+      node_group_name: medium-burst-spot-us-east-2b
+      node_group_name_prefix: ""
+      node_role_arn: arn:aws:iam::332124921534:role/kubeflow-dev20211011090633019200000009
+      release_version: 1.21.5-20220123
+      remote_access: []
+      resources:
+      - autoscaling_groups:
+        - name: eks-medium-burst-spot-us-east-2b-f8bf8163-dbac-1562-2511-0ea09e28b1dd
+        remote_access_security_group_id: ""
+      scaling_config:
+      - desired_size: 0
+        max_size: 9
+        min_size: 0
+      status: ACTIVE
+      subnet_ids:
+      - subnet-0c96966797a2eddde
+      tags: {}
+      tags_all: {}
+      taint:
+      - effect: NO_SCHEDULE
+        key: plural.sh/capacityType
+        value: SPOT
+      timeouts: null
+      update_config:
+      - max_unavailable: 1
+        max_unavailable_percentage: 0
+      version: "1.21"
+    - ami_type: AL2_x86_64
+      arn: arn:aws:eks:us-east-2:332124921534:nodegroup/kubeflow-dev/medium-burst-spot-us-east-2c/98bf8164-5605-e03c-5539-40ab75c30b5b
+      capacity_type: SPOT
+      cluster_name: kubeflow-dev
+      disk_size: 50
+      force_update_version: null
+      id: kubeflow-dev:medium-burst-spot-us-east-2c
+      instance_types:
+      - t3.xlarge
+      - t3a.xlarge
+      labels:
+        plural.sh/capacityType: SPOT
+        plural.sh/performanceType: BURST
+        plural.sh/scalingGroup: medium-burst-spot
+        topology.ebs.csi.aws.com/zone: us-east-2c
+      launch_template: []
+      node_group_name: medium-burst-spot-us-east-2c
+      node_group_name_prefix: ""
+      node_role_arn: arn:aws:iam::332124921534:role/kubeflow-dev20211011090633019200000009
+      release_version: 1.21.5-20220123
+      remote_access: []
+      resources:
+      - autoscaling_groups:
+        - name: eks-medium-burst-spot-us-east-2c-98bf8164-5605-e03c-5539-40ab75c30b5b
+        remote_access_security_group_id: ""
+      scaling_config:
+      - desired_size: 0
+        max_size: 9
+        min_size: 0
+      status: ACTIVE
+      subnet_ids:
+      - subnet-09bd3d2e748e04a99
+      tags: {}
+      tags_all: {}
+      taint:
+      - effect: NO_SCHEDULE
+        key: plural.sh/capacityType
+        value: SPOT
+      timeouts: null
+      update_config:
+      - max_unavailable: 1
+        max_unavailable_percentage: 0
+      version: "1.21"
+    - ami_type: AL2_x86_64
+      arn: arn:aws:eks:us-east-2:332124921534:nodegroup/kubeflow-dev/small-burst-on-demand-us-east-2a/02bf8163-de8d-5444-c60e-0416c5e001b4
+      capacity_type: ON_DEMAND
+      cluster_name: kubeflow-dev
+      disk_size: 50
+      force_update_version: null
+      id: kubeflow-dev:small-burst-on-demand-us-east-2a
+      instance_types:
+      - t3.large
+      - t3a.large
+      labels:
+        plural.sh/capacityType: ON_DEMAND
+        plural.sh/performanceType: BURST
+        plural.sh/scalingGroup: small-burst-on-demand
+        topology.ebs.csi.aws.com/zone: us-east-2a
+      launch_template: []
+      node_group_name: small-burst-on-demand-us-east-2a
+      node_group_name_prefix: ""
+      node_role_arn: arn:aws:iam::332124921534:role/kubeflow-dev20211011090633019200000009
+      release_version: 1.21.5-20220123
+      remote_access: []
+      resources:
+      - autoscaling_groups:
+        - name: eks-small-burst-on-demand-us-east-2a-02bf8163-de8d-5444-c60e-0416c5e001b4
+        remote_access_security_group_id: ""
+      scaling_config:
+      - desired_size: 3
+        max_size: 9
+        min_size: 1
+      status: ACTIVE
+      subnet_ids:
+      - subnet-0a23766cd87835a28
+      tags: {}
+      tags_all: {}
+      taint: []
+      timeouts: null
+      update_config:
+      - max_unavailable: 1
+        max_unavailable_percentage: 0
+      version: "1.21"
+    - ami_type: AL2_x86_64
+      arn: arn:aws:eks:us-east-2:332124921534:nodegroup/kubeflow-dev/small-burst-on-demand-us-east-2b/26bf8163-dbad-fa7a-fa87-35cd91c329d2
+      capacity_type: ON_DEMAND
+      cluster_name: kubeflow-dev
+      disk_size: 50
+      force_update_version: null
+      id: kubeflow-dev:small-burst-on-demand-us-east-2b
+      instance_types:
+      - t3.large
+      - t3a.large
+      labels:
+        plural.sh/capacityType: ON_DEMAND
+        plural.sh/performanceType: BURST
+        plural.sh/scalingGroup: small-burst-on-demand
+        topology.ebs.csi.aws.com/zone: us-east-2b
+      launch_template: []
+      node_group_name: small-burst-on-demand-us-east-2b
+      node_group_name_prefix: ""
+      node_role_arn: arn:aws:iam::332124921534:role/kubeflow-dev20211011090633019200000009
+      release_version: 1.21.5-20220123
+      remote_access: []
+      resources:
+      - autoscaling_groups:
+        - name: eks-small-burst-on-demand-us-east-2b-26bf8163-dbad-fa7a-fa87-35cd91c329d2
+        remote_access_security_group_id: ""
+      scaling_config:
+      - desired_size: 1
+        max_size: 9
+        min_size: 1
+      status: ACTIVE
+      subnet_ids:
+      - subnet-0c96966797a2eddde
+      tags: {}
+      tags_all: {}
+      taint: []
+      timeouts: null
+      update_config:
+      - max_unavailable: 1
+        max_unavailable_percentage: 0
+      version: "1.21"
+    - ami_type: AL2_x86_64
+      arn: arn:aws:eks:us-east-2:332124921534:nodegroup/kubeflow-dev/small-burst-on-demand-us-east-2c/74bf8164-5224-db5e-32e2-aadee13f9577
+      capacity_type: ON_DEMAND
+      cluster_name: kubeflow-dev
+      disk_size: 50
+      force_update_version: null
+      id: kubeflow-dev:small-burst-on-demand-us-east-2c
+      instance_types:
+      - t3.large
+      - t3a.large
+      labels:
+        plural.sh/capacityType: ON_DEMAND
+        plural.sh/performanceType: BURST
+        plural.sh/scalingGroup: small-burst-on-demand
+        topology.ebs.csi.aws.com/zone: us-east-2c
+      launch_template: []
+      node_group_name: small-burst-on-demand-us-east-2c
+      node_group_name_prefix: ""
+      node_role_arn: arn:aws:iam::332124921534:role/kubeflow-dev20211011090633019200000009
+      release_version: 1.21.5-20220123
+      remote_access: []
+      resources:
+      - autoscaling_groups:
+        - name: eks-small-burst-on-demand-us-east-2c-74bf8164-5224-db5e-32e2-aadee13f9577
+        remote_access_security_group_id: ""
+      scaling_config:
+      - desired_size: 4
+        max_size: 9
+        min_size: 1
+      status: ACTIVE
+      subnet_ids:
+      - subnet-09bd3d2e748e04a99
+      tags: {}
+      tags_all: {}
+      taint: []
+      timeouts: null
+      update_config:
+      - max_unavailable: 1
+        max_unavailable_percentage: 0
+      version: "1.21"
+    - ami_type: AL2_x86_64
+      arn: arn:aws:eks:us-east-2:332124921534:nodegroup/kubeflow-dev/small-burst-spot-us-east-2a/9abf8163-dba9-1f82-9690-78ce0cc8ffb5
+      capacity_type: SPOT
+      cluster_name: kubeflow-dev
+      disk_size: 50
+      force_update_version: null
+      id: kubeflow-dev:small-burst-spot-us-east-2a
+      instance_types:
+      - t3.large
+      - t3a.large
+      labels:
+        plural.sh/capacityType: SPOT
+        plural.sh/performanceType: BURST
+        plural.sh/scalingGroup: small-burst-spot
+        topology.ebs.csi.aws.com/zone: us-east-2a
+      launch_template: []
+      node_group_name: small-burst-spot-us-east-2a
+      node_group_name_prefix: ""
+      node_role_arn: arn:aws:iam::332124921534:role/kubeflow-dev20211011090633019200000009
+      release_version: 1.21.5-20220123
+      remote_access: []
+      resources:
+      - autoscaling_groups:
+        - name: eks-small-burst-spot-us-east-2a-9abf8163-dba9-1f82-9690-78ce0cc8ffb5
+        remote_access_security_group_id: ""
+      scaling_config:
+      - desired_size: 0
+        max_size: 9
+        min_size: 0
+      status: ACTIVE
+      subnet_ids:
+      - subnet-0a23766cd87835a28
+      tags: {}
+      tags_all: {}
+      taint:
+      - effect: NO_SCHEDULE
+        key: plural.sh/capacityType
+        value: SPOT
+      timeouts: null
+      update_config:
+      - max_unavailable: 1
+        max_unavailable_percentage: 0
+      version: "1.21"
+    - ami_type: AL2_x86_64
+      arn: arn:aws:eks:us-east-2:332124921534:nodegroup/kubeflow-dev/small-burst-spot-us-east-2b/5abf8164-7e62-592d-baa9-7e9c93611b60
+      capacity_type: SPOT
+      cluster_name: kubeflow-dev
+      disk_size: 50
+      force_update_version: null
+      id: kubeflow-dev:small-burst-spot-us-east-2b
+      instance_types:
+      - t3.large
+      - t3a.large
+      labels:
+        plural.sh/capacityType: SPOT
+        plural.sh/performanceType: BURST
+        plural.sh/scalingGroup: small-burst-spot
+        topology.ebs.csi.aws.com/zone: us-east-2b
+      launch_template: []
+      node_group_name: small-burst-spot-us-east-2b
+      node_group_name_prefix: ""
+      node_role_arn: arn:aws:iam::332124921534:role/kubeflow-dev20211011090633019200000009
+      release_version: 1.21.5-20220123
+      remote_access: []
+      resources:
+      - autoscaling_groups:
+        - name: eks-small-burst-spot-us-east-2b-5abf8164-7e62-592d-baa9-7e9c93611b60
+        remote_access_security_group_id: ""
+      scaling_config:
+      - desired_size: 0
+        max_size: 9
+        min_size: 0
+      status: ACTIVE
+      subnet_ids:
+      - subnet-0c96966797a2eddde
+      tags: {}
+      tags_all: {}
+      taint:
+      - effect: NO_SCHEDULE
+        key: plural.sh/capacityType
+        value: SPOT
+      timeouts: null
+      update_config:
+      - max_unavailable: 1
+        max_unavailable_percentage: 0
+      version: "1.21"
+    - ami_type: AL2_x86_64
+      arn: arn:aws:eks:us-east-2:332124921534:nodegroup/kubeflow-dev/small-burst-spot-us-east-2c/3abf8164-541f-f192-033a-576bda60fb68
+      capacity_type: SPOT
+      cluster_name: kubeflow-dev
+      disk_size: 50
+      force_update_version: null
+      id: kubeflow-dev:small-burst-spot-us-east-2c
+      instance_types:
+      - t3.large
+      - t3a.large
+      labels:
+        plural.sh/capacityType: SPOT
+        plural.sh/performanceType: BURST
+        plural.sh/scalingGroup: small-burst-spot
+        topology.ebs.csi.aws.com/zone: us-east-2c
+      launch_template: []
+      node_group_name: small-burst-spot-us-east-2c
+      node_group_name_prefix: ""
+      node_role_arn: arn:aws:iam::332124921534:role/kubeflow-dev20211011090633019200000009
+      release_version: 1.21.5-20220123
+      remote_access: []
+      resources:
+      - autoscaling_groups:
+        - name: eks-small-burst-spot-us-east-2c-3abf8164-541f-f192-033a-576bda60fb68
+        remote_access_security_group_id: ""
+      scaling_config:
+      - desired_size: 0
+        max_size: 9
+        min_size: 0
+      status: ACTIVE
+      subnet_ids:
+      - subnet-09bd3d2e748e04a99
+      tags: {}
+      tags_all: {}
+      taint:
+      - effect: NO_SCHEDULE
+        key: plural.sh/capacityType
+        value: SPOT
+      timeouts: null
+      update_config:
+      - max_unavailable: 1
+        max_unavailable_percentage: 0
+      version: "1.21"
+    worker_role_arn: arn:aws:iam::332124921534:role/kubeflow-dev20211011090633019200000009
