@@ -13,7 +13,7 @@ step "terraform-init" {
     "-upgrade",
   ]
 
-  sha     = "h1:Mw3jijLnavltnsvORHJ6OZYBpNjKHLy+pqHEfRM3TFM="
+  sha     = "h1:K6uB0rm8cgePnbsChyUZ6sgn1zf4t3+jG0/Sfw2nzFY="
   retries = 0
 }
 
@@ -27,7 +27,7 @@ step "terraform-apply" {
     "-auto-approve",
   ]
 
-  sha     = "h1:Mw3jijLnavltnsvORHJ6OZYBpNjKHLy+pqHEfRM3TFM="
+  sha     = "h1:K6uB0rm8cgePnbsChyUZ6sgn1zf4t3+jG0/Sfw2nzFY="
   retries = 1
 }
 
@@ -42,7 +42,7 @@ step "terraform-output" {
     "nvidia-operator",
   ]
 
-  sha     = "h1:Mw3jijLnavltnsvORHJ6OZYBpNjKHLy+pqHEfRM3TFM="
+  sha     = "h1:K6uB0rm8cgePnbsChyUZ6sgn1zf4t3+jG0/Sfw2nzFY="
   retries = 0
 }
 
@@ -56,7 +56,7 @@ step "kube-init" {
     "kube-init",
   ]
 
-  sha     = "aaa44652fea877f38c6fb619848465caa9b82d79b9f05ef5f5b072d263b450c9"
+  sha     = "87cc09fc7ff0946d88815f782effd64f4df70c037fb3f9bfd7bf5349ad1828aa"
   retries = 0
 }
 
@@ -71,7 +71,7 @@ step "crds" {
     "nvidia-operator",
   ]
 
-  sha     = "h1:2blKLDz++qBHLRzS62oZWipyvmesKkX5jyvElMH0CP0="
+  sha     = "h1:9AkoaIN4OKVRNeLTXVuRgsKQ8ZXWm2SB6qS/9KKNRdc="
   retries = 0
 }
 
@@ -86,6 +86,6 @@ step "bounce" {
     "nvidia-operator",
   ]
 
-  sha     = "h1:RfnZ2fKsQ47FBPuwnIVwlfSf7JODxAnA7F1iktpA8j4="
+  sha     = "h1:mgmh12TQPhoHBIY7yZNgDh/BVJ2QERv81RyZYVJ0Csk="
   retries = 1
 }

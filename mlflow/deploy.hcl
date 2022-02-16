@@ -56,7 +56,11 @@ step "kube-init" {
     "kube-init",
   ]
 
+<<<<<<< HEAD
   sha     = "3cd2cab35f4faace4c48aa436119e2b986c4e971ae2d7e84e2adacc0a595b160"
+=======
+  sha     = "c17aa1939edd5b0df9196afa7d1da03f3fddcb136588539acdf0e8a7bb5e3ab3"
+>>>>>>> 39f8552c (redeploy all)
   retries = 0
 }
 

@@ -32,7 +32,7 @@ dependencies:
   version: 0.1.6
   repository: cm://app.plural.sh/cm/kubeflow
 - name: notebooks
-  version: 0.1.16
+  version: 0.1.18
   repository: cm://app.plural.sh/cm/kubeflow
 - name: pytorch
   version: 0.1.6
@@ -40,9 +40,9 @@ dependencies:
 - name: tensorflow
   version: 0.1.6
   repository: cm://app.plural.sh/cm/kubeflow
+- name: pipelines
+  version: 0.1.85
+  repository: cm://app.plural.sh/cm/kubeflow
 - name: xgboost
   version: 0.1.6
-  repository: cm://app.plural.sh/cm/kubeflow
-- name: pipelines
-  version: 0.1.84
   repository: cm://app.plural.sh/cm/kubeflow

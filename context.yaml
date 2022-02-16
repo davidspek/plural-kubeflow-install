@@ -38,6 +38,8 @@ spec:
     name: mlflow-aws-standalone
   - repository: kyverno
     name: kyverno-aws
+  - repository: loki
+    name: loki-aws
   configuration:
     airbyte:
       airbyteBucket: david-dev-airbyte
@@ -83,6 +85,8 @@ spec:
       pipelines_bucket: kubeflow-dev-pipelines-new
     kyverno:
       enablePolicies: false
+    loki:
+      lokiBucket: plural-kubeflow-dev-loki
     mlflow:
       hostname: mlflow.kubeflow-aws.com
       mlflow_bucket: plural-mlflow-test-bucket
@@ -96,7 +100,9 @@ spec:
     nvidia-operator: {}
     postgres:
       wal_bucket: kubeflow-dev-postgres-wal
-    redis: {}
+    redis:
+      masterHostname: redis-master.kubeflow-aws.com
+      replicaHostname: redis-replica.kubeflow-aws.com
     spark: {}
     vaultwarden:
       hostname: vaultwarden.kubeflow-aws.com

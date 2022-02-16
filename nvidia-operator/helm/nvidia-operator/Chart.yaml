@@ -2,8 +2,8 @@ apiVersion: v2
 name: nvidia-operator
 description: A helm chart for nvidia-operator
 version: 0.1.4
-appVersion: 0.1.9
+appVersion: 0.1.13
 dependencies:
 - name: nvidia-operator
-  version: 0.1.9
+  version: 0.1.13
   repository: cm://app.plural.sh/cm/nvidia-operator

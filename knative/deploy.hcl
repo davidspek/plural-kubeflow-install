@@ -13,7 +13,7 @@ step "terraform-init" {
     "-upgrade",
   ]
 
-  sha     = "h1:6D4cmdob0Hvm9wn4r6OJTgA/5OTLvZJQ42C9t+372AE="
+  sha     = "h1:iNe8IPXowT4zsfBa915ukfPEJRRpLyZRc0x4XJuk1zk="
   retries = 0
 }
 
@@ -27,7 +27,7 @@ step "terraform-apply" {
     "-auto-approve",
   ]
 
-  sha     = "h1:6D4cmdob0Hvm9wn4r6OJTgA/5OTLvZJQ42C9t+372AE="
+  sha     = "h1:iNe8IPXowT4zsfBa915ukfPEJRRpLyZRc0x4XJuk1zk="
   retries = 1
 }
 
@@ -42,7 +42,7 @@ step "terraform-output" {
     "knative",
   ]
 
-  sha     = "h1:6D4cmdob0Hvm9wn4r6OJTgA/5OTLvZJQ42C9t+372AE="
+  sha     = "h1:iNe8IPXowT4zsfBa915ukfPEJRRpLyZRc0x4XJuk1zk="
   retries = 0
 }
 
@@ -56,7 +56,7 @@ step "kube-init" {
     "kube-init",
   ]
 
-  sha     = "296958e14a1f6a96af0dd2082b8d499cebee68fde58c8b15db806a6cee7d18ed"
+  sha     = "d7a83f018fdae322af81abd1c1442e68f5c86e5982b7bea27a6bc28fa594bef0"
   retries = 0
 }
 
