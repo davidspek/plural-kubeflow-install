@@ -8,7 +8,7 @@ step "terraform-init" {
   target  = "kubeflow/terraform"
   command = "terraform"
   args    = ["init"]
-  sha     = "h1:fZL+9TO9QHlHjQP82UtbJE+P1Q/8Gc2uUFtb9LM5xcE="
+  sha     = "h1:91SKG8+PnzA1WLTwsjWcnWKTuZ689QUVzFHJZHt9CB4="
   retries = 0
 }
 
@@ -23,7 +23,7 @@ step "terraform" {
     "kubeflow",
   ]
 
-  sha     = "h1:fZL+9TO9QHlHjQP82UtbJE+P1Q/8Gc2uUFtb9LM5xcE="
+  sha     = "h1:91SKG8+PnzA1WLTwsjWcnWKTuZ689QUVzFHJZHt9CB4="
   retries = 0
 }
 
@@ -38,7 +38,7 @@ step "kube-init" {
     "kubeflow",
   ]
 
-  sha     = "85bd3a21dd6ea7770edc030ce3f2c43bc6f721a4df45730f26fcf76ebe7be417"
+  sha     = "b298ecaf65d0e4a23d0a60605c783329e8b46864f78e15f460a264cdbcb18279"
   retries = 0
 }
 
@@ -53,6 +53,6 @@ step "helm" {
     "kubeflow",
   ]
 
-  sha     = "h1:945aMdLmYGjvzEduGPuLzcmIyjMQkpmHCvlh/UT/LXw="
+  sha     = "h1:szFAXs5tl8TfwYJBhPE7C+kKFnZzf6TYqUk/QAP/Ddk="
   retries = 0
 }

@@ -19,6 +19,9 @@ dependencies:
 - name: mpi
   version: 0.1.8
   repository: cm://app.plural.sh/cm/kubeflow
+- name: notebooks
+  version: 0.1.19
+  repository: cm://app.plural.sh/cm/kubeflow
 - name: profile-controller
   version: 0.1.36
   repository: cm://app.plural.sh/cm/kubeflow
@@ -30,9 +33,6 @@ dependencies:
   repository: cm://app.plural.sh/cm/kubeflow
 - name: mxnet
   version: 0.1.6
-  repository: cm://app.plural.sh/cm/kubeflow
-- name: notebooks
-  version: 0.1.18
   repository: cm://app.plural.sh/cm/kubeflow
 - name: pytorch
   version: 0.1.6
