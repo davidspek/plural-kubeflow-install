@@ -2,16 +2,16 @@ apiVersion: v2
 name: kubeflow
 description: A helm chart for kubeflow
 version: 0.1.38
-appVersion: 0.1.27
+appVersion: 0.1.18
 dependencies:
-- name: central-dashboard
-  version: 0.1.27
-  repository: cm://app.plural.sh/cm/kubeflow
 - name: katib
   version: 0.1.18
   repository: cm://app.plural.sh/cm/kubeflow
 - name: volumes
   version: 0.1.7
+  repository: cm://app.plural.sh/cm/kubeflow
+- name: central-dashboard
+  version: 0.1.28
   repository: cm://app.plural.sh/cm/kubeflow
 - name: mysql-cluster
   version: 0.1.13
