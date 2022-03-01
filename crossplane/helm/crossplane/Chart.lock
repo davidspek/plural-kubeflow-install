@@ -1,6 +1,0 @@
-dependencies:
-- name: crossplane
-  repository: cm://app.plural.sh/cm/crossplane
-  version: 0.1.10
-digest: sha256:8993510f1db02ba351cebe84822731de47dee7e97b7c13609e4e556fdea982c6
-generated: "2021-12-15T15:50:59.444796513Z"
