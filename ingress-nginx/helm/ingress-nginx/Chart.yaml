@@ -8,5 +8,5 @@ dependencies:
   version: 0.1.8
   repository: cm://app.plural.sh/cm/ingress-nginx
 - name: ingress-nginx-private
-  version: 0.1.12
+  version: 0.1.13
   repository: cm://app.plural.sh/cm/ingress-nginx
