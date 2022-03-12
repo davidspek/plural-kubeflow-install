@@ -38,7 +38,7 @@ step "kube-init" {
     "mysql",
   ]
 
-  sha     = "4727dcb543891723b2dd8552aa845392af26a2b1456e18ea7f1ab4ad41fc29e3"
+  sha     = "2f3dff2f1fd4742ee111d3f20ca3ef9c083e7e3d2d9f6071c824ed161fc38b00"
   retries = 0
 }
 
@@ -53,6 +53,6 @@ step "helm" {
     "mysql",
   ]
 
-  sha     = "h1:/hKo7PEL29U7TGedTX3NDA/T4i+WCZUS2+UnMSL7ci0="
+  sha     = "h1:rThnaD9Rk8pG2Yy/ofYGLWxpsubwbjykQlLioxQIuLg="
   retries = 0
 }
