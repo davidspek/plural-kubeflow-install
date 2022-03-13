@@ -11,5 +11,5 @@ dependencies:
   version: 0.1.12
   repository: cm://app.plural.sh/cm/bootstrap
 - name: bootstrap
-  version: 0.8.40
+  version: 0.8.41
   repository: cm://app.plural.sh/cm/bootstrap

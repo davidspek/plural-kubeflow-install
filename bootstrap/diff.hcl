@@ -8,7 +8,7 @@ step "terraform-init" {
   target  = "bootstrap/terraform"
   command = "terraform"
   args    = ["init"]
-  sha     = "h1:dcuAFvFLSoJ7pMR/Hy9BRjSa9ahfn3u5ZuWhSnmb+S0="
+  sha     = "h1:x6m9vz3lfiNgiTVxcR6wBVL62v8RR4VXaCPqADM58gA="
   retries = 0
 }
 
@@ -23,7 +23,7 @@ step "terraform" {
     "bootstrap",
   ]
 
-  sha     = "h1:dcuAFvFLSoJ7pMR/Hy9BRjSa9ahfn3u5ZuWhSnmb+S0="
+  sha     = "h1:x6m9vz3lfiNgiTVxcR6wBVL62v8RR4VXaCPqADM58gA="
   retries = 0
 }
 
@@ -38,7 +38,7 @@ step "kube-init" {
     "bootstrap",
   ]
 
-  sha     = "80c0c47cd0899d38e7535f194d32c60c4a3178a5335569678936cd4c4e705428"
+  sha     = "5e868f9253af56320ed05b8e2795a8a1631625d32470574ceca55c4ecbea3b13"
   retries = 0
 }
 
@@ -53,6 +53,6 @@ step "helm" {
     "bootstrap",
   ]
 
-  sha     = "h1:cIzDmsKq2bEOBhOdfW4J4UEQsUEi3kQPwBSArGEWGso="
+  sha     = "h1:BfB/GhIAq3wFf7BZcBaMpOByi4f6LQZT9SZ7AwsE2iM="
   retries = 0
 }
