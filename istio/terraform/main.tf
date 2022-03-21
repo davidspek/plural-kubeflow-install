@@ -35,7 +35,6 @@ provider "kubernetes" {
   token                  = data.aws_eks_cluster_auth.cluster.token
 }
 
-
 module "kube" {
   source = "./kube"
 

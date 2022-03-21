@@ -8,7 +8,7 @@ step "terraform-init" {
   target  = "istio/terraform"
   command = "terraform"
   args    = ["init"]
-  sha     = "h1:pk9tDVS0S08kzQit9SAZygePKs1XMBrR+PTSbQCyCVc="
+  sha     = "h1:qOborOHnp8RqlPPTk/6Zrvnhb10ayVcYHPw50lyh4Dg="
   retries = 0
 }
 
@@ -23,7 +23,7 @@ step "terraform" {
     "istio",
   ]
 
-  sha     = "h1:pk9tDVS0S08kzQit9SAZygePKs1XMBrR+PTSbQCyCVc="
+  sha     = "h1:qOborOHnp8RqlPPTk/6Zrvnhb10ayVcYHPw50lyh4Dg="
   retries = 0
 }
 
@@ -38,7 +38,7 @@ step "kube-init" {
     "istio",
   ]
 
-  sha     = "0f80beaab9bc2fb443058c922dd8987996b0fbb7b949353ab25bbdbc76285cce"
+  sha     = "868bfd885aa0b0f5810ddfaa40009e3f239b09225b70bd7d8800de0f0ef05c22"
   retries = 0
 }
 
@@ -53,6 +53,6 @@ step "helm" {
     "istio",
   ]
 
-  sha     = "h1:NjXk2Yyv7oekMFRYkIHXn3CTUvXFTwUSe/Q40ofL+lo="
+  sha     = "h1:CUAQG+Mi+mYgInNsgSV33TzRRsWRtQFqXcG6mQNXg70="
   retries = 0
 }
