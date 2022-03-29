@@ -1,6 +1,6 @@
 dependencies:
 - name: mysql
   repository: cm://app.plural.sh/cm/mysql
-  version: 0.1.17
-digest: sha256:dbc7bf5edff61567394e3e57cca79a3611fc3abc79f2687ebc90217f10f0485f
-generated: "2022-03-29T12:34:29.175878101Z"
+  version: 0.1.18
+digest: sha256:364ea145071234cb67bf82c54b35f406dd3c3e1c3999b2827346f52ef795ec3f
+generated: "2022-03-29T12:52:18.998280184Z"
