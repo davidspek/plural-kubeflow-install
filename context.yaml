@@ -112,50 +112,11 @@ spec:
       masterHostname: redis-master.kubeflow-aws.com
       replicaHostname: redis-replica.kubeflow-aws.com
     renovate:
+      renovate_token: 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
       autodiscover_filter: pluralsh/*
+      git_author: 'Plural Bot <gh-bot@plural.sh>'
       dry_run: true
-      github_pat: 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
-      private_key: |
-        -----BEGIN OPENSSH PRIVATE KEY-----
-        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
-        -----END OPENSSH PRIVATE KEY-----
-      public_key: |
-        ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDEvEZm5necXwEkydGkiLzvLVKsdatnhnIXgzhwkzeDU+FCb/7kpzud9Y+6HM7xaS1nOphKRlKMZCXrB2ubLfjDd9KjGxBkSVWzluTAG9MU3Zb+EJxsUs9naRiP8TY84YlzWjRTbpwaE43IljCZap5AsXGYfOxN0MU2vNB4cod6SptOu2SzE6tyy4tlKEezFDUkkVPglb+gqaD3FaRdsBGx3PomuV/PlhwgDIFBr6Wxv9Q+I299ETPngwCySNFOdW8lo/C9Sx2ndlaU8ZbDL3e4lKAns34h6ZofEBJQZITZRsjjL2SAyHTxpumjGY8rWl62j+vmncxQGOPAiUv504s6lK8Wbnzfmda/CNLL4ChO4rY17aujWscGB/Ebjs+ylir+9aYHt+sOB3Fi0NVmqe4xGF5xVvh/5BLTCr5DHIruK0AmOmdE4LzXMuW0sa2Sj0oEWw0w4UeC3fDwbCLJ0h7OldGQko9r1PPsAFyAw9HFYnAgkT/ZqWWSiSAjRli3+L8= david@david-pop-os
+      github_pat: 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
       renovate_platform: github
     spark: {}
     vaultwarden:
