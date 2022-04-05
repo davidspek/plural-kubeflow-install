@@ -8,7 +8,7 @@ step "terraform-init" {
   target  = "renovate/terraform"
   command = "terraform"
   args    = ["init"]
-  sha     = ""
+  sha     = "h1:VYAHqQLTtnu9AVpZAKaG5uVbwPMK0NWHidDlrM220iI="
   retries = 0
 }
 
@@ -23,7 +23,7 @@ step "terraform" {
     "renovate",
   ]
 
-  sha     = ""
+  sha     = "h1:VYAHqQLTtnu9AVpZAKaG5uVbwPMK0NWHidDlrM220iI="
   retries = 0
 }
 
@@ -38,7 +38,7 @@ step "kube-init" {
     "renovate",
   ]
 
-  sha     = ""
+  sha     = "3605302073602833d0fe702f5fbc0b210a4c843030552b3688253b2e1e4cc0b4"
   retries = 0
 }
 
@@ -53,6 +53,6 @@ step "helm" {
     "renovate",
   ]
 
-  sha     = ""
+  sha     = "h1:ApyNIu00NPzoMrlP+4av6/zCCyv6OouIKcrwPEsi/50="
   retries = 0
 }
