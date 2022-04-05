@@ -40,6 +40,8 @@ spec:
     name: kyverno-aws
   - repository: loki
     name: loki-aws
+  - repository: argo-workflows
+    name: argo-workflows-aws
   configuration:
     airbyte:
       airbyteBucket: david-dev-airbyte
@@ -53,6 +55,10 @@ spec:
       hostname: argo-cd.kubeflow-aws.com
       privateRepoName: ""
       privateRepoURL: ""
+    argo-workflows:
+      adminEmail: david@plural.sh
+      hostname: argo-workflows.kubeflow-aws.com
+      workflowBucket: kubeflow-dev-argo-workflows
     bootstrap:
       enableSnapshot: true
       ownerEmail: david@plural.sh
