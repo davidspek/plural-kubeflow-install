@@ -8,7 +8,7 @@ step "terraform-init" {
   target  = "argo-workflows/terraform"
   command = "terraform"
   args    = ["init"]
-  sha     = ""
+  sha     = "h1:ZdaFA3p3s+SX7C6Msi7G6+9WHCUJHxypMqNJcyKlx8w="
   retries = 0
 }
 
@@ -23,7 +23,7 @@ step "terraform" {
     "argo-workflows",
   ]
 
-  sha     = ""
+  sha     = "h1:ZdaFA3p3s+SX7C6Msi7G6+9WHCUJHxypMqNJcyKlx8w="
   retries = 0
 }
 
@@ -38,7 +38,7 @@ step "kube-init" {
     "argo-workflows",
   ]
 
-  sha     = ""
+  sha     = "1d4ba47adc712f5763b1dc18d45a51a4c40bf33c64a3bfa0328ea1184a05e787"
   retries = 0
 }
 
@@ -53,6 +53,6 @@ step "helm" {
     "argo-workflows",
   ]
 
-  sha     = ""
+  sha     = "h1:fnopwJ9pJbxiFJv0VY7bB9PVp19VuYCztEX7Z4R4pos="
   retries = 0
 }
