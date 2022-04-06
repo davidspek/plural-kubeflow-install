@@ -115,7 +115,7 @@ spec:
       renovate_token: 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
       autodiscover_filter: pluralsh/*
       git_author: 'Plural Bot <gh-bot@plural.sh>'
-      dry_run: true
+      dry_run: false
       github_pat: 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
       renovate_platform: github
     spark: {}
