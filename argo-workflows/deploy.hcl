@@ -56,7 +56,7 @@ step "kube-init" {
     "kube-init",
   ]
 
-  sha     = "b8aa4d48baada371c58dcc9068d2eb064eafa932aa007800bf07a5dced1734d1"
+  sha     = "c4360db1b5dc8a30121783c753d08b5e23758c0d2e9513aa5207648b44d5e1b7"
   retries = 0
 }
 
@@ -86,6 +86,6 @@ step "bounce" {
     "argo-workflows",
   ]
 
-  sha     = "h1:Q8KEo7bJqSwmPY1oKIPj4yrQ77TOsanbg98X5i5uiZI="
+  sha     = "h1:8D4exLs592XJdKrPQHqC4F3f82CpBzVztmDAcLgX8Z8="
   retries = 1
 }

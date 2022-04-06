@@ -1,6 +1,6 @@
 dependencies:
 - name: argo-workflows
   repository: cm://app.plural.sh/cm/argo-workflows
-  version: 0.1.16
-digest: sha256:e8536e3cf704fde4a08354a8703069dd68cdc92bdf0e6d40058d287ac96cec7e
-generated: "2022-04-06T04:03:22.204559385Z"
+  version: 0.1.17
+digest: sha256:5153584ebd097805af5541685ffe781a581062c95505de6fa253024a227ccbe4
+generated: "2022-04-06T04:48:02.061763987Z"
