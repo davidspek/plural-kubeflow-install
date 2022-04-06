@@ -22,7 +22,7 @@ spec:
     kind: Job
   descriptor:
     type: argo-workflows
-    version: 0.1.15
+    version: 0.1.16
     description: The workflow engine for Kubernetes
     icons:
     - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/92c5ed56-445e-44dd-bb9a-6cd8cfadbf36/argo-stacked-color-square.png?v=63798850762
