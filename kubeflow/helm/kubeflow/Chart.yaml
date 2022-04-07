@@ -10,9 +10,6 @@ dependencies:
 - name: volumes
   version: 0.1.7
   repository: cm://app.plural.sh/cm/kubeflow
-- name: central-dashboard
-  version: 0.1.28
-  repository: cm://app.plural.sh/cm/kubeflow
 - name: mysql-cluster
   version: 0.1.13
   repository: cm://app.plural.sh/cm/kubeflow
@@ -45,4 +42,7 @@ dependencies:
   repository: cm://app.plural.sh/cm/kubeflow
 - name: xgboost
   version: 0.1.6
+  repository: cm://app.plural.sh/cm/kubeflow
+- name: central-dashboard
+  version: 0.1.29
   repository: cm://app.plural.sh/cm/kubeflow
