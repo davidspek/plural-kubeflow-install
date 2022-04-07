@@ -1,19 +1,16 @@
 dependencies:
 - name: katib
   repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.18
+  version: 0.1.19
 - name: volumes
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.7
 - name: mysql-cluster
   repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.13
+  version: 0.1.14
 - name: mpi
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.8
-- name: notebooks
-  repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.19
 - name: profile-controller
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.36
@@ -26,6 +23,9 @@ dependencies:
 - name: mxnet
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.6
+- name: notebooks
+  repository: cm://app.plural.sh/cm/kubeflow
+  version: 0.1.20
 - name: pytorch
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.6
@@ -41,5 +41,5 @@ dependencies:
 - name: central-dashboard
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.29
-digest: sha256:75578571b34136a7c7731d3d917da243d7b0e68b3d0262c90c1071e7257c51c4
-generated: "2022-04-07T13:15:09.605273787Z"
+digest: sha256:f58706e8d4fe7cff80b494e9356a1ffcbcf7d3b3f0f7e4ccfc74b1b1c59da304
+generated: "2022-04-07T13:15:34.532194245Z"

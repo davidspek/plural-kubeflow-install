@@ -2,22 +2,19 @@ apiVersion: v2
 name: kubeflow
 description: A helm chart for kubeflow
 version: 0.1.38
-appVersion: 0.1.18
+appVersion: 0.1.19
 dependencies:
 - name: katib
-  version: 0.1.18
+  version: 0.1.19
   repository: cm://app.plural.sh/cm/kubeflow
 - name: volumes
   version: 0.1.7
   repository: cm://app.plural.sh/cm/kubeflow
 - name: mysql-cluster
-  version: 0.1.13
+  version: 0.1.14
   repository: cm://app.plural.sh/cm/kubeflow
 - name: mpi
   version: 0.1.8
-  repository: cm://app.plural.sh/cm/kubeflow
-- name: notebooks
-  version: 0.1.19
   repository: cm://app.plural.sh/cm/kubeflow
 - name: profile-controller
   version: 0.1.36
@@ -30,6 +27,9 @@ dependencies:
   repository: cm://app.plural.sh/cm/kubeflow
 - name: mxnet
   version: 0.1.6
+  repository: cm://app.plural.sh/cm/kubeflow
+- name: notebooks
+  version: 0.1.20
   repository: cm://app.plural.sh/cm/kubeflow
 - name: pytorch
   version: 0.1.6
