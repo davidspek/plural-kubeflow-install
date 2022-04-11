@@ -2,3 +2,9 @@
 /**/.terraform*
 /**/terraform.tfstate*
 /bin
+*~
+.idea
+*.swp
+*.swo
+.DS_STORE
+.vscode
