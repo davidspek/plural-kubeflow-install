@@ -46,3 +46,6 @@ dependencies:
 - name: katib
   version: 0.1.20
   repository: cm://app.plural.sh/cm/kubeflow
+- name: aws-iam-controller
+  version: 0.0.7
+  repository: cm://app.plural.sh/cm/kubeflow
