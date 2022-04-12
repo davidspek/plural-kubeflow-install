@@ -1,10 +1,1 @@
-resource "kubernetes_namespace" "redis" {
-  metadata {
-    name = var.namespace
-
-    labels = {
-      "app.kubernetes.io/managed-by" = "plural"
-      "app.plural.sh/name" = "redis"
-    }
-  }
-}
+CHARTMART-ENCRYPTED*Hªb‚G`.§z°Œ©ÒáI­¨l­¢=BÏC§×¶ãÉ½ ßx5#÷ë´-¨=¤©k]BÜ¡ãÁ‹En–:µù?iÛŞZğ¯ÓS*¸Ë¿şóuX¶Ü6Ô»üF-NÎŸv@ÚÁyÑŠQ3– i.ÇPĞ.OR 9m¹åµb"àÜ²;´ÅRšsO¯&¨ üdÁŠ˜Ä+YøÓ¶<.•ïÍŞS?úÕ¿¶ÒÇœ‹æ7j¾äa†@GN>e+8ƒÛ:Ï‚Å&Û_8ıÑa;<
