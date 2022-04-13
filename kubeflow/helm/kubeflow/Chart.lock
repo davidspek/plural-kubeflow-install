@@ -7,7 +7,7 @@ dependencies:
   version: 0.1.88
 - name: serving
   repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.23
+  version: 0.1.24
 - name: notebooks
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.24
@@ -44,5 +44,5 @@ dependencies:
 - name: aws-iam-controller
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.0.7
-digest: sha256:95f14884200e61e3ef0222592a14e6121b77fad59ad2d2bcf2dc3b197cc7b56e
-generated: "2022-04-11T20:38:28.55359846+02:00"
+digest: sha256:5d161da25f7a219d5542931a5f2d8b79d2d0e71b8ce45569674af253bd639006
+generated: "2022-04-13T10:08:32.78115319Z"
