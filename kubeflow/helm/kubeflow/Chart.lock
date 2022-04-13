@@ -5,9 +5,6 @@ dependencies:
 - name: pipelines
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.88
-- name: serving
-  repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.24
 - name: notebooks
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.24
@@ -20,6 +17,9 @@ dependencies:
 - name: mxnet
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.7
+- name: serving
+  repository: cm://app.plural.sh/cm/kubeflow
+  version: 0.1.25
 - name: pytorch
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.7
@@ -44,5 +44,5 @@ dependencies:
 - name: aws-iam-controller
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.0.7
-digest: sha256:5d161da25f7a219d5542931a5f2d8b79d2d0e71b8ce45569674af253bd639006
-generated: "2022-04-13T10:08:32.78115319Z"
+digest: sha256:d97043b65865a99d9b828e995407d44215d1f4a784c197b77632767be5324cf6
+generated: "2022-04-13T10:38:27.367875556Z"

@@ -56,7 +56,7 @@ step "kube-init" {
     "kube-init",
   ]
 
-  sha     = "80fd8448c61302e0742031023d29c3eea11b2f235216a96687ccc113539a5539"
+  sha     = "61759875a8d0768c6e4b0be225a609671835920aaf9b6059c251dd2dee194c30"
   retries = 0
 }
 
@@ -86,6 +86,6 @@ step "bounce" {
     "kubeflow",
   ]
 
-  sha     = "h1:gRmV4zygZ+TcmBbetG/OhWiSWp6r//C3bhSYuiFfwrw="
+  sha     = "h1:YNjuYA+3j2UnusHlgnsC4DFmWu/XWwC0C2OIRZwfkUE="
   retries = 1
 }
