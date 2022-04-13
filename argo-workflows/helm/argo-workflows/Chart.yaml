@@ -2,8 +2,8 @@ apiVersion: v2
 name: argo-workflows
 description: A helm chart for argo-workflows
 version: 0.1.0
-appVersion: 0.1.18
+appVersion: 0.1.19
 dependencies:
 - name: argo-workflows
-  version: 0.1.18
+  version: 0.1.19
   repository: cm://app.plural.sh/cm/argo-workflows
