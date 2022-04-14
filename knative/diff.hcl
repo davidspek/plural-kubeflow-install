@@ -38,7 +38,7 @@ step "kube-init" {
     "knative",
   ]
 
-  sha     = "6e8eb2d7117cfabff0007c40384fb1bf0c600f1cfc911ed72227bb8fe0cbd79a"
+  sha     = "324d6fd465765f417ea1c481a81fa329cbd95d5bd4867aa549807368218edcb1"
   retries = 0
 }
 
@@ -53,6 +53,6 @@ step "helm" {
     "knative",
   ]
 
-  sha     = "h1:34Sj5jFsbBtbSh85ohjtQWNEs00dvkyRWkEOB08RW0w="
+  sha     = "h1:eMOfYutRaYD2SO0WZG5H4h/m9HhFzUyvcOSeenEYXWY="
   retries = 0
 }
