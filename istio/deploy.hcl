@@ -86,6 +86,6 @@ step "bounce" {
     "istio",
   ]
 
-  sha     = "h1:Zb5ryfua2DfUf72ct8zTk48/L9JCJB3xpc4ppeZ64tE="
+  sha     = "h1:eUBOzlHa36Yolp+to8znKAAuOuGajif9DC72p6ygUsM="
   retries = 1
 }
