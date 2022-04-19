@@ -7,7 +7,7 @@ dependencies:
   version: 0.1.11
 - name: training-operator
   repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.2
+  version: 0.1.3
 - name: volumes
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.10
@@ -32,5 +32,5 @@ dependencies:
 - name: central-dashboard
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.35
-digest: sha256:600b3b15d7e59e618aa1f3819e97855f1159caf9429440209141949060eaa063
-generated: "2022-04-19T17:43:46.2075337Z"
+digest: sha256:e962fed984354d79e501e5a215ed33f7854bccd5b0935202a9ed866bd4cb6b76
+generated: "2022-04-19T19:58:09.371121294Z"
