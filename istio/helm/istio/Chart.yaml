@@ -2,8 +2,8 @@ apiVersion: v2
 name: istio
 description: A helm chart for istio
 version: 0.1.5
-appVersion: 0.1.93
+appVersion: 0.1.94
 dependencies:
 - name: istio
-  version: 0.1.93
+  version: 0.1.94
   repository: cm://app.plural.sh/cm/istio
