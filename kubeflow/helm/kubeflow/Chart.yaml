@@ -13,11 +13,11 @@ dependencies:
 - name: notebooks
   version: 0.1.24
   repository: cm://app.plural.sh/cm/kubeflow
-- name: profile-controller
-  version: 0.1.42
-  repository: cm://app.plural.sh/cm/kubeflow
 - name: mpi
   version: 0.1.9
+  repository: cm://app.plural.sh/cm/kubeflow
+- name: profile-controller
+  version: 0.1.43
   repository: cm://app.plural.sh/cm/kubeflow
 - name: mxnet
   version: 0.1.7
