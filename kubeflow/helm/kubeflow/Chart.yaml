@@ -2,53 +2,38 @@ apiVersion: v2
 name: kubeflow
 description: A helm chart for kubeflow
 version: 0.1.38
-appVersion: 0.1.2
+appVersion: 0.1.28
 dependencies:
-- name: training-operator
-  version: 0.1.2
-  repository: cm://app.plural.sh/cm/kubeflow
-- name: mysql-cluster
-  version: 0.1.14
-  repository: cm://app.plural.sh/cm/kubeflow
 - name: serving
   version: 0.1.28
-  repository: cm://app.plural.sh/cm/kubeflow
-- name: pipelines
-  version: 0.1.88
-  repository: cm://app.plural.sh/cm/kubeflow
-- name: notebooks
-  version: 0.1.24
-  repository: cm://app.plural.sh/cm/kubeflow
-- name: mpi
-  version: 0.1.9
-  repository: cm://app.plural.sh/cm/kubeflow
-- name: profile-controller
-  version: 0.1.43
-  repository: cm://app.plural.sh/cm/kubeflow
-- name: mxnet
-  version: 0.1.7
-  repository: cm://app.plural.sh/cm/kubeflow
-- name: pytorch
-  version: 0.1.7
-  repository: cm://app.plural.sh/cm/kubeflow
-- name: tensorflow
-  version: 0.1.7
-  repository: cm://app.plural.sh/cm/kubeflow
-- name: xgboost
-  version: 0.1.7
   repository: cm://app.plural.sh/cm/kubeflow
 - name: tensorboards
   version: 0.1.11
   repository: cm://app.plural.sh/cm/kubeflow
+- name: training-operator
+  version: 0.1.2
+  repository: cm://app.plural.sh/cm/kubeflow
 - name: volumes
   version: 0.1.10
+  repository: cm://app.plural.sh/cm/kubeflow
+- name: notebooks
+  version: 0.1.24
+  repository: cm://app.plural.sh/cm/kubeflow
+- name: mysql-cluster
+  version: 0.1.14
   repository: cm://app.plural.sh/cm/kubeflow
 - name: katib
   version: 0.1.20
   repository: cm://app.plural.sh/cm/kubeflow
-- name: central-dashboard
-  version: 0.1.33
+- name: pipelines
+  version: 0.1.88
   repository: cm://app.plural.sh/cm/kubeflow
 - name: aws-iam-controller
   version: 0.0.7
+  repository: cm://app.plural.sh/cm/kubeflow
+- name: profile-controller
+  version: 0.1.44
+  repository: cm://app.plural.sh/cm/kubeflow
+- name: central-dashboard
+  version: 0.1.34
   repository: cm://app.plural.sh/cm/kubeflow
