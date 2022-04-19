@@ -38,7 +38,7 @@ step "kube-init" {
     "mysql",
   ]
 
-  sha     = "d5fd93dae3cb3af0fb7c29f38fef9cc01046e6b966e73bbca70b537733cf42d7"
+  sha     = "03277ad9a3c47da2ce02755ea5a251651c0dccc15994cfbc6134a702c6cef0d9"
   retries = 0
 }
 
