@@ -35,14 +35,14 @@ dependencies:
 - name: volumes
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.10
-- name: central-dashboard
-  repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.32
 - name: katib
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.20
+- name: central-dashboard
+  repository: cm://app.plural.sh/cm/kubeflow
+  version: 0.1.33
 - name: aws-iam-controller
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.0.7
-digest: sha256:6a2006a9afd1e5f6b1644d07b06a31f3bd6666e5ae2bbe5e4b6545aa30786361
-generated: "2022-04-13T10:59:27.287649598Z"
+digest: sha256:0db4113e9f6791126fcb48984ff07ca3bb2c07d6ce5cdca67d1a7e65ad29a1b5
+generated: "2022-04-19T14:49:46.212163602Z"
