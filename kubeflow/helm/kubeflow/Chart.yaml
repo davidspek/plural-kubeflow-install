@@ -35,5 +35,5 @@ dependencies:
   version: 0.1.44
   repository: cm://app.plural.sh/cm/kubeflow
 - name: central-dashboard
-  version: 0.1.34
+  version: 0.1.35
   repository: cm://app.plural.sh/cm/kubeflow
