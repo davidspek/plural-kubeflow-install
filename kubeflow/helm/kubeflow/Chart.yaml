@@ -2,10 +2,16 @@ apiVersion: v2
 name: kubeflow
 description: A helm chart for kubeflow
 version: 0.1.38
-appVersion: 0.1.14
+appVersion: 0.1.2
 dependencies:
+- name: training-operator
+  version: 0.1.2
+  repository: cm://app.plural.sh/cm/kubeflow
 - name: mysql-cluster
   version: 0.1.14
+  repository: cm://app.plural.sh/cm/kubeflow
+- name: serving
+  version: 0.1.28
   repository: cm://app.plural.sh/cm/kubeflow
 - name: pipelines
   version: 0.1.88
@@ -21,9 +27,6 @@ dependencies:
   repository: cm://app.plural.sh/cm/kubeflow
 - name: mxnet
   version: 0.1.7
-  repository: cm://app.plural.sh/cm/kubeflow
-- name: serving
-  version: 0.1.26
   repository: cm://app.plural.sh/cm/kubeflow
 - name: pytorch
   version: 0.1.7

@@ -1,9 +1,1 @@
-resource "kubernetes_namespace" "kubecost" {
-  metadata {
-    name = var.namespace
-    labels = {
-      "app.kubernetes.io/managed-by" = "plural"
-      "app.plural.sh/name" = "kubecost"
-    }
-  }
-}
+CHARTMART-ENCRYPTEDMÏ›£Ç'Q¹õ“Õ2¹Ôî-SCÉ"Z˜²»«ŒûT`ç¸t€ETÖ-ÒI}İb,)ã)o42Œ¤ğì®TäôQÍüI J“¨÷ëÂÕ[ÿ½;O“éHŒˆÍäÿtMUyYVcWOLVÀÂwª=ï…“Åé‹²N]€‰ÚÜŞyT¹ºÂˆ¾…óôŸ7ÓO§ôZ’8EÕ3¿¡Ûà¿cÒQMÒOE¡á¡ÒJö¦•]W2¡ã-öûe–Ua÷=® fbXl-ñh´†”@Lló*ÀİÛ

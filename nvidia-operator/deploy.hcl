@@ -13,7 +13,7 @@ step "terraform-init" {
     "-upgrade",
   ]
 
-  sha     = "h1:K6uB0rm8cgePnbsChyUZ6sgn1zf4t3+jG0/Sfw2nzFY="
+  sha     = "h1:3hEnNq1i/8vg3+XHfbwYJlUqANgF09F8vDGHPU4npHA="
   retries = 0
 }
 
@@ -27,7 +27,7 @@ step "terraform-apply" {
     "-auto-approve",
   ]
 
-  sha     = "h1:K6uB0rm8cgePnbsChyUZ6sgn1zf4t3+jG0/Sfw2nzFY="
+  sha     = "h1:3hEnNq1i/8vg3+XHfbwYJlUqANgF09F8vDGHPU4npHA="
   retries = 1
 }
 
@@ -42,7 +42,7 @@ step "terraform-output" {
     "nvidia-operator",
   ]
 
-  sha     = "h1:K6uB0rm8cgePnbsChyUZ6sgn1zf4t3+jG0/Sfw2nzFY="
+  sha     = "h1:3hEnNq1i/8vg3+XHfbwYJlUqANgF09F8vDGHPU4npHA="
   retries = 0
 }
 
@@ -56,7 +56,7 @@ step "kube-init" {
     "kube-init",
   ]
 
-  sha     = "cb81f46ff618645614b91055c3f03e1322d7bb2d69c5a09260ea04bb4750f754"
+  sha     = "515ef01d721946ecfa7a0278813d2137eb25bbcbf7dd7991c41be91ae18e9d53"
   retries = 0
 }
 

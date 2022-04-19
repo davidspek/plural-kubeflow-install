@@ -1,0 +1,6 @@
+dependencies:
+- name: kserve
+  repository: cm://app.plural.sh/cm/kserve
+  version: 0.1.2
+digest: sha256:01d37fbcc59005ca0ea07e4c4e877659d4edf6deddf8c3af5cb27cca3dc28d69
+generated: "2022-04-19T18:55:05.609658877+02:00"
