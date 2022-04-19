@@ -1,11 +1,3 @@
-resource "kubernetes_namespace" "monitoring" {
-  metadata {
-    name = var.namespace
-
-    labels = {
-      "app.kubernetes.io/managed-by" = "plural"
-      "app.plural.sh/name" = "monitoring"
-      "istio-injection" = "disabled"
-    }
-  }
-}
+CHARTMART-ENCRYPTED³{ßüÀ·^½ÆgäK ­,õrùÂN’¹¥´¢ìØÂX¦*è›–‡MéŞQ»
+şïuw8Õû?ëûl6f¦·”^2"—æv&Õ3üªñ{óóìë®EØ~®Ú	¿%W¦Ò	„Â¦)ëN@¥d$Á©¦¾|›ubô†­ØÙ·
+Á_é2w}b~EŞÉL™Ü˜PÛÒ¯ìİg¿Å«Œ‹'õt—…÷‹â‘¨àN{ÁºqO—•&îEüÉf6×ğ™ZÏBœH÷êB§Î¹\SïÖ2	£ñVO­½²	ƒñ‘Ùõ¼¹BÎ]«QçÄÅ.¢|[N)ª‘#Åô
