@@ -15,6 +15,7 @@ step "terraform-init" {
 
   sha     = "h1:3hEnNq1i/8vg3+XHfbwYJlUqANgF09F8vDGHPU4npHA="
   retries = 0
+  verbose = false
 }
 
 step "terraform-apply" {
@@ -29,6 +30,7 @@ step "terraform-apply" {
 
   sha     = "h1:3hEnNq1i/8vg3+XHfbwYJlUqANgF09F8vDGHPU4npHA="
   retries = 1
+  verbose = false
 }
 
 step "terraform-output" {
@@ -44,6 +46,7 @@ step "terraform-output" {
 
   sha     = "h1:3hEnNq1i/8vg3+XHfbwYJlUqANgF09F8vDGHPU4npHA="
   retries = 0
+  verbose = false
 }
 
 step "kube-init" {
@@ -56,8 +59,9 @@ step "kube-init" {
     "kube-init",
   ]
 
-  sha     = "515ef01d721946ecfa7a0278813d2137eb25bbcbf7dd7991c41be91ae18e9d53"
+  sha     = "e52229a190bf71aa14c5875b4a6c7c8a8fd677b82cc81a504d4d4ca79e7be66e"
   retries = 0
+  verbose = false
 }
 
 step "crds" {
@@ -71,8 +75,9 @@ step "crds" {
     "nvidia-operator",
   ]
 
-  sha     = "h1:9AkoaIN4OKVRNeLTXVuRgsKQ8ZXWm2SB6qS/9KKNRdc="
+  sha     = "h1:t5FX13K5805hSb5jzTOmMhUKVOuLAwejhp3iyG/QLBc="
   retries = 0
+  verbose = false
 }
 
 step "bounce" {
@@ -86,6 +91,7 @@ step "bounce" {
     "nvidia-operator",
   ]
 
-  sha     = "h1:mgmh12TQPhoHBIY7yZNgDh/BVJ2QERv81RyZYVJ0Csk="
+  sha     = "h1:ZdcZXGm/j0yexdCqhpUva0v/L5N7/q4NwarRiYjavnU="
   retries = 1
+  verbose = false
 }
