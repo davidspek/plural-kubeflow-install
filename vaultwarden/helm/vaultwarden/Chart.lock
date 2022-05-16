@@ -1,6 +1,6 @@
 dependencies:
 - name: vaultwarden
   repository: cm://app.plural.sh/cm/vaultwarden
-  version: 0.1.2
-digest: sha256:d3aa0b41faaf3bffd19f65e50c96a556462c65f8688c774e013f6be8a9772044
-generated: "2022-02-11T13:10:54.197814425Z"
+  version: 0.1.4
+digest: sha256:73ef641748e93b032b936a45d0c814f8f9edbe09c36873a270db22fdc8b8487c
+generated: "2022-05-16T20:12:09.019065539+02:00"

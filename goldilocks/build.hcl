@@ -19,14 +19,15 @@ scaffold "helm" {
   preflight "update-deps" {
     wkdir   = ""
     target  = "Chart.yaml"
-    command = "helm"
+    command = "plural"
 
     args = [
-      "dependency",
-      "update",
+      "wkspace",
+      "helm-deps",
     ]
 
-    sha     = "dd34703eac052435a60a6f727e1c13b12f5c15ba7aa846f080075812efecdfe5"
+    sha     = "ce5be8c04339cef571191dbb68d5efc1819e4088f0e213235a4675fd80c82183"
     retries = 0
+    verbose = false
   }
 }

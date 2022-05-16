@@ -10,6 +10,7 @@ step "terraform-init" {
   args    = ["init"]
   sha     = "h1:wvfBW8Xg9MJFV5fVET1WcfGWb3fboMz/ZK9pjd7XG/E="
   retries = 0
+  verbose = false
 }
 
 step "terraform" {
@@ -25,6 +26,7 @@ step "terraform" {
 
   sha     = "h1:wvfBW8Xg9MJFV5fVET1WcfGWb3fboMz/ZK9pjd7XG/E="
   retries = 0
+  verbose = false
 }
 
 step "kube-init" {
@@ -40,6 +42,7 @@ step "kube-init" {
 
   sha     = "eb1dc9afb64a005de125e6394b96126bae7dc8b91cfe0c5da0cc0070dad5af74"
   retries = 0
+  verbose = false
 }
 
 step "helm" {
@@ -55,4 +58,5 @@ step "helm" {
 
   sha     = "h1:cPUtGKC4TmPML9Ci5V0IgSMUgPLp336d4IgUQ/S2qac="
   retries = 0
+  verbose = false
 }

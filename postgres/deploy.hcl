@@ -15,6 +15,7 @@ step "terraform-init" {
 
   sha     = "h1:wvfBW8Xg9MJFV5fVET1WcfGWb3fboMz/ZK9pjd7XG/E="
   retries = 0
+  verbose = false
 }
 
 step "terraform-apply" {
@@ -29,6 +30,7 @@ step "terraform-apply" {
 
   sha     = "h1:wvfBW8Xg9MJFV5fVET1WcfGWb3fboMz/ZK9pjd7XG/E="
   retries = 1
+  verbose = false
 }
 
 step "terraform-output" {
@@ -44,6 +46,7 @@ step "terraform-output" {
 
   sha     = "h1:wvfBW8Xg9MJFV5fVET1WcfGWb3fboMz/ZK9pjd7XG/E="
   retries = 0
+  verbose = false
 }
 
 step "kube-init" {
@@ -56,8 +59,9 @@ step "kube-init" {
     "kube-init",
   ]
 
-  sha     = "2a72e6cfda6680152aa4211690125178b4c819b4730ad65594f1a57185b2d3e5"
+  sha     = "dde36903cb37279f0907b6d7c7eb4a6e056c62f9ec6db9415d50d23acf3070ee"
   retries = 0
+  verbose = false
 }
 
 step "crds" {
@@ -73,6 +77,7 @@ step "crds" {
 
   sha     = "h1:+KtpiGhaAg9Db5EdGawKjfUTQqpyrQFC87h9Gj2L/zQ="
   retries = 0
+  verbose = false
 }
 
 step "bounce" {
@@ -86,6 +91,7 @@ step "bounce" {
     "postgres",
   ]
 
-  sha     = "h1:cPUtGKC4TmPML9Ci5V0IgSMUgPLp336d4IgUQ/S2qac="
+  sha     = "h1:xC1XbdL5OBghYbvU0akMQs/cKfUXxFxGKWtCdcGETtg="
   retries = 1
+  verbose = false
 }

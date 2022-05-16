@@ -32,5 +32,5 @@ dependencies:
 - name: central-dashboard
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.35
-digest: sha256:44ab09d1cbfac863addeeae2379c794b527a187e255735df3202ff0cc1194128
-generated: "2022-04-26T13:21:38.115092547Z"
+digest: sha256:b980f11069a96daffb2bb72f9b603a2a38c8aa68c1144987e19c4b6d67e292ce
+generated: "2022-05-16T20:13:03.742510868+02:00"

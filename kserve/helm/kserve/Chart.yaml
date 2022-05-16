@@ -7,3 +7,4 @@ dependencies:
 - name: kserve
   version: 0.1.2
   repository: cm://app.plural.sh/cm/kserve
+  condition: kserve.enabled

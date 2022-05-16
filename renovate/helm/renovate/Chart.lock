@@ -2,5 +2,5 @@ dependencies:
 - name: renovate
   repository: cm://app.plural.sh/cm/renovate
   version: 0.1.2
-digest: sha256:1d3a91de0662543261d172bab034ab75dd17c8103de626adfc05dc21b8d684c4
-generated: "2022-04-05T13:37:21.962815574Z"
+digest: sha256:2097ed42731c599122ebbdbb50ab8936dcc6dccc84dcc2cd57e7abd149c28029
+generated: "2022-05-16T20:12:49.671801643+02:00"

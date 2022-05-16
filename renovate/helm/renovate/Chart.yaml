@@ -7,3 +7,4 @@ dependencies:
 - name: renovate
   version: 0.1.2
   repository: cm://app.plural.sh/cm/renovate
+  condition: renovate.enabled

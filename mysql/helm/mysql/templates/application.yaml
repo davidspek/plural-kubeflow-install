@@ -25,7 +25,7 @@ spec:
     version: 0.1.18
     description: open source rdbms
     icons:
-    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/e3a59d39-0917-4072-9c95-6cbcaab2381a/mysql.png?v=63800745996
+    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/e3a59d39-0917-4072-9c95-6cbcaab2381a/mysql.png?v=63819019721
     
 
     {{- if .Values.global }}

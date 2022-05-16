@@ -15,6 +15,7 @@ step "terraform-init" {
 
   sha     = "h1:o1q9VZzs0zgcFYo5GVRVEuRyryoEfKsxEQGvqsMel9o="
   retries = 0
+  verbose = false
 }
 
 step "terraform-apply" {
@@ -29,6 +30,7 @@ step "terraform-apply" {
 
   sha     = "h1:o1q9VZzs0zgcFYo5GVRVEuRyryoEfKsxEQGvqsMel9o="
   retries = 1
+  verbose = false
 }
 
 step "terraform-output" {
@@ -44,6 +46,7 @@ step "terraform-output" {
 
   sha     = "h1:o1q9VZzs0zgcFYo5GVRVEuRyryoEfKsxEQGvqsMel9o="
   retries = 0
+  verbose = false
 }
 
 step "kube-init" {
@@ -56,8 +59,9 @@ step "kube-init" {
     "kube-init",
   ]
 
-  sha     = "395ee096a138248ea57a3b1fcd3cd102ffe5f83f9af5c03bca501f65fe5f7bd6"
+  sha     = "5f46049bea0f291ca9e95f03c2f0e659646d94da1d4ebd54ba519d9d604408dc"
   retries = 0
+  verbose = false
 }
 
 step "crds" {
@@ -73,6 +77,7 @@ step "crds" {
 
   sha     = "h1:C+IcOQPZtt5b7kOJR87hRIVvo49JEM2/oTRopzumeEM="
   retries = 0
+  verbose = false
 }
 
 step "bounce" {
@@ -86,6 +91,7 @@ step "bounce" {
     "argo-cd",
   ]
 
-  sha     = "h1:kYwd/iQHKBBgQ5pnvWeqqGlbV+UZ2YRnm7WtEtD79D4="
+  sha     = "h1:1BCOWGXgdWfcx9kqtX4XeLPCg1l5ioKIgZBG8Ru5tmQ="
   retries = 1
+  verbose = false
 }

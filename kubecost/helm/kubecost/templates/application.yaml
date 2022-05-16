@@ -22,10 +22,10 @@ spec:
     kind: Job
   descriptor:
     type: kubecost
-    version: 0.1.21
+    version: 0.1.22
     description: kubernetes cost monitoring and management
     icons:
-    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/67592c4b-5ed5-4d5b-be12-c65318b2597c/kubecost.png?v=63800798134
+    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/67592c4b-5ed5-4d5b-be12-c65318b2597c/kubecost.png?v=63819019687
     
 
     {{- if .Values.global }}

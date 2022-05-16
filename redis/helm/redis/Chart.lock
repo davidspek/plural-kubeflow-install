@@ -2,5 +2,5 @@ dependencies:
 - name: redis
   repository: cm://app.plural.sh/cm/redis
   version: 0.1.11
-digest: sha256:3a7a0300ba96ed3615dbde9d2568f2cb9b006dc50639fbf5c74fe629c6a1f092
-generated: "2022-04-12T14:30:38.533180538+02:00"
+digest: sha256:0bd0ce92cd981b77e88d215d5b42bbd6e21316825b187802453e72df309219f3
+generated: "2022-05-16T20:09:09.827673641+02:00"
