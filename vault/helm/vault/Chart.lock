@@ -1,0 +1,6 @@
+dependencies:
+- name: vault
+  repository: file:///home/david/Plural/plural-artifacts/vault/helm/vault
+  version: 0.1.9
+digest: sha256:53dbef906b4099846f79ff943cf44b48d97109c8898fa5e9b2f2f7f0f4628a7a
+generated: "2022-05-11T14:42:36.4427099+02:00"
