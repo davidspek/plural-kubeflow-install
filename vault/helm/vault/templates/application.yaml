@@ -22,10 +22,10 @@ spec:
     kind: Job
   descriptor:
     type: vault
-    version: 0.1.10
+    version: 0.1.12
     description: vault deployed on plural
     icons:
-    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/3020f975-31c4-4e78-9a0e-4ff732d1b4ad/vault.png?v=63819916116
+    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/3020f975-31c4-4e78-9a0e-4ff732d1b4ad/vault.png?v=63820541709
     
 
     {{- if .Values.global }}

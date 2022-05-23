@@ -40,7 +40,7 @@ step "kube-init" {
     "vault",
   ]
 
-  sha     = "2ac0efd2f85ef5f995712acbdba8652dbdb5e31ec08ec81ec268774b904819e6"
+  sha     = "3d8164e8183a9d01ccd2de2f7d2155f7cbe0c5d55786df0c7957726b6be395f2"
   retries = 0
   verbose = false
 }
@@ -56,7 +56,7 @@ step "helm" {
     "vault",
   ]
 
-  sha     = "h1:kqmav1qAWsWaXSkt0aer1sUUnkrOtZqr37gs4APIvt4="
+  sha     = "h1:vJ0v3pzDzOlPIgxXpgjq4Uerw1VG2qkyGrmpUehtZWE="
   retries = 0
   verbose = false
 }
