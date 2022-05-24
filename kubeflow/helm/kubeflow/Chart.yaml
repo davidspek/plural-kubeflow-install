@@ -20,14 +20,14 @@ dependencies:
   version: 0.1.10
   repository: cm://app.plural.sh/cm/kubeflow
   condition: volumes.enabled
-- name: notebooks
-  version: 0.1.24
-  repository: cm://app.plural.sh/cm/kubeflow
-  condition: notebooks.enabled
 - name: mysql-cluster
   version: 0.1.14
   repository: cm://app.plural.sh/cm/kubeflow
   condition: mysql-cluster.enabled
+- name: notebooks
+  version: 0.1.25
+  repository: cm://app.plural.sh/cm/kubeflow
+  condition: notebooks.enabled
 - name: katib
   version: 0.1.20
   repository: cm://app.plural.sh/cm/kubeflow
@@ -40,11 +40,11 @@ dependencies:
   version: 0.0.7
   repository: cm://app.plural.sh/cm/kubeflow
   condition: aws-iam-controller.enabled
-- name: profile-controller
-  version: 0.1.44
-  repository: cm://app.plural.sh/cm/kubeflow
-  condition: profile-controller.enabled
 - name: central-dashboard
   version: 0.1.35
   repository: cm://app.plural.sh/cm/kubeflow
   condition: central-dashboard.enabled
+- name: profile-controller
+  version: 0.1.45
+  repository: cm://app.plural.sh/cm/kubeflow
+  condition: profile-controller.enabled
