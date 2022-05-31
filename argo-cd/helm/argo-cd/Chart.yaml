@@ -6,5 +6,5 @@ appVersion: 0.1.30
 dependencies:
 - name: argo-cd
   version: 0.1.30
-  repository: cm://app.plural.sh/cm/argo-cd
+  repository: file:///home/david/Plural/plural-artifacts/argo-cd/helm/argo-cd
   condition: argo-cd.enabled

@@ -1,6 +1,6 @@
 dependencies:
 - name: argo-cd
-  repository: cm://app.plural.sh/cm/argo-cd
+  repository: file:///home/david/Plural/plural-artifacts/argo-cd/helm/argo-cd
   version: 0.1.30
-digest: sha256:d15325bb5dc2c0ec0cd06fbc8118bc611b97f503bafd5758dbe8df8015c95dc6
-generated: "2022-05-16T20:11:48.591314114+02:00"
+digest: sha256:818b29ff41e63a0e5fdd5a491453006b2f8556cb3d73a49d745217efb3363d0a
+generated: "2022-05-31T15:01:14.009168983+02:00"
