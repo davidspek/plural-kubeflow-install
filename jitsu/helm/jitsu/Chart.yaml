@@ -1,0 +1,10 @@
+apiVersion: v2
+name: jitsu
+description: A helm chart for jitsu
+version: 0.1.0
+appVersion: 0.1.14
+dependencies:
+- name: jitsu
+  version: 0.1.14
+  repository: file:///home/david/Plural/plural-artifacts/jitsu/helm/jitsu
+  condition: jitsu.enabled
