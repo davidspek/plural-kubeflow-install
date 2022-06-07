@@ -1,0 +1,6 @@
+dependencies:
+- name: clickhouse
+  repository: cm://app.plural.sh/cm/clickhouse
+  version: 0.1.0
+digest: sha256:d417268a4068e185783b7d75c759bd5cccccfad94bbea63dd19e297b80fd358e
+generated: "2022-06-07T18:11:39.753971774+02:00"
