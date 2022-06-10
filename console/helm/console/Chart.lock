@@ -1,6 +1,6 @@
 dependencies:
 - name: console
   repository: cm://app.plural.sh/cm/console
-  version: 0.7.12
-digest: sha256:47be224ed7955d36753a4843a17eb77635ceb43f76f451ddae19e0bcb2b69cdf
-generated: "2022-06-08T21:17:20.606166526Z"
+  version: 0.7.13
+digest: sha256:075e7c30ed7afd51d86e8e84bbb057a532dd82b823f222a8281a251e391a5d23
+generated: "2022-06-10T20:13:22.363887323Z"
