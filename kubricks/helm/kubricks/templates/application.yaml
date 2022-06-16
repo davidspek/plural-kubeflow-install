@@ -22,7 +22,7 @@ spec:
     kind: Job
   descriptor:
     type: kubricks
-    version: 0.1.1
+    version: 0.1.2
     description: kubricks deployed on plural
     icons:
     - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/1fa91315-35a7-4d18-9e64-db5c95214195/kubricks.png?v=63822629638

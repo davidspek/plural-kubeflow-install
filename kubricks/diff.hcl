@@ -8,7 +8,7 @@ step "terraform-init" {
   target  = "kubricks/terraform"
   command = "terraform"
   args    = ["init"]
-  sha     = ""
+  sha     = "h1:8EKpl9qDLBn5JsW+vvaVIiThHU306e/8sFL0qTFGEYA="
   retries = 0
   verbose = false
 }
@@ -24,7 +24,7 @@ step "terraform" {
     "kubricks",
   ]
 
-  sha     = ""
+  sha     = "h1:8EKpl9qDLBn5JsW+vvaVIiThHU306e/8sFL0qTFGEYA="
   retries = 0
   verbose = false
 }
@@ -40,7 +40,7 @@ step "kube-init" {
     "kubricks",
   ]
 
-  sha     = ""
+  sha     = "6af83ddfe80debfe8857a8b3f7eca8f94125315881daacd1fce067dd659ff540"
   retries = 0
   verbose = false
 }
@@ -56,7 +56,7 @@ step "helm" {
     "kubricks",
   ]
 
-  sha     = ""
+  sha     = "h1:MVX8bt9wygxlotDJfVK+hRPzadjEUsuJQSU9RVGuQoM="
   retries = 0
   verbose = false
 }
