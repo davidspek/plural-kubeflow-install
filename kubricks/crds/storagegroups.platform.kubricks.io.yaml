@@ -1,0 +1,71 @@
+apiVersion: apiextensions.k8s.io/v1
+kind: CustomResourceDefinition
+metadata:
+  annotations:
+    controller-gen.kubebuilder.io/version: v0.9.0
+  creationTimestamp: null
+  name: storagegroups.platform.kubricks.io
+spec:
+  group: platform.kubricks.io
+  names:
+    kind: StorageGroup
+    listKind: StorageGroupList
+    plural: storagegroups
+    singular: storagegroup
+  scope: Namespaced
+  versions:
+  - name: v1alpha1
+    schema:
+      openAPIV3Schema:
+        description: StorageGroup is the Schema for the storagegroups API
+        properties:
+          apiVersion:
+            description: 'APIVersion defines the versioned schema of this representation
+              of an object. Servers should convert recognized schemas to the latest
+              internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#resources'
+            type: string
+          kind:
+            description: 'Kind is a string value representing the REST resource this
+              object represents. Servers may infer this from the endpoint the client
+              submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds'
+            type: string
+          metadata:
+            type: object
+          spec:
+            description: StorageGroupSpec defines the desired state of StorageGroup
+            properties:
+              sizeConfig:
+                description: Configs for setting the allowed sizes of PVCs
+                properties:
+                  custom:
+                    default: false
+                    description: Allow users to set custom sizes for PVCs created
+                      using this StorageGroup
+                    type: boolean
+                  options:
+                    description: List of sizes of PVCs the user can select from for
+                      this StorageGroup
+                    items:
+                      pattern: ^[0-9]{1,4}[MGT][IBib]$
+                      type: string
+                    type: array
+                required:
+                - custom
+                - options
+                type: object
+              storageClassName:
+                description: Name of the StorageClass associated with this Storage
+                  Group
+                type: string
+            required:
+            - sizeConfig
+            - storageClassName
+            type: object
+          status:
+            description: StorageGroupStatus defines the observed state of StorageGroup
+            type: object
+        type: object
+    served: true
+    storage: true
+    subresources:
+      status: {}

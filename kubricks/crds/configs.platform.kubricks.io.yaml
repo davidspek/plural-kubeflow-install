@@ -1,0 +1,146 @@
+apiVersion: apiextensions.k8s.io/v1
+kind: CustomResourceDefinition
+metadata:
+  annotations:
+    controller-gen.kubebuilder.io/version: v0.9.0
+  creationTimestamp: null
+  name: configs.platform.kubricks.io
+spec:
+  group: platform.kubricks.io
+  names:
+    kind: Config
+    listKind: ConfigList
+    plural: configs
+    singular: config
+  scope: Cluster
+  versions:
+  - name: v1alpha1
+    schema:
+      openAPIV3Schema:
+        description: Config is the Schema for the configs API
+        properties:
+          apiVersion:
+            description: 'APIVersion defines the versioned schema of this representation
+              of an object. Servers should convert recognized schemas to the latest
+              internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#resources'
+            type: string
+          kind:
+            description: 'Kind is a string value representing the REST resource this
+              object represents. Servers may infer this from the endpoint the client
+              submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds'
+            type: string
+          metadata:
+            properties:
+              name:
+                pattern: ^config$
+                type: string
+            type: object
+          spec:
+            description: ConfigSpec defines the desired state of Config
+            properties:
+              admins:
+                description: Email addresses of kubricks cluster level admins
+                items:
+                  type: string
+                type: array
+              identity:
+                description: Identity related configs
+                properties:
+                  userIdPrefix:
+                    description: Prefix found in the JWT email claim
+                    type: string
+                type: object
+              namespace:
+                description: Configs related to namespaces
+                properties:
+                  configNamespace:
+                    description: Namespace that should wrap all additional configuration
+                      items that have not place in this templated config spec, e.g.
+                      secrets
+                    type: string
+                  defaultLabels:
+                    additionalProperties:
+                      type: string
+                    description: Labels to add to all created namespaces
+                    type: object
+                  prefix:
+                    description: Prefix to add to all created namespaces
+                    type: string
+                required:
+                - configNamespace
+                type: object
+              network:
+                description: Network related configs
+                properties:
+                  clusterDomain:
+                    default: cluster.local
+                    description: Domain for the local cluster
+                    type: string
+                  hostname:
+                    description: Hostname of the kubricks deployment
+                    type: string
+                  istio:
+                    description: Istio related configs
+                    properties:
+                      clusterGateway:
+                        description: Istio Gateway resource used for kubricks
+                        properties:
+                          name:
+                            description: Name of the Istio gateway to use for kubricks
+                            type: string
+                          namespace:
+                            description: Namespace of the Istio gateway to use for
+                              kubricks
+                            type: string
+                        required:
+                        - name
+                        - namespace
+                        type: object
+                    required:
+                    - clusterGateway
+                    type: object
+                required:
+                - clusterDomain
+                - hostname
+                - istio
+                type: object
+              security:
+                description: Security related configs
+                properties:
+                  oidc:
+                    description: Settings related to OIDC configuration
+                    properties:
+                      issuer:
+                        description: The OIDC issuer to setup with Istio
+                        type: string
+                      issuerSecretName:
+                        description: Reference to the OIDC issuer secret that will
+                          contain the OIDC client ID and secret The secret must be
+                          created in namespace specified in spec.ConfigNamespace
+                        type: string
+                      jwksURI:
+                        description: The JWKS URI for the OIDC issuer you would like
+                          to use with Istio
+                        type: string
+                    required:
+                    - issuer
+                    - issuerSecretName
+                    - jwksURI
+                    type: object
+                required:
+                - oidc
+                type: object
+            required:
+            - identity
+            - namespace
+            - network
+            - security
+            type: object
+          status:
+            description: ConfigStatus defines the observed state of Config
+            type: object
+        type: object
+    served: true
+    storage: true
+    subresources:
+      status: {}

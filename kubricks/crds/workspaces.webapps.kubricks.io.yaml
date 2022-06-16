@@ -1,0 +1,451 @@
+apiVersion: apiextensions.k8s.io/v1
+kind: CustomResourceDefinition
+metadata:
+  annotations:
+    controller-gen.kubebuilder.io/version: v0.9.0
+  creationTimestamp: null
+  name: workspaces.webapps.kubricks.io
+spec:
+  group: webapps.kubricks.io
+  names:
+    kind: Workspace
+    listKind: WorkspaceList
+    plural: workspaces
+    singular: workspace
+  scope: Namespaced
+  versions:
+  - name: v1alpha1
+    schema:
+      openAPIV3Schema:
+        description: Workspace is the Schema for the workspaces API
+        properties:
+          apiVersion:
+            description: 'APIVersion defines the versioned schema of this representation
+              of an object. Servers should convert recognized schemas to the latest
+              internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#resources'
+            type: string
+          kind:
+            description: 'Kind is a string value representing the REST resource this
+              object represents. Servers may infer this from the endpoint the client
+              submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds'
+            type: string
+          metadata:
+            type: object
+          spec:
+            description: WorkspaceSpec defines the desired state of Workspace
+            properties:
+              image:
+                description: The container image used to launch the workspace
+                type: string
+              resourceGroupName:
+                description: The name of the resource group to use for this workspace
+                type: string
+              running:
+                default: true
+                description: If the workspace should be running
+                type: boolean
+              webappsConfigName:
+                description: The name of the workspace environment this workspace
+                  was launched from
+                type: string
+              workspaceConfig:
+                description: The config of the workspace
+                properties:
+                  environment:
+                    description: Environment configuration
+                    properties:
+                      env:
+                        description: List of environment variables to add to the container
+                          It is possible to use the template value `{workspace.Namespace}`
+                          and `{workspace.Name}`
+                        items:
+                          description: EnvVar represents an environment variable present
+                            in a Container.
+                          properties:
+                            name:
+                              description: Name of the environment variable. Must
+                                be a C_IDENTIFIER.
+                              type: string
+                            value:
+                              description: 'Variable references $(VAR_NAME) are expanded
+                                using the previously defined environment variables
+                                in the container and any service environment variables.
+                                If a variable cannot be resolved, the reference in
+                                the input string will be unchanged. Double $$ are
+                                reduced to a single $, which allows for escaping the
+                                $(VAR_NAME) syntax: i.e. "$$(VAR_NAME)" will produce
+                                the string literal "$(VAR_NAME)". Escaped references
+                                will never be expanded, regardless of whether the
+                                variable exists or not. Defaults to "".'
+                              type: string
+                            valueFrom:
+                              description: Source for the environment variable's value.
+                                Cannot be used if value is not empty.
+                              properties:
+                                configMapKeyRef:
+                                  description: Selects a key of a ConfigMap.
+                                  properties:
+                                    key:
+                                      description: The key to select.
+                                      type: string
+                                    name:
+                                      description: 'Name of the referent. More info:
+                                        https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
+                                        TODO: Add other useful fields. apiVersion,
+                                        kind, uid?'
+                                      type: string
+                                    optional:
+                                      description: Specify whether the ConfigMap or
+                                        its key must be defined
+                                      type: boolean
+                                  required:
+                                  - key
+                                  type: object
+                                fieldRef:
+                                  description: 'Selects a field of the pod: supports
+                                    metadata.name, metadata.namespace, `metadata.labels[''<KEY>'']`,
+                                    `metadata.annotations[''<KEY>'']`, spec.nodeName,
+                                    spec.serviceAccountName, status.hostIP, status.podIP,
+                                    status.podIPs.'
+                                  properties:
+                                    apiVersion:
+                                      description: Version of the schema the FieldPath
+                                        is written in terms of, defaults to "v1".
+                                      type: string
+                                    fieldPath:
+                                      description: Path of the field to select in
+                                        the specified API version.
+                                      type: string
+                                  required:
+                                  - fieldPath
+                                  type: object
+                                resourceFieldRef:
+                                  description: 'Selects a resource of the container:
+                                    only resources limits and requests (limits.cpu,
+                                    limits.memory, limits.ephemeral-storage, requests.cpu,
+                                    requests.memory and requests.ephemeral-storage)
+                                    are currently supported.'
+                                  properties:
+                                    containerName:
+                                      description: 'Container name: required for volumes,
+                                        optional for env vars'
+                                      type: string
+                                    divisor:
+                                      anyOf:
+                                      - type: integer
+                                      - type: string
+                                      description: Specifies the output format of
+                                        the exposed resources, defaults to "1"
+                                      pattern: ^(\+|-)?(([0-9]+(\.[0-9]*)?)|(\.[0-9]+))(([KMGTPE]i)|[numkMGTPE]|([eE](\+|-)?(([0-9]+(\.[0-9]*)?)|(\.[0-9]+))))?$
+                                      x-kubernetes-int-or-string: true
+                                    resource:
+                                      description: 'Required: resource to select'
+                                      type: string
+                                  required:
+                                  - resource
+                                  type: object
+                                secretKeyRef:
+                                  description: Selects a key of a secret in the pod's
+                                    namespace
+                                  properties:
+                                    key:
+                                      description: The key of the secret to select
+                                        from.  Must be a valid secret key.
+                                      type: string
+                                    name:
+                                      description: 'Name of the referent. More info:
+                                        https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
+                                        TODO: Add other useful fields. apiVersion,
+                                        kind, uid?'
+                                      type: string
+                                    optional:
+                                      description: Specify whether the Secret or its
+                                        key must be defined
+                                      type: boolean
+                                  required:
+                                  - key
+                                  type: object
+                              type: object
+                          required:
+                          - name
+                          type: object
+                        type: array
+                      envFrom:
+                        description: List of sources to populate environment variables
+                          in the container
+                        items:
+                          description: EnvFromSource represents the source of a set
+                            of ConfigMaps
+                          properties:
+                            configMapRef:
+                              description: The ConfigMap to select from
+                              properties:
+                                name:
+                                  description: 'Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
+                                    TODO: Add other useful fields. apiVersion, kind,
+                                    uid?'
+                                  type: string
+                                optional:
+                                  description: Specify whether the ConfigMap must
+                                    be defined
+                                  type: boolean
+                              type: object
+                            prefix:
+                              description: An optional identifier to prepend to each
+                                key in the ConfigMap. Must be a C_IDENTIFIER.
+                              type: string
+                            secretRef:
+                              description: The Secret to select from
+                              properties:
+                                name:
+                                  description: 'Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
+                                    TODO: Add other useful fields. apiVersion, kind,
+                                    uid?'
+                                  type: string
+                                optional:
+                                  description: Specify whether the Secret must be
+                                    defined
+                                  type: boolean
+                              type: object
+                          type: object
+                        type: array
+                    type: object
+                  imagePullPolicy:
+                    default: IfNotPresent
+                    description: Policy for pulling the container image
+                    type: string
+                  network:
+                    description: Network configuration
+                    properties:
+                      createHeadlessService:
+                        default: false
+                        description: Create headless service for the notebook
+                        type: boolean
+                      endpoints:
+                        description: List of network endpoints exposed by the container
+                          image
+                        items:
+                          properties:
+                            exposeExternally:
+                              default: true
+                              description: If the endpoint should be exposed externally
+                                by Istio
+                              type: boolean
+                            externalPath:
+                              default: /
+                              description: Path at which the service will be exposed
+                                externally. Will always be prefixed by `/workspace/{workspace.Namespace}/{workspace.Name}`
+                              type: string
+                            name:
+                              description: Name of the container image network endpoint
+                              type: string
+                            path:
+                              default: /workspace/{workspace.Namespace}/{workspace.Name}/
+                              description: Path where the endpoint exposes a service
+                              type: string
+                            port:
+                              description: Port of the container image network endpoint
+                              format: int32
+                              type: integer
+                            protocol:
+                              default: http
+                              description: Network protocol the endpoint uses. See
+                                https://istio.io/latest/docs/ops/configuration/traffic-management/protocol-selection/
+                              enum:
+                              - http
+                              - http2
+                              - https
+                              - tcp
+                              - tls
+                              - grpc
+                              - grpc-web
+                              - mongo
+                              - mysql
+                              - redis
+                              type: string
+                            requestHeaders:
+                              description: Header operations for incoming requests
+                              properties:
+                                add:
+                                  additionalProperties:
+                                    type: string
+                                  description: Append the given values to the headers
+                                    specified by keys (will create a comma-separated
+                                    list of values)
+                                  type: object
+                                remove:
+                                  description: Remove the specified headers
+                                  items:
+                                    type: string
+                                  type: array
+                                set:
+                                  additionalProperties:
+                                    type: string
+                                  description: Overwrite the headers specified by
+                                    key with the given values
+                                  type: object
+                              type: object
+                          required:
+                          - exposeExternally
+                          - name
+                          - path
+                          - port
+                          - protocol
+                          type: object
+                        type: array
+                    required:
+                    - createHeadlessService
+                    - endpoints
+                    type: object
+                  storage:
+                    description: Storage configuration
+                    properties:
+                      dataVolumes:
+                        description: Config for data volumes added to the workspace
+                        items:
+                          properties:
+                            mountPath:
+                              description: Path at which to mount the workspace home
+                                volume
+                              type: string
+                            name:
+                              default: home-{workspace.Name}
+                              description: Name of the volume
+                              type: string
+                            storageGroupName:
+                              description: The name of the StorageGroup to use for
+                                this volume
+                              type: string
+                          required:
+                          - mountPath
+                          - name
+                          type: object
+                        type: array
+                      homeVolume:
+                        description: Config for the home volume backing workspaces
+                        properties:
+                          mountPath:
+                            description: Path at which to mount the workspace home
+                              volume
+                            type: string
+                          name:
+                            default: home-{workspace.Name}
+                            description: Name of the volume
+                            type: string
+                          storageGroupName:
+                            description: The name of the StorageGroup to use for this
+                              volume
+                            type: string
+                        required:
+                        - mountPath
+                        - name
+                        type: object
+                    type: object
+                required:
+                - imagePullPolicy
+                - network
+                type: object
+            required:
+            - image
+            - resourceGroupName
+            - running
+            - webappsConfigName
+            - workspaceConfig
+            type: object
+          status:
+            description: WorkspaceStatus defines the observed state of Workspace
+            properties:
+              conditions:
+                description: Conditions is an array of current conditions
+                items:
+                  properties:
+                    lastProbeTime:
+                      description: Last time we probed the condition.
+                      format: date-time
+                      type: string
+                    message:
+                      description: Message regarding why the container is in the current
+                        state.
+                      type: string
+                    reason:
+                      description: (brief) reason the container is in the current
+                        state
+                      type: string
+                    type:
+                      description: Type is the type of the condition. Possible values
+                        are Running|Waiting|Terminated
+                      type: string
+                  type: object
+                type: array
+              containerState:
+                description: ContainerState is the state of underlying container.
+                properties:
+                  running:
+                    description: Details about a running container
+                    properties:
+                      startedAt:
+                        description: Time at which the container was last (re-)started
+                        format: date-time
+                        type: string
+                    type: object
+                  terminated:
+                    description: Details about a terminated container
+                    properties:
+                      containerID:
+                        description: Container's ID in the format '<type>://<container_id>'
+                        type: string
+                      exitCode:
+                        description: Exit status from the last termination of the
+                          container
+                        format: int32
+                        type: integer
+                      finishedAt:
+                        description: Time at which the container last terminated
+                        format: date-time
+                        type: string
+                      message:
+                        description: Message regarding the last termination of the
+                          container
+                        type: string
+                      reason:
+                        description: (brief) reason from the last termination of the
+                          container
+                        type: string
+                      signal:
+                        description: Signal from the last termination of the container
+                        format: int32
+                        type: integer
+                      startedAt:
+                        description: Time at which previous execution of the container
+                          started
+                        format: date-time
+                        type: string
+                    required:
+                    - exitCode
+                    type: object
+                  waiting:
+                    description: Details about a waiting container
+                    properties:
+                      message:
+                        description: Message regarding why the container is not yet
+                          running.
+                        type: string
+                      reason:
+                        description: (brief) reason the container is not yet running.
+                        type: string
+                    type: object
+                type: object
+              readyReplicas:
+                description: ReadyReplicas is the number of Pods created by the StatefulSet
+                  controller that have a Ready Condition.
+                format: int32
+                type: integer
+            required:
+            - containerState
+            - readyReplicas
+            type: object
+        type: object
+    served: true
+    storage: true
+    subresources:
+      status: {}
