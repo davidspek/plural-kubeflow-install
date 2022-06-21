@@ -122,10 +122,31 @@ spec:
                         description: The JWKS URI for the OIDC issuer you would like
                           to use with Istio
                         type: string
+                      scope:
+                        description: OIDC provider's scope config
+                        properties:
+                          groupClaim:
+                            description: Claim where to find group membership information
+                              in JWT
+                            type: string
+                          nameClaim:
+                            description: Claim where to find user name
+                            type: string
+                          scopeRequests:
+                            description: Scopes to request to get required information
+                              in JWT claims
+                            items:
+                              type: string
+                            type: array
+                        required:
+                        - groupClaim
+                        - scopeRequests
+                        type: object
                     required:
                     - issuer
                     - issuerSecretName
                     - jwksURI
+                    - scope
                     type: object
                 required:
                 - oidc
