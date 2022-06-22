@@ -6,5 +6,5 @@ appVersion: 0.1.53
 dependencies:
 - name: minio
   version: 0.1.53
-  repository: cm://app.plural.sh/cm/minio
+  repository: file:///home/david/Plural/plural-artifacts/minio/helm/minio
   condition: minio.enabled

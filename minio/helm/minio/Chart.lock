@@ -1,6 +1,6 @@
 dependencies:
 - name: minio
-  repository: cm://app.plural.sh/cm/minio
+  repository: file:///home/david/Plural/plural-artifacts/minio/helm/minio
   version: 0.1.53
-digest: sha256:901f2b9e492817970afbc198d1c7e6fb73313ff459ff3817ecde2e9b6f1f70d8
-generated: "2022-06-21T16:24:32.186458991+02:00"
+digest: sha256:3aae8a6f1a266e9e1046f1f601596d4fca70557884f51b8f266e759dd74c88bc
+generated: "2022-06-22T13:12:36.203041458+02:00"
