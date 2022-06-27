@@ -110,6 +110,25 @@ spec:
                   oidc:
                     description: Settings related to OIDC configuration
                     properties:
+                      claims:
+                        description: OIDC token claims needed to extract user info
+                        properties:
+                          group:
+                            default: groups
+                            description: Claim where to find group membership information
+                              in JWT
+                            type: string
+                          name:
+                            default: name
+                            description: Claim where to find user name
+                            type: string
+                          profileImage:
+                            description: The claim used for the user's profile image
+                            type: string
+                        required:
+                        - group
+                        - name
+                        type: object
                       issuer:
                         description: The OIDC issuer to setup with Istio
                         type: string
@@ -122,31 +141,17 @@ spec:
                         description: The JWKS URI for the OIDC issuer you would like
                           to use with Istio
                         type: string
-                      scope:
-                        description: OIDC provider's scope config
-                        properties:
-                          groupClaim:
-                            description: Claim where to find group membership information
-                              in JWT
-                            type: string
-                          nameClaim:
-                            description: Claim where to find user name
-                            type: string
-                          scopeRequests:
-                            description: Scopes to request to get required information
-                              in JWT claims
-                            items:
-                              type: string
-                            type: array
-                        required:
-                        - groupClaim
-                        - scopeRequests
-                        type: object
+                      scopes:
+                        description: OIDC provider's scopes config. The required openid
+                          scope is added automatically
+                        items:
+                          type: string
+                        type: array
                     required:
+                    - claims
                     - issuer
                     - issuerSecretName
                     - jwksURI
-                    - scope
                     type: object
                 required:
                 - oidc

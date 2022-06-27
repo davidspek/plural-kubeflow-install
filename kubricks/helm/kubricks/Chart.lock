@@ -1,6 +1,6 @@
 dependencies:
 - name: kubricks
   repository: cm://app.plural.sh/cm/kubricks
-  version: 0.1.3
-digest: sha256:7fcaa0973092834bdd5740802206d603516fed24a07b59a7657ff8c73dc1d66e
-generated: "2022-06-21T12:10:33.653652312Z"
+  version: 0.1.4
+digest: sha256:98538dff9867e4f9662312956b353667abd41eb54297e37edbccaea65777e0f2
+generated: "2022-06-27T20:09:54.465440926Z"

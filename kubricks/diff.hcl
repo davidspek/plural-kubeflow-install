@@ -40,7 +40,7 @@ step "kube-init" {
     "kubricks",
   ]
 
-  sha     = "c8ace4ca292e12c00c4395786a69f959ececafb6619745fb916bd0bd0d24a47a"
+  sha     = "a51e8291c4f89b4a7a56405b094fffdd3a886e815feba836db595d0053690a7c"
   retries = 0
   verbose = false
 }
@@ -56,7 +56,7 @@ step "helm" {
     "kubricks",
   ]
 
-  sha     = "h1:SWoBmRxhfKDXSI73xSrfR1spPrPQnttfB0LkXThHTl8="
+  sha     = "h1:IxjSaQP+jcdvH64i99VgQkyFHzjorr2/sGB6JWagQ6c="
   retries = 0
   verbose = false
 }

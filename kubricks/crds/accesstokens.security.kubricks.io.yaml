@@ -39,6 +39,14 @@ spec:
           spec:
             description: AccessTokenSpec defines the desired state of AccessToken
             properties:
+              selectors:
+                description: Selectors for the workload targeted by the token. Required
+                  when Type=Endpoint
+                items:
+                  additionalProperties:
+                    type: string
+                  type: object
+                type: array
               type:
                 enum:
                 - Personal
