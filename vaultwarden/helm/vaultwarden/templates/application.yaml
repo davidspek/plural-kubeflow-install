@@ -22,7 +22,7 @@ spec:
     kind: Job
   descriptor:
     type: vaultwarden
-    version: 0.1.4
+    version: 0.1.5
     description: Unofficial Bitwarden compatible server written in Rust
     icons:
     - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/52ea8e1e-4b0f-4e41-af41-aae42a9c20fe/vaultwarden.png?v=63819019782
