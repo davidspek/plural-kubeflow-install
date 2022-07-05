@@ -8,7 +8,7 @@ step "terraform-init" {
   target  = "vaultwarden/terraform"
   command = "terraform"
   args    = ["init"]
-  sha     = "h1:8UwUrJd5B8ciNdMiWGtGZiG/H3eS49JNJzknenfCzZQ="
+  sha     = "h1:l31gNLESDOdXFJtltq/o4A45cBhmiHUZLHb2wIwS0QM="
   retries = 0
   verbose = false
 }
@@ -24,7 +24,7 @@ step "terraform" {
     "vaultwarden",
   ]
 
-  sha     = "h1:8UwUrJd5B8ciNdMiWGtGZiG/H3eS49JNJzknenfCzZQ="
+  sha     = "h1:l31gNLESDOdXFJtltq/o4A45cBhmiHUZLHb2wIwS0QM="
   retries = 0
   verbose = false
 }
@@ -40,7 +40,7 @@ step "kube-init" {
     "vaultwarden",
   ]
 
-  sha     = "4599383164dea3aaad27f4426c91c211150bf9f9642a2d6ff5f18fdf60d6d21a"
+  sha     = "0faf5f86e33c8bd4f0cae82c269c64313a45d5ce8d0e8fb2c095821fb681c9aa"
   retries = 0
   verbose = false
 }
