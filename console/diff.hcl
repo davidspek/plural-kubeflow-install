@@ -40,7 +40,7 @@ step "kube-init" {
     "console",
   ]
 
-  sha     = "eb29dc8ab9bac8601dd4c2f480b6a5ceda4c65643119995687ca009da138c4a3"
+  sha     = "8334e80504eea06b9e9fec05d5cf25e474462cb8b69430b160cd6ec57a0e1f0a"
   retries = 0
   verbose = false
 }
