@@ -1,0 +1,6 @@
+dependencies:
+- name: redash
+  repository: file:///home/david/Plural/plural-artifacts/redash/helm/redash
+  version: 0.1.0
+digest: sha256:59280c20369bb2ab3517e912d0229c45cc20af146c9ad02ec019c0bbe1f4cb00
+generated: "2022-07-15T14:01:56.126144759+02:00"

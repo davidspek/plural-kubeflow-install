@@ -1,0 +1,10 @@
+apiVersion: v2
+name: redash
+description: A helm chart for redash
+version: 0.1.0
+appVersion: 0.1.0
+dependencies:
+- name: redash
+  version: 0.1.0
+  repository: file:///home/david/Plural/plural-artifacts/redash/helm/redash
+  condition: redash.enabled
