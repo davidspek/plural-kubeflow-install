@@ -1,0 +1,6 @@
+dependencies:
+- name: trino
+  repository: cm://app.plural.sh/cm/trino
+  version: 0.1.1
+digest: sha256:eaf631f60c2e895ecd4a6118593a6faee5865ff9dfb79840769b5774a4f4b454
+generated: "2022-07-21T19:30:38.36554161+02:00"
