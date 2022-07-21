@@ -8,7 +8,7 @@ step "terraform-init" {
   target  = "trino/terraform"
   command = "terraform"
   args    = ["init"]
-  sha     = ""
+  sha     = "h1:ia0EfV4FYV+vwdyykIsreqOIOnpMEpm7t/NgnKbuMa8="
   retries = 0
   verbose = false
 }
@@ -24,7 +24,7 @@ step "terraform" {
     "trino",
   ]
 
-  sha     = ""
+  sha     = "h1:ia0EfV4FYV+vwdyykIsreqOIOnpMEpm7t/NgnKbuMa8="
   retries = 0
   verbose = false
 }
@@ -40,7 +40,7 @@ step "kube-init" {
     "trino",
   ]
 
-  sha     = ""
+  sha     = "d6a370151870aff7f33cda4b1e1836364b9145773d669bbef35b38880926259d"
   retries = 0
   verbose = false
 }
@@ -56,7 +56,7 @@ step "helm" {
     "trino",
   ]
 
-  sha     = ""
+  sha     = "h1:Je6Ogfca1A3/V3MlgBgT7vlRehV3NDMnZ3yaHNbGMNA="
   retries = 0
   verbose = false
 }
