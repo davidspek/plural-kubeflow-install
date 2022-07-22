@@ -9,6 +9,6 @@ dependencies:
   repository: cm://app.plural.sh/cm/mlflow
   condition: mlflow.enabled
 - name: mlflow-standalone
-  version: 0.1.11
+  version: 0.1.12
   repository: cm://app.plural.sh/cm/mlflow
   condition: mlflow-standalone.enabled
