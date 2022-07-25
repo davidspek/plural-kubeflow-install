@@ -40,7 +40,7 @@ step "kube-init" {
     "trino",
   ]
 
-  sha     = "d6a370151870aff7f33cda4b1e1836364b9145773d669bbef35b38880926259d"
+  sha     = "13c09578bafc87417cbc44f4eefb5e198d429223593fed2657866583ee47d9a8"
   retries = 0
   verbose = false
 }
@@ -56,7 +56,7 @@ step "helm" {
     "trino",
   ]
 
-  sha     = "h1:Je6Ogfca1A3/V3MlgBgT7vlRehV3NDMnZ3yaHNbGMNA="
+  sha     = "h1:qYNM4FX26uPnVSZ+oeh7zTPu3Xu5SW2X8nkmsW9WlXw="
   retries = 0
   verbose = false
 }
