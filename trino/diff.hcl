@@ -40,7 +40,7 @@ step "kube-init" {
     "trino",
   ]
 
-  sha     = "8b28e0351da026a3745e40f2e02ae1839ed13d5405c603690ba82396283d56e2"
+  sha     = "5bba4a25ab5db1550e36bdd847d9c7afe4d9f1d1b0cd2de71cb959b9b506afb2"
   retries = 0
   verbose = false
 }
