@@ -25,7 +25,7 @@ spec:
     version: 0.1.1
     description: trino deployed on plural
     icons:
-    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/635d9ef5-5455-4657-9edd-190ea7ebd035/trino.png?v=63825963733
+    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/635d9ef5-5455-4657-9edd-190ea7ebd035/trino.png?v=63825963963
     
 
     {{- if .Values.global }}
