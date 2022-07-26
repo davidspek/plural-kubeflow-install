@@ -40,7 +40,7 @@ step "kube-init" {
     "mlflow",
   ]
 
-  sha     = "5417f0f694ee69df6d774db050b2bc18d4516c8db5e5b818885fdaff3fb4f4ce"
+  sha     = "64be80dfd4f1d77d7decb87531180dd1fcf5bd81806fe4d05993c6eb25acc809"
   retries = 0
   verbose = false
 }
