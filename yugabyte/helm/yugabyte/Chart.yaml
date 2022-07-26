@@ -1,0 +1,10 @@
+apiVersion: v2
+name: yugabyte
+description: A helm chart for yugabyte
+version: 0.1.0
+appVersion: 0.1.0
+dependencies:
+- name: yugabyte
+  version: 0.1.0
+  repository: cm://app.plural.sh/cm/yugabyte
+  condition: yugabyte.enabled
