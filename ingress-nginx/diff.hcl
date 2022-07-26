@@ -40,7 +40,7 @@ step "kube-init" {
     "ingress-nginx",
   ]
 
-  sha     = "533c0ec47d484ee439103396c47df697fc8b298f5d647ae4fc4b3d630969ca93"
+  sha     = "d82adccbc2ad43672746c6d2822be0cc7281480fdff9d5f8b2d49e72e7947764"
   retries = 0
   verbose = false
 }
@@ -56,7 +56,7 @@ step "helm" {
     "ingress-nginx",
   ]
 
-  sha     = "h1:qZ4xwFQBIGggC67U8GpjDmms6vDLIr4M7ZZiQjMC4yw="
+  sha     = "h1:d+K0n429CbUHeh1tEIgjXm13pHW5pLNR+J0ryU+dZ/E="
   retries = 0
   verbose = false
 }
