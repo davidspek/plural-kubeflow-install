@@ -91,7 +91,7 @@ step "bounce" {
     "grafana",
   ]
 
-  sha     = "h1:KOzE6+Q+4z81NTe+vcQTS2iYIL2cz5niJJbuKjDkwMA="
+  sha     = "h1:GHzkUdZBGRIyt3EnbOmpm1lnQ9lL+RAZ/eA+6GyYzMM="
   retries = 1
   verbose = false
 }
