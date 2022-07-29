@@ -6,9 +6,9 @@ appVersion: 0.1.7
 dependencies:
 - name: mlflow
   version: 0.1.7
-  repository: file:///home/david/Plural/plural-artifacts/mlflow/helm/mlflow
+  repository: cm://app.plural.sh/cm/mlflow
   condition: mlflow.enabled
 - name: mlflow-standalone
   version: 0.1.12
-  repository: file:///home/david/Plural/plural-artifacts/mlflow/helm/mlflow-standalone
+  repository: cm://app.plural.sh/cm/mlflow
   condition: mlflow-standalone.enabled

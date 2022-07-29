@@ -1,9 +1,9 @@
 dependencies:
 - name: mlflow
-  repository: file:///home/david/Plural/plural-artifacts/mlflow/helm/mlflow
+  repository: cm://app.plural.sh/cm/mlflow
   version: 0.1.7
 - name: mlflow-standalone
-  repository: file:///home/david/Plural/plural-artifacts/mlflow/helm/mlflow-standalone
+  repository: cm://app.plural.sh/cm/mlflow
   version: 0.1.12
-digest: sha256:dc30803a0c2ba741c85adf0b74d511c4cea1faee4c04f270f58b83dc53eeeb12
-generated: "2022-07-29T12:43:29.86495916+02:00"
+digest: sha256:ffb417a6e34b2c162f474bb86d89f85035c6d148352d9f5ee4e2e3c8b96802d7
+generated: "2022-07-29T13:50:14.284418341+02:00"
