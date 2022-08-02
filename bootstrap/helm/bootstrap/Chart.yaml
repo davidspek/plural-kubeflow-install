@@ -5,7 +5,7 @@ version: 0.1.34
 appVersion: 0.1.12
 dependencies:
 - name: plural-certmanager-webhook
-  version: 0.1.4
+  version: 0.1.5
   repository: cm://app.plural.sh/cm/bootstrap
   condition: plural-certmanager-webhook.enabled
 - name: efs-csi-driver
@@ -13,6 +13,6 @@ dependencies:
   repository: cm://app.plural.sh/cm/bootstrap
   condition: efs-csi-driver.enabled
 - name: bootstrap
-  version: 0.8.46
+  version: 0.8.47
   repository: cm://app.plural.sh/cm/bootstrap
   condition: bootstrap.enabled
