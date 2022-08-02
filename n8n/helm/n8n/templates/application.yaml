@@ -22,10 +22,10 @@ spec:
     kind: Job
   descriptor:
     type: n8n
-    version: 0.1.1
+    version: 0.1.2
     description: n8n deployed on plural
     icons:
-    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/236a48a3-4e40-458a-a9ee-ff464ba84234/n8n.png?v=63824406823
+    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/236a48a3-4e40-458a-a9ee-ff464ba84234/n8n.png?v=63826570692
     
 
     {{- if .Values.global }}

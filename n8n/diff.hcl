@@ -8,7 +8,7 @@ step "terraform-init" {
   target  = "n8n/terraform"
   command = "terraform"
   args    = ["init"]
-  sha     = ""
+  sha     = "h1:OyvNVSkD3j1d5DpR10+IbzUxGj+AdHqmnLQhQUf6ZT8="
   retries = 0
   verbose = false
 }
@@ -24,7 +24,7 @@ step "terraform" {
     "n8n",
   ]
 
-  sha     = ""
+  sha     = "h1:OyvNVSkD3j1d5DpR10+IbzUxGj+AdHqmnLQhQUf6ZT8="
   retries = 0
   verbose = false
 }
@@ -40,7 +40,7 @@ step "kube-init" {
     "n8n",
   ]
 
-  sha     = ""
+  sha     = "2f00dd561bea9c2f64c252a39329cb5e938f4b60425ca2b84a94494487f226e0"
   retries = 0
   verbose = false
 }
@@ -56,7 +56,7 @@ step "helm" {
     "n8n",
   ]
 
-  sha     = ""
+  sha     = "h1:P7tzX/+PuSqiNQnN0PW2tjrBzHC4vtO0j57mZ97amEE="
   retries = 0
   verbose = false
 }

@@ -1,6 +1,6 @@
 dependencies:
 - name: n8n
   repository: cm://app.plural.sh/cm/n8n
-  version: 0.1.1
-digest: sha256:1811577f9fc6a13d5d02cf8f8826017661bd55f534a97b20c78724e6239d7b93
-generated: "2022-07-21T15:10:52.816389+02:00"
+  version: 0.1.2
+digest: sha256:d5a32b3b3fce83eafb1c778ef4500350eea1a8f6230490d758915c8c57ef982e
+generated: "2022-08-02T04:47:13.00899263Z"
