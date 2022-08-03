@@ -40,7 +40,7 @@ step "kube-init" {
     "argo-cd",
   ]
 
-  sha     = "e1d9f1c47b8d31b8547e9fdc83ac20e3d0ed6258796e2bd1cf8ffd6e514fd910"
+  sha     = "910672c43d420e1859a493e864fdda0400488db98b76bad5fe1e161cdd426161"
   retries = 0
   verbose = false
 }
