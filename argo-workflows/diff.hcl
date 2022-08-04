@@ -40,7 +40,7 @@ step "kube-init" {
     "argo-workflows",
   ]
 
-  sha     = "a1c99cd57a426532fbc7c033d217ef5a03985de7a83cf1622bd9724b828f5a17"
+  sha     = "4e77c48e2daf7c6f0ed903949ae1123c2ed58d2f5357330496261f859e126383"
   retries = 0
   verbose = false
 }
@@ -56,7 +56,7 @@ step "helm" {
     "argo-workflows",
   ]
 
-  sha     = "h1:kAHAeTzkPEtv7TVuve66A85snrfeGlmbkKidNQpRmJA="
+  sha     = "h1:5hUySXV6qj+3uqQC3G7U0XYWm43snsT6i2Iw3MMoZ2g="
   retries = 0
   verbose = false
 }
