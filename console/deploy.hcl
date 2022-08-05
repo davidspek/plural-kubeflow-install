@@ -91,7 +91,7 @@ step "bounce" {
     "console",
   ]
 
-  sha     = "h1:2dBGfAhPcRxWu9hPkFg422ocq3sHsaBQm1SB02/0VSc="
+  sha     = "h1:10SqVv/iuP1anbfkY14jSOxYoAwNxS4hDo7tJb5HGoI="
   retries = 1
   verbose = false
 }
