@@ -1,0 +1,6 @@
+dependencies:
+- name: test-harness
+  repository: cm://app.plural.sh/cm/test-harness
+  version: 0.2.4
+digest: sha256:b652d03e194f9af3cd3f0b4188281a4a0e346933fad2587671c4683ca71e0e06
+generated: "2022-08-10T18:53:15.364877923+02:00"

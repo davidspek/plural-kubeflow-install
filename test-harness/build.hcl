@@ -1,5 +1,5 @@
 metadata {
-  name = "console"
+  name = "test-harness"
 }
 
 scaffold "terraform" {
@@ -13,7 +13,7 @@ scaffold "crds" {
 }
 
 scaffold "helm" {
-  path = "helm/console"
+  path = "helm/test-harness"
   type = "helm"
 
   preflight "update-deps" {
@@ -26,7 +26,7 @@ scaffold "helm" {
       "helm-deps",
     ]
 
-    sha     = "7c710785cd9b939ccbd05e4e1df5af3df3ec0a0ad4ea1215bf31bb01e243ad4e"
+    sha     = "064818c9c9ad2a814fded288623fc9a46edce2c81551838166d04170ba0b322b"
     retries = 0
     verbose = false
   }

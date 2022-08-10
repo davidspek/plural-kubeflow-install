@@ -1,0 +1,10 @@
+apiVersion: v2
+name: test-harness
+description: A helm chart for test-harness
+version: 0.1.0
+appVersion: 0.2.4
+dependencies:
+- name: test-harness
+  version: 0.2.4
+  repository: cm://app.plural.sh/cm/test-harness
+  condition: test-harness.enabled
