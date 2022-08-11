@@ -91,7 +91,7 @@ step "bounce" {
     "renovate",
   ]
 
-  sha     = "h1:AMzvBUy9VVfFjyXIgSzoiQ+f4EVI8nM20piLiA0yCtI="
+  sha     = "h1:xgnOsqgT5ssiI+ngv10682evYunoAXTaqw3OBZa4px0="
   retries = 1
   verbose = false
 }
