@@ -23,9 +23,9 @@ spec:
   descriptor:
     type: bootstrap
     version: 0.1.12
-    description: cluster initialization resources for plural
+    description: The cluster initialization resources for Plural.
     icons:
-    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/d1a82b07-b809-4eb4-b615-8f24365b72b8/k8s.png?v=63810388256
+    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/d1a82b07-b809-4eb4-b615-8f24365b72b8/k8s.png?v=63827245276
     
 
     {{- if .Values.global }}
