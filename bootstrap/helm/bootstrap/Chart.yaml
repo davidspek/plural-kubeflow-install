@@ -13,6 +13,6 @@ dependencies:
   repository: cm://app.plural.sh/cm/bootstrap
   condition: efs-csi-driver.enabled
 - name: bootstrap
-  version: 0.8.49
+  version: 0.8.50
   repository: cm://app.plural.sh/cm/bootstrap
   condition: bootstrap.enabled
