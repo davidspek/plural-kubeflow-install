@@ -1,0 +1,42 @@
+apiVersion: app.k8s.io/v1beta1
+kind: Application
+metadata:
+  name: reloader
+spec:
+  selector:
+    matchLabels: {}
+  componentKinds:
+  - group: v1
+    kind: Service
+  - group: networking.k8s.io
+    kind: Ingress
+  - group: cert-manager.io
+    kind: Certificate
+  - group: apps
+    kind: StatefulSet
+  - group: apps
+    kind: Deployment
+  - group: batch
+    kind: CronJob
+  - group: batch
+    kind: Job
+  descriptor:
+    type: reloader
+    version: 0.1.1
+    description: A Kubernetes controller to watch changes in ConfigMap and Secrets and do rolling upgrades on Pods with their associated Deployment, StatefulSet, DaemonSet and DeploymentConfig.
+    icons:
+    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/90932299-2920-4148-aba1-401b7bdd82b9/reloader.png?v=63829958960
+    
+
+    {{- if .Values.global }}
+    {{- if .Values.global.application }}
+    {{- if .Values.global.application.links }}
+    links:
+    {{ toYaml .Values.global.application.links | nindent 6 }}
+    {{- end }}
+  {{- if .Values.global.application.info }}
+  info:
+  {{ toYaml .Values.global.application.info | nindent 4 }}
+  {{- end }}
+  {{- end }}
+  {{- end }}

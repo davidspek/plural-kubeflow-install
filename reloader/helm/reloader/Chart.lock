@@ -1,0 +1,6 @@
+dependencies:
+- name: reloader
+  repository: cm://app.plural.sh/cm/reloader
+  version: 0.1.1
+digest: sha256:e838b13e820011880d983462058c59f290478c71ff0967dcb8aad984c7c85061
+generated: "2022-09-09T18:10:13.678926+02:00"
