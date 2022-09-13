@@ -29,7 +29,7 @@ step "terraform-apply" {
   ]
 
   sha     = "h1:ZdaFA3p3s+SX7C6Msi7G6+9WHCUJHxypMqNJcyKlx8w="
-  retries = 1
+  retries = 2
   verbose = false
 }
 
@@ -59,7 +59,7 @@ step "kube-init" {
     "kube-init",
   ]
 
-  sha     = "4e77c48e2daf7c6f0ed903949ae1123c2ed58d2f5357330496261f859e126383"
+  sha     = "4e87d8144086b06080d6ea162c62037600d2c9090076ef21e3e6fd84bef058c5"
   retries = 0
   verbose = false
 }
@@ -91,7 +91,7 @@ step "bounce" {
     "argo-workflows",
   ]
 
-  sha     = "h1:5hUySXV6qj+3uqQC3G7U0XYWm43snsT6i2Iw3MMoZ2g="
-  retries = 1
+  sha     = "h1:NaLGMZGAD2X22zugMX6TMz8U48S6GI7ibtVRFYHvaQ4="
+  retries = 2
   verbose = false
 }
