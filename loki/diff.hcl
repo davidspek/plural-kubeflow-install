@@ -8,7 +8,7 @@ step "terraform-init" {
   target  = "loki/terraform"
   command = "terraform"
   args    = ["init"]
-  sha     = ""
+  sha     = "h1:RDlxAjt7pGMWXCMucJ7W6HfofpwVu/L7b9Wyv6j+4iU="
   retries = 0
   verbose = false
 }
@@ -24,7 +24,7 @@ step "terraform" {
     "loki",
   ]
 
-  sha     = ""
+  sha     = "h1:RDlxAjt7pGMWXCMucJ7W6HfofpwVu/L7b9Wyv6j+4iU="
   retries = 0
   verbose = false
 }
@@ -40,7 +40,7 @@ step "kube-init" {
     "loki",
   ]
 
-  sha     = ""
+  sha     = "62b1de177490d509c1b327352d74041631389c56ee896625f1cd13b23ed2e9a8"
   retries = 0
   verbose = false
 }
@@ -56,7 +56,7 @@ step "helm" {
     "loki",
   ]
 
-  sha     = ""
+  sha     = "h1:NTmx5to74nLNYbOD404+sONO0mg8nLrHMcnyVEMwqV8="
   retries = 0
   verbose = false
 }
