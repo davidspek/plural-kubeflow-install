@@ -1,0 +1,44 @@
+apiVersion: app.k8s.io/v1beta1
+kind: Application
+metadata:
+  name: csgo
+spec:
+  selector:
+    matchLabels: {}
+  componentKinds:
+  - group: v1
+    kind: Service
+  - group: networking.k8s.io
+    kind: Ingress
+  - group: cert-manager.io
+    kind: Certificate
+  - group: apps
+    kind: StatefulSet
+  - group: apps
+    kind: Deployment
+  - group: batch
+    kind: CronJob
+  - group: batch
+    kind: Job
+  descriptor:
+    type: csgo
+    version: 0.1.1
+    description: Counter Strike Global Offensive deployed on plural
+    icons:
+    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/3d989551-a60a-4ef8-8b8d-713d0b1c0114/csgo.png?v=63830467085
+    
+    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/3d989551-a60a-4ef8-8b8d-713d0b1c0114/csgo.png?v=63830467085
+    
+
+    {{- if .Values.global }}
+    {{- if .Values.global.application }}
+    {{- if .Values.global.application.links }}
+    links:
+    {{ toYaml .Values.global.application.links | nindent 6 }}
+    {{- end }}
+  {{- if .Values.global.application.info }}
+  info:
+  {{ toYaml .Values.global.application.info | nindent 4 }}
+  {{- end }}
+  {{- end }}
+  {{- end }}

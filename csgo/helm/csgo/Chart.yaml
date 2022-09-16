@@ -1,0 +1,10 @@
+apiVersion: v2
+name: csgo
+description: A helm chart for csgo
+version: 0.1.0
+appVersion: 0.1.1
+dependencies:
+- name: csgo
+  version: 0.1.1
+  repository: file:///Users/david/Plural/plural-artifacts/csgo/helm/csgo
+  condition: csgo.enabled
