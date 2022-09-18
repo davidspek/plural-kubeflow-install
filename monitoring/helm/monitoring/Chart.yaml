@@ -2,9 +2,9 @@ apiVersion: v2
 name: monitoring
 description: A helm chart for monitoring
 version: 0.1.8
-appVersion: 0.2.15
+appVersion: 0.2.17
 dependencies:
 - name: monitoring
-  version: 0.2.15
+  version: 0.2.17
   repository: cm://app.plural.sh/cm/monitoring
   condition: monitoring.enabled
