@@ -23,9 +23,9 @@ spec:
   descriptor:
     type: postgres
     version: 0.2.8
-    description: postgres as a service for kubernetes
+    description: An open-source relational database that supports both SQL and JSON querying.
     icons:
-    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/964f6549-30f1-46c3-ad03-a31166120a5c/postgres.png?v=63819019749
+    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/964f6549-30f1-46c3-ad03-a31166120a5c/postgres.png?v=63830908313
     
 
     {{- if .Values.global }}
