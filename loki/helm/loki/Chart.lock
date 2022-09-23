@@ -1,6 +1,6 @@
 dependencies:
 - name: loki
   repository: cm://app.plural.sh/cm/loki
-  version: 0.1.4
-digest: sha256:bfdde7f2455d23c1fda443543c03651500a34635c90eee33098565f37725661b
-generated: "2022-09-13T17:47:50.008250653Z"
+  version: 0.1.6
+digest: sha256:1bdf3d6c2bb5d2006e06dccea9b945b2cc047d214ce2faa8f24a7487335a607b
+generated: "2022-09-23T14:47:52.713528001Z"
