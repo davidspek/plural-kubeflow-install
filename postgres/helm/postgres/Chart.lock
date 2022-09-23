@@ -1,6 +1,6 @@
 dependencies:
 - name: postgres
-  repository: file:///Users/david/Plural/plural-artifacts/postgres/helm/postgres
-  version: 0.2.8
-digest: sha256:32a19f3918dc7748a941469aaead247e9ef6036c1f0bcf8999e2562e8987baef
-generated: "2022-09-21T13:19:23.356416+02:00"
+  repository: cm://app.plural.sh/cm/postgres
+  version: 0.2.9
+digest: sha256:e2eca73a2f3c20a1b6db054f0ce168be286166d3fba1e8a841594c8c20b07d84
+generated: "2022-09-23T11:33:20.765277+02:00"
