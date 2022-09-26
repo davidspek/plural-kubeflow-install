@@ -8,7 +8,7 @@ step "terraform-init" {
   target  = "yugabyte/terraform"
   command = "terraform"
   args    = ["init"]
-  sha     = ""
+  sha     = "h1:FDmdaSc+4CmHwH3P8BK4rQtS2qvBbCBLjQOXHxOjFFY="
   retries = 0
   verbose = false
 }
@@ -24,7 +24,7 @@ step "terraform" {
     "yugabyte",
   ]
 
-  sha     = ""
+  sha     = "h1:FDmdaSc+4CmHwH3P8BK4rQtS2qvBbCBLjQOXHxOjFFY="
   retries = 0
   verbose = false
 }
@@ -40,7 +40,7 @@ step "kube-init" {
     "yugabyte",
   ]
 
-  sha     = ""
+  sha     = "02332dfa99a61537a607b930a26dd2c979416146aaaede4f0ac69d77446ffb45"
   retries = 0
   verbose = false
 }
@@ -56,7 +56,7 @@ step "helm" {
     "yugabyte",
   ]
 
-  sha     = ""
+  sha     = "h1:x7w0VLvN4R8vmxl2pIQAp6uVm9Rek9i8PFADtK6Ha1Q="
   retries = 0
   verbose = false
 }

@@ -1,6 +1,6 @@
 dependencies:
 - name: yugabyte
-  repository: file:///Users/david/Plural/plural-artifacts/yugabyte/helm/yugabyte
-  version: 0.1.1
-digest: sha256:6bb130a6bd57656fad2be22c248ab9c3e40c315a9c855a8bf2aca17607c6096b
-generated: "2022-09-23T17:05:44.435437+02:00"
+  repository: cm://app.plural.sh/cm/yugabyte
+  version: 0.1.2
+digest: sha256:8ed3049ef4c51c5dfb356cd414dcec60fd57604daa392884df499e0539ef8e2f
+generated: "2022-09-26T12:06:01.751891615Z"
