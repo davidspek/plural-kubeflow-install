@@ -22,10 +22,10 @@ spec:
     kind: Job
   descriptor:
     type: yugabyte
-    version: 0.1.2
+    version: 0.1.4
     description: yugabyte deployed on plural
     icons:
-    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/4036bea8-d1bd-4720-b0e6-3e9d91706aad/yugabyte.png?v=63831413401
+    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/4036bea8-d1bd-4720-b0e6-3e9d91706aad/yugabyte.png?v=63831419625
     
 
     {{- if .Values.global }}

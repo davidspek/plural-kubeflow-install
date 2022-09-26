@@ -1,6 +1,6 @@
 dependencies:
 - name: yugabyte
   repository: cm://app.plural.sh/cm/yugabyte
-  version: 0.1.2
-digest: sha256:8ed3049ef4c51c5dfb356cd414dcec60fd57604daa392884df499e0539ef8e2f
-generated: "2022-09-26T12:06:01.751891615Z"
+  version: 0.1.4
+digest: sha256:71e197538bc825e9bcf01367202998c7c1d792795d389ef1a4ce5a96daf66df2
+generated: "2022-09-26T14:38:08.622373574Z"

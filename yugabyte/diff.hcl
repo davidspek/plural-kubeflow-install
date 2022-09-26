@@ -40,7 +40,7 @@ step "kube-init" {
     "yugabyte",
   ]
 
-  sha     = "02332dfa99a61537a607b930a26dd2c979416146aaaede4f0ac69d77446ffb45"
+  sha     = "4edebe47669ae419da38b1b566fbce78eab6505b267bf7d45c0b46d167b8f5ff"
   retries = 0
   verbose = false
 }
@@ -56,7 +56,7 @@ step "helm" {
     "yugabyte",
   ]
 
-  sha     = "h1:x7w0VLvN4R8vmxl2pIQAp6uVm9Rek9i8PFADtK6Ha1Q="
+  sha     = "h1:/xYrnBKNr3EN+OogjzJWUigF3oY6jidVPXWlaIzTawc="
   retries = 0
   verbose = false
 }
