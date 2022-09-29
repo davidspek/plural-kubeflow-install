@@ -1,6 +1,6 @@
 dependencies:
 - name: lightdash
-  repository: file:///home/david/Plural/plural-artifacts/lightdash/helm/lightdash
-  version: 0.1.0
-digest: sha256:764234da356ddeb4d65cf950a9a262beac1697089b4e4fb7e7d027db84afcb19
-generated: "2022-07-28T14:28:50.956368821+02:00"
+  repository: cm://app.plural.sh/cm/lightdash
+  version: 0.1.1
+digest: sha256:7263a1fce5d04a3ce433da1b01337aec524d020ef9835d20787e34c77fd4e363
+generated: "2022-09-29T13:01:20.386016+02:00"

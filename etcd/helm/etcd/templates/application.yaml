@@ -23,9 +23,9 @@ spec:
   descriptor:
     type: etcd
     version: 0.1.16
-    description: a strongly consistent, distributed key-value store
+    description: A distributed reliable key-value store for the most critical data of a distributed system.
     icons:
-    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/9eb21fe4-f891-4170-a535-a0eb8ac28352/etcd-logo.png?v=63819019529
+    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/9eb21fe4-f891-4170-a535-a0eb8ac28352/etcd-logo.png?v=63827245277
     
 
     {{- if .Values.global }}

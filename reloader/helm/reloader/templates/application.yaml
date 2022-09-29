@@ -25,7 +25,7 @@ spec:
     version: 0.1.1
     description: A Kubernetes controller to watch changes in ConfigMap and Secrets and do rolling upgrades on Pods with their associated Deployment, StatefulSet, DaemonSet and DeploymentConfig.
     icons:
-    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/90932299-2920-4148-aba1-401b7bdd82b9/reloader.png?v=63829958960
+    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/90932299-2920-4148-aba1-401b7bdd82b9/reloader.png?v=63830908335
     
 
     {{- if .Values.global }}

@@ -23,9 +23,9 @@ spec:
   descriptor:
     type: nvidia-operator
     version: 0.1.15
-    description: Everything needed to schedule and monitor NVIDIA GPUs
+    description: Allows administrators of Kubernetes clusters to manage GPU nodes just like CPU nodes in the cluster.
     icons:
-    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/841eb2e5-f792-4157-9ff0-7c8df1322a77/nvidia.png?v=63819019737
+    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/841eb2e5-f792-4157-9ff0-7c8df1322a77/nvidia.png?v=63830908105
     
 
     {{- if .Values.global }}

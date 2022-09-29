@@ -25,9 +25,9 @@ spec:
     version: 0.1.1
     description: Counter Strike Global Offensive deployed on plural
     icons:
-    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/3d989551-a60a-4ef8-8b8d-713d0b1c0114/csgo.png?v=63830467085
+    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/3d989551-a60a-4ef8-8b8d-713d0b1c0114/csgo.png?v=63830792813
     
-    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/3d989551-a60a-4ef8-8b8d-713d0b1c0114/csgo.png?v=63830467085
+    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/3d989551-a60a-4ef8-8b8d-713d0b1c0114/csgo.png?v=63830792814
     
 
     {{- if .Values.global }}

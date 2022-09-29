@@ -23,9 +23,9 @@ spec:
   descriptor:
     type: kserve
     version: 0.1.2
-    description: kserve deployed on plural
+    description: KServe provides a K8s CRD for serving ML models on arbitrary frameworks.
     icons:
-    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/2089f227-24a3-442d-a53b-941d12dd6d91/kserve.png?v=63817604294
+    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/2089f227-24a3-442d-a53b-941d12dd6d91/kserve.png?v=63830908096
     
 
     {{- if .Values.global }}

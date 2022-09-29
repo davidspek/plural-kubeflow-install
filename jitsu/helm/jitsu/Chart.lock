@@ -1,6 +1,6 @@
 dependencies:
 - name: jitsu
-  repository: file:///home/david/Plural/plural-artifacts/jitsu/helm/jitsu
-  version: 0.1.14
-digest: sha256:b3606b9469285a188d86899f9bffcbec5e9e44b756036ac56d9b49e08ce23600
-generated: "2022-06-07T15:03:23.63751253+02:00"
+  repository: cm://app.plural.sh/cm/jitsu
+  version: 0.1.16
+digest: sha256:9a0c96654a0537f56c0be7c0a0903a3099c8b7bf68d29990b26e45d77bc0dfa2
+generated: "2022-09-29T12:59:46.086574+02:00"

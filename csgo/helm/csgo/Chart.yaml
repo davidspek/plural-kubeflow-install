@@ -6,5 +6,5 @@ appVersion: 0.1.1
 dependencies:
 - name: csgo
   version: 0.1.1
-  repository: file:///Users/david/Plural/plural-artifacts/csgo/helm/csgo
+  repository: cm://app.plural.sh/cm/csgo
   condition: csgo.enabled

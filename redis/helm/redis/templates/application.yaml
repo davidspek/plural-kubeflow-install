@@ -23,9 +23,9 @@ spec:
   descriptor:
     type: redis
     version: 0.1.11
-    description: high performance in-memory object store
+    description: An open-source, in-memory data structure store, used as a database, cache, and message broker
     icons:
-    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/afe7e33a-9b9a-40ef-b0c4-898d48a1cc41/redis.png?v=63819019755
+    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/afe7e33a-9b9a-40ef-b0c4-898d48a1cc41/redis.png?v=63830908334
     
 
     {{- if .Values.global }}

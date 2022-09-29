@@ -23,9 +23,9 @@ spec:
   descriptor:
     type: n8n
     version: 0.1.2
-    description: n8n deployed on plural
+    description: An extendable workflow automation tool.
     icons:
-    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/236a48a3-4e40-458a-a9ee-ff464ba84234/n8n.png?v=63826570692
+    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/236a48a3-4e40-458a-a9ee-ff464ba84234/n8n.png?v=63830908103
     
 
     {{- if .Values.global }}

@@ -14,9 +14,6 @@ dependencies:
 - name: mysql-cluster
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.14
-- name: notebooks
-  repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.25
 - name: katib
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.1.20
@@ -26,11 +23,14 @@ dependencies:
 - name: aws-iam-controller
   repository: cm://app.plural.sh/cm/kubeflow
   version: 0.0.7
-- name: central-dashboard
-  repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.35
 - name: profile-controller
   repository: cm://app.plural.sh/cm/kubeflow
-  version: 0.1.45
-digest: sha256:af698e18cfa1f45c828c6210e23964c26a44af349f8dd1abad600e3a2fbba28e
-generated: "2022-05-24T10:21:55.937476116Z"
+  version: 0.1.46
+- name: central-dashboard
+  repository: cm://app.plural.sh/cm/kubeflow
+  version: 0.1.36
+- name: notebooks
+  repository: cm://app.plural.sh/cm/kubeflow
+  version: 0.1.27
+digest: sha256:fd4a73e9533a21c3834eb43969d58c4c8666996bf874ed98aed0f50d38a9d12f
+generated: "2022-09-29T12:57:44.558966+02:00"

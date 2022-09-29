@@ -23,9 +23,9 @@ spec:
   descriptor:
     type: mysql
     version: 0.1.18
-    description: open source rdbms
+    description: An open-source relational database management system.
     icons:
-    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/e3a59d39-0917-4072-9c95-6cbcaab2381a/mysql.png?v=63819019721
+    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/e3a59d39-0917-4072-9c95-6cbcaab2381a/mysql.png?v=63830908103
     
 
     {{- if .Values.global }}

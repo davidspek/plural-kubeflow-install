@@ -1,6 +1,6 @@
 dependencies:
 - name: csgo
-  repository: file:///Users/david/Plural/plural-artifacts/csgo/helm/csgo
+  repository: cm://app.plural.sh/cm/csgo
   version: 0.1.1
-digest: sha256:948fab14aefdab8ae7377da0f2c98770324b5d18001f62bfa7865b03c0380bad
-generated: "2022-09-16T15:47:25.142396+02:00"
+digest: sha256:181412d3432751208ebb211f47b99c924450e4af2ae576404594bdf75b8d892d
+generated: "2022-09-29T13:02:52.250135+02:00"

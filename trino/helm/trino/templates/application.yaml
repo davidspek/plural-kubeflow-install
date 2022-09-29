@@ -23,9 +23,9 @@ spec:
   descriptor:
     type: trino
     version: 0.1.1
-    description: trino deployed on plural
+    description: A distributed SQL query engine for big data and analytics.
     icons:
-    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/635d9ef5-5455-4657-9edd-190ea7ebd035/trino.png?v=63825963963
+    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/635d9ef5-5455-4657-9edd-190ea7ebd035/trino.png?v=63830908339
     
 
     {{- if .Values.global }}

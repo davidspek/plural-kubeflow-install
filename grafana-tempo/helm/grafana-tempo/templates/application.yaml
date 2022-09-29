@@ -23,9 +23,9 @@ spec:
   descriptor:
     type: grafana-tempo
     version: 0.1.11
-    description: easy-to-use and high-scale distributed tracing backend
+    description: An open-source high-scale distributed tracing backend.
     icons:
-    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/aa94309f-00de-4b1b-becb-9dd93ff0853d/tempo.png?v=63819019532
+    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/aa94309f-00de-4b1b-becb-9dd93ff0853d/tempo.png?v=63830906376
     
 
     {{- if .Values.global }}

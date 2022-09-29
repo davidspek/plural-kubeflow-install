@@ -23,9 +23,9 @@ spec:
   descriptor:
     type: kubeflow
     version: 0.1.28
-    description: The Machine Learning Toolkit for Kubernetes
+    description: A cloud-native platform for machine learning operations - pipelines, training, and deployment.
     icons:
-    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/98bcf7e8-e05b-4653-988f-f40752a5067a/kubeflow.png?v=63819019692
+    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/98bcf7e8-e05b-4653-988f-f40752a5067a/kubeflow.png?v=63829243852
     
 
     {{- if .Values.global }}

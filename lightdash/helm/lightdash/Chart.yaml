@@ -2,9 +2,9 @@ apiVersion: v2
 name: lightdash
 description: A helm chart for lightdash
 version: 0.1.0
-appVersion: 0.1.0
+appVersion: 0.1.1
 dependencies:
 - name: lightdash
-  version: 0.1.0
-  repository: file:///home/david/Plural/plural-artifacts/lightdash/helm/lightdash
+  version: 0.1.1
+  repository: cm://app.plural.sh/cm/lightdash
   condition: lightdash.enabled

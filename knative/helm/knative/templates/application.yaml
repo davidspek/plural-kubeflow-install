@@ -23,9 +23,9 @@ spec:
   descriptor:
     type: knative
     version: 0.1.24
-    description: serverless for kubernetes
+    description: An open-source enterprise-level solution to build serverless and event-driven applications.
     icons:
-    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/405d5d69-0ed7-4995-9685-b2063fba845a/knative.png?v=63819019668
+    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/405d5d69-0ed7-4995-9685-b2063fba845a/knative.png?v=63830908095
     
 
     {{- if .Values.global }}

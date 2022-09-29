@@ -23,9 +23,11 @@ spec:
   descriptor:
     type: vault
     version: 0.2.3
-    description: vault deployed on plural
+    description: An open-source identity-based secrets and encryption management system.
     icons:
-    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/3020f975-31c4-4e78-9a0e-4ff732d1b4ad/vault.png?v=63821207991
+    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/3020f975-31c4-4e78-9a0e-4ff732d1b4ad/vault.png?v=63830908340
+    
+    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/3020f975-31c4-4e78-9a0e-4ff732d1b4ad/vault-white.png?v=63830908340
     
 
     {{- if .Values.global }}

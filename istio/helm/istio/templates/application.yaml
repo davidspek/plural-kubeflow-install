@@ -23,9 +23,9 @@ spec:
   descriptor:
     type: istio
     version: 0.1.99
-    description: envoy powered service mesh
+    description: An open-source service mesh platform that controls how microservices share data with one another.
     icons:
-    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/fa9a3b19-539d-4307-b57d-3979a3f2b8ec/istio.png?v=63824406816
+    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/fa9a3b19-539d-4307-b57d-3979a3f2b8ec/istio.png?v=63830907771
     
 
     {{- if .Values.global }}

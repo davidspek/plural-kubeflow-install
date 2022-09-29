@@ -22,10 +22,10 @@ spec:
     kind: Job
   descriptor:
     type: lightdash
-    version: 0.1.0
-    description: lightdash deployed on plural
+    version: 0.1.1
+    description: Lightdash instantly turns your dbt project into a full-stack BI platform.
     icons:
-    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/432b8cac-a2f5-4440-8b29-d0610962ae06/lightdash.png?v=63825960580
+    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/432b8cac-a2f5-4440-8b29-d0610962ae06/lightdash.png?v=63826570237
     
 
     {{- if .Values.global }}
