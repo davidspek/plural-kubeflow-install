@@ -8,7 +8,7 @@ step "terraform-init" {
   target  = "ray/terraform"
   command = "terraform"
   args    = ["init"]
-  sha     = ""
+  sha     = "h1:6QKoqzttJ3OAZA8uWIUY8bIYad9IC8AWsSmIBLgIAMc="
   retries = 0
   verbose = false
 }
@@ -24,7 +24,7 @@ step "terraform" {
     "ray",
   ]
 
-  sha     = ""
+  sha     = "h1:6QKoqzttJ3OAZA8uWIUY8bIYad9IC8AWsSmIBLgIAMc="
   retries = 0
   verbose = false
 }
@@ -40,7 +40,7 @@ step "kube-init" {
     "ray",
   ]
 
-  sha     = ""
+  sha     = "a0257369e4e719c2350bde25db707aa7f78f795a7826bed291c31b0e4c6a1e72"
   retries = 0
   verbose = false
 }
@@ -56,7 +56,7 @@ step "helm" {
     "ray",
   ]
 
-  sha     = ""
+  sha     = "h1:SEOW7yUR7CtEUuka/99CwTIQu5231sDAtdv27DT3jac="
   retries = 0
   verbose = false
 }

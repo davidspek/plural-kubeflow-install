@@ -1,9 +1,9 @@
 dependencies:
 - name: ray
   repository: cm://app.plural.sh/cm/ray
-  version: 0.1.2
+  version: 0.1.3
 - name: kuberay-operator
   repository: cm://app.plural.sh/cm/ray
-  version: 0.1.0
-digest: sha256:6fcf4e2bcdd2e729de30abceb0f590e9f9f59ad5248309adb5ee718d1828c984
-generated: "2022-09-27T11:05:09.387843+02:00"
+  version: 0.1.2
+digest: sha256:89da3915b7cd1123dfd904858f9574e37ccd324c1b9efceaaeeca3ce43833490
+generated: "2022-09-29T10:08:22.143072989Z"
