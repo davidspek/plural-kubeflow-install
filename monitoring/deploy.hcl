@@ -91,7 +91,7 @@ step "bounce" {
     "monitoring",
   ]
 
-  sha     = "h1:9bO1UNmI52KnNUbELaDc01KVilTGyfPaGYZ3uFk/RdY="
+  sha     = "h1:HFzDbrsvOawrgUgTpHvw/C7JLAnHR59rRT7Jc2DAUyc="
   retries = 2
   verbose = false
 }

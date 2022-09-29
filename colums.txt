@@ -1,0 +1,2 @@
+NAME            NAMESPACE           CPU-REQUEST                                 MEM-REQUEST
+.metadata.name  .metadata.namespace .spec.containers[*].resources.requests.cpu  .spec.containers[*].resources.requests.memory
