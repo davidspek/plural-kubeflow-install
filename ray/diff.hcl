@@ -40,7 +40,7 @@ step "kube-init" {
     "ray",
   ]
 
-  sha     = "8d17674b038155f0f057c8b5be91aec81538cc840a9dac57908ade82c3fd5ed7"
+  sha     = "34d4e26092a0be5b8e3b67ec24f42b12b90b9309c3f1f79f4d610cab1188d502"
   retries = 0
   verbose = false
 }
