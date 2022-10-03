@@ -40,7 +40,7 @@ step "kube-init" {
     "kubricks",
   ]
 
-  sha     = "6eb505c8162e24f46a00bb61a7af161244b5e42732a7f20b2c1bbc8d25981ac1"
+  sha     = "3ad39458873042960ad98e7cc806acdf76364c1202ba4058e021bc4b30b90727"
   retries = 0
   verbose = false
 }
