@@ -22,7 +22,7 @@ spec:
     kind: Job
   descriptor:
     type: ray
-    version: 0.1.5
+    version: 0.1.6
     description: ray deployed on plural
     icons:
     - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/32861411-b531-4d25-a9e4-1685d6ae7dc0/ray.png?v=63832368843
