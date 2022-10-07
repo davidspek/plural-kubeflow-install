@@ -1,0 +1,10 @@
+apiVersion: v2
+name: datahub
+description: A helm chart for datahub
+version: 0.1.0
+appVersion: 0.1.0
+dependencies:
+- name: datahub
+  version: 0.1.0
+  repository: file:///Users/david/Plural/plural-artifacts/datahub/helm/datahub
+  condition: datahub.enabled
