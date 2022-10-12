@@ -10,5 +10,5 @@ dependencies:
   condition: ray.enabled
 - name: kuberay-operator
   version: 0.1.2
-  repository: cm://app.plural.sh/cm/ray
+  repository: file:///Users/david/Plural/plural-artifacts/ray/helm/kuberay-operator
   condition: kuberay-operator.enabled
