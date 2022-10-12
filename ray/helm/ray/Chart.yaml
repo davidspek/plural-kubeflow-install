@@ -2,13 +2,13 @@ apiVersion: v2
 name: ray
 description: A helm chart for ray
 version: 0.1.0
-appVersion: 0.1.6
+appVersion: 0.1.7
 dependencies:
 - name: ray
-  version: 0.1.6
-  repository: file:///Users/david/Plural/plural-artifacts/ray/helm/ray
+  version: 0.1.7
+  repository: cm://app.plural.sh/cm/ray
   condition: ray.enabled
 - name: kuberay-operator
-  version: 0.1.2
-  repository: file:///Users/david/Plural/plural-artifacts/ray/helm/kuberay-operator
+  version: 0.1.3
+  repository: cm://app.plural.sh/cm/ray
   condition: kuberay-operator.enabled

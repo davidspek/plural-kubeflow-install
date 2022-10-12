@@ -1,9 +1,9 @@
 dependencies:
 - name: ray
-  repository: file:///Users/david/Plural/plural-artifacts/ray/helm/ray
-  version: 0.1.6
+  repository: cm://app.plural.sh/cm/ray
+  version: 0.1.7
 - name: kuberay-operator
-  repository: file:///Users/david/Plural/plural-artifacts/ray/helm/kuberay-operator
-  version: 0.1.2
-digest: sha256:2c6e665a3f606cd0defea50642335b328192983013dda1f9b1008ebf548a1f91
-generated: "2022-10-11T18:25:40.163784+01:00"
+  repository: cm://app.plural.sh/cm/ray
+  version: 0.1.3
+digest: sha256:dd15651cc37bf3111e6805ab67c6a6d47307a642544524e8e7fb569178e620e3
+generated: "2022-10-12T14:31:10.26356+01:00"
