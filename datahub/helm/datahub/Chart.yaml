@@ -6,5 +6,5 @@ appVersion: 0.1.0
 dependencies:
 - name: datahub
   version: 0.1.0
-  repository: file:///Users/david/Plural/plural-artifacts/datahub/helm/datahub
+  repository: cm://app.plural.sh/cm/datahub
   condition: datahub.enabled
