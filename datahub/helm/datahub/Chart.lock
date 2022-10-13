@@ -1,6 +1,6 @@
 dependencies:
 - name: datahub
-  repository: file:///Users/david/Plural/plural-artifacts/datahub/helm/datahub
-  version: 0.1.2
-digest: sha256:c90097201bf8d5bd5a1edadca77aa5c231b94077ade5dc5bfaf44491e2ec342b
-generated: "2022-10-13T15:15:07.265611+01:00"
+  repository: cm://app.plural.sh/cm/datahub
+  version: 0.1.3
+digest: sha256:f0102d71601c5bb76b5ce50ac40848dfbbaea123bf35e00e88721a1a8793cc53
+generated: "2022-10-13T15:25:56.241188+01:00"
