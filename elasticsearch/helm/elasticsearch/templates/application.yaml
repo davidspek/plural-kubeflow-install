@@ -22,7 +22,7 @@ spec:
     kind: Job
   descriptor:
     type: elasticsearch
-    version: 0.1.9
+    version: 0.1.10
     description: de facto open source search databse
     icons:
     - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/cc1bb214-2841-405e-a4db-27e4855c7858/elastic.png?v=63792824422
