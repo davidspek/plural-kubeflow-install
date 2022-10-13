@@ -16,3 +16,7 @@ dependencies:
   version: 0.8.53
   repository: cm://app.plural.sh/cm/bootstrap
   condition: bootstrap.enabled
+- name: keda
+  version: 0.1.0
+  repository: cm://app.plural.sh/cm/bootstrap
+  condition: keda.enabled
