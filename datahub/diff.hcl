@@ -8,7 +8,7 @@ step "terraform-init" {
   target  = "datahub/terraform"
   command = "terraform"
   args    = ["init"]
-  sha     = ""
+  sha     = "h1:j7R8zQnjmIqvuXEpFmzSWMRIa5B5GPx9UFn8E70dkDM="
   retries = 0
   verbose = false
 }
@@ -24,7 +24,7 @@ step "terraform" {
     "datahub",
   ]
 
-  sha     = ""
+  sha     = "h1:j7R8zQnjmIqvuXEpFmzSWMRIa5B5GPx9UFn8E70dkDM="
   retries = 0
   verbose = false
 }
@@ -40,7 +40,7 @@ step "kube-init" {
     "datahub",
   ]
 
-  sha     = ""
+  sha     = "ef73bcfeb8c6c1fedcecfb4912dc0296cc502949128338376b238f7477456983"
   retries = 0
   verbose = false
 }
@@ -56,7 +56,7 @@ step "helm" {
     "datahub",
   ]
 
-  sha     = ""
+  sha     = "h1:PH0jgeRoqqFWLQC7qmkndkV9vBVqCoYMm+cpY4b3wdY="
   retries = 0
   verbose = false
 }
