@@ -91,7 +91,7 @@ step "bounce" {
     "datahub",
   ]
 
-  sha     = "h1:baUFLCZYrgjmG8YMaCB8Cnjc1iHEbnhXLOoB2fv3Yv0="
+  sha     = "h1:Ontbav+Cnsu1ws4CJEQP/HbTgqcN1CtVuUQ55GKajoU="
   retries = 2
   verbose = false
 }
