@@ -40,7 +40,7 @@ step "kube-init" {
     "datahub",
   ]
 
-  sha     = "9605cf9d4cb67f50202fcf9ef700fb720f417cb0395ac689326908374ed9a5b3"
+  sha     = "9a4bbe7dd633a45fe8d05c7b7bcc63892bdcbf2c85a2aa2145af9ea017fa2363"
   retries = 0
   verbose = false
 }
