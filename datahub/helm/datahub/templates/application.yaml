@@ -22,7 +22,7 @@ spec:
     kind: Job
   descriptor:
     type: datahub
-    version: 0.1.4
+    version: 0.1.5
     description: datahub deployed on plural
     icons:
     - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/027332f3-edd2-4380-ac93-58fa6cd6b23d/datahub.png?v=63832887613
