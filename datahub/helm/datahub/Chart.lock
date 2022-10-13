@@ -1,6 +1,6 @@
 dependencies:
 - name: datahub
   repository: cm://app.plural.sh/cm/datahub
-  version: 0.1.0
-digest: sha256:a07ea9d960e72b2811ead0dff9523fbd76884bfba485785ef7ee1e627ac6e2fd
-generated: "2022-10-13T14:41:09.98705+01:00"
+  version: 0.1.2
+digest: sha256:60a73de6ec850495ba33411a7ba95834623584217fae26fcebeba309924732f4
+generated: "2022-10-13T14:48:40.70105+01:00"
