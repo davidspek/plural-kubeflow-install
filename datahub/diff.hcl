@@ -40,7 +40,7 @@ step "kube-init" {
     "datahub",
   ]
 
-  sha     = "33198f5f78bcefe056b82048b6115fc250a5203de48c9cf7142e1f8dd46b0098"
+  sha     = "5a106e51805cac251fcb7a3a8b5bd6511a8e504f9ded9967e873de7f407d0e9b"
   retries = 0
   verbose = false
 }
@@ -56,7 +56,7 @@ step "helm" {
     "datahub",
   ]
 
-  sha     = "h1:a1GPqThNApe16JAbRJUrfzphH1SybqtEX44/nM+KNwM="
+  sha     = "h1:XPDyUoom75zR//dMCfmrgVeKwR7zxtcsx4XhSMzjPoU="
   retries = 0
   verbose = false
 }
