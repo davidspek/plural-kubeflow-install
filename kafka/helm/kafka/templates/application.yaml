@@ -22,10 +22,10 @@ spec:
     kind: Job
   descriptor:
     type: kafka
-    version: 0.1.22
-    description: high performance log database
+    version: 0.1.23
+    description: An open-source distributed event streaming platform.
     icons:
-    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/79728698-e8c7-4705-ba36-8a46d6ec9b2e/kafka.png?v=63833236053
+    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/79728698-e8c7-4705-ba36-8a46d6ec9b2e/kafka.png?v=63833237561
     
     - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/79728698-e8c7-4705-ba36-8a46d6ec9b2e/kafka-darkmode.png?v=63792628117
     

@@ -8,7 +8,7 @@ step "terraform-init" {
   target  = "kafka/terraform"
   command = "terraform"
   args    = ["init"]
-  sha     = ""
+  sha     = "h1:aTIEuDmcrkYqdMq0UTbdM+rnm5LJQKMZaqwJP5yupKk="
   retries = 0
   verbose = false
 }
@@ -24,7 +24,7 @@ step "terraform" {
     "kafka",
   ]
 
-  sha     = ""
+  sha     = "h1:aTIEuDmcrkYqdMq0UTbdM+rnm5LJQKMZaqwJP5yupKk="
   retries = 0
   verbose = false
 }
@@ -40,7 +40,7 @@ step "kube-init" {
     "kafka",
   ]
 
-  sha     = ""
+  sha     = "95bede914702b8af2382cf71c23ba36e80a13fc0a05c19a3467c223736a96487"
   retries = 0
   verbose = false
 }
@@ -56,7 +56,7 @@ step "helm" {
     "kafka",
   ]
 
-  sha     = ""
+  sha     = "h1:FQ1J+2sfLiK4XPEzNU45pxl3nxv1DGW6h3xDydZAHrI="
   retries = 0
   verbose = false
 }
