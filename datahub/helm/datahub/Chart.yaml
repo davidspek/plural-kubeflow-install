@@ -2,9 +2,9 @@ apiVersion: v2
 name: datahub
 description: A helm chart for datahub
 version: 0.1.0
-appVersion: 0.1.5
+appVersion: 0.1.6
 dependencies:
 - name: datahub
-  version: 0.1.5
-  repository: file:///Users/david/Plural/plural-artifacts/datahub/helm/datahub
+  version: 0.1.6
+  repository: cm://app.plural.sh/cm/datahub
   condition: datahub.enabled
