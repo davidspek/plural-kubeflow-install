@@ -8,7 +8,7 @@ step "terraform-init" {
   target  = "elasticsearch/terraform"
   command = "terraform"
   args    = ["init"]
-  sha     = ""
+  sha     = "h1:v4CdpcAvJ/gckLpvtpIiNINCmdS4BcouE7oUWAy1KM8="
   retries = 0
   verbose = false
 }
@@ -24,7 +24,7 @@ step "terraform" {
     "elasticsearch",
   ]
 
-  sha     = ""
+  sha     = "h1:v4CdpcAvJ/gckLpvtpIiNINCmdS4BcouE7oUWAy1KM8="
   retries = 0
   verbose = false
 }
@@ -40,7 +40,7 @@ step "kube-init" {
     "elasticsearch",
   ]
 
-  sha     = ""
+  sha     = "d091dbdc772f2aa77815a284eba55058b992ac60fa425070329531d494c59c38"
   retries = 0
   verbose = false
 }
@@ -56,7 +56,7 @@ step "helm" {
     "elasticsearch",
   ]
 
-  sha     = ""
+  sha     = "h1:cQ63j273/GCZIXSa54BNaNmuOk9bBqtszfG94OnrdJg="
   retries = 0
   verbose = false
 }
