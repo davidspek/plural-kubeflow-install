@@ -1,6 +1,6 @@
 dependencies:
 - name: elasticsearch
-  repository: cm://app.plural.sh/cm/elasticsearch
+  repository: file:///Users/david/Plural/plural-artifacts/elasticsearch/helm/elasticsearch
   version: 0.1.10
-digest: sha256:36bf5a6d145ea6640db388a23f6c9df21acc5ac24fce845f3343842a185e1a20
-generated: "2022-10-13T14:45:25.880483+01:00"
+digest: sha256:3367536ced9792db40bdef00fa78157a0a7e90609348474686af7659fcdb93ef
+generated: "2022-10-17T17:55:04.012765+02:00"

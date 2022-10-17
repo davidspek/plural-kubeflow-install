@@ -6,5 +6,5 @@ appVersion: 0.1.10
 dependencies:
 - name: elasticsearch
   version: 0.1.10
-  repository: cm://app.plural.sh/cm/elasticsearch
+  repository: file:///Users/david/Plural/plural-artifacts/elasticsearch/helm/elasticsearch
   condition: elasticsearch.enabled
