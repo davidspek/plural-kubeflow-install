@@ -1,6 +1,6 @@
 dependencies:
 - name: kafka
-  repository: file:///Users/david/Plural/plural-artifacts/kafka/helm/kafka
-  version: 0.1.21
-digest: sha256:37b2929c3367fe2484916ec3712010d76151762e4b320b48586cbb66ca286ac4
-generated: "2022-10-06T13:02:48.568773+02:00"
+  repository: cm://app.plural.sh/cm/kafka
+  version: 0.1.22
+digest: sha256:6e21ec94aac25bda37c514262c249807932f87a249e69cda0e77594c4d1d9554
+generated: "2022-10-17T16:29:44.85203+02:00"
