@@ -22,10 +22,10 @@ spec:
     kind: Job
   descriptor:
     type: oncall
-    version: 0.1.0
+    version: 0.1.1
     description: oncall deployed on plural
     icons:
-    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/495677cc-449a-4689-8ad0-ec93f4b6398c/oncall.png?v=63833320613
+    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/495677cc-449a-4689-8ad0-ec93f4b6398c/oncall.png?v=63833330545
     
 
     {{- if .Values.global }}

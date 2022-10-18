@@ -2,9 +2,9 @@ apiVersion: v2
 name: oncall
 description: A helm chart for oncall
 version: 0.1.0
-appVersion: 0.1.0
+appVersion: 0.1.1
 dependencies:
 - name: oncall
-  version: 0.1.0
+  version: 0.1.1
   repository: file:///Users/david/Plural/plural-artifacts/oncall/helm/oncall
   condition: oncall.enabled
