@@ -6,5 +6,5 @@ appVersion: 0.1.0
 dependencies:
 - name: oncall
   version: 0.1.0
-  repository: cm://app.plural.sh/cm/oncall
+  repository: file:///Users/david/Plural/plural-artifacts/oncall/helm/oncall
   condition: oncall.enabled
