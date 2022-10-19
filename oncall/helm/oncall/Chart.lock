@@ -1,6 +1,6 @@
 dependencies:
 - name: oncall
-  repository: cm://app.plural.sh/cm/oncall
+  repository: file:///Users/david/Plural/plural-artifacts/oncall/helm/oncall
   version: 0.1.2
-digest: sha256:77e7deab24143c92619d7888410548a656b87dd117054eb0d64159650fd71538
-generated: "2022-10-18T18:53:50.685892+02:00"
+digest: sha256:a0081d60162fd98582d626f23918604bb754467957c4755b05e66513e5aeead6
+generated: "2022-10-19T11:32:58.432787+02:00"
