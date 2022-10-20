@@ -1,6 +1,6 @@
 dependencies:
 - name: lightdash
   repository: cm://app.plural.sh/cm/lightdash
-  version: 0.1.1
-digest: sha256:7263a1fce5d04a3ce433da1b01337aec524d020ef9835d20787e34c77fd4e363
-generated: "2022-09-29T13:01:20.386016+02:00"
+  version: 0.1.2
+digest: sha256:309086da374d47c1f4cd2d8b20992a32b49f6fba9b3f84d81bcdff059250f616
+generated: "2022-10-20T15:57:56.699863138Z"
