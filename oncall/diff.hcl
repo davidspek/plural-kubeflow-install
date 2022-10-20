@@ -8,7 +8,7 @@ step "terraform-init" {
   target  = "oncall/terraform"
   command = "terraform"
   args    = ["init"]
-  sha     = ""
+  sha     = "h1:J7y78yTcQJdhst5RhCLiMM43pPt8aJDXy7Dsnz7Wtjg="
   retries = 0
   verbose = false
 }
@@ -24,7 +24,7 @@ step "terraform" {
     "oncall",
   ]
 
-  sha     = ""
+  sha     = "h1:J7y78yTcQJdhst5RhCLiMM43pPt8aJDXy7Dsnz7Wtjg="
   retries = 0
   verbose = false
 }
@@ -40,7 +40,7 @@ step "kube-init" {
     "oncall",
   ]
 
-  sha     = ""
+  sha     = "2218d8a517330f4e6d4eefbd507db9f9e8812d789f102fdb80cbe2bb0ba28e70"
   retries = 0
   verbose = false
 }
@@ -56,7 +56,7 @@ step "helm" {
     "oncall",
   ]
 
-  sha     = ""
+  sha     = "h1:V9jO2MI+eoQXoY8DvzMHqwTMZW/7nzg+WU248ftIYzg="
   retries = 0
   verbose = false
 }
