@@ -1,6 +1,6 @@
 dependencies:
 - name: loki
-  repository: cm://app.plural.sh/cm/loki
+  repository: file:///Users/david/Plural/plural-artifacts/loki/helm/loki
   version: 0.1.6
-digest: sha256:1bdf3d6c2bb5d2006e06dccea9b945b2cc047d214ce2faa8f24a7487335a607b
-generated: "2022-09-23T14:47:52.713528001Z"
+digest: sha256:6202bb880819be36fe9c1610d0262ffc21cef9f72c92e4d4e572413e50fc2111
+generated: "2022-10-20T12:44:29.506528+02:00"

@@ -1,6 +1,6 @@
 dependencies:
 - name: monitoring
-  repository: cm://app.plural.sh/cm/monitoring
+  repository: file:///Users/david/Plural/plural-artifacts/monitoring/helm/monitoring
   version: 0.2.17
-digest: sha256:96c0651d7d816755d631b223565a4735241c7931a016b5fa81e11476f1834cf9
-generated: "2022-09-18T15:08:35.682069503Z"
+digest: sha256:b2f7b9fa49266439e4b33049ecf2d710d3641c8dc2c7af174a9f30e5793ce957
+generated: "2022-10-20T12:11:46.482687+02:00"

@@ -1,6 +1,6 @@
 dependencies:
 - name: grafana-tempo
-  repository: cm://app.plural.sh/cm/grafana-tempo
+  repository: file:///Users/david/Plural/plural-artifacts/grafana-tempo/helm/grafana-tempo
   version: 0.1.11
-digest: sha256:167406f99ae8758f081d001720e3c9af36bdf3b23d6b943ea0d2dcba9bc7517b
-generated: "2022-05-24T10:32:04.077182498Z"
+digest: sha256:dcbcb200b43436e2c669fe84bef6f950ec04b1643cb2a0c5352fdba83c9a6efe
+generated: "2022-10-20T12:15:26.357078+02:00"
