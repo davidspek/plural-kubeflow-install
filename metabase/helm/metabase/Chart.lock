@@ -1,6 +1,6 @@
 dependencies:
 - name: metabase
   repository: cm://app.plural.sh/cm/metabase
-  version: 0.1.7
-digest: sha256:e9f6ab815d8e28747459d48c8a9b45c34a924522bc9ccac5a0a665f1238fa311
-generated: "2022-09-29T12:59:55.262735+02:00"
+  version: 0.1.8
+digest: sha256:74f3ce75f12e4045ab5a40718abae96573d294d6f0e269927caa5b26c9224a91
+generated: "2022-10-20T15:58:44.347075931Z"

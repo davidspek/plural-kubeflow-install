@@ -22,7 +22,7 @@ spec:
     kind: Job
   descriptor:
     type: metabase
-    version: 0.1.7
+    version: 0.1.8
     description: An easy, open-source way for everyone to ask questions and learn from data.
     icons:
     - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/029f6b32-8b3b-40e0-9f44-4d154cb32aa3/metabase.png?v=63828669690

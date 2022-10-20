@@ -8,7 +8,7 @@ step "terraform-init" {
   target  = "metabase/terraform"
   command = "terraform"
   args    = ["init"]
-  sha     = "h1:f6cZlaQ3J+ehJ327fjC4C7yyiNyX8y5y0eoMZ8ZsQDk="
+  sha     = "h1:EFbhPd0aTI0sDyDvVUcyzNgLD/GAqwyGn74m1HmkMis="
   retries = 0
   verbose = false
 }
@@ -24,7 +24,7 @@ step "terraform" {
     "metabase",
   ]
 
-  sha     = "h1:f6cZlaQ3J+ehJ327fjC4C7yyiNyX8y5y0eoMZ8ZsQDk="
+  sha     = "h1:EFbhPd0aTI0sDyDvVUcyzNgLD/GAqwyGn74m1HmkMis="
   retries = 0
   verbose = false
 }
@@ -40,7 +40,7 @@ step "kube-init" {
     "metabase",
   ]
 
-  sha     = "d2647ca8fb2e0c554c03aa668dfa0c0773cee9010e639b80542ec58476d030fb"
+  sha     = "2c0c136ccea5bbee2785600bcd8d21e5131dde3226d4fd7757ca4e5e5aa4f22c"
   retries = 0
   verbose = false
 }
@@ -56,7 +56,7 @@ step "helm" {
     "metabase",
   ]
 
-  sha     = "h1:8AgEv6k6oUQYtK5E/pAdP80kZpuuREx8Lr9AddgHNhM="
+  sha     = "h1:CZi11YrGkDgmjR6W3Ndb0/jcRlSVzeXsOtwTuZE0PAY="
   retries = 0
   verbose = false
 }
