@@ -2,9 +2,9 @@ apiVersion: v2
 name: grafana
 description: A helm chart for grafana
 version: 0.1.8
-appVersion: 0.2.13
+appVersion: 0.2.14
 dependencies:
 - name: grafana
-  version: 0.2.13
+  version: 0.2.14
   repository: cm://app.plural.sh/cm/grafana
   condition: grafana.enabled
