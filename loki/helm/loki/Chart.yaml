@@ -2,9 +2,9 @@ apiVersion: v2
 name: loki
 description: A helm chart for loki
 version: 0.1.0
-appVersion: 0.1.6
+appVersion: 0.1.7
 dependencies:
 - name: loki
-  version: 0.1.6
-  repository: file:///Users/david/Plural/plural-artifacts/loki/helm/loki
+  version: 0.1.7
+  repository: cm://app.plural.sh/cm/loki
   condition: loki.enabled

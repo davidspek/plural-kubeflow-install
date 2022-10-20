@@ -1,6 +1,6 @@
 dependencies:
 - name: grafana
-  repository: file:///Users/david/Plural/plural-artifacts/grafana/helm/grafana
-  version: 0.2.12
-digest: sha256:af189ab3a95e4489b3a3d7337049ba5256601c126269f7bbb509bdeea6e51058
-generated: "2022-10-18T16:26:53.1414+02:00"
+  repository: cm://app.plural.sh/cm/grafana
+  version: 0.2.13
+digest: sha256:804a7b7c4d43999f5370503e2b20496211456db5da65cc830fe7f20b490bf0b6
+generated: "2022-10-20T13:25:21.031066+02:00"

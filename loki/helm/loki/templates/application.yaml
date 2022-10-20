@@ -22,7 +22,7 @@ spec:
     kind: Job
   descriptor:
     type: loki
-    version: 0.1.6
+    version: 0.1.7
     description: A horizontally scalable, highly available, multi-tenant log aggregation system inspired by Prometheus.
     icons:
     - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/a13d8533-7e35-434b-b981-be377f973175/loki.png?v=63831159476

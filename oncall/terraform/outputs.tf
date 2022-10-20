@@ -1,11 +1,11 @@
-output "rabbitmq_password" {
-	value = module.kube.rabbitmq_password
+output "rabbitmq_username" {
+	value = module.kube.rabbitmq_username
 	sensitive = true
 }
 
 
-output "rabbitmq_username" {
-	value = module.kube.rabbitmq_username
+output "rabbitmq_password" {
+	value = module.kube.rabbitmq_password
 	sensitive = true
 }
 
