@@ -40,7 +40,7 @@ step "kube-init" {
     "loki",
   ]
 
-  sha     = "97586629fdb799746cb663f0955ed1b5aba5674a6f642bfee43f80333d53905d"
+  sha     = "aac8d3f3f76578215d446c0dc2ab4bbb770516d35333b50ea6b992f7fb8eb402"
   retries = 0
   verbose = false
 }
@@ -56,7 +56,7 @@ step "helm" {
     "loki",
   ]
 
-  sha     = "h1:i1KYKCYQgoO2gie2UUMTAzw/5oFvsB60DrmRUMDGlDw="
+  sha     = "h1:KBmZRaOQIFvIWCYCrUTEq0F7F0gcg9l0OgCJcGAq0e8="
   retries = 0
   verbose = false
 }
