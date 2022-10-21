@@ -22,7 +22,7 @@ spec:
     kind: Job
   descriptor:
     type: hasura
-    version: 0.1.7
+    version: 0.1.8
     description: An open-source product that gives you GraphQL or REST APIs with built-in authorization on your data.
     icons:
     - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/d714bcb7-82d2-496d-b70d-9f8ca73bb698/hasura.png?v=63830906377

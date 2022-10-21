@@ -1,6 +1,6 @@
 dependencies:
 - name: hasura
   repository: cm://app.plural.sh/cm/hasura
-  version: 0.1.7
-digest: sha256:5f00b221254e7429aec64fc20e16b0c437605f6e0c09e4bcb2263e414aa1f2fc
-generated: "2022-10-21T17:44:53.288906+02:00"
+  version: 0.1.8
+digest: sha256:d0b58eef5de780d1f771f4a9066c56f3dfdd1650a864da8056ca03be32ecf77a
+generated: "2022-10-21T16:11:16.868197247Z"
