@@ -2,9 +2,9 @@ apiVersion: v2
 name: metabase
 description: A helm chart for metabase
 version: 0.1.0
-appVersion: 0.1.8
+appVersion: 0.1.9
 dependencies:
 - name: metabase
-  version: 0.1.8
+  version: 0.1.9
   repository: cm://app.plural.sh/cm/metabase
   condition: metabase.enabled

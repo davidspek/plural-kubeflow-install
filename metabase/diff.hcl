@@ -40,7 +40,7 @@ step "kube-init" {
     "metabase",
   ]
 
-  sha     = "2c0c136ccea5bbee2785600bcd8d21e5131dde3226d4fd7757ca4e5e5aa4f22c"
+  sha     = "87ecc4613262dcded84ae7ef6605ca4c552c4610b88630e66e199dcb0ad153f2"
   retries = 0
   verbose = false
 }
@@ -56,7 +56,7 @@ step "helm" {
     "metabase",
   ]
 
-  sha     = "h1:CZi11YrGkDgmjR6W3Ndb0/jcRlSVzeXsOtwTuZE0PAY="
+  sha     = "h1:EhgL9IzVsxER7uqri1PdPaJmnyE0oYEsJV7mFFxy90A="
   retries = 0
   verbose = false
 }
