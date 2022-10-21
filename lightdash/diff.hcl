@@ -40,7 +40,7 @@ step "kube-init" {
     "lightdash",
   ]
 
-  sha     = "8c7704a5548d45a43affd397fad89514160ad1022ce6445b74cf41149b5dff0f"
+  sha     = "1ba45efc4ed857f795a2a53fec13781d77b029c04d5dbf48bf7c3bc7f49740bf"
   retries = 0
   verbose = false
 }
@@ -56,7 +56,7 @@ step "helm" {
     "lightdash",
   ]
 
-  sha     = "h1:/29UeP570Z0LQ8DlKoDmJLe/Y0dX45Qb9hkHEBqus7s="
+  sha     = "h1://A/uPmpNnplAIfs0gE8tRMajpvOqKOQBWh7uRYCUPI="
   retries = 0
   verbose = false
 }
