@@ -22,7 +22,7 @@ spec:
     kind: Job
   descriptor:
     type: superset
-    version: 0.2.4
+    version: 0.2.5
     description: An open-source modern data exploration and visualization platform.
     icons:
     - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/9420c529-ad19-4067-81cd-fd8e08e89d27/superset.png?v=63830908338

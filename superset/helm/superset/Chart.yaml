@@ -2,9 +2,9 @@ apiVersion: v2
 name: superset
 description: A helm chart for superset
 version: 0.1.0
-appVersion: 0.2.4
+appVersion: 0.2.5
 dependencies:
 - name: superset
-  version: 0.2.4
+  version: 0.2.5
   repository: cm://app.plural.sh/cm/superset
   condition: superset.enabled
