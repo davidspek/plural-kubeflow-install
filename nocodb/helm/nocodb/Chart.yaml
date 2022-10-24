@@ -2,9 +2,9 @@ apiVersion: v2
 name: nocodb
 description: A helm chart for nocodb
 version: 0.1.0
-appVersion: 0.1.9
+appVersion: 0.1.10
 dependencies:
 - name: nocodb
-  version: 0.1.9
+  version: 0.1.10
   repository: cm://app.plural.sh/cm/nocodb
   condition: nocodb.enabled

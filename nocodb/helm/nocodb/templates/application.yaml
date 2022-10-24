@@ -22,7 +22,7 @@ spec:
     kind: Job
   descriptor:
     type: nocodb
-    version: 0.1.9
+    version: 0.1.10
     description: An open-source alternative to Airtable that turns any database into a smart spreadsheet.
     icons:
     - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/a052b432-212f-486e-90bb-6c0bc0f987e8/nocodb.png?v=63830908105

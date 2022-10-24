@@ -1,6 +1,6 @@
 dependencies:
 - name: nocodb
   repository: cm://app.plural.sh/cm/nocodb
-  version: 0.1.9
-digest: sha256:67c119e3c46ce2a7c1d1d24a03ab0d529a8be55e37de4308c24d11b25d931dfd
-generated: "2022-10-24T17:19:41.082223+02:00"
+  version: 0.1.10
+digest: sha256:08aac91d12edf598effa53823ef389513682d74e0891a72122624028f9d913fe
+generated: "2022-10-24T15:34:13.582511005Z"

@@ -8,7 +8,7 @@ step "terraform-init" {
   target  = "nocodb/terraform"
   command = "terraform"
   args    = ["init"]
-  sha     = ""
+  sha     = "h1:78En4+21QdkiL/H2+RVVj+wut6XF4qfQw5Ubu5vs3iE="
   retries = 0
   verbose = false
 }
@@ -24,7 +24,7 @@ step "terraform" {
     "nocodb",
   ]
 
-  sha     = ""
+  sha     = "h1:78En4+21QdkiL/H2+RVVj+wut6XF4qfQw5Ubu5vs3iE="
   retries = 0
   verbose = false
 }
@@ -40,7 +40,7 @@ step "kube-init" {
     "nocodb",
   ]
 
-  sha     = ""
+  sha     = "680235b20dcf40a8a83d8780a1d9c52dd56122be921b1134e68545a4f8b91343"
   retries = 0
   verbose = false
 }
@@ -56,7 +56,7 @@ step "helm" {
     "nocodb",
   ]
 
-  sha     = ""
+  sha     = "h1:T0M3EgwxFWNkrSjxQlW9sBWzXBNU3TzBqV3fyRvK6t4="
   retries = 0
   verbose = false
 }
