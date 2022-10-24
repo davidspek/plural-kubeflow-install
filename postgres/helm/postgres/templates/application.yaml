@@ -22,7 +22,7 @@ spec:
     kind: Job
   descriptor:
     type: postgres
-    version: 0.2.9
+    version: 0.2.10
     description: An open-source relational database that supports both SQL and JSON querying.
     icons:
     - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/964f6549-30f1-46c3-ad03-a31166120a5c/postgres.png?v=63830908313
