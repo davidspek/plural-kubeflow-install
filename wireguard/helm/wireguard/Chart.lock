@@ -1,0 +1,6 @@
+dependencies:
+- name: wireguard
+  repository: file:///Users/david/Plural/plural-artifacts/wireguard/helm/wireguard
+  version: 0.1.0
+digest: sha256:b9934b05f3b108f7531a778c544c1865dd7adb1c7492280a5127c0fa795a6073
+generated: "2022-10-26T17:06:19.19881+02:00"

@@ -1,0 +1,42 @@
+apiVersion: app.k8s.io/v1beta1
+kind: Application
+metadata:
+  name: wireguard
+spec:
+  selector:
+    matchLabels: {}
+  componentKinds:
+  - group: v1
+    kind: Service
+  - group: networking.k8s.io
+    kind: Ingress
+  - group: cert-manager.io
+    kind: Certificate
+  - group: apps
+    kind: StatefulSet
+  - group: apps
+    kind: Deployment
+  - group: batch
+    kind: CronJob
+  - group: batch
+    kind: Job
+  descriptor:
+    type: wireguard
+    version: 0.1.0
+    description: An extremely simple yet fast and modern VPN that utilizes state-of-the-art cryptography.
+    icons:
+    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/4c0f055b-9011-4c5e-a8b0-db029080151f/wireguard.png?v=63834015332
+    
+
+    {{- if .Values.global }}
+    {{- if .Values.global.application }}
+    {{- if .Values.global.application.links }}
+    links:
+    {{ toYaml .Values.global.application.links | nindent 6 }}
+    {{- end }}
+  {{- if .Values.global.application.info }}
+  info:
+  {{ toYaml .Values.global.application.info | nindent 4 }}
+  {{- end }}
+  {{- end }}
+  {{- end }}

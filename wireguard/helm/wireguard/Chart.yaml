@@ -1,0 +1,10 @@
+apiVersion: v2
+name: wireguard
+description: A helm chart for wireguard
+version: 0.1.0
+appVersion: 0.1.0
+dependencies:
+- name: wireguard
+  version: 0.1.0
+  repository: file:///Users/david/Plural/plural-artifacts/wireguard/helm/wireguard
+  condition: wireguard.enabled
