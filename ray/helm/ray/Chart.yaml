@@ -2,10 +2,10 @@ apiVersion: v2
 name: ray
 description: A helm chart for ray
 version: 0.1.0
-appVersion: 0.1.7
+appVersion: 0.1.8
 dependencies:
 - name: ray
-  version: 0.1.7
+  version: 0.1.8
   repository: cm://app.plural.sh/cm/ray
   condition: ray.enabled
 - name: kuberay-operator

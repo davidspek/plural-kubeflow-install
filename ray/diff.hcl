@@ -40,7 +40,7 @@ step "kube-init" {
     "ray",
   ]
 
-  sha     = "568a7f4c20cd7ece928c55752b7fa9176d499e7052ffbb03a937ed79e3895667"
+  sha     = "8fa440bda1a63f62bcb369d64faf978fb15a010749232fe89fb17a4056114cd0"
   retries = 0
   verbose = false
 }
@@ -56,7 +56,7 @@ step "helm" {
     "ray",
   ]
 
-  sha     = "h1:EICSEKUYo8GswkIiGhBqXlwEe34oLZn8jnM9FZXBlMo="
+  sha     = "h1:73ANn3c2nNIYvkNfTLA3ZJCSLcl5YdjMJmM/8F0pCx8="
   retries = 0
   verbose = false
 }

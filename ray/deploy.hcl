@@ -59,7 +59,7 @@ step "kube-init" {
     "kube-init",
   ]
 
-  sha     = "cf9918026fc8615e17465479d4c2a7839303f466d353b116cd748d25171ee47f"
+  sha     = "8fa440bda1a63f62bcb369d64faf978fb15a010749232fe89fb17a4056114cd0"
   retries = 0
   verbose = false
 }
@@ -91,7 +91,7 @@ step "bounce" {
     "ray",
   ]
 
-  sha     = "h1:/S1PxH8Zlw4n/uhNVmzu55Md5U7jFH+xWds3aEM7+4A="
+  sha     = "h1:73ANn3c2nNIYvkNfTLA3ZJCSLcl5YdjMJmM/8F0pCx8="
   retries = 2
   verbose = false
 }
