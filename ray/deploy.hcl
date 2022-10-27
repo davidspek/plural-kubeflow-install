@@ -91,7 +91,7 @@ step "bounce" {
     "ray",
   ]
 
-  sha     = "h1:73ANn3c2nNIYvkNfTLA3ZJCSLcl5YdjMJmM/8F0pCx8="
+  sha     = "h1:Xm9oRcg4dx9QwoeZfhZ7pUwAurnTAnf+fKvWO/Zf7jI="
   retries = 2
   verbose = false
 }
