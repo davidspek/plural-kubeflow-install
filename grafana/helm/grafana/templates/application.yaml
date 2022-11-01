@@ -22,8 +22,8 @@ spec:
     kind: Job
   descriptor:
     type: grafana
-    version: 0.2.14
-    description: An open-source platform for monitoring and observability with interactive visualizations.
+    version: 0.2.15
+    description: Platform for monitoring and observability with interactive visualizations.
     icons:
     - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/2783a06b-8317-4998-8c5d-18bcdc2a3c6c/grafana.png?v=63830906286
     
