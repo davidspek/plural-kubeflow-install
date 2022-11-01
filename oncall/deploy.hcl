@@ -91,7 +91,7 @@ step "bounce" {
     "oncall",
   ]
 
-  sha     = "h1:v8VU1EJfCg2KhX8y/pTIv38lnTOehdPQ1Mi3m6QcgRs="
+  sha     = "h1:VcqApt6E+GJjfx3whtn4Y/3/Yk0UtTqh5TdWp0/DUMY="
   retries = 2
   verbose = false
 }
