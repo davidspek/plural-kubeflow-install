@@ -1,6 +1,6 @@
 dependencies:
 - name: cluster-operator
-  repository: cm://app.plural.sh/cm/rabbitmq
+  repository: file:///Users/david/Plural/plural-artifacts/rabbitmq/helm/cluster-operator
   version: 0.1.17
-digest: sha256:cfd666c7c377cdead019fae77a09f8b90e105cf6300c4316cf736b6909d364d7
-generated: "2022-05-25T13:11:50.145817366+02:00"
+digest: sha256:23a1cb613de23c5466ca5f99ccb7e6af702df5c503df69196b1756f0a7b01cf4
+generated: "2022-11-01T18:35:58.735771+01:00"

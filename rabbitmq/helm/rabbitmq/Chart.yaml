@@ -6,5 +6,5 @@ appVersion: 0.1.17
 dependencies:
 - name: cluster-operator
   version: 0.1.17
-  repository: cm://app.plural.sh/cm/rabbitmq
+  repository: file:///Users/david/Plural/plural-artifacts/rabbitmq/helm/cluster-operator
   condition: cluster-operator.enabled
