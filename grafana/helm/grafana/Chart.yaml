@@ -6,5 +6,5 @@ appVersion: 0.2.16
 dependencies:
 - name: grafana
   version: 0.2.16
-  repository: cm://app.plural.sh/cm/grafana
+  repository: file:///Users/david/Plural/plural-artifacts/grafana/helm/grafana
   condition: grafana.enabled
