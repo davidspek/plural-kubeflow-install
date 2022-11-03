@@ -2,9 +2,9 @@ apiVersion: v2
 name: rabbitmq
 description: A helm chart for rabbitmq
 version: 0.1.0
-appVersion: 0.1.17
+appVersion: 0.1.18
 dependencies:
 - name: cluster-operator
-  version: 0.1.17
-  repository: file:///Users/david/Plural/plural-artifacts/rabbitmq/helm/cluster-operator
+  version: 0.1.18
+  repository: cm://app.plural.sh/cm/rabbitmq
   condition: cluster-operator.enabled
