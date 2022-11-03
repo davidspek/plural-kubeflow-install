@@ -40,7 +40,7 @@ step "kube-init" {
     "oncall",
   ]
 
-  sha     = "6a29e80761f4a8b8ece00e1629c4fe952f5f83650a4706efca5db9303be743fb"
+  sha     = "e717592a9b4311bc0a25687550265d1e30ef5ad34d1f527e3bb4e7007966cc44"
   retries = 0
   verbose = false
 }
@@ -56,7 +56,7 @@ step "helm" {
     "oncall",
   ]
 
-  sha     = "h1:sLfgwnAsrTbus0snLrZRxTsN8hM18rVyFvXMsq8KaAk="
+  sha     = "h1:mZEXU5LXmpALJzqbBeTw1bp1naxa9rGjNK+fzfJkaqg="
   retries = 0
   verbose = false
 }
