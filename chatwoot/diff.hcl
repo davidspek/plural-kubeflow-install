@@ -8,7 +8,7 @@ step "terraform-init" {
   target  = "chatwoot/terraform"
   command = "terraform"
   args    = ["init"]
-  sha     = ""
+  sha     = "h1:Dt5RVeN7bHhGEvJW1jMMwHzwQ8tK7n3SEyQzg7FPg3c="
   retries = 0
   verbose = false
 }
@@ -24,7 +24,7 @@ step "terraform" {
     "chatwoot",
   ]
 
-  sha     = ""
+  sha     = "h1:Dt5RVeN7bHhGEvJW1jMMwHzwQ8tK7n3SEyQzg7FPg3c="
   retries = 0
   verbose = false
 }
@@ -40,7 +40,7 @@ step "kube-init" {
     "chatwoot",
   ]
 
-  sha     = ""
+  sha     = "130a95b9f7ad287a6092e17cffd9de2e50c805aa78d8bbbc50d391902225f9ab"
   retries = 0
   verbose = false
 }
@@ -56,7 +56,7 @@ step "helm" {
     "chatwoot",
   ]
 
-  sha     = ""
+  sha     = "h1:qM9YgYITWmq+T3R5l5LF2y4ttNR88xOgKy5kmrOcT48="
   retries = 0
   verbose = false
 }
