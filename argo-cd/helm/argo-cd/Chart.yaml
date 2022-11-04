@@ -2,9 +2,9 @@ apiVersion: v2
 name: argo-cd
 description: A helm chart for argo-cd
 version: 0.1.7
-appVersion: 0.1.33
+appVersion: 0.1.34
 dependencies:
 - name: argo-cd
-  version: 0.1.33
+  version: 0.1.34
   repository: cm://app.plural.sh/cm/argo-cd
   condition: argo-cd.enabled
