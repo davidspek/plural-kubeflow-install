@@ -8,7 +8,7 @@ step "terraform-init" {
   target  = "dagster/terraform"
   command = "terraform"
   args    = ["init"]
-  sha     = ""
+  sha     = "h1:gat+6BHp0rmt8vCE+lNY1bIY0Ozqx/4Zvlar8iqZep0="
   retries = 0
   verbose = false
 }
@@ -24,7 +24,7 @@ step "terraform" {
     "dagster",
   ]
 
-  sha     = ""
+  sha     = "h1:gat+6BHp0rmt8vCE+lNY1bIY0Ozqx/4Zvlar8iqZep0="
   retries = 0
   verbose = false
 }
@@ -40,7 +40,7 @@ step "kube-init" {
     "dagster",
   ]
 
-  sha     = ""
+  sha     = "b17df8b4a209ad7b9150ac64897537c70bc963c18fb1a8f165649f0c40efe7b1"
   retries = 0
   verbose = false
 }
@@ -56,7 +56,7 @@ step "helm" {
     "dagster",
   ]
 
-  sha     = ""
+  sha     = "h1:V8yMy5//uY8g+prLNDkcjTkvjT1VE7CBvkZtdgMhNIc="
   retries = 0
   verbose = false
 }
