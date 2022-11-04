@@ -91,7 +91,7 @@ step "bounce" {
     "chatwoot",
   ]
 
-  sha     = "h1:qM9YgYITWmq+T3R5l5LF2y4ttNR88xOgKy5kmrOcT48="
+  sha     = "h1:iTBKQjbsW+KrQ/j5LVhcb9w0FoUFWIPJ5rmI8TSZGO0="
   retries = 2
   verbose = false
 }
