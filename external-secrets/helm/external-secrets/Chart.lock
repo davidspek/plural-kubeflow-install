@@ -1,6 +1,6 @@
 dependencies:
 - name: external-secrets
   repository: cm://app.plural.sh/cm/external-secrets
-  version: 0.1.0
-digest: sha256:3132313d75a92f4f075ca8e19f63dd755430b31651a765df01c3f0b7beab6b6c
-generated: "2022-11-07T14:42:05.991148+01:00"
+  version: 0.1.1
+digest: sha256:54bcea31c36cb023d4ae0065d2bd988a68a95d8e61e4928a799492e15beaf97a
+generated: "2022-11-07T16:26:33.123846868Z"

@@ -22,10 +22,10 @@ spec:
     kind: Job
   descriptor:
     type: external-secrets
-    version: 0.1.0
+    version: 0.1.1
     description: external-secrets deployed on plural
     icons:
-    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/9cd47e49-4ab8-4981-848c-821a533f1d26/external-secrets.png?v=63834616499
+    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/9cd47e49-4ab8-4981-848c-821a533f1d26/external-secrets.png?v=63835057578
     
 
     {{- if .Values.global }}

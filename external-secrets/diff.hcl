@@ -8,7 +8,7 @@ step "terraform-init" {
   target  = "external-secrets/terraform"
   command = "terraform"
   args    = ["init"]
-  sha     = ""
+  sha     = "h1:tc8PV+YS3TT6X9DVYnov6HnM8E/VQgNJ0rQV5wfv/B0="
   retries = 0
   verbose = false
 }
@@ -24,7 +24,7 @@ step "terraform" {
     "external-secrets",
   ]
 
-  sha     = ""
+  sha     = "h1:tc8PV+YS3TT6X9DVYnov6HnM8E/VQgNJ0rQV5wfv/B0="
   retries = 0
   verbose = false
 }
@@ -40,7 +40,7 @@ step "kube-init" {
     "external-secrets",
   ]
 
-  sha     = ""
+  sha     = "d0781af8ff6107491759ae14007b4207699a7cf8fb6112cfe39cc2bfc2381f90"
   retries = 0
   verbose = false
 }
@@ -56,7 +56,7 @@ step "helm" {
     "external-secrets",
   ]
 
-  sha     = ""
+  sha     = "h1:eLKLVExfO3QiMLYSfPa+GfMutH6DvCfI8OsAKFKVPk8="
   retries = 0
   verbose = false
 }
