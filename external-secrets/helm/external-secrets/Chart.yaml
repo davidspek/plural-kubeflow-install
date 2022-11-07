@@ -1,0 +1,10 @@
+apiVersion: v2
+name: external-secrets
+description: A helm chart for external-secrets
+version: 0.1.0
+appVersion: 0.1.0
+dependencies:
+- name: external-secrets
+  version: 0.1.0
+  repository: cm://app.plural.sh/cm/external-secrets
+  condition: external-secrets.enabled
