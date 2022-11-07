@@ -40,7 +40,7 @@ step "kube-init" {
     "external-secrets",
   ]
 
-  sha     = "d0781af8ff6107491759ae14007b4207699a7cf8fb6112cfe39cc2bfc2381f90"
+  sha     = "3e87dfae028465c45dd1d9a20558a5851e46afa8bf88ffb44eec2ec746736e64"
   retries = 0
   verbose = false
 }
