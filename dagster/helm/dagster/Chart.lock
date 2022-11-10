@@ -1,6 +1,6 @@
 dependencies:
 - name: dagster
   repository: cm://app.plural.sh/cm/dagster
-  version: 0.1.20
-digest: sha256:ee7de9aa1b2e381747cd9950f7df940f23c46720a18cf02fb4347b45da8b991e
-generated: "2022-11-04T14:30:09.639106913Z"
+  version: 0.1.21
+digest: sha256:9e03a4381da33474f0ba4fabd9a66f66126b600703ac92ffeb04b8e07b6b73ab
+generated: "2022-11-10T03:11:09.407612289Z"
