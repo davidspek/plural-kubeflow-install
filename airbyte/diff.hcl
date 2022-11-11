@@ -8,7 +8,7 @@ step "terraform-init" {
   target  = "airbyte/terraform"
   command = "terraform"
   args    = ["init"]
-  sha     = "h1:iZppMj0+ETPokoE9167OEsf1Yy7Ijs19MwjqJE6Q+sg="
+  sha     = "h1:ed8swfaAFPgAsnPKxNAdZN9NQBPmCvjVN8sgv6u8fko="
   retries = 0
   verbose = false
 }
@@ -24,7 +24,7 @@ step "terraform" {
     "airbyte",
   ]
 
-  sha     = "h1:iZppMj0+ETPokoE9167OEsf1Yy7Ijs19MwjqJE6Q+sg="
+  sha     = "h1:ed8swfaAFPgAsnPKxNAdZN9NQBPmCvjVN8sgv6u8fko="
   retries = 0
   verbose = false
 }
@@ -40,7 +40,7 @@ step "kube-init" {
     "airbyte",
   ]
 
-  sha     = "dba2eef835117e0bcc199458fc38109d1ef32733fa1352fff81e99f4887c6ae5"
+  sha     = "eb7e4734f4f5e66aa9912639d2973e292b26cf82600f8aaf0805f34395e3f24e"
   retries = 0
   verbose = false
 }
@@ -56,7 +56,7 @@ step "helm" {
     "airbyte",
   ]
 
-  sha     = "h1:S7AaDY2HiS1NuNOzprXmHIIWZgkzdpbYYRr0/LtouZg="
+  sha     = "h1:TFFgnCZuu/qFLZYJBzbhFv/DtRiOcsr57NEM/rDwx1A="
   retries = 0
   verbose = false
 }
