@@ -6,5 +6,5 @@ appVersion: 0.3.2
 dependencies:
 - name: airbyte
   version: 0.3.2
-  repository: cm://app.plural.sh/cm/airbyte
+  repository: file:///Users/david/Plural/plural-artifacts/airbyte/helm/airbyte
   condition: airbyte.enabled

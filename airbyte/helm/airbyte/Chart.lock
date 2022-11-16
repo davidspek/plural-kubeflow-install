@@ -1,6 +1,6 @@
 dependencies:
 - name: airbyte
-  repository: cm://app.plural.sh/cm/airbyte
+  repository: file:///Users/david/Plural/plural-artifacts/airbyte/helm/airbyte
   version: 0.3.2
-digest: sha256:47ff9622b73956dc8d7f1b860e0b3cdc1184f65db22240f395a35c3d6976f99f
-generated: "2022-11-16T14:22:35.350607352Z"
+digest: sha256:379b7d08c0a3dbe0f36a23bd7cf65daff0f3c1dee423efe50c5c3415e1393d7f
+generated: "2022-11-16T16:20:38.112597+01:00"
