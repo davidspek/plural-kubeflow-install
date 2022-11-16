@@ -26,7 +26,7 @@ scaffold "helm" {
       "helm-deps",
     ]
 
-    sha     = "0dc0d6e8c8be963508ab4a0685d84f9425cc025142a76d5db42796761e76abde"
+    sha     = "52698b16feca7788f2b64db0962108e32502dc4072ba23f94ca9e9699b65ecf0"
     retries = 0
     verbose = false
   }
