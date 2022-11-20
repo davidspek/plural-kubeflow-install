@@ -1,6 +1,6 @@
 dependencies:
 - name: jitsu
   repository: cm://app.plural.sh/cm/jitsu
-  version: 0.1.18
-digest: sha256:fc8ef4ca2c0360df63680097085c9afb69f1b63cd75fc3ecdb9573380c910d35
-generated: "2022-11-20T17:44:55.559886853Z"
+  version: 0.1.19
+digest: sha256:ede84fd7f286c823e8f742020d78c70eafcfadbd12a81f44b305ddc47a9dac82
+generated: "2022-11-20T17:50:05.178917219Z"
