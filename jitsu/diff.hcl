@@ -40,7 +40,7 @@ step "kube-init" {
     "jitsu",
   ]
 
-  sha     = "4cfd4dbc00789731e15f413b38b8343a6dbfb398ae4b8ef54da560965461268e"
+  sha     = "426d260ca8f66a074b08abfc7d89f9292d90a77c0a718aeeb0339157b486a9b2"
   retries = 0
   verbose = false
 }
@@ -56,7 +56,7 @@ step "helm" {
     "jitsu",
   ]
 
-  sha     = "h1:bifcOnksae7sfShDU+9+fEro4/4r7p+Tngb0Qec7mbk="
+  sha     = "h1:YwJDfxGDl+ftfE1STBCaMEkHGfr33mTzCcPiJlV2ePI="
   retries = 0
   verbose = false
 }

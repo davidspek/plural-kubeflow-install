@@ -2,9 +2,9 @@ apiVersion: v2
 name: jitsu
 description: A helm chart for jitsu
 version: 0.1.0
-appVersion: 0.1.17
+appVersion: 0.1.18
 dependencies:
 - name: jitsu
-  version: 0.1.17
+  version: 0.1.18
   repository: cm://app.plural.sh/cm/jitsu
   condition: jitsu.enabled
