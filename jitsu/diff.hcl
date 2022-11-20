@@ -8,7 +8,7 @@ step "terraform-init" {
   target  = "jitsu/terraform"
   command = "terraform"
   args    = ["init"]
-  sha     = ""
+  sha     = "h1:ogIqh6ILfwB31YhX8d0qgkdEQslVimxsKcy2bMF7Aqs="
   retries = 0
   verbose = false
 }
@@ -24,7 +24,7 @@ step "terraform" {
     "jitsu",
   ]
 
-  sha     = ""
+  sha     = "h1:ogIqh6ILfwB31YhX8d0qgkdEQslVimxsKcy2bMF7Aqs="
   retries = 0
   verbose = false
 }
@@ -40,7 +40,7 @@ step "kube-init" {
     "jitsu",
   ]
 
-  sha     = ""
+  sha     = "4cfd4dbc00789731e15f413b38b8343a6dbfb398ae4b8ef54da560965461268e"
   retries = 0
   verbose = false
 }
@@ -56,7 +56,7 @@ step "helm" {
     "jitsu",
   ]
 
-  sha     = ""
+  sha     = "h1:bifcOnksae7sfShDU+9+fEro4/4r7p+Tngb0Qec7mbk="
   retries = 0
   verbose = false
 }
