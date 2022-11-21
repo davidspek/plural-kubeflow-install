@@ -1,6 +1,6 @@
 dependencies:
 - name: oncall
   repository: cm://app.plural.sh/cm/oncall
-  version: 0.1.12
-digest: sha256:a8c7e3d6e4dee372a89991acefa626dcc95f34f00665ffc9d31139e716d5920e
-generated: "2022-11-09T12:05:47.800936896Z"
+  version: 0.1.13
+digest: sha256:1e94b6e02fbc17eb6ebfb02394b69ed96e1a553c0e07feac2c7aac7bdccfd833
+generated: "2022-11-21T14:24:16.251192306Z"

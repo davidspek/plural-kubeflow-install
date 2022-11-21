@@ -8,7 +8,7 @@ step "terraform-init" {
   target  = "oncall/terraform"
   command = "terraform"
   args    = ["init"]
-  sha     = "h1:J7y78yTcQJdhst5RhCLiMM43pPt8aJDXy7Dsnz7Wtjg="
+  sha     = "h1:e0q6Ii6vx9kXmf+P6W++hiYaDApkhkz8BrWzJBTYl8k="
   retries = 0
   verbose = false
 }
@@ -24,7 +24,7 @@ step "terraform" {
     "oncall",
   ]
 
-  sha     = "h1:J7y78yTcQJdhst5RhCLiMM43pPt8aJDXy7Dsnz7Wtjg="
+  sha     = "h1:e0q6Ii6vx9kXmf+P6W++hiYaDApkhkz8BrWzJBTYl8k="
   retries = 0
   verbose = false
 }
@@ -40,7 +40,7 @@ step "kube-init" {
     "oncall",
   ]
 
-  sha     = "b8a35ef6baeee5add63e15bf378964c3d6b959013a6d7d0aa35c70d37254372f"
+  sha     = "2d25836a8efa94be33b5d4bd15d2e4f6c820c5eb919a217fae370fc2fa121db0"
   retries = 0
   verbose = false
 }
@@ -56,7 +56,7 @@ step "helm" {
     "oncall",
   ]
 
-  sha     = "h1:MWJxjT0nyBHdUeUH8Gd8V1cdkjphptE/3N1YCn/7MJc="
+  sha     = "h1:ACRMreb8LPlOEqbEXW5ROCGIo+LZmvC9KnazqJGV08E="
   retries = 0
   verbose = false
 }
