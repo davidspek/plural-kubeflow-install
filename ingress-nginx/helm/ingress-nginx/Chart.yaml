@@ -2,10 +2,10 @@ apiVersion: v2
 name: ingress-nginx
 description: A helm chart for ingress-nginx
 version: 0.1.6
-appVersion: 0.1.11
+appVersion: 0.1.12
 dependencies:
 - name: ingress-nginx
-  version: 0.1.11
+  version: 0.1.12
   repository: cm://app.plural.sh/cm/ingress-nginx
   condition: ingress-nginx.enabled
 - name: ingress-nginx-private
