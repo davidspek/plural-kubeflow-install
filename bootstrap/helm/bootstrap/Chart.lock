@@ -7,9 +7,9 @@ dependencies:
   version: 0.1.12
 - name: bootstrap
   repository: cm://app.plural.sh/cm/bootstrap
-  version: 0.8.57
+  version: 0.8.58
 - name: keda
   repository: cm://app.plural.sh/cm/bootstrap
   version: 0.1.0
-digest: sha256:01255f8177f92c9ce000ac823c4663e9c71f1f86df896d858aebcde5b25f190b
-generated: "2022-10-26T18:43:02.767403+02:00"
+digest: sha256:6b8147febd20afeac385cb7ec060640b22e98d593067f5ac8960d6ad9d6bc3d5
+generated: "2022-11-22T12:26:36.282038297Z"
