@@ -2,9 +2,9 @@ apiVersion: v2
 name: oncall
 description: A helm chart for oncall
 version: 0.1.0
-appVersion: 0.1.13
+appVersion: 0.1.14
 dependencies:
 - name: oncall
-  version: 0.1.13
+  version: 0.1.14
   repository: cm://app.plural.sh/cm/oncall
   condition: oncall.enabled
