@@ -59,7 +59,7 @@ step "kube-init" {
     "kube-init",
   ]
 
-  sha     = "35ec2276a92aab51b70c5fe5736759e234a0b8d7f6b886ddb24c18e15aa0b77c"
+  sha     = "de7518749a050ad2516a0b961d990411dce077a9b8c0c6c673165eedf75f7098"
   retries = 0
   verbose = false
 }
@@ -91,7 +91,7 @@ step "bounce" {
     "argo-cd",
   ]
 
-  sha     = "h1:L3u5qcEkD9DWRgsSm4Iu95oScfna4LM/aJVjbN6ef9w="
+  sha     = "h1:MxLdOUUXyubl5IEOMwMWLoBCnFq8wvCs4bXwB4T3p5o="
   retries = 2
   verbose = false
 }
