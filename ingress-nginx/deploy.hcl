@@ -59,7 +59,7 @@ step "kube-init" {
     "kube-init",
   ]
 
-  sha     = "16ccb2a856b51a89d7bdde40453dbf1dded60d8b0dc27b01daf03704c8c11f1f"
+  sha     = "640e54dc309c4889d5bdfdb8900d2531e4712046674f9c921e94c040cca3e0ad"
   retries = 0
   verbose = false
 }
@@ -91,7 +91,7 @@ step "bounce" {
     "ingress-nginx",
   ]
 
-  sha     = "h1:4wBn/de19oW10XPyuu1Cqw4STYm7apGJt90tdW+UWR0="
+  sha     = "h1:U5HdHe1XxTv6pSx+na4TlpNiXeb8jcthxQKC8soYl9A="
   retries = 2
   verbose = false
 }
