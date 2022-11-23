@@ -40,7 +40,7 @@ step "kube-init" {
     "dagster",
   ]
 
-  sha     = "ca6e50c3c68888128f895f3415881069151d2b012a4bbf823540b42d719e64df"
+  sha     = "c5a75ae432321f006d637474679a50ca99f6829ff08c591234a4b45108a50b68"
   retries = 0
   verbose = false
 }
@@ -56,7 +56,7 @@ step "helm" {
     "dagster",
   ]
 
-  sha     = "h1:87rnoNfUObSoSV0P55dplmBa0O5ovBOpCLn/WTLuN4w="
+  sha     = "h1:d7XJ4aMRCU9yvfH1or3mGhXMuaAiHOGwD2llSEtRmxA="
   retries = 0
   verbose = false
 }

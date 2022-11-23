@@ -22,7 +22,7 @@ spec:
     kind: Job
   descriptor:
     type: dagster
-    version: 0.1.22
+    version: 0.1.23
     description: A data orchestration platform for the development, production, and observation of data assets.
     icons:
     - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/809ae45c-8ccf-44e2-8240-3df890557ad8/dagster.png?v=63827245274
