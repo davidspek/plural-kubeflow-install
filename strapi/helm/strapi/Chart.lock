@@ -1,0 +1,6 @@
+dependencies:
+- name: strapi
+  repository: file:///Users/david/Plural/plural-artifacts/strapi/helm/strapi
+  version: 0.1.5
+digest: sha256:8b42bd4a81eabc003657039029445cb8279a5e01418a342f83da0ecfdc2c685a
+generated: "2022-11-25T16:20:34.427156+01:00"
