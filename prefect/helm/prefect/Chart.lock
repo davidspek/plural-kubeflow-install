@@ -1,0 +1,6 @@
+dependencies:
+- name: prefect
+  repository: file:///Users/david/Plural/plural-artifacts/prefect/helm/prefect
+  version: 0.1.0
+digest: sha256:3fe31010bc02abf0a25c8a41b99c95ee068a01ce3eac4d5be63d500212de11bb
+generated: "2022-11-28T15:00:53.313312+01:00"

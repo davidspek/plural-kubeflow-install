@@ -1,0 +1,10 @@
+apiVersion: v2
+name: prefect
+description: A helm chart for prefect
+version: 0.1.0
+appVersion: 0.1.0
+dependencies:
+- name: prefect
+  version: 0.1.0
+  repository: file:///Users/david/Plural/plural-artifacts/prefect/helm/prefect
+  condition: prefect.enabled
