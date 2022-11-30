@@ -1,6 +1,6 @@
 dependencies:
 - name: sentry
-  repository: file:///Users/david/Plural/plural-artifacts/sentry/helm/sentry
-  version: 0.2.15
-digest: sha256:ed7ea2ee3a6a30b7b7d282a48e523a0e6b2b5868206895cfe2d0433afbe94549
-generated: "2022-11-30T17:09:14.125835+01:00"
+  repository: cm://app.plural.sh/cm/sentry
+  version: 0.2.16
+digest: sha256:233da345527050e1904ef7e77c2adada77e6512ef76c018941e73781935d0ceb
+generated: "2022-11-30T17:23:40.631086899Z"

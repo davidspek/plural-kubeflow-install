@@ -2,9 +2,9 @@ apiVersion: v2
 name: sentry
 description: A helm chart for sentry
 version: 0.1.0
-appVersion: 0.2.15
+appVersion: 0.2.16
 dependencies:
 - name: sentry
-  version: 0.2.15
-  repository: file:///Users/david/Plural/plural-artifacts/sentry/helm/sentry
+  version: 0.2.16
+  repository: cm://app.plural.sh/cm/sentry
   condition: sentry.enabled

@@ -22,7 +22,7 @@ spec:
     kind: Job
   descriptor:
     type: sentry
-    version: 0.2.15
+    version: 0.2.16
     description: A developer-first error tracking and performance monitoring platform.
     icons:
     - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/01089244-ac87-41e4-b464-2cbef89756cd/sentry.png?v=63828767648
