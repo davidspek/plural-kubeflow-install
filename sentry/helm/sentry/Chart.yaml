@@ -6,5 +6,5 @@ appVersion: 0.2.15
 dependencies:
 - name: sentry
   version: 0.2.15
-  repository: cm://app.plural.sh/cm/sentry
+  repository: file:///Users/david/Plural/plural-artifacts/sentry/helm/sentry
   condition: sentry.enabled

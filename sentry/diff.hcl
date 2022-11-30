@@ -7,7 +7,12 @@ step "terraform-init" {
   wkdir   = "sentry/terraform"
   target  = "sentry/terraform"
   command = "terraform"
-  args    = ["init"]
+
+  args = [
+    "init",
+    "-upgrade",
+  ]
+
   sha     = "h1:Aw0hsV+5y3ZGFZ4D5JXzaetTO7Wk7MYmje6TUpJbFAY="
   retries = 0
   verbose = false
