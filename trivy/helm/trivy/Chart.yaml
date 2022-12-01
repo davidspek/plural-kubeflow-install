@@ -2,9 +2,9 @@ apiVersion: v2
 name: trivy
 description: A helm chart for trivy
 version: 0.1.0
-appVersion: 0.1.0
+appVersion: 0.1.1
 dependencies:
 - name: trivy-operator
-  version: 0.1.0
+  version: 0.1.1
   repository: cm://app.plural.sh/cm/trivy
   condition: trivy-operator.enabled

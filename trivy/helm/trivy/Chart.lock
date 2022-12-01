@@ -1,6 +1,6 @@
 dependencies:
 - name: trivy-operator
   repository: cm://app.plural.sh/cm/trivy
-  version: 0.1.0
-digest: sha256:9bff867fcd8d4b3437b6215a298a485fa7d02cbfbbeecb7e622214d5a457deee
-generated: "2022-12-01T20:46:53.618107+01:00"
+  version: 0.1.1
+digest: sha256:e298554ecd6e3abca1b98a2b3ca184d50fb6ccc6471c4d46e7e2c65311889a46
+generated: "2022-12-01T20:12:46.007574088Z"

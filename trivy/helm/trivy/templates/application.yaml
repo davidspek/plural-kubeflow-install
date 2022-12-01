@@ -22,10 +22,10 @@ spec:
     kind: Job
   descriptor:
     type: trivy
-    version: 0.1.0
+    version: 0.1.1
     description: Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more
     icons:
-    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/d977000f-89e4-41ff-a389-6e4a4201811b/trivy.png?v=63837143145
+    - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/d977000f-89e4-41ff-a389-6e4a4201811b/trivy.png?v=63837144025
     
 
     {{- if .Values.global }}
