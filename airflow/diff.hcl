@@ -7,7 +7,12 @@ step "terraform-init" {
   wkdir   = "airflow/terraform"
   target  = "airflow/terraform"
   command = "terraform"
-  args    = ["init"]
+
+  args = [
+    "init",
+    "-upgrade",
+  ]
+
   sha     = "h1:nckvxvPsf45orB+Ny7OPwAMBZcLHg1EXNnOh/Z1BW2E="
   retries = 0
   verbose = false
@@ -40,7 +45,7 @@ step "kube-init" {
     "airflow",
   ]
 
-  sha     = "efe54b9bc6d94b454089585fae0268c6534d056ccb60738a225a221c9b64d8ca"
+  sha     = "6dd512998846d0b4c220ecd9219121c5c30b03304e38f1b7ba3586c3d3a68625"
   retries = 0
   verbose = false
 }
@@ -56,7 +61,7 @@ step "helm" {
     "airflow",
   ]
 
-  sha     = "h1:OWN0uqVSVAOxqsOrgE5uZgoj8Gwd/5ytvaVNkMGt6dY="
+  sha     = "h1:S9QaBJuYszGN/aYAb3JEs7MDiQDg2am2oeQJsDJclJ4="
   retries = 0
   verbose = false
 }

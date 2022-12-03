@@ -22,7 +22,7 @@ spec:
     kind: Job
   descriptor:
     type: airflow
-    version: 0.3.21
+    version: 0.3.24
     description: Open-source workflow management system that allows data engineers to orchestrate sequenceable tasks.
     icons:
     - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/eb88ca01-21d6-464f-8fd5-f481b385c166/airflow.png?v=63827245273
