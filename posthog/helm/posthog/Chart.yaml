@@ -1,0 +1,10 @@
+apiVersion: v2
+name: posthog
+description: A helm chart for posthog
+version: 0.1.0
+appVersion: 0.1.0
+dependencies:
+- name: posthog
+  version: 0.1.0
+  repository: cm://app.plural.sh/cm/posthog
+  condition: posthog.enabled

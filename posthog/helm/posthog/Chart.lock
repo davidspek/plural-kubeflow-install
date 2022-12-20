@@ -1,0 +1,6 @@
+dependencies:
+- name: posthog
+  repository: cm://app.plural.sh/cm/posthog
+  version: 0.1.0
+digest: sha256:27d7401c11e88c7b2fe374e315585ec0cf6914707c4094ac62cc807fc7b7a928
+generated: "2022-12-20T13:52:31.574079+01:00"
