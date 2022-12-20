@@ -2,9 +2,9 @@ apiVersion: v2
 name: clickhouse
 description: A helm chart for clickhouse
 version: 0.1.0
-appVersion: 0.1.0
+appVersion: 0.1.1
 dependencies:
 - name: clickhouse
-  version: 0.1.0
+  version: 0.1.1
   repository: cm://app.plural.sh/cm/clickhouse
   condition: clickhouse.enabled
