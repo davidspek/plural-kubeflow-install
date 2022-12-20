@@ -59,7 +59,7 @@ step "kube-init" {
     "kube-init",
   ]
 
-  sha     = "10fa8d6caf2ae3466158be4a5762f8d567946350e0c25d6377142988ea52b81d"
+  sha     = "8533a3b9fec1970fff21ed6a96f03baaeca53d4cf8aa821198f29024afebe2bf"
   retries = 0
   verbose = false
 }
@@ -75,7 +75,7 @@ step "crds" {
     "clickhouse",
   ]
 
-  sha     = "h1:D4T052Ib5Y1uauHUhePP3cjxyN9JtY+MSt/v0HXopzE="
+  sha     = "h1:jOC09ZjBX9wkXWOxf6c+9Ba04eaWORy1a4RT2UmxbBQ="
   retries = 0
   verbose = false
 }
@@ -91,7 +91,7 @@ step "bounce" {
     "clickhouse",
   ]
 
-  sha     = "h1:qv42OVAznOmu9J+GJXOx1NBUkYPMg6nKwL9PBqGQtwo="
+  sha     = "h1:XqczEkdyW50X/4+A11nXJoDKjw1Go4e8wZkpp5fiS3I="
   retries = 2
   verbose = false
 }

@@ -3,4 +3,4 @@ dependencies:
   repository: cm://app.plural.sh/cm/clickhouse
   version: 0.1.1
 digest: sha256:3be32d4609d1cbfe5dfd1a1277cbbeddf3fbdc5e3ea709a948ddad825e83177b
-generated: "2022-12-20T12:16:20.399924608Z"
+generated: "2022-12-20T13:49:07.997863+01:00"

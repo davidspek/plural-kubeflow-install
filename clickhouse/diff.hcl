@@ -13,7 +13,7 @@ step "terraform-init" {
     "-upgrade",
   ]
 
-  sha     = "h1:A/hMv2IMxZysXp+fym+RvnaXkc21LXlhEGwyLukmb60="
+  sha     = ""
   retries = 0
   verbose = false
 }
@@ -29,7 +29,7 @@ step "terraform" {
     "clickhouse",
   ]
 
-  sha     = "h1:A/hMv2IMxZysXp+fym+RvnaXkc21LXlhEGwyLukmb60="
+  sha     = ""
   retries = 0
   verbose = false
 }
@@ -45,7 +45,7 @@ step "kube-init" {
     "clickhouse",
   ]
 
-  sha     = "10fa8d6caf2ae3466158be4a5762f8d567946350e0c25d6377142988ea52b81d"
+  sha     = ""
   retries = 0
   verbose = false
 }
@@ -61,7 +61,7 @@ step "helm" {
     "clickhouse",
   ]
 
-  sha     = "h1:qv42OVAznOmu9J+GJXOx1NBUkYPMg6nKwL9PBqGQtwo="
+  sha     = ""
   retries = 0
   verbose = false
 }
