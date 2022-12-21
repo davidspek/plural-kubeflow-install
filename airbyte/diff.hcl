@@ -7,7 +7,12 @@ step "terraform-init" {
   wkdir   = "airbyte/terraform"
   target  = "airbyte/terraform"
   command = "terraform"
-  args    = ["init"]
+
+  args = [
+    "init",
+    "-upgrade",
+  ]
+
   sha     = "h1:iZppMj0+ETPokoE9167OEsf1Yy7Ijs19MwjqJE6Q+sg="
   retries = 0
   verbose = false

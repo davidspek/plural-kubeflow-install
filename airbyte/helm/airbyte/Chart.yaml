@@ -2,9 +2,9 @@ apiVersion: v2
 name: airbyte
 description: A helm chart for airbyte
 version: 0.1.0
-appVersion: 0.3.2
+appVersion: 0.3.4
 dependencies:
 - name: airbyte
-  version: 0.3.2
-  repository: file:///Users/david/Plural/plural-artifacts/airbyte/helm/airbyte
+  version: 0.3.4
+  repository: cm://app.plural.sh/cm/airbyte
   condition: airbyte.enabled
