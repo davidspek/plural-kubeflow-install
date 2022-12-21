@@ -1,6 +1,6 @@
 dependencies:
 - name: posthog
-  repository: cm://app.plural.sh/cm/posthog
+  repository: file:///Users/david/Plural/plural-artifacts/posthog/helm/posthog
   version: 0.1.0
-digest: sha256:27d7401c11e88c7b2fe374e315585ec0cf6914707c4094ac62cc807fc7b7a928
-generated: "2022-12-20T13:52:31.574079+01:00"
+digest: sha256:d2d717b96429a9d87622e0d49d14d58e801ab52e6bd13bb8a0f6e25a6e3d786c
+generated: "2022-12-20T14:40:33.986353+01:00"
