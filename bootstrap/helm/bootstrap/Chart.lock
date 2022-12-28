@@ -6,10 +6,10 @@ dependencies:
   repository: cm://app.plural.sh/cm/bootstrap
   version: 0.1.12
 - name: bootstrap
-  repository: cm://app.plural.sh/cm/bootstrap
+  repository: file:///Users/david/Plural/plural-artifacts/bootstrap/helm/bootstrap
   version: 0.8.59
 - name: keda
   repository: cm://app.plural.sh/cm/bootstrap
   version: 0.1.0
-digest: sha256:42458fbe72a9c11b043d5a55a20cf10a965e23c6b16975111779dabb40703be7
-generated: "2022-12-22T18:59:10.608751355Z"
+digest: sha256:5a2c7bc39ff1ef768b689a83b3a33a9cb7d921027538c5f90068652485b387ec
+generated: "2022-12-28T12:26:17.72597+01:00"

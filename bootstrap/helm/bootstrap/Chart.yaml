@@ -14,7 +14,7 @@ dependencies:
   condition: efs-csi-driver.enabled
 - name: bootstrap
   version: 0.8.59
-  repository: cm://app.plural.sh/cm/bootstrap
+  repository: file:///Users/david/Plural/plural-artifacts/bootstrap/helm/bootstrap
   condition: bootstrap.enabled
 - name: keda
   version: 0.1.0
