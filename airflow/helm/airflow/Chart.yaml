@@ -2,9 +2,9 @@ apiVersion: v2
 name: airflow
 description: A helm chart for airflow
 version: 0.1.0
-appVersion: 0.3.24
+appVersion: 0.3.25
 dependencies:
 - name: airflow
-  version: 0.3.24
+  version: 0.3.25
   repository: cm://app.plural.sh/cm/airflow
   condition: airflow.enabled
