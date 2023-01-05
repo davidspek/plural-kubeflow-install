@@ -7,7 +7,12 @@ step "terraform-init" {
   wkdir   = "argo-cd/terraform"
   target  = "argo-cd/terraform"
   command = "terraform"
-  args    = ["init"]
+
+  args = [
+    "init",
+    "-upgrade",
+  ]
+
   sha     = "h1:MFoYpk1omrfue679WQe60Wwm3b5LLamIANF3q0iGe+0="
   retries = 0
   verbose = false
@@ -40,7 +45,7 @@ step "kube-init" {
     "argo-cd",
   ]
 
-  sha     = "c79cc95c6e15112462d52fb6055b6d0706557367ef88d928a7d8ac16d81ea943"
+  sha     = "9384ad3c271f9e0480ad8184a9e0775b24f4afb83b62d177a12f425e68e89dbf"
   retries = 0
   verbose = false
 }
@@ -56,7 +61,7 @@ step "helm" {
     "argo-cd",
   ]
 
-  sha     = "h1:93Qy2k96SNByFgsEtd3fH5ZeqFjMd56/KCVF1ANJMnw="
+  sha     = "h1:XSLe6hvovmUgcf7O4wujbRX6V9u7F72fJipwdLtcmRQ="
   retries = 0
   verbose = false
 }
