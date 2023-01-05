@@ -13,7 +13,7 @@ step "terraform-init" {
     "-upgrade",
   ]
 
-  sha     = "h1:e0hl19VdrBUL25CqfhgEhtXarjO/wMhJPJqMTihN410="
+  sha     = "h1:Eawn5RgHzX5l/c0TV4+UNKYanGtvitsb82UQSTpdfRg="
   retries = 0
   verbose = false
 }
