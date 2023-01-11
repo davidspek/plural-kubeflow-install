@@ -45,7 +45,7 @@ step "kube-init" {
     "airbyte",
   ]
 
-  sha     = "bd7acd798a896fd3ccd3e609f0c7b55ce0e5019ac7533600e63ddc2ec9650c46"
+  sha     = "d78e1d98769e0c9ff4abf45421391936cbc4ae28279b5eb16ad44f505514ae82"
   retries = 0
   verbose = false
 }
