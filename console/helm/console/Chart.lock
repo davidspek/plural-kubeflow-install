@@ -1,6 +1,6 @@
 dependencies:
 - name: console
-  repository: file:///Users/david/Plural/console/plural/helm/console
-  version: 0.7.37
-digest: sha256:6ac8c53535fa200139c136f85e5d6e8baf925e8aa1be75e97cd2e264358187a0
-generated: "2023-01-11T12:10:24.914898+01:00"
+  repository: cm://app.plural.sh/cm/console
+  version: 0.7.38
+digest: sha256:31b265d0c23293922724e47404e30f0293708e139e5b0c7fa17d234e84607be8
+generated: "2023-01-13T12:30:39.517552873Z"
