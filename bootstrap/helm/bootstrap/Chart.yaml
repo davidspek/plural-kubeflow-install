@@ -4,17 +4,17 @@ description: A helm chart for bootstrap
 version: 0.1.34
 appVersion: 0.1.12
 dependencies:
-- name: plural-certmanager-webhook
-  version: 0.1.5
-  repository: cm://app.plural.sh/cm/bootstrap
-  condition: plural-certmanager-webhook.enabled
 - name: efs-csi-driver
   version: 0.1.12
   repository: cm://app.plural.sh/cm/bootstrap
   condition: efs-csi-driver.enabled
+- name: plural-certmanager-webhook
+  version: 0.1.5
+  repository: cm://app.plural.sh/cm/bootstrap
+  condition: plural-certmanager-webhook.enabled
 - name: bootstrap
   version: 0.8.61
-  repository: cm://app.plural.sh/cm/bootstrap
+  repository: file:///Users/david/Plural/plural-artifacts/bootstrap/helm/bootstrap
   condition: bootstrap.enabled
 - name: keda
   version: 0.1.0
