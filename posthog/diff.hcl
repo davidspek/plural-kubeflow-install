@@ -13,7 +13,7 @@ step "terraform-init" {
     "-upgrade",
   ]
 
-  sha     = ""
+  sha     = "h1:v+wLmHfR6txc2/1ramGZH6gEsuQC3XnnE0nOikjyQuw="
   retries = 0
   verbose = false
 }
@@ -29,7 +29,7 @@ step "terraform" {
     "posthog",
   ]
 
-  sha     = ""
+  sha     = "h1:v+wLmHfR6txc2/1ramGZH6gEsuQC3XnnE0nOikjyQuw="
   retries = 0
   verbose = false
 }
@@ -45,7 +45,7 @@ step "kube-init" {
     "posthog",
   ]
 
-  sha     = ""
+  sha     = "f84b87288809d3857573df77d976fd037aeac16f0a85b2d92ff333148ac08056"
   retries = 0
   verbose = false
 }
@@ -61,7 +61,7 @@ step "helm" {
     "posthog",
   ]
 
-  sha     = ""
+  sha     = "h1:y89xrxGuVfydu1UsIRcTOo6oX6ObON+gQyf3QpiSR04="
   retries = 0
   verbose = false
 }
