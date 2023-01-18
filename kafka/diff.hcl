@@ -7,7 +7,12 @@ step "terraform-init" {
   wkdir   = "kafka/terraform"
   target  = "kafka/terraform"
   command = "terraform"
-  args    = ["init"]
+
+  args = [
+    "init",
+    "-upgrade",
+  ]
+
   sha     = "h1:aTIEuDmcrkYqdMq0UTbdM+rnm5LJQKMZaqwJP5yupKk="
   retries = 0
   verbose = false
