@@ -22,7 +22,7 @@ spec:
     kind: Job
   descriptor:
     type: clickhouse
-    version: 0.1.1
+    version: 0.1.2
     description: clickhouse deployed on plural
     icons:
     - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/6ee23d50-55e4-475a-bd1a-919803e1658a/clickhouse.png?v=63838757773

@@ -1,6 +1,6 @@
 dependencies:
 - name: clickhouse
-  repository: file:///Users/david/Plural/plural-artifacts/clickhouse/helm/clickhouse
-  version: 0.1.1
-digest: sha256:c0c8584d2208c89242ca285237e8e49cfd92be3ddfd84b501c256fc6f5216664
-generated: "2022-12-20T14:39:56.208755+01:00"
+  repository: cm://app.plural.sh/cm/clickhouse
+  version: 0.1.2
+digest: sha256:1b0656c844008519be6edb6fff0dffb994e83b0a54ac8bbd4e5ea7e472f31b85
+generated: "2023-01-18T16:28:00.441513+01:00"
