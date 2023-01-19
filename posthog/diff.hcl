@@ -45,7 +45,7 @@ step "kube-init" {
     "posthog",
   ]
 
-  sha     = "d6112979a39553dcc143d5f71f659606451d10bc846994373621d9ae0904efd7"
+  sha     = "0246c53774f863734d166b5a3d04fb717d0f8dda65b73182d908d9f478bdfc02"
   retries = 0
   verbose = false
 }
@@ -61,7 +61,7 @@ step "helm" {
     "posthog",
   ]
 
-  sha     = "h1:bYg+x+YcI2nQsQV/1UWFWcuRrT3uj1QIQO81VG3N+io="
+  sha     = "h1:/hMrS6ssAe6anmswFr22xnh+DEo3kvwpxiNrcpQCvPk="
   retries = 0
   verbose = false
 }
