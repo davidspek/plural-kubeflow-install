@@ -1,6 +1,6 @@
 dependencies:
 - name: posthog
   repository: cm://app.plural.sh/cm/posthog
-  version: 0.1.5
-digest: sha256:449167e9a99f8ff776886efe6680d42b742ebb2a091ff2550b0c33097d195c66
-generated: "2023-01-19T15:12:09.198145062Z"
+  version: 0.1.6
+digest: sha256:27277e2ff4f9c4e4b0a30015c1b30600e965f72ddc5db2ea1ab1feffc977ff37
+generated: "2023-01-19T15:14:38.024686302Z"
