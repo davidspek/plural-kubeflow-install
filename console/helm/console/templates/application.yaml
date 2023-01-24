@@ -22,7 +22,7 @@ spec:
     kind: Job
   descriptor:
     type: console
-    version: 0.7.39
+    version: 0.7.40
     description: Web based admin panel for all your Plural applications.
     icons:
     - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/4d9e07ec-fd50-4bc2-80c5-55a8e29c8997/console-logo.png?v=63827552027
