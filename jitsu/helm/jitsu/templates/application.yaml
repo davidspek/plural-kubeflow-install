@@ -22,7 +22,7 @@ spec:
     kind: Job
   descriptor:
     type: jitsu
-    version: 0.1.19
+    version: 0.1.21
     description: Open-source Segment alternative; high-performance data collection service.
     icons:
     - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/26bfa7eb-3602-43c1-af79-4a5e2077d674/jitsu.png?v=63830907999
