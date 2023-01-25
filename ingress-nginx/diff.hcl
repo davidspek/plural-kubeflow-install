@@ -7,8 +7,13 @@ step "terraform-init" {
   wkdir   = "ingress-nginx/terraform"
   target  = "ingress-nginx/terraform"
   command = "terraform"
-  args    = ["init"]
-  sha     = "h1:WiC/02Yp2tJQIvUfUIfLv8+FFq71J5ne02YkXTDi/gs="
+
+  args = [
+    "init",
+    "-upgrade",
+  ]
+
+  sha     = "h1:YJv58eQwoZKgbe3ywCdnqM5D0uB+Y0z99NHU4utcWBA="
   retries = 0
   verbose = false
 }
@@ -24,7 +29,7 @@ step "terraform" {
     "ingress-nginx",
   ]
 
-  sha     = "h1:WiC/02Yp2tJQIvUfUIfLv8+FFq71J5ne02YkXTDi/gs="
+  sha     = "h1:YJv58eQwoZKgbe3ywCdnqM5D0uB+Y0z99NHU4utcWBA="
   retries = 0
   verbose = false
 }
@@ -40,7 +45,7 @@ step "kube-init" {
     "ingress-nginx",
   ]
 
-  sha     = "640e54dc309c4889d5bdfdb8900d2531e4712046674f9c921e94c040cca3e0ad"
+  sha     = "37f13f918e201e45c70f53a9a455da6973b8b58050804b84816f55b25edc8669"
   retries = 0
   verbose = false
 }
@@ -56,7 +61,7 @@ step "helm" {
     "ingress-nginx",
   ]
 
-  sha     = "h1:U5HdHe1XxTv6pSx+na4TlpNiXeb8jcthxQKC8soYl9A="
+  sha     = "h1:FO2oHDgEGXOIJB33QOSaHDd9lUKh7GV3874aOGoFgzI="
   retries = 0
   verbose = false
 }
