@@ -22,7 +22,7 @@ spec:
     kind: Job
   descriptor:
     type: prefect
-    version: 0.1.3
+    version: 0.1.5
     description: The easiest way to coordinate your dataflow
     icons:
     - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/c1132fad-5829-4a5a-baeb-6621b392f91b/prefect.png?v=63836946242
