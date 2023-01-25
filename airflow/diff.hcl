@@ -45,7 +45,7 @@ step "kube-init" {
     "airflow",
   ]
 
-  sha     = "148c65df5dbd692910f189eb0caf8167ce6c9a47d56a6b6cd880f115aa971967"
+  sha     = "8f184d489e654c554ed81d934ede92ef888d0c51da2ac5704c32b2b68b46a642"
   retries = 0
   verbose = false
 }
@@ -61,7 +61,7 @@ step "helm" {
     "airflow",
   ]
 
-  sha     = "h1:/Ow4F1ooL9oETQ4YtnOyXH7u6AEON/2jmeF93frdCjQ="
+  sha     = "h1:kNUFdIDnPqakuUQ9/X35ZONEoKR1GstB/REe4yFaoR0="
   retries = 0
   verbose = false
 }
