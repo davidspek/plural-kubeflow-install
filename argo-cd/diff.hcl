@@ -13,7 +13,7 @@ step "terraform-init" {
     "-upgrade",
   ]
 
-  sha     = "h1:MFoYpk1omrfue679WQe60Wwm3b5LLamIANF3q0iGe+0="
+  sha     = "h1:b28WFi8ifiez0G5IBH4OPmWP4ZAKW3kONLSwUXFRi6k="
   retries = 0
   verbose = false
 }
@@ -29,7 +29,7 @@ step "terraform" {
     "argo-cd",
   ]
 
-  sha     = "h1:MFoYpk1omrfue679WQe60Wwm3b5LLamIANF3q0iGe+0="
+  sha     = "h1:b28WFi8ifiez0G5IBH4OPmWP4ZAKW3kONLSwUXFRi6k="
   retries = 0
   verbose = false
 }
@@ -45,7 +45,7 @@ step "kube-init" {
     "argo-cd",
   ]
 
-  sha     = "590a2a3411f84d94ed7fce4ae46294cf78eeb0e62ea4ab2f809452a45aa2ee21"
+  sha     = "e4409d60433fb1a436b8b6e17846b518bda324e7d8d62747af4f7129974f5b27"
   retries = 0
   verbose = false
 }
@@ -61,7 +61,7 @@ step "helm" {
     "argo-cd",
   ]
 
-  sha     = "h1:SUjhDL8HfRVgg3IToF6+NirbRL5o/GY5hXQ6fz/8t7w="
+  sha     = "h1:BMelr2p0okXL8G9UUwULyYpnE7zd91c82ZGo10I5BlI="
   retries = 0
   verbose = false
 }
