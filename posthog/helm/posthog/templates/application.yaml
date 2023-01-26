@@ -22,7 +22,7 @@ spec:
     kind: Job
   descriptor:
     type: posthog
-    version: 0.1.6
+    version: 0.1.7
     description: The all-in-one platform for building better products.
     icons:
     - src: https://plural-assets.s3.us-east-2.amazonaws.com/uploads/repos/4f7ba528-88c0-4bc8-b8f9-eabd40b57927/posthog.png?v=63838755937

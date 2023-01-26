@@ -13,7 +13,7 @@ step "terraform-init" {
     "-upgrade",
   ]
 
-  sha     = "h1:SCHd3JQO6uZ2bQ2LNLwEkkAyHhbMbRT8Tzso4viGMsg="
+  sha     = "h1:oxbn8oCbOwbFLS4/dLwR8whNzw50eYd/8x0cutpOVE8="
   retries = 0
   verbose = false
 }
@@ -28,7 +28,7 @@ step "terraform-apply" {
     "-auto-approve",
   ]
 
-  sha     = "h1:SCHd3JQO6uZ2bQ2LNLwEkkAyHhbMbRT8Tzso4viGMsg="
+  sha     = "h1:oxbn8oCbOwbFLS4/dLwR8whNzw50eYd/8x0cutpOVE8="
   retries = 2
   verbose = false
 }
@@ -44,7 +44,7 @@ step "terraform-output" {
     "postgres",
   ]
 
-  sha     = "h1:SCHd3JQO6uZ2bQ2LNLwEkkAyHhbMbRT8Tzso4viGMsg="
+  sha     = "h1:oxbn8oCbOwbFLS4/dLwR8whNzw50eYd/8x0cutpOVE8="
   retries = 0
   verbose = false
 }
@@ -59,7 +59,7 @@ step "kube-init" {
     "kube-init",
   ]
 
-  sha     = "8a3e3dd63ed01ad37e92db3ee830fdcbbfec712899099c69afb9b092bc5edd7e"
+  sha     = "03739d135d04cec652938e932d0f1a61f5eeb1c60170cf2bdf0475ad185612cd"
   retries = 0
   verbose = false
 }
@@ -91,7 +91,7 @@ step "bounce" {
     "postgres",
   ]
 
-  sha     = "h1:O2yOlib7yBgB7+OsFwJHcP7Nnr9/GDKeQlPQrm0u/zs="
+  sha     = "h1:MbXYatdPl05RtdmmbvP95PLb28un8jLIOccFVWIyDFc="
   retries = 2
   verbose = false
 }

@@ -2,9 +2,9 @@ apiVersion: v2
 name: posthog
 description: A helm chart for posthog
 version: 0.1.0
-appVersion: 0.1.6
+appVersion: 0.1.7
 dependencies:
 - name: posthog
-  version: 0.1.6
+  version: 0.1.7
   repository: file:///Users/david/Plural/plural-artifacts/posthog/helm/posthog
   condition: posthog.enabled

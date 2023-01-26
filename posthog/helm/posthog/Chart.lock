@@ -1,6 +1,6 @@
 dependencies:
 - name: posthog
   repository: file:///Users/david/Plural/plural-artifacts/posthog/helm/posthog
-  version: 0.1.6
-digest: sha256:f5dc8340eae7a43efe0441380178258840a8d9ed75db151e2b8da608b874eb27
-generated: "2023-01-20T11:30:16.220937+01:00"
+  version: 0.1.7
+digest: sha256:87078fc26a04e6e22d59c3ade507a9b52b37b28cfbaf86570dd21ff1201265f6
+generated: "2023-01-26T11:55:36.376747+01:00"
