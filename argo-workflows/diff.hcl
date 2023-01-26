@@ -7,7 +7,12 @@ step "terraform-init" {
   wkdir   = "argo-workflows/terraform"
   target  = "argo-workflows/terraform"
   command = "terraform"
-  args    = ["init"]
+
+  args = [
+    "init",
+    "-upgrade",
+  ]
+
   sha     = "h1:ZdaFA3p3s+SX7C6Msi7G6+9WHCUJHxypMqNJcyKlx8w="
   retries = 0
   verbose = false
