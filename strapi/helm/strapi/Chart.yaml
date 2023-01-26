@@ -2,9 +2,9 @@ apiVersion: v2
 name: strapi
 description: A helm chart for strapi
 version: 0.1.0
-appVersion: 0.1.5
+appVersion: 0.1.6
 dependencies:
 - name: strapi
-  version: 0.1.5
-  repository: file:///Users/david/Plural/plural-artifacts/strapi/helm/strapi
+  version: 0.1.6
+  repository: cm://app.plural.sh/cm/strapi
   condition: strapi.enabled

@@ -7,7 +7,12 @@ step "terraform-init" {
   wkdir   = "mysql/terraform"
   target  = "mysql/terraform"
   command = "terraform"
-  args    = ["init"]
+
+  args = [
+    "init",
+    "-upgrade",
+  ]
+
   sha     = "h1:KkWy5RToNM2/px/RMgDhfL/fVqM6hbEjVJbUYqvtCr4="
   retries = 0
   verbose = false

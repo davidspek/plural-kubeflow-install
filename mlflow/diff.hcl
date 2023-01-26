@@ -7,7 +7,12 @@ step "terraform-init" {
   wkdir   = "mlflow/terraform"
   target  = "mlflow/terraform"
   command = "terraform"
-  args    = ["init"]
+
+  args = [
+    "init",
+    "-upgrade",
+  ]
+
   sha     = "h1:/HwoLT5Os8fXDBkVHIw7mpEbYdl3Q0aRW1U/l51VIQI="
   retries = 0
   verbose = false

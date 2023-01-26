@@ -7,9 +7,15 @@ step "terraform-init" {
   wkdir   = "nextcloud/terraform"
   target  = "nextcloud/terraform"
   command = "terraform"
-  args    = ["init"]
+
+  args = [
+    "init",
+    "-upgrade",
+  ]
+
   sha     = ""
   retries = 0
+  verbose = false
 }
 
 step "terraform" {
@@ -25,6 +31,7 @@ step "terraform" {
 
   sha     = ""
   retries = 0
+  verbose = false
 }
 
 step "kube-init" {
@@ -40,6 +47,7 @@ step "kube-init" {
 
   sha     = ""
   retries = 0
+  verbose = false
 }
 
 step "helm" {
@@ -55,4 +63,5 @@ step "helm" {
 
   sha     = ""
   retries = 0
+  verbose = false
 }
