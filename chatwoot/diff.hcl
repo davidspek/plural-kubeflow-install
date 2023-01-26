@@ -7,7 +7,12 @@ step "terraform-init" {
   wkdir   = "chatwoot/terraform"
   target  = "chatwoot/terraform"
   command = "terraform"
-  args    = ["init"]
+
+  args = [
+    "init",
+    "-upgrade",
+  ]
+
   sha     = "h1:Dt5RVeN7bHhGEvJW1jMMwHzwQ8tK7n3SEyQzg7FPg3c="
   retries = 0
   verbose = false
