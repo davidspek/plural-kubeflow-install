@@ -13,7 +13,7 @@ dependencies:
   repository: cm://app.plural.sh/cm/bootstrap
   condition: plural-certmanager-webhook.enabled
 - name: bootstrap
-  version: 0.8.62
+  version: 0.8.63
   repository: cm://app.plural.sh/cm/bootstrap
   condition: bootstrap.enabled
 - name: keda
